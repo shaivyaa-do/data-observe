@@ -1,0 +1,25 @@
+@use "@scss/index.scss" as *;
+
+.trustedByContainer {
+    @include center-column;
+    height: 100dvh;
+
+    .text {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+}
+
+.logo {
+    width: 120px;
+    height: 32px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    transition: filter 180ms ease;
+    filter: grayscale(100%) contrast(1.1) brightness(0.95);
+}
+
+.logoWhite .logo {
+    filter: grayscale(100%) brightness(0) invert(1) contrast(1.1);
+}

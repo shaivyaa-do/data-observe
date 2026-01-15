@@ -1,0 +1,592 @@
+.doinsightsvideo {
+  position: relative;
+  height: 964px;
+}
+.cardText1{
+  color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.32px;
+}
+.cardHead-1 {
+  color: #050505;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+.cardText2-1{
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    letter-spacing: -0.16px;
+}
+.showdowclass-01 {
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 28px 65px 0px #f1f4f9;
+  padding: 20px;
+  height: 280px;
+}
+
+
+
+.doinsightsheader {
+  position: absolute;
+  top: 14%;
+  left: 0%;
+  height: 964px;
+  width: 100%;
+}
+.new-guidetext{
+  color: #fff;
+}
+.doinsightsheading {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  letter-spacing: -0.32px;
+}
+.doinsightsheaderpara {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.16px;
+  margin-top: 3px;
+  /* margin-right: 100%; */
+}
+.doinsightsplayvideoclass {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.doin {
+  border-radius: 10px;
+  background-color: grey;
+  width: 100%;
+  height: 400px;
+  margin-left: 18%;
+}
+.iodefinitionClass {
+  width: 100%;
+  height: fit-content;
+  background-color: #f6f9ff;
+  margin-top: 20%;
+}
+.tenetsclass {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.tenetsheading {
+  color: #050505;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: -0.32px;
+}
+.doinsightrequestguideclass{
+    background-image: url('../../public/images/doinsightrequestguidebg.png');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.doinsightguideclass{
+    display: flex;
+  padding: 60px 60px 59.6px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+  background: rgba(0, 70, 232, 0.50);
+  /* width: 781px;
+  margin-left: 100px; */
+}
+.productvideoClass {
+  /* position: absolute; */
+  /* top: 82%; */
+  /* margin-top: 100px; */
+  margin-top: 14%;
+  left: 18%;
+}
+.productplayClass {
+  background-color: #2e2e2e;
+  width: 100%;
+  /* height: 430px; */
+  border-radius: 24px;
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 10%; */
+  /* transform: translateY(-96px); */
+}
+.obspara1-01 {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+.obspara2-02 {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+
+/* mobile respones */
+
+@media only screen and (min-width: 320px) and (max-width: 467px)  {
+  .doinsightsheader{
+    top: 3%;
+  }
+
+  .mobile-text{
+    font-size: 15px !important;
+  }
+  .faq-class {
+
+    padding: 10px !important;
+
+  }
+  .accordion button {
+    font-size: 14px !important;
+  }
+  .faq-class {
+    padding: 20px !important;
+    text-align: justify;
+  }
+  .card-title {
+    text-align: center;
+  }
+  /* .footercardbody {
+    padding: 30px!important;
+    height: 220px !important;
+  } */
+  .recentworks {
+    padding: 20px;
+  }
+  .viewrecentbutton {
+    margin-left: 50px !important;
+    padding: 10px !important;
+    margin-bottom: 25px;
+  }
+  .recentworkshead {
+    font-size: 20px;
+    line-height: 0px;
+  }
+  .showdowclass-01 {
+    
+  height: 220px;
+}
+.tenetsheading {
+  font-size: 16px !important;
+  line-height: 30px !important;
+
+}
+.ml-5{
+margin-left: 0px !important;
+}
+.issuesmatter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.issuematterhead {
+  font-size: 13px;
+}
+.iodefinitionClass {
+  margin-top: 0%;
+  height: fit-content;
+}
+h1{
+  font-size: 1.5rem;
+}
+.qualitypara {
+  max-width: 100% !important;
+}
+.obsheading {
+  font-size: 23px;
+}
+.playClass {
+  width: 100%;
+}
+.productvideoClass {
+  margin-top: 15% !important;
+  left: 0% !important;
+}
+.def1Class {
+  padding-top: 25px;
+  width: 100%;
+}
+.doinsightsheaderpara {
+  margin-right: 0px !important;
+  font-size: 12px;
+  line-height: 17px;
+  width: 90%;
+}
+.doinsightsheading {
+  font-size: 20px;
+  line-height: 32px;
+}
+.doinsightsvideo {
+  height: 540px;
+}
+.emailClass {
+  width: 80%;
+  margin-left: 0px;
+}
+.guidehead {
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.new-guidetext {
+  font-size: 8px !important;
+  line-height: 0px !important;
+  color: #fff;
+}
+.guidedemobutton {
+  padding: 5px;
+  margin-bottom: 0px;
+  height: 32px;
+}
+.doinsightguideclass{
+  padding: 0px;
+}
+
+.demoClass {
+  width: 175px;
+  height: 40px;
+  padding: 0px;
+  margin-top: 20px;
+}
+.guidebuttontext {
+  font-size: 13px;
+}
+.guidearrowclass {
+  width: 18px;
+}
+.mobile-size1{
+  width: 70px;
+  height: 91px;
+}
+.cardHead-1 {
+  font-size: 30px;
+  line-height: 25px;
+}
+.tenetsclass{
+  margin: 30px 0px;
+}
+.obspara1-01{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+.obspara2-02{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+.cardcol{
+  margin-bottom: 13px;
+}
+.issuematterpara{
+  font-size: 14px;
+}
+.DO-insights-image{
+  height: 390px;
+}
+.new-point{
+  font-size: 8px !important;
+}
+
+.DEMO-Monitor{
+  margin-top: 20px !important;
+}
+
+
+}
+@media only screen and (min-width: 468px) and (max-width: 767px)  {
+
+  .doinsightsheading {
+    font-size: 25px !important;
+    line-height: 30px;
+  }
+  .doinsightsheaderpara {
+    margin-right: 0px !important;
+    font-size: 18px;
+    line-height: 25.6px;
+    width: 90%;
+  }
+  .doinsightsheader {
+    top: 4%;
+  }
+  .obspara1-01{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+  }
+  .obspara2-02{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+  }
+  .mobile-size1{
+    width: 85px;
+    height: 110px;
+  }
+  .cardText2-1{
+    font-size: 20px;
+  }
+
+  .mobile-text{
+    font-size: 22px !important;
+  }
+  .faq-class {
+
+    padding: 10px !important;
+
+  }
+  .accordion button {
+    font-size: 16px !important;
+  }
+  .card-body {
+    padding: 5px !important;
+    text-align: justify;
+  }
+  .card-title {
+    text-align: center;
+  }
+  /* .footercardbody {
+    padding: 30px!important;
+    height: 220px !important;
+  } */
+  .recentworks {
+    padding: 20px;
+  }
+  .viewrecentbutton {
+    margin-left: 20px !important;
+    padding: 10px !important;
+  }
+  .recentworkshead {
+    font-size: 20px;
+    line-height: 0px;
+  }
+  .showdowclass-01 {
+
+  height: 250px;
+}
+.tenetsheading {
+  font-size: 25px !important;
+  line-height: 30px !important;
+
+}
+.ml-5{
+margin-left: 0px !important;
+}
+.issuesmatter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.issuematterhead {
+  font-size: 20px;
+}
+.iodefinitionClass {
+  /* height: 1630px !important; */
+  margin-top: 30%;
+}
+h1{
+  font-size: 1.5rem;
+}
+.qualitypara {
+  max-width: 100% !important;
+}
+.obsheading {
+  font-size: 30px !important;
+}
+.playClass {
+  width: 100%;
+}
+.productvideoClass {
+  margin-top: 8% !important;
+  left: 0% !important;
+}
+.def1Class {
+  padding-top: 25px;
+  width: 100%;
+}
+/* .doinsightsheaderpara {
+  margin-right: 0px !important;
+  font-size: 10px;
+  line-height: 13px;
+}
+.doinsightsheading {
+  font-size: 20px;
+  line-height: 32px;
+} */
+.doinsightsvideo {
+  height: 550px;
+}
+.emailClass {
+  width: 82%;
+  margin-left: 0px;
+}
+.guidehead {
+  font-size: 12px !important;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.new-guidetext {
+  font-size: 12px;
+  line-height: 2.5;
+}
+.guidedemobutton {
+  padding: 5px;
+  margin-bottom: 0px;
+  height: 32px;
+}
+.doinsightguideclass{
+  padding: 0px;
+}
+
+.demoClass {
+  width: 175px;
+  height: 40px;
+  padding: 0px;
+}
+.guidebuttontext {
+  font-size: 13px;
+}
+.guidearrowclass {
+  width: 18px;
+}
+.issueimage {
+  width: 65px;
+  height: 65px;
+}
+.issuematterpara {
+  font-size: 18px;
+}
+.guidehead {
+  font-size: 12px;
+}
+.card-text {
+  margin: 0px 20px;
+}
+.fa-envelope {
+  margin: 0px 20px;
+}
+.para{
+  width: 100% !important;
+}
+
+}
+@media only screen and (min-width: 769px) and (max-width: 990px)  {
+
+  .doinsightsheader{
+    top: 4%;
+    left: 1%;
+  }
+  .productvideoClass {
+    margin-top: 10% !important;
+    left: 16% !important;
+  }
+ .doinsightsheading {
+  font-size: 40px;
+  line-height: 45px;
+}
+.doinsightsvideo {
+  height: 730px;
+}
+.iodefinitionClass{
+  margin-top: 5%;
+}
+.cardText2-1 {
+  font-size: 18px;
+}
+.def1Class {
+  width: 100%;
+  padding-top: 60px;
+}
+.cardHead-1 {
+  font-size: 35px;
+}
+.tenetsheading {
+  font-size: 35px;
+}
+.issuematterhead {
+  font-size: 15px;
+}
+.tenetsclass {
+  margin: 20px;
+}
+.doinsightguideclass{
+  padding: 15px;
+}
+.recentworks {
+  padding: 30px;
+}
+.faq-class {
+  padding: 20px !important;
+}
+
+
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px)  {
+  .doinsightsheader{
+    top: 5%;
+    left: 0%;
+  }
+  .new-mb{
+    max-width: 100% !important;
+  }
+  .tenetsheading {
+    font-size: 35px;
+  }
+  .doinsightguideclass {
+    padding: 30px 15px;
+  }
+  .faq-class {
+    padding: 20px !important;
+  }
+  
+  .iodefinitionClass {
+    margin-top: 0%;
+    /* max-width: 91%; */
+  }
+  .productvideoClass {
+    left: 15%;
+    margin-top: 10%;
+  }
+  .obspara1-01 {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .obspara2-02 {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .showdowclass-01{
+    height: 300px;
+  }
+
+}

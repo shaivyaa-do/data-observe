@@ -1,0 +1,160 @@
+/* Platform Features Container */
+.platform-features-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Two-Column Layout */
+.platform-content-wrapper {
+    display: flex;
+    align-items: center;
+    /* Vertically center content */
+    gap: 60px;
+    /* Generous spacing between columns */
+    padding: 20px 0;
+}
+
+/* Left Column: Content List - Full width relative to image */
+.platform-content-col {
+    flex: 0 0 100%;
+    /* Full width availability */
+    max-width: 800px;
+    /* Limit width for readability */
+    padding-left: 20px;
+    z-index: 2;
+    /* Ensure text is above image */
+    position: relative;
+}
+
+/* Right Column: Image - Now Background */
+.platform-image-col {
+    position: absolute;
+    /* Absolute positioning */
+    right: -10px;
+    /* Offset to right */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    /* Large width */
+    max-width: 100%;
+    z-index: 0;
+    /* Behind text */
+    pointer-events: none;
+    display: block;
+}
+
+.platform-image {
+    width: 100%;
+    max-width: 900px;
+    /* Large scale */
+    height: auto;
+    opacity: 0.25;
+    /* Low opacity as requested */
+    mix-blend-mode: multiply;
+    filter: blur(0.3px);
+    /* Slight blur for background feel */
+}
+
+.platform-image:hover {
+    transform: translateY(-15px);
+    /* Subtle hover lift */
+}
+
+/* Vertical List Styles - Timeline Effect */
+.platform-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* Remove gap, handle spacing via margin for connected line */
+    position: relative;
+    padding-left: 10px;
+    /* Slight offset */
+}
+
+.platform-item {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 50px;
+    /* Space for the line */
+}
+
+/* Vertical Line */
+.platform-item:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    /* Center of the 48px circle */
+    top: 48px;
+    /* Start after the circle */
+    width: 2px;
+    height: calc(100% - 48px);
+    /* Connect to next circle */
+    background-color: #e9ecef;
+    z-index: 0;
+}
+
+/* Numbered Steps - Timeline Circle */
+.platform-number {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #0d6efd;
+    /* Blue border like earlier */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0d6efd;
+    position: relative;
+    z-index: 1;
+    /* Above the line */
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.1);
+}
+
+.platform-item-content {
+    flex: 1;
+}
+
+.platform-item-title {
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    /* Neutral dark */
+    letter-spacing: -0.01em;
+}
+
+.platform-item-description {
+    color: #6c757d;
+    /* Muted text */
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .platform-content-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .platform-content-col,
+    .platform-image-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .platform-image-col {
+        order: -1;
+        /* Image first on mobile? Or keeping content first? adhering to logical flow usually content first */
+        margin-bottom: 20px;
+    }
+}

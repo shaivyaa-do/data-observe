@@ -1,0 +1,42 @@
+/* Challenges Section - Static Cards */
+.challenge-card-static {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.challenge-icon-static {
+    font-size: 2rem;
+    filter: brightness(0) saturate(100%) invert(38%) sepia(96%) saturate(2476%) hue-rotate(204deg) brightness(98%) contrast(101%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+}
+
+.challenge-title-static {
+    font-family: 'Roboto', sans-serif;
+}
+
+.challenge-description-static {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 968px) {
+    .challenge-card-static {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .challenge-card-static {
+        min-height: 180px;
+    }
+
+    .challenge-icon-static {
+        font-size: 1.75rem;
+    }
+}

@@ -1,0 +1,2384 @@
+[
+    {
+        "title": "Core Principles Of Design Thinking",
+        "id": 1,
+        "domain":"Design",
+        "tags": [
+            "Design Thinking",
+            "Product Engineering"
+        ],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/corePrinciples/corePrinciples1.png",
+                "caption": "cp1"
+            },
+            {
+                "type": "paragraph",
+                "style": "italic",
+                "content": "Leverage a problem-solving approach to create paradigm solutions for improved products and services that get your business closer to your customers."
+            },
+            {
+                "type": "paragraph",
+                "content": "Traditionally businesses would focus on enhancing the functionality and looks of their product to improve sales. However, this approach is fast changing, and enhancements are not just about aesthetics."
+            },
+            {
+                "type": "paragraph",
+                "content": "Businesses today want meaningful relations with their customers. Therefore, they consistently seek consumer feedback, leveraging design methodologies to create entire systems to deliver products and services and help businesses to achieve their objectives."
+            },
+            {
+                "type": "paragraph",
+                "content": "As a result, organizations are under constant pressure to innovate. Industries across sectors want actionable, practical, and innovative solutions that meet their needs. Uber is an excellent example of disruptive innovation that has improved the process of hailing a taxi, giving the company its competitive edge."
+            },
+            {
+                "type": "paragraph",
+                "content": "But it doesn’t end here. Game changers like Uber and Airbnb face the challenge of continuous innovation to sustain or further their ranking in their respective markets. Innovation can’t be a one-time event; it must be part of the company’s work culture. That’s where design thinking steps in."
+            },
+            {
+                "type": "heading",
+                "content": "What is Design Thinking?",
+                "tableHeader" : true,
+                "id": "whatisDT"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking originated as a human-centered way of teaching engineers a creative approach to problem-solving as designers do. The concept began to gain popularity through the 80s and 90s. By 2005, the Stanford d.school started teaching design thinking as an approach to technical and social innovation."
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking combines an ideology and an iterative process that considers multiple factors to solve complex problems in a human-centered way."
+            },
+            {
+                "type": "paragraph",
+                "content": "It involves using both the left brain (logic) and the right brain (creativity) to find connections for problem identification, ideation, and innovative solutions that are:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "Attainable",
+                        "content": "They can be practically developed into functional products or processes."
+                    },
+                    {
+                        "heading": "Desirable",
+                        "content": "They satisfy a genuine customer need or expectation."
+                    },
+                    {
+                        "heading": "Sustainable",
+                        "content": "They can be implemented over a continued period."
+                    },
+                    {
+                        "heading": "Cross-domain",
+                        "content": "Design inspirations from other domains can be applied in the relevant context."
+                    }
+                ]
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id": "theNeed",
+                "content": "The need for design thinking for product and platform engineering today"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking aims to transform ideas into actual, verifiable products or processes in a cost and time-efficient manner by leveraging information architecture, branding standards, wireframes, visual mocks, user journey & interaction design, etc."
+            },
+            {
+                "type": "paragraph",
+                "content": "Let’s understand the role of design thinking from the point of view supporting everyday processes."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/corePrinciples/corePrinciples2.png",
+                "caption": "cp2"
+            },
+            {
+                "type": "heading",
+                "content": "Enables User-Friendly Engagement"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking can be significantly attributed to the rising complexity of modern technology and business, which can take many forms. As a result, people want their interactions with technologies such as web, mobile, kiosk, TV, etc., and other complex systems to be simple and intuitive as they engage with their complex business scenarios."
+            },
+            {
+                "type": "heading",
+                "content": "Promotes User-Centric Approach to Problem-Solving"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking enables developers and designers to understand their target users’ problems. Usability research and analysis reports help design decisions for different customer-facing solutions’ interfaces."
+            },
+            {
+                "type": "paragraph",
+                "content": "By implementing a user-centric approach and focusing on human interaction, businesses can leverage design thinking techniques and structured processes that facilitate potential solutions, creative confidence, and idea generation to solve problems."
+            },
+            {
+                "type": "heading",
+                "content": "Supports Business Systems Across Different Sectors"
+            },
+            {
+                "type": "paragraph",
+                "content": "The design thinking principles apply in diverse fields, including healthcare, which follows a more conservative approach."
+            },
+            {
+                "type": "paragraph",
+                "content": "For example, Kaiser Permanente used design thinking when working with nurses in patient care to overhaul how nurses change their shifts. The process helped lower errors while transferring information, boosting patient safety, care, and confidence. Here design thinking focused on the services rather than the tools."
+            },
+            {
+                "type": "paragraph",
+                "content": "Similar to the healthcare sector, not just products and services but entire business systems can be developed through the lens of design thinking."
+            },
+            {
+                "type": "heading",
+                "content": "Helps Solve Complex Problems"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking leverages creativity and structure to solve complex problems. For example, Google uses a design thinking approach to nurture a culture of innovation. Teams develop new ideas and test them creatively and constructively, such as enabling internet access to remote communities."
+            },
+            {
+                "type": "heading",
+                "content": "Creates Innovative Products & Supports Differentiation"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking helps develop an understanding of the consumer expectations of a product or service and the infrastructure that enables it. For instance, service innovations — supported by design thinking — like the current e-tailing wave have taken service design to another level."
+            },
+            {
+                "type": "paragraph",
+                "content": "The value of design thinking methodology can be harnessed by understanding people and user behavior. It facilitates high-impact solutions at the grassroots level, rather than superficially, leading to more relevant products to the markets faster."
+            },
+            {
+                "type": "heading",
+                "content": "Supports Business Growth"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking facilitates ideas and practical solutions that can be implemented into the product development process until you have built a robust product that delivers on customer requirements and set it up with a solid market placement."
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition, it enables you to get ahead of the competition and grow your business. By ignoring design thinking, you could waste costly resources in creating products or platforms that don’t effectively deliver the solutions your customers require."
+            },
+            {
+                "type": "heading",
+                "content": "Principles of Design Thinking",
+                "id":"principles",
+                "tableHeader":true
+            },
+            {
+                "type": "paragraph",
+                "content": "Certain principles are crucial to design thinking and making creative solutions a reality. These principles can set you up for superior product and/or platform development from the point of view of consumer problem-solving. They include:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/corePrinciples/corePrinciples3.png",
+                "caption": "cp3"
+            },
+            {
+                "type": "heading",
+                "content": "1. Emphasis on User Experience and Empathy"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking caters to finding solutions responsive to customer needs and user feedback. User-centric focus: It's the user, not technology, that drives innovation."
+            },
+            {
+                "type": "paragraph",
+                "content": "Design-centric organizations encourage teams to observe consumer behavior rather than making general assumptions and understand what people need and want, the emotional and psychological consumer experience, potential barriers, attitudes, and opportunities. Journey maps, persona creation, task analysis, and interviews are some ways to gather data from actual service users. Personas help designers empathize with consumers throughout the design process."
+            },
+            {
+                "type": "paragraph",
+                "content": "For instance, in finance, the primary contact with customers is through invoices and payment systems. Usually, these are designed for internal business optimization or preset ideas about needs. However, this critical touch point enhances the customer’s impression of the organization when designed around users’ actual needs rather than internal operational efficiencies."
+            },
+            {
+                "type": "heading",
+                "content": "2. Collaboration"
+            },
+            {
+                "type": "paragraph",
+                "content": "Having empathized with your customers, you need to push the envelope further, trying to clarify and fine-tune things further. Review for new unmet needs or unexpected barriers that should redirect your thinking, following which you would need to compile and present this data to business stakeholders. This could range from the information architecture of the application and interaction pattern to visual design, common icons to be used, style guides, etc."
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking supports collaboration between diverse, multidisciplinary teams, i.e., marketing and design teams, which may not usually work with, and ensures that you have actionable cues and guidance for the design process — that supports innovation!"
+            },
+            {
+                "type": "heading",
+                "content": "3. Generating Ideas and Solutions"
+            },
+            {
+                "type": "paragraph",
+                "content": "Once the problem is identified, you start generating many ideas to drive your solutions since design thinking is a solution-based framework. Focus on developing as many ideas and solutions as possible. Challenging your assumptions and studying the different directions the challenge could take; evaluate the opportunities you’ll come by. Noteworthily, ideation is not only a core design thinking principle but a crucial step in the design thinking process. You must actively focus on the quantity rather than the quality of ideas without worrying about your teammates’ thoughts. Mind-mapping, brainstorming, and other creative methods can now be implemented in a way that all ideas are recorded for onward consideration."
+            },
+            {
+                "type": "heading",
+                "content": "4. Experimentation and Replication"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking does not end with idea generation. You now have to develop prototypes, test the design, incorporate changes based on user feedback, etc. In short, design thinking can be a somewhat repetitive process as you identify flaws in the early versions of your proposed solution."
+            },
+            {
+                "type": "paragraph",
+                "content": "It’s advisable to ideally first test the product internally or release a new service in beta to obtain feedback from real users outside the company before proceeding with the formal launch for your users. In 2014, the Google Primer team released their educational app that contained only 12 lessons as a stripped-down beta version which they tested with select real users. The feedback helped them fine-tune the app’s UX and content ahead of the official Primer app launch a year later."
+            },
+            {
+                "type": "heading",
+                "content": "5. Proactive Engagement"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking involves a highly proactive, action-oriented approach to problem-solving. Rather than theorizing about users’ needs, design thinking encourages customer engagement to develop tangible prototypes and test them in real-world contexts. When testing concepts, be sure to optimize them along the way. For example, consumer surveys can help determine the style of product you put out next. Insurance business MassMutual leveraged design thinking to attract young adults to purchase life insurance. They conducted user research over two years and, based on their learnings, took two more years of prototyping and testing. The final result was a suite of digital tools to educate young people in making smart financial choices. On the other hand, market research on the competition can help you identify features to include."
+            },
+            {
+                "type": "heading",
+                "content": "6. Be Prepared for Setbacks"
+            },
+            {
+                "type": "paragraph",
+                "content": "A design culture recognizes that things always don’t go right the first time. While all aware of Apple’s hits, the Newton tablet, Copland operating system, and Pippin gaming system are some of the company’s misses. Nonetheless, Apple leverages failure constructively, treating it as an innovation cost."
+            },
+            {
+                "type": "heading",
+                "content": "7. Flexibility"
+            },
+            {
+                "type": "paragraph",
+                "content": "Designing for flexibility is based on being prepared for changes to your system in the future. You may want to get more complex in the future or swap out an item or object for another one to match the scale of your project. Where designs are rigid, developers prefer to start working on an entirely new design than modifying the existing one. This impacts the time and costs of the project."
+            },
+            {
+                "type": "heading",
+                "content": "8. Keep it Simple"
+            },
+            {
+                "type": "paragraph",
+                "content": "Products developed with an emotional value proposition are generally simpler than competitors’ products or platforms. The straightforwardness stems from deliberate decisions about what the product should do and — equally important — what it shouldn’t. Removing features allows you to offer your customers a simple experience. Square’s mobile app Cash allows you to do one thing, i.e., to send money to a friend. In organizations like Square, product leaders have realized the importance of leading the market with a restrained focus instead of chasing it with follow-on features."
+            },
+            {
+                "type": "heading",
+                "content": "Stages of Design Thinking",
+                "id":"stagesOf",
+                "tableHeader":true
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/corePrinciples/corePrinciples4.png",
+                "caption": "cp4"
+            },
+            {
+                "type": "heading",
+                "content": "Empathize"
+            },
+            {
+                "type": "paragraph",
+                "content": "Everything starts with understanding the 360-degree needs of the user. User personas and empathy maps are an incredible method for documenting it without forgetting about the higher perspective."
+            },
+            {
+                "type": "heading",
+                "content": "Define"
+            },
+            {
+                "type": "paragraph",
+                "content": "This phase is normally the subject of different meetings to generate new ideas with stakeholders to uncover an immaculate user journey supported by data."
+            },
+            {
+                "type": "heading",
+                "content": "Ideate"
+            },
+            {
+                "type": "paragraph",
+                "content": "The ideation stage is tied in with creating whatever number of thoughts as would be prudent without judgment and afterward narrowing them down to the ones that can possibly be transformed into a reality."
+            },
+            {
+                "type": "heading",
+                "content": "Prototype"
+            },
+            {
+                "type": "paragraph",
+                "content": "In this stage, prototypes must create immersive experiences through interactions that can be A/B tested, give a taste of the MVP, and facilitate experience measurement."
+            },
+            {
+                "type": "heading",
+                "content": "Testing"
+            },
+            {
+                "type": "paragraph",
+                "content": "In this stage, prototypes are scrutinized by end-users to validate assumptions and further launch to market."
+            },
+            {
+                "type": "heading",
+                "content": "Challenges to Implementing Design Thinking",
+                "id":"challenges",
+                "tableHeader":true
+            },
+            {
+                "type": "paragraph",
+                "content": "Many organizations with entrenched cultures face hurdles in adopting a design thinking approach."
+            },
+            {
+                "type": "paragraph",
+                "content": "A design thinking approach should support faster customer onboarding & increased retention to help achieve desired business outcomes. However, design thinking doesn’t align easily with estimates, making it difficult to calculate the value delivered through a better experience or calculate the return on an investment in creativity."
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition, transformative innovation is often risky as it involves conjecture and belief. So, where it’s the first time, there’s no way to guarantee its outcome."
+            },
+            {
+                "type": "paragraph",
+                "content": "Leaders must work harder to create a culture that allows employees to move forward and innovate while following the design principles as a reference point. Design thinking is great for innovation, but expectations must be set around a realistic timeline."
+            },
+            {
+                "type": "heading",
+                "content": "Future Scope of Companies Adopting Design Thinking Process",
+                "id":"future",
+                "tableHeader":true
+            },
+            {
+                "type": "paragraph",
+                "content": "Today, design thinking is used by organizations not only to build product innovations but to enhance user experience, both within and outside the organization."
+            },
+            {
+                "type": "paragraph",
+                "content": "For companies with revenue-generating engines that cannot be tampered with, the future involves understanding the limits of innovation in their specific markets. Based on that edge, companies must ideate and test the appropriate/necessary shifts in businesses that take them closer to that edge while creating pathways based on business objectives."
+            },
+            {
+                "type": "paragraph",
+                "content": "It involves using the principles of strategic foresight and design thinking to embrace uncertainty and discover opportunities and options while taking small but significant chances on those options."
+            },
+            {
+                "type": "paragraph",
+                "content": "The design thinking framework helps multidisciplinary teams align their customers’ real needs. As a result, they can help businesses get their products to the market twice as quickly, enable more efficient teamwork, and significantly increase return on investment."
+            },
+            {
+                "type": "heading",
+                "content": "Conclusion",
+                "tableHeader":true,
+                "id":"conclusion"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking harnesses the skills of specialists who empathize with customers and have the capabilities to undertake service design activities, including software, hardware, business interactions, and customer experience management."
+            },
+            {
+                "type": "paragraph",
+                "content": "Adopting design thinking may not be easy at first, but it helps create a work culture responsive to changing business dynamics and empowers individual contributors."
+            },
+            {
+                "type": "paragraph",
+                "content": "And because the design is the result of empathy and collaboration, it supports a more mindful and sustainable approach to business."
+            }
+        ]
+    },
+    {
+        "title": "Key considerations for Greenfield Product Engineering to build futuristic solutions",
+        "id": 2,
+        "domain":"Product Engineering",
+        "tags":[
+            "Product Engineering",
+            "Product Development"
+        ],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/greenfield/greenfield1.png",
+                "caption": "gf1"
+            },
+            {
+              "type": "paragraph",
+              "content": "In a digital world that moves at breakneck speed, often disregarding long-term feasibility, greenfield product engineering provides the perfect opportunity to break the mold."
+            },
+            {
+              "type": "paragraph",
+              "content": "At its core, greenfield product development is about scalability, security, agility, and cost-effectiveness with a bedrock of meticulous research. Their reference to real estate stems from the fact that greenfield projects are typically initiated with a “blank slate,” with infrastructures of other key applications often acting as the cornerstone. There is complete flexibility to shake the status quo with innovative ideas — much like starting a new city on an empty field with no pre-existing structures."
+            },
+            {
+              "type": "heading",
+              "content": "Approach and Key Considerations",
+              "tableHeader": true,
+              "id": "approach"
+            },
+            {
+              "type": "paragraph",
+              "content": "Innovative greenfield product engineering demands a future-forward approach that embraces adaptability. The focus should not be to break the wheel but to reimagine the wheel altogether."
+            },
+            {
+              "type": "paragraph",
+              "content": "To begin with, key considerations here involve:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/greenfield/greenfield2.png",
+                "caption": "gf1"
+            },
+            {
+              "type": "heading",
+              "content": "1. Product Market Fitment"
+            },
+            {
+              "type": "paragraph",
+              "content": "Greenfield product engineering thrives on achieving product-market fitment with consumer-centric solutions. To do this, discovering and mapping user journeys must come together with a deep understanding of the current state of business to arrive at a human-centric problem-solving approach with a platformization strategy that connects product lines. This would help drive a keen understanding of the entire ecosystem, with Total Experience being the outcome of managing holistic user expectations, including that of direct users, employees, and even partners in the ecosystem."
+            },
+            {
+              "type": "heading",
+              "content": "2. Shift Left Practices"
+            },
+            {
+              "type": "paragraph",
+              "content": "Demand planning, static testing, unified testing strategies, and risk-based analysis aid in faster time-to-market and shorter feedback loops. These practices should be embraced to ensure that product development is agile, reliable, and failsafe. By detecting and addressing defects early in the development cycle, shift-left practices can contain the significant entropy inherent to greenfield projects."
+            },
+            {
+              "type": "heading",
+              "content": "3. Innovation with Rapid Prototyping"
+            },
+            {
+              "type": "paragraph",
+              "content": "Rapid prototyping is indispensable while creating new systems. By prototyping quickly and often, teams can validate their assumptions about user needs and preferences with minimal investment of time and resources. When teams embrace prototyping as a pathway to thoughtful design, they can:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Develop cost-effective solutions with the latest technologies & techniques",
+                "Embrace the design thinking-led approach to build solutions that are aligned with business needs",
+                "Value speed over perfection while also unlocking scalability for future productization"
+              ]
+            },
+            {
+              "type": "heading",
+              "content": "4. Scalability and Sustainability"
+            },
+            {
+              "type": "paragraph",
+              "content": "Moving to outcome-based products and business models requires applications that scale across different verticals, user profiles, and geographical locations. To do this for greenfield product development, cloud-native architectures and microservices must be embraced from the ground up. Maintaining sustainability requires flexibility in the product architecture to accommodate dynamic changes in customer usage patterns, expectations, and preferences."
+            },
+            {
+              "type": "heading",
+              "content": "5. People DNA"
+            },
+            {
+              "type": "paragraph",
+              "content": "In greenfield engineering, assembling an adaptable and dynamic team with cross-functional capabilities that can move with the same velocity as customer demands is a big part of the success equation. The business context is radically different, and technology teams must be empowered with the right mindset and culture to foster innovation. This translates to focusing on:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "heading": "E-shaped skills",
+                  "content": "Emphasizing on E-shaped skills refers to individuals with experience in multiple areas, complemented with deep expertise in their domain, who work with an inclination of holistic execution, expertise, and are ready to explore new ideas."
+                },
+                {
+                  "heading": "Cross-functional skills",
+                  "content": "Ensuring that the people in your organization do not work on one particular technology, language or skill, but rather look at the bigger picture and address problems holistically with a product thinking mindset."
+                },
+                {
+                  "heading": "Design thinking",
+                  "content": "Achieving ‘totality’ or commonly understood as the total experience of the end user. Design thinking ensures that we stick to the objective of delivering totality by focusing on the enterprise users and associated stakeholders of the ecosystem — end user / customer, employees, and partners. This is enabled by the ‘pyramid of needs’ to deliver pleasurable and delightful experiences adding transformative value beyond the basic level of user convenience, achieved with a user-centric mindset, enabling the team to challenge assumptions and redefine problems and foster a culture of innovation."
+                },
+                {
+                  "heading": "Full stack resources",
+                  "content": "Bringing on professionals with expertise across the entire technology stack, reducing excessive handoffs between specialized roles."
+                },
+                {
+                  "heading": "Quick upskilling with training legos",
+                  "content": "Providing modular, bite-sized learning opportunities that enable team members to rapidly acquire new skills, keeping them agile and responsive to evolving customer demands."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "content": "6. Engineering Maturity Assessment and Technical Debt Review"
+            },
+            {
+              "type": "paragraph",
+              "content": "Based on the Agile metrics and retrospection, identify ways to improve velocity, quality, and efficiency. This results in undergoing periodic engineering tasks to perform re-architecture if needed, improve automation etc., to drive continuous measurable improvements. Our unique Product Engineering maturity assessment framework called TENET, helps in assessing the gaps across all areas of Product Engineering consisting of 650+ parameters across Development, Testing, Infrastructure, Tech Stack, Product Management. This helps in keeping an eye on rising technical debt and process issues, and proactively address them using spare time in sprints, or on prioritized basis with Product Owners."
+            },
+            {
+              "type": "heading",
+              "content": "7. Factory Model to Scale Pod-Based Delivery"
+            },
+            {
+              "type": "paragraph",
+              "content": "Adopting a factory approach led by value stream mapping, identifying repeatable tasks, helps in scaling the delivery of product features / increments and meet emerging needs of the users continuously. Backlog identification, feature builds, and continuous improvement are mapped to respective pods to scale the delivery:"
+            },
+            {
+              "type": "list",
+              "items":[
+                {
+                  "heading": "Consulting Pod",
+                  "content": "Responsible for enhancing user experiences by focusing on user journey analysis, developing multi-experience strategies, and creating architectural blueprints and engineering plans to drive the overall vision of the project."
+                },
+                {
+                  "heading": "Engineering Pod",
+                  "content": "Plays a vital role in constantly prioritizing tasks and delivering product increments, ensuring a streamlined development process and timely implementation of features."
+                },
+                {
+                  "heading": "Innovation Pod",
+                  "content": "Utilizing lean start-up methodologies, the pod is dedicated to exploring new ideas / product features through hypothesis formulation, technology assessment, and feature research, fostering a culture of continuous improvement and growth."
+                }
+              ]
+              
+            },
+            {
+              "type": "paragraph",
+              "content": "The model is further supported by our unique Dojo onboarding process, cross-functional training and our CAT framework. As a result, time-to-market is reduced significantly allowing products to be launched faster, with business continuity for zero disruption."
+            },
+            {
+              "type": "heading",
+              "content": "Conclusion",
+              "tableHeader": true,
+              "id": "conclusion"
+            },
+            {
+              "type": "paragraph",
+              "content": "Greenfield product engineering presents a golden opportunity to reimagine how we look at new products. It is a paradigm shift from conventional practices, allowing organizations to think beyond traditional barriers and embrace emerging technologies and build futuristic products."
+            }
+          ]
+    },
+    {
+        "id": 3,
+        "title": "DataSecOps — Key to Data as a Product Enablement",
+        "domain": "DataSecOps",
+        "tags": [
+            "Datasecops"
+        ],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data1.png",
+                "caption": "data1"
+            },
+            {
+                "type": "paragraph",
+                "content": "Most companies for the past few decades have kept their organizational data in a silo."
+            },
+            {
+                "type": "paragraph",
+                "content": "Analytics teams served business units, and even as data became more crucial to decision-making and product roadmaps, the teams in charge of data pipelines were treated more like plumbers and less like partners. However, now data is no longer a second-class citizen. With better tooling, more diverse roles, and a clearer understanding of data’s full potential, many businesses have come to view the entire ecosystem as a fully formed element of the company tech stack. And the most forward-thinking teams are adopting a new paradigm: treating data like a product."
+            },
+            {
+                "type": "heading",
+                "content": "What is Data as a Product",
+                "tableHeader": true,
+                "id": "DAP"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data2.png",
+                "caption": "data2"
+            },
+            {
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "Product thinking",
+                        "content": "A mindset that’s outcome-oriented, business-capability aligned, long-lived, and cross-functional with the intention to solve problems and improve business outcomes. Additionally, there should be a focus on discoverability, security, explorability, understandability, trustworthiness, etc."
+                    },
+                    {
+                        "heading": "Data products",
+                        "content": "Using “raw data, derived data, [and] algorithms” to automate and/or guide decisions to improve business outcomes."
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "style": "bold",
+                "content": "Data as a product is the concept of applying key product development principles (Identifying and addressing unmet needs, agility, iterability, and reusability) to data projects. It is about applying the principles of product thinking. Data as a product is a mindset that applies the principles of product thinking to create data products."
+            },
+            {
+                "type": "heading",
+                "content": "Why DataSecOps?",
+                "tableHeader": true,
+                "id": "whyDataSecOps"
+            },
+            {
+                "type": "paragraph",
+                "content": "“History repeats itself” — things often happen in the same way as they did before, and I feel the same about DataSecOps. Before talking about what DataSecOps is and why it matters, let’s have a fast recap of what happened to application security when the industry moved to CI/CD and DevOps."
+            },
+            {
+                "type": "paragraph",
+                "content": "Development of software in a more agile way and transition of applications to the cloud brought DevOps, which in a few years and with several data breaches & gaps in security later sparked the realization for security that has to be embedded in the DevOps process and should not be an add-on to everything that is in place. Companies that used controlled software development life cycles had to adjust their security to the new continuous and agile deployment. This drove the philosophy or methodology and thus DevSecOps was born."
+            },
+            {
+                "type": "paragraph",
+                "content": "But it took a while for data to follow applications and move to the cloud. But cloud adoption for data & applications is a sure-shot deal. Even though not 100% of the organizations or 100% of the data, but data is in the cloud. And here I’m not talking about RDBMSs, key-value storage, or other databases that moved to the cloud to support the applications that migrated to the cloud."
+            },
+            {
+                "type": "heading",
+                "content": "What is Data Democratization?",
+                "tableHeader": true,
+                "id": "DD"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data3.png",
+                "caption": "data3"
+            },
+            {
+                "type": "paragraph",
+                "content": "There’s no wonder that organizations are building large-scale data warehouses, data lakes, and data lake houses to the cloud as the elasticity and ability to store and process extremely large amounts of data without prior investment in servers are some of the best catalysts for data-driven innovation in the last decade. The data consumers, in many cases (such as those in Redshift, BigQuery, Athena, and Snowflake), only have to write simple queries like “select” to query data from huge tables, as if they are working on a small database. In other words, with a basic SQL skillset and capabilities of powerful BI tools, many people within the organization can make use of the organization’s data, this is what’s called “Data Democratization.”"
+            },
+            {
+                "type": "heading",
+                "content": "DataOps vs. DataSecOps",
+                "tableHeader": true,
+                "id": "doVsds"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data4.png",
+                "caption": "data4"
+            },
+            {
+                "type": "paragraph",
+                "content": "There is a widespread use of data for analytics, insights, and prediction across all teams in an organization. For example, marketing, sales, customer success, and other teams are now actively seeking new data within the organization or outside of the organization to help them achieve their business goals. This means there are both small data consumers, but also more producers, and data that is continuously changing and it’s much more agile in nature. This leads to organizations having a DataOps methodology."
+            },
+            {
+                "type": "paragraph",
+                "content": "There are, of course, some slightly different definitions of DataOps, but according to Gartner, DataOps is the collaborative data management practice focused on improving the communications, integration, and automation of data flows between data managers and data consumers across the organization."
+            },
+            {
+                "type": "paragraph",
+                "content": "The impact of DataOps adoption by organizations is a more streamlined data service that supports the data-related value propositions and is an enabler for data use as a business enabler. So, having a more continuous data life cycle with more rapid changes from DevOps and applications sounds familiar, right?"
+            },
+            {
+                "type": "paragraph",
+                "content": "I think it’s pretty clear that what happened with DevOps is the same as what’s happening with DataOps. Operationally, the business must use its data in new ways, which means more people who put data in data stores and more people who read this data or need access to this data."
+            },
+            {
+                "type": "paragraph",
+                "content": "As we learned from companies diving headfirst into DevOps, we can’t allow DataOps to come without security bolted into it. In other words, without DataSecOps."
+            },
+            {
+                "type": "heading",
+                "content": "What is DataSecOps?",
+                "tableHeader": true,
+                "id": "whatIsDataSec"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data5.png",
+                "caption": "data5"
+            },
+            {
+                "type": "paragraph",
+                "content": "DataSecOps is an agile, holistic, security-embedded approach to coordinating the ever-changing data and its users, aimed at delivering quick data to value while keeping data private, safe, and well-governed."
+            },
+            {
+                "type": "paragraph",
+                "content": "DataSecOps is an evolution in the way organizations treat security as part of their data operations. It is an understanding that security should be a continuous part of the data operations processes and not something that is added as an afterthought. In fact, DataSecOps should be viewed as the enabler of data democratization processes."
+            },
+            {
+                "type": "heading",
+                "content": "5 Key Principles of DataSecOps to Enable Data as a Product",
+                "tableHeader": true,
+                "id": "5Key"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataSecOps/data6.png",
+                "caption": "data6"
+            },
+            {
+                "type": "heading",
+                "content": "1. Continuous Data Discovery & Security"
+            },
+            {
+                "type": "paragraph",
+                "content": "As data is changing rapidly, data privacy and protection are also fast changing. Hence always prefer continuous and gradual processes to ad hoc projects. You don’t want to go for large security and governance projects that are losing relevance fast and gaining risk until they’re done. As an example, a fully blown mapping and analysis of data access permissions, which often takes a lot of time and may change quickly, is less desired and quick incremental changes in data access are preferred."
+            },
+            {
+                "type": "heading",
+                "content": "2. Security & Data Engineering Collaboration"
+            },
+            {
+                "type": "paragraph",
+                "content": "Security is not an afterthought rather needs to be bolted into DataOps. This means building a cross-team from the start and not just at the end of a big project by setting a stage for ongoing collaboration between security engineering, data engineering, and other relevant stakeholders. This also means that the security of data stores needs to be understood and transparent to security teams."
+            },
+            {
+                "type": "heading",
+                "content": "3. Risk Prioritization"
+            },
+            {
+                "type": "paragraph",
+                "content": "Prioritization is key with limited resources in the ever-changing data world. You should plan and focus on the biggest risks first. In data that often means knowing where your sensitive data is, which is not so trivial and prioritizing it much higher in terms of projects and resources."
+            },
+            {
+                "type": "heading",
+                "content": "4. Clear Data Access Policy"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data access policy needs to be clear and simple when things start getting too complicated or non-deterministic around data access permissions, and by non-deterministic, I mean that sometimes you may request access and get it, and sometimes you may not get it, you’re either being a disabler for the business data usage, or you’re exposing security risks."
+            },
+            {
+                "type": "heading",
+                "content": "5. Simple & Quick Data Access"
+            },
+            {
+                "type": "paragraph",
+                "content": "Last but definitely not least, without compromising on data security access to data should be fast and simplified. Now, this sounds challenging or even conflicting, but managing to do so with clear data access workflows and policies and things like that, will get your company quick value from data while maintaining a low level of security risks."
+            },
+            {
+                "type": "heading",
+                "content": "Conclusion",
+                "tableHeader": true,
+                "id": "conclusion"
+            },
+            {
+                "type": "paragraph",
+                "content": "It is critical to facilitate DataSecOps for organizations by allowing adding continuous visibility and security across the different data platforms of the organization with a single pane of glass."
+            },
+            {
+                "type": "paragraph",
+                "content": "DataSecOps is in its early stages. I’d be happy to work with clients in expanding DataSecOps and making sure organizations adopt DataSecOps and keep data secure while deriving value from it."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Challenges within the Modern Data Stack",
+        "domain":"Data Engineering",
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack1.png",
+                "caption": "stack1"
+            },
+            {
+                "type": "heading",
+                "content": "The Appearance of Data in its Early Stages",
+                "tableHeader": true,
+                "id": "appearanceOfData"
+            },
+            {
+                "type": "paragraph",
+                "content": "Ten years ago, the data ambitions of numerous companies were largely centered around business intelligence (BI). Their goals revolved around generating reports and dashboards to handle operational risk, address compliance requirements, and ultimately make informed business decisions, albeit at a slower pace."
+            },
+            {
+                "type": "paragraph",
+                "content": "Apart from BI, traditional statistical learning has found application in business operations within sectors such as insurance, healthcare, manufacturing, and finance. These initial use cases, executed by expert teams, have significantly shaped many previous approaches to data management."
+            },
+            {
+                "type": "paragraph",
+                "content": "In summary, this is how data appeared in its early stages:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Data served specific case analyses rather than strategic decisions.",
+                    "Its primary purpose was automating reporting.",
+                    "The initial steps towards employing statistical modeling for business emerged."
+                ]
+            },
+            {
+                "type": "heading",
+                "content": "The Traditional Data Stack",
+                "tableHeader": true,
+                "id": "traditionalTechSatck"
+            },
+            {
+                "type": "paragraph",
+                "content": "The conventional data stack (TDS) refers to on-premises data systems."
+            },
+            {
+                "type": "paragraph",
+                "content": "Companies were responsible for overseeing their infrastructure and hardware, which posed challenges such as fragility (limited adaptability to change), high maintenance costs (involving extensive manual work), scalability limitations (difficulty in provisioning new infrastructure as needed), inflexibility (stemming from bottom-up maintenance), and intricate root cause analysis."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack2.png",
+                "caption": "stack2"
+            },
+            {
+                "type": "paragraph",
+                "content": "The data environment began to undergo transformation."
+            },
+            {
+                "type": "paragraph",
+                "content": "Somewhere around 2010, the surge of major technology advancements brought forth fresh challenges to the data stack. Companies found themselves grappling with the following:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack3.png",
+                "caption": "stack3"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Escalating Data Volumes — This necessitated a shift from inflexible governance and extensive modeling within the data warehouse to a more adaptable data lake environment for storage. Additionally, managing the expenses associated with storing such extensive data posed a significant challenge.",
+                    "Novel Data Categories — Unprecedented data forms like text, images, and audio emerged. Many organizations of that era were uncertain about how to harness the potential of such unstructured data.",
+                    "Expanded Business Applications — With the availability of vast volumes and new data categories, organizations could construct more precise models to enhance their decision-making systems. Natural Language Processing (NLP), Computer Vision, and Recommender Systems became more accessible to all types of businesses."
+                ]
+            },
+            {
+                "type": "heading",
+                "content": "The Modern Data Stack",
+                "tableHeader": true,
+                "id": "modernStack"
+            },
+            {
+                "type": "paragraph",
+                "content": "Faced with these fresh obstacles, the data stack needed to undergo a transformative process, leading to the emergence of the modern data stack (MDS)."
+            },
+            {
+                "type": "paragraph",
+                "content": "The most significant breakthrough brought about by MDS was the transition to cloud computing. This shift has rendered data more reachable, retrievable, and technically manageable. The modern data stack streamlined data gathering and ingestion, extended support for rapidly flowing data streams, and provided exceptional scalability at an economical expense."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack4.png",
+                "caption": "stack4"
+            },
+            {
+                "type": "paragraph",
+                "content": "MDS encompasses a suite of interconnected tools designed to facilitate a seamless transition from raw data to valuable business insights."
+            },
+            {
+                "type": "paragraph",
+                "content": "These tools are distinguished by their straightforward cloud deployment, scalability, and modular structure. Each individual tool addresses specific data-related challenges, encompassing tasks such as segregating computing and storage (e.g., Snowflake, DataBricks), ensuring data lineage (e.g., Stemma, Alation), executing transformations (e.g., dbt), orchestrating jobs (e.g., Airflow, Prefect), managing schemas (e.g., Protobuf), handling streaming data (e.g., Kafka), overseeing monitoring (e.g., Monte Carlo, Bigeye, DataObserve), and more."
+            },
+            {
+                "type": "heading",
+                "content": "What issues have arisen?",
+                "tableHeader": true,
+                "id": "issuesArised"
+            },
+            {
+                "type": "paragraph",
+                "content": "MDS emerged as a disjointed assortment of tools that generated intricate pipelines and data deposits into a central repository, leading to unwieldy data accumulations across various sectors. These tools were not initially designed to collaborate seamlessly throughout the entirety of the data value chain."
+            },
+            {
+                "type": "paragraph",
+                "content": "Furthermore, data’s role has surpassed its initial purpose of supplying executive dashboards and has expanded to encompass numerous models and dashboards within a brief span of years. This progression has given rise to a range of challenges:"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "With data flowing in from diverse sources, comprehending data context became more intricate, as data warehouses could no longer faithfully replicate the real world with interconnected entities and tables.",
+                    "Numerous data initiatives recycle the same data under different names or reference neglected tables.",
+                    "Effective testing is a rarity, making debugging a formidable challenge.",
+                    "Teams grapple with pinpointing the definitive source of vital data, leading them to construct personalized tables for impromptu queries, thereby incurring ‘data debt’ (more on this topic in upcoming posts).",
+                    "Data teams invest months in crafting feature sets for machine learning models, formulating metrics, conducting experiments, and refining data structures.",
+                    "Essential datasets encounter frequent breakdowns without clear accountability and ownership."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "content": "We are observing a surge in data debt, a heightened volume of daily bug management, and a substantial loss of control over the data warehouse. Interestingly, the significance of the data warehouse, once the paramount data asset within organizations, has diminished over the past decade."
+            },
+            {
+                "type": "paragraph",
+                "content": "Most organizations are currently either encountering these issues due to the evolution of their data stack, or they are on the brink of experiencing them as they persist in their data-driven endeavors."
+            },
+            {
+                "type": "heading",
+                "content": "What actions can be taken at this point?",
+                "tableHeader": true,
+                "id": "actionsTaken"
+            },
+            {
+                "type": "paragraph",
+                "content": "The Modern Data Stack predominantly addressed engineering hurdles concerning cost and performance but introduced further complexities in terms of effectively utilizing data to address business issues."
+            },
+            {
+                "type": "paragraph",
+                "content": "The core aim of harnessing data has always been and remains enhancing business outcomes and efficacy, and this should be our central concern."
+            },
+            {
+                "type": "paragraph",
+                "content": "Outlined below are several concepts for mitigating the obstacles between data generation and its effective utilization:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Establishing the Data Warehouse as the bedrock of all analytical efforts"
+            },
+            {
+                "type": "paragraph",
+                "content": "Creating a semantic mapping that interconnects the various data feeds from diverse sources will pave the way for a genuinely efficient Data Warehouse and significantly enhance the data consumer experience. It requires dedicating substantial time to comprehend the interrelationships among distinct data sources and accurately represent the real-world connections."
+            },
+            {
+                "type": "heading",
+                "content": "Integrating Software Engineers (SWE) into the data workflow",
+                "tableHeader": true,
+                "id": "integratingSoftware"
+            },
+            {
+                "type": "paragraph",
+                "content": "Software Engineers are responsible for generating a significant portion of the data utilized in business reports, experiments, and models. Paradoxically, they often lack insight into how their data is being utilized."
+            },
+            {
+                "type": "paragraph",
+                "content": "This disconnect results in Data Engineers frequently serving as intermediaries, dedicating more time to rectifying pipeline issues stemming from alterations upstream (in back-end or front-end services) than to creating fresh pipelines that drive business potentials. Consequently, certain adjustments are necessary within this workflow:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack5.png",
+                "caption": "stack5"
+            },
+            {
+                "type": "list",
+                "content": [
+                    "Prioritize Data Contracts — Data contracts encapsulate data expectations, including business context, data quality, and security measures. This empowers data engineers to comprehend upstream data sources, minimizing the risk of pipeline disruptions caused by changes upstream.",
+                    "Extend Engineering Insight Downstream — Engineering teams should delve deeper into comprehending how the data they generate will be employed in subsequent stages. This proactive understanding will inform their decision-making when implementing alterations.",
+                    "Engineering Accountability for Data Quality — As the creators of the data, engineering teams should shoulder responsibility for data quality, at least until the data is integrated into the central repository."
+                ]
+            },
+            {
+                "type": "heading",
+                "content": "Bridging Data Engineering and Business Context",
+                "tableHeader": true,
+                "id": "dataEngineering"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data engineers play a pivotal role in establishing and overseeing data platforms and their operational workflows. Positioned between software engineers and data scientists/analysts, they serve as intermediaries. However, frequently, they construct pipelines without a grasp of the business context or a clear vision of the ultimate purpose of the tables they create."
+            },
+            {
+                "type": "paragraph",
+                "content": "Absence of business context hinders data engineers from comprehending the appropriate interconnections among distinct data elements, impeding the development of a data warehouse that accurately reflects the real world."
+            },
+            {
+                "type": "heading",
+                "content": "Adopting a Data Product Mindset",
+                "tableHeader": true,
+                "id": "adoptingData"
+            },
+            {
+                "type": "paragraph",
+                "content": "The data team must guarantee that the data products they develop effectively address tangible user needs. Approaching data products solely from a technical angle is no longer sufficient. It’s imperative to integrate considerations of market alignment between the data product and the user’s problem into the data workflow."
+            },
+            {
+                "type": "heading",
+                "content": "Revolutionizing Data Modeling Framework",
+                "tableHeader": true,
+                "id": "dataRevolution"
+            },
+            {
+                "type": "paragraph",
+                "content": "Conventional data modeling grapples with challenges like stringent governance, inflexible processes, limited adaptability for iteration, and extended timeframes for insights. While data modeling design was effective in an era of controlled data where teams could ensure incoming data fit designated schemas, the surge in data volume and sources has made applying traditional data modeling increasingly difficult. Consequently, data warehouses began to deviate from their primary purpose."
+            },
+            {
+                "type": "paragraph",
+                "content": "To navigate this landscape, the data ecosystem must consider ushering in Data Modeling 2.0 tailored for the Modern Data Stack. This entails embracing a decentralized data architecture, where data is dispersed across domains, potentially offering a remedy to this predicament."
+            },
+            {
+                "type": "heading",
+                "content": "Establishing Data Governance Guidelines",
+                "tableHeader": true,
+                "id": "guidelines"
+            },
+            {
+                "type": "paragraph",
+                "content": "In the past few decades, the majority of investments in data initiatives were primarily directed towards enhancing and expanding technology. Unfortunately, there was less emphasis on refining processes and implementing effective data management practices. Here are several approaches to guaranteeing the proficient, secure, and ethical management of data:"
+            },
+            {
+                "type": "heading",
+                "content": "Defining Data Governance Measures",
+                "tableHeader": true,
+                "id": "governMeasures"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/modernStack/stack6.png",
+                "caption": "stack6"
+            },
+            {
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "Data Ownership",
+                        "content": "Identifying individuals or entities responsible for specific data, promoting clear ownership and accountability."
+                    },
+                    {
+                        "heading": "Data Quality Standards",
+                        "content": "Establishing a comprehensive set of benchmarks to ensure data accuracy, completeness, consistency, and timeliness. These standards bolster the reliability and credibility of the data."
+                    },
+                    {
+                        "heading": "Data Catalogs",
+                        "content": "Creating a centralized repository encompassing all organizational data products, housing metadata, documentation, and data lineage details. This facilitates the exploration, comprehension, and utilization of data."
+                    },
+                    {
+                        "heading": "Data Policies and Procedures",
+                        "content": "Formulating a structured set of guidelines to govern data collection, storage, processing, validation, and utilization within the organization."
+                    },
+                    {
+                        "heading": "Data Lineage",
+                        "content": "Offering a transparent depiction of data origins and movements, enhancing clarity regarding the trajectory of data."
+                    }
+                ]
+            },
+            {
+                "type": "heading",
+                "content": "Is Data Mesh the Ultimate Answer?",
+                "tableHeader": true,
+                "id": "conclusion"
+            },
+            {
+                "type": "paragraph",
+                "content": "In my perspective, the pivotal aspect isn’t solely the framework itself, but rather our competence in leveraging data to genuinely enhance business outcomes."
+            },
+            {
+                "type": "paragraph",
+                "content": "Data mesh certainly addresses several of the challenges highlighted in this article, yet it isn’t a universal panacea, nor can it be implemented without considering an organization’s unique context. Moreover, it’s still an early-stage framework, and its true essence will evolve as businesses gradually adopt it."
+            },
+            {
+                "type": "paragraph",
+                "content": "In conclusion, despite my somewhat cautious stance on the Modern Data Stack, I hold a strong optimism for the future of the data industry and our potential to adapt and enhance."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Enhance Your Data Governance with These 7 Unconventional Data Observability Use Cases",
+        "domain": "Data Engineering",
+        "children": [
+            {
+                "type": "paragraph",
+                "src": "/images/blogImages/dataGovernance/governance1.png",
+                "content": "Data Observability has become a popular trend in the industry at present."
+            },
+            {
+                "type": "paragraph",
+                "content": "The proliferation of extensive data and persistent Data Quality challenges have brought us to this point. Gartner recognizes it as being in the \"innovation trigger\" phase, with significant growth potential for the next 5–10 years before reaching a plateau. This indicates the existence of numerous unexplored use cases for Data Observability."
+            },
+            {
+                "type": "paragraph",
+                "content": "Now, let's delve into seven such use cases that specifically enhance Data Governance."
+            },
+            {
+                "type": "heading",
+                "content": "1. Anticipating Data Problems",
+                "tableHeader": true,
+                "id": "anticipating"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance1.jpg",
+                "caption": "data1"
+            },
+            {
+                "type": "paragraph",
+                "content": "Shifting from Reactive to Proactive Data Quality Processes"
+            },
+            {
+                "type": "paragraph",
+                "content": "Traditionally, Data Quality processes have operated in a reactive manner."
+            },
+            {
+                "type": "paragraph",
+                "content": "The reactivity was often driven by end business users, resulting in the data team losing a significant amount of credibility. As a consequence, Data Quality issues wreaked havoc for the business teams. However, by predicting Data Quality issues, you can take proactive measures to prevent or address them before they even occur."
+            },
+            {
+                "type": "paragraph",
+                "content": "This approach fosters trust and reliability among the business teams and relieves the burden on the data teams."
+            },
+            {
+                "type": "heading",
+                "content": "2. Smartly Prioritizing Data Issues",
+                "tableHeader": true,
+                "id": "prioritizing"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance2.png",
+                "caption": "data2"
+            },
+            {
+                "type": "paragraph",
+                "content": "Streamlining Data Quality Issue Resolution through Effective Triage"
+            },
+            {
+                "type": "paragraph",
+                "content": "Identifying a Data Quality issue is only half of the challenge."
+            },
+            {
+                "type": "paragraph",
+                "content": "The real test lies in finding someone who understands the problem and possesses the necessary skills to address it. Swiftly triaging the Data Quality issue and routing it to the most appropriate team can significantly reduce overall downtime by up to 60%."
+            },
+            {
+                "type": "paragraph",
+                "content": "This approach eliminates the need for endless Slack messages and conference calls in search of the right person."
+            },
+            {
+                "type": "heading",
+                "content": "3. Enhancing the Efficiency of Data Pipelines",
+                "tableHeader": true,
+                "id": "efficiency"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance3.png",
+                "caption": "data3"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Observability Goes Beyond Data Quality Fixes"
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition to resolving Data Quality issues, Data Observability offers valuable insights into core engineering challenges, such as inefficient pipelines. By leveraging Data Observability, organizations can identify pipelines that exceed predefined processing time thresholds and prompt the engineering team to explore opportunities for optimization."
+            },
+            {
+                "type": "paragraph",
+                "content": "This approach streamlines processes, reduces redundant communication, and minimizes time wastage for teams."
+            },
+            {
+                "type": "heading",
+                "content": "4. Automated Data Cleaning and Issue Resolution",
+                "tableHeader": true,
+                "id": "dataCleaning"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance4.png",
+                "caption": "data4"
+            },
+            {
+                "type": "paragraph",
+                "content": "Achieving Data Observability Nirvana"
+            },
+            {
+                "type": "paragraph",
+                "content": "As an organization's Data Observability capabilities advance, the ultimate goal is to establish a fully automated process where known Data Issues are automatically cleansed whenever they arise."
+            },
+            {
+                "type": "paragraph",
+                "content": "This can result in a seamless experience for business users without burdening the data teams."
+            },
+            {
+                "type": "paragraph",
+                "content": "For instance, an ML layer or a rule-based list of Data Quality checks and their corresponding resolutions can be developed. This solution is then deployed alongside the data pipelines to actively identify and rectify Data Quality issues in real-time. In cases where human intervention is necessary, any changes made are recorded in an outcome table, ensuring transparency and accountability."
+            },
+            {
+                "type": "heading",
+                "content": "5. Effective Data Access Management",
+                "tableHeader": true,
+                "id": "dataAccess"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance5.png",
+                "caption": "data5"
+            },
+            {
+                "type": "paragraph",
+                "content": "Enhancing Data Governance through Data Access Monitoring"
+            },
+            {
+                "type": "paragraph",
+                "content": "Another valuable aspect of Data Governance that can be improved through Data Observability is data access management. By leveraging Data Observability, organizations can monitor and track data access, gaining insights into who is accessing the data and how it is being utilized. This enables the identification of unauthorized access attempts, suspicious activities, or potential data breaches."
+            },
+            {
+                "type": "paragraph",
+                "content": "Taking proactive measures based on these observations helps prevent data privacy violations and ensures data security."
+            },
+            {
+                "type": "heading",
+                "content": "6. Ensuring Data Compliance through Tracking",
+                "tableHeader": true,
+                "id": "compliance"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance6.png",
+                "caption": "data6"
+            },
+            {
+                "type": "paragraph",
+                "content": "Improving Data Compliance through Active Monitoring"
+            },
+            {
+                "type": "paragraph",
+                "content": "Historically, monitoring data compliance has often been an ad hoc process. However, Data Observability provides a solution by enabling continuous monitoring to ensure the proper anonymization of sensitive data before it is shared. By tracking the data lineage throughout the pipeline, organizations can gain insights into how data is transformed and processed, allowing them to identify any potential compliance issues."
+            },
+            {
+                "type": "paragraph",
+                "content": "Real-time tracking of compliance not only reduces the burden on the governance team but also minimizes cost pressures on data protection functions."
+            },
+            {
+                "type": "heading",
+                "content": "7. Enhancing the Privacy Incident Process",
+                "tableHeader": true,
+                "id": "privacyIncident"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataGovernance/governance7.png",
+                "caption": "data7"
+            },
+            {
+                "type": "paragraph",
+                "content": "Accelerating Fact-Finding in Critical Incident Investigations"
+            },
+            {
+                "type": "paragraph",
+                "content": "Investigating critical incidents often involves a time-consuming process of gathering facts. However, with real-time visibility into potential data privacy violations, the fact-finding time can be significantly reduced. Data Observability plays a crucial role in aggregating relevant facts such as data access, anonymization status, and data breaches, thereby improving response time."
+            },
+            {
+                "type": "paragraph",
+                "content": "By swiftly detecting and responding to these incidents, organizations can minimize the impact on their business operations and proactively prevent further data loss or privacy violations."
+            },
+            {
+                "type": "paragraph",
+                "content": "For instance, applying Observability checks as mentioned in points 5 and 6 can assist in addressing the fact-finding stage of the incident process. Additionally, utilizing information from Observability alerts and how they were resolved provides valuable insights to learn from incidents and implement necessary improvements."
+            },
+            {
+                "type": "paragraph",
+                "content": "In conclusion, managing a large data estate can be challenging, but Data Observability is alleviating this burden by introducing advanced Data Management and Science techniques. With the aid of Data Observability, organizations can effectively handle and derive value from their extensive data assets, mitigating the complexities associated with data management."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "How Does Multi-cloud Differ From A Hybrid Cloud",
+        "domain":"Data Engineering",
+        "tags":["Multi Cloud"],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/multiCloud/multiCloud1.png",
+                "caption": "multicloud1"
+            },
+            {
+                "type": "heading",
+                "content": "How Does Multi-cloud Differ From A Hybrid Cloud?",
+                "tableHeader": true,
+                "id": "multi-cloud-differ"
+            },
+            {
+                "type": "paragraph",
+                "content": "The IT markets are still abuzz with the arrival of the cloud. Although the revolutionary technology surfaced more than a decade ago, enterprises are still reaping its business benefits in numerous forms. However, the cloud has brought forth more than just data storage and security advantages, it has created a whirlwind of confusion among organizations as a new set of words are being daily devised to describe the many cloud varieties. Initially, the IT sector became aware of private cloud infrastructure that supported only data and workload from a particular enterprise. With time, the cloud-based solution evolved and even became public that was managed by third-party providers such as AWS and Google Cloud, and Microsoft. Today, the cloud has transitioned to support multi and hybrid infrastructure"
+            },
+            {
+                "type": "heading",
+                "content": "What is Multi-Cloud?",
+                "tableHeader": true,
+                "id": "multi-cloud"
+            },
+            {
+                "type": "paragraph",
+                "content": "The multi-cloud infrastructure is curated specifically for a particular workload using the mix-and-match strategy from various cloud services. But multi-cloud does not permit the connection or orchestration between these different services. Instead, multi-cloud refers to the distribution of cloud assets, software, and applications across several cloud environments. The major use of multi-cloud architecture for many organizations is the ability to utilize two or more public clouds or private clouds to eliminate dependency on any one cloud provider."
+            },
+            {
+                "type": "heading",
+                "content": "Challenges around Multi-Cloud",
+                "tableHeader": true,
+                "id": "challanges"
+            },
+            {
+                "type": "paragraph",
+                "content": "Siloed cloud providers — Often different cloud vendors become an issue in cloud monitoring and management as they provide tools to track workload only in their infrastructure."
+            },
+            {
+                "type": "paragraph",
+                "content": "Lack of sufficient skills — Multi-cloud is a fairly new architecture and the cloud market still has not achieved a level where there are individuals with multi-cloud skills."
+            },
+            {
+                "type": "paragraph",
+                "content": "Selecting different cloud vendors — Undoubtedly, organizations often face challenges while shopping different cloud providers that would work in unison with one another without running into complexities."
+            },
+            {
+                "type": "heading",
+                "content": "Why Do Multi-cloud?",
+                "tableHeader": true,
+                "id": "why-multicloud"
+            },
+            {
+                "type": "paragraph",
+                "content": "In every enterprise, each team or department has different organizational functions, workload, and amount of data generated. Their requirements also differ in terms of performance, security, and privacy. Subsequently, the use of multi-cloud in such a business environment offers organizations to meet the distinct needs of its departments surrounding data storage, structuring, and security. Further, companies need to be future-proof and enable their IT to grow as their business scales up. The multi-cloud strategy supports that change and business growth. It is not just a business enablement strategy, but also an IT-forward strategy."
+            },
+            {
+                "type": "paragraph",
+                "content": "Digging further deeper into the multi-cloud and its multiple business benefits, organizations gain a competitive edge in the market, both technically and commercially. Such companies are also experiencing geographic benefits of using multi-cloud as it addresses app latency instances and concerns to a high degree. However, two other major concerns compel enterprises to deploy multi-cloud within their premises — vendor lock-in and cloud providers outages. Multi-cloud strategy are a positive enabler for preventing vendor lock-in, a technique to avoid failure and downtime at single points, and a mechanism to consume unique services from several cloud solution providers."
+            },
+            {
+                "type": "paragraph",
+                "content": "In a straightforward statement, IT enterprise CEOs and CIOs are pursuing the multi-cloud strategy as it offers improved flexibility with complete control over the business data and workload. Often, business decision-makers even opt for multi-cloud solutions in tandem with a hybrid cloud approach."
+            },
+            {
+                "type": "paragraph",
+                "content": "Moreover, we have a short list of 8 tips to lower Multi-Cloud spending."
+            },
+            {
+                "type": "heading",
+                "content": "What is Hybrid-Cloud?",
+                "tableHeader": true,
+                "id": "what-is-multi-cloud"
+            },
+            {
+                "type": "paragraph",
+                "content": "A hybrid cloud is a combination of on-premise private cloud and third-party public clouds. It can also be defined as a private and public cloud along with traditional data centers. Simply put, a hybrid cloud is the result of two or more cloud combinations. The mixture could be two private clouds, two public clouds, or one public and one private cloud."
+            },
+            {
+                "type": "heading",
+                "content": "Challenges around Hybrid Cloud",
+                "tableHeader": true,
+                "id": "challangesAround"
+            },
+            {
+                "type": "paragraph",
+                "content": "Security — With a hybrid cloud model, organizations need to simultaneously manage different security platforms while transferring selective data from private to public clouds or vice versa."
+            },
+            {
+                "type": "paragraph",
+                "content": "Complexities associated with cloud integrations — A high degree of technical skill is required to integrate private and public cloud architectures without introducing multiple complexities in the process."
+            },
+            {
+                "type": "paragraph",
+                "content": "Complications around scaling — As data expands, the cloud also needs to scale. However, changing the hybrid cloud architecture to match data expansion is quite tedious."
+            },
+            {
+                "type": "heading",
+                "content": "Why Do Hybrid Cloud?",
+                "tableHeader": true,
+                "id": "why-do-hybrid-cloud"
+            },
+            {
+                "type": "paragraph",
+                "content": "No matter the size of the organization, their transition to the cloud, simply put, cannot be done in one simple and uncomplicated swoop. Even if they envision migrating to a public cloud hosted by third-party providers, there is a need for proper planning with the necessary migration period to ensure that cloud deployment is as accurate as possible. However, before jumping to the cloud, enterprises need to make a list of resources, data, workload, and systems that will move to cloud while others will stay intact in-house or in data centers. In common terms, this interoperability is a classic yet strong example of a hybrid cloud."
+            },
+            {
+                "type": "paragraph",
+                "content": "Also, unless enterprises are established within a cloud since their early years of operations, they are likely to take a journey that incorporates strategies, preparation, and work for supporting cloud infrastructure as well as legacy infrastructure simultaneously."
+            },
+            {
+                "type": "paragraph",
+                "content": "Many enterprises have also explored the option to build and deploy an entirely separate cloud environment for their IT needs, which runs alongside their traditional data centers to minimize interference between internal operations and cloud tools. But the complexity in such an arrangement increases rather than reducing due to the need to run a variety of functions simultaneously in multiple environments. In such a scenario, it is beneficial for every organization to ensure that they need to develop and deploy integrated platforms that offer practical architecture for business operations."
+            },
+            {
+                "type": "heading",
+                "content": "Which Cloud-based Solution to Adopt?",
+                "tableHeader": true,
+                "id": "Cloud-based"
+            },
+            {
+                "type": "paragraph",
+                "content": "Both multi-cloud and hybrid-cloud offer different benefits to organizations, which is often confusing. Which cloud solution is best for which department or workload? How does adopting one option would help organizations for years to come? What is the process of selecting one of these two so that they contribute to business success? All of these questions are answered in the next segment that discusses how these two cloud solutions differ from one another and which is the ‘right’ option for an enterprise."
+            },
+            {
+                "type": "heading",
+                "content": "How does multi-cloud differ from a hybrid cloud?",
+                "tableHeader": true,
+                "id": "differ"
+            },
+            {
+                "type": "paragraph",
+                "content": "Although there are specific distinctions between these multi-cloud and hybrid clouds, in the commercial space, these two terms are often used interchangeably. The difference is further expected to grow in the future as multi-cloud infrastructure becomes the norm among many organizations."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "As already known, the multi-cloud strategy uses multiple different public cloud services that are often from various third-party cloud solution providers. Such an approach helps organizations to achieve different cloud solutions for different departments.",
+                    "Unlike the multi-cloud model, hybrid cloud components usually work in tandem. Subsequently, the data and processes tend to intermingle and intersect in a hybrid environment as opposed to multi-cloud where they operate in silos.",
+                    "Multi-cloud provides organizations with added peace of mind by minimizing dependence on a sole cloud provider, thereby limiting costs and improving flexibility.",
+                    "Practically, an application running on a hybrid-cloud infrastructure uses load balancing along with web and application services from a public cloud while the database and storage reside in private cloud architecture. This cloud-based solution has resources that perform the same function in both a private cloud and public cloud.",
+                    "Practically, an application running on a multi-cloud infrastructure may run all compute and networking activities on one cloud provider while using database services from other cloud services. For instance, in a multi-cloud environment, some applications might leverage resources that are only in Azure while some other separate applications might use resources only from AWS. Similarly, another example could be of public and private cloud; some applications might use resources only in the public cloud while others utilize resources only in the private cloud.",
+                    "Besides differences, both these cloud-based solutions offer enterprises the capability to offer their business services in a way that is efficient and effective."
+                ]
+            },
+            {
+                "type": "heading",
+                "content": "Balanced approach",
+                "tableHeader": true,
+                "id": "balancedApproach"
+            },
+            {
+                "type": "paragraph",
+                "content": "Both multi-cloud infrastructure and hybrid-cloud infrastructure work their wonders in the corporate landscape. The future is likely to be more cloud-based as data is ever-increasing and no organization would just depend on one cloud provider to store and secure their business-sensitive information. However, companies are often confused about which cloud-based solutions model fits their business requirements. Prefer a customized solution and a partner with years of expertise in cloud deployment someone who offers assistance in matching the organization’s needs with the right cloud model to ensure you receive the best cloud solution without complexities. Your cloud pazrtner’s specific expertise should come handy in determining which solution aligns with organization needs while eliminating the intricacies that often come along with cloud deployment and migration."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Design Thinking Led Approach to Building Digital Product Ecosystem",
+        "domain":"Design",
+        "tags":["Design Thinking","Design Thinking Culture", "Design Thinking Mindset"],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/designThinking/design1.png",
+                "caption": "design1"
+            },
+            {
+                "type": "paragraph",
+                "content": "In a world where digital products are becoming increasingly complex, the need to iterate and validate product designs early can often single-handedly dictate the outcome of projects. Making product interactions more humane has never been so high up the pecking order of design considerations."
+            },
+            {
+                "type": "paragraph",
+                "content": "Enter, design thinking"
+            },
+            {
+                "type": "paragraph",
+                "content": "Design thinking has forayed well beyond the initial intended product design domain and is increasingly used as an approach to business model innovation."
+            },
+            {
+                "type": "paragraph",
+                "content": "Today Digital Businesses are disrupting traditional industries considering the intricate interactions between various stakeholders: employees, partners, customers, service providers, users, and developers for Product Development. A successful business model needs to balance the conflicting needs of these stakeholders while providing a great experience to end-users."
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id":"decoding",
+                "content": "Decoding the nuances of design thinking"
+            },
+            {
+                "type": "paragraph",
+                "content": "Most people view design thinking only from the lens of product design. However, that’s not all there is to it. To truly understand design thinking, one must view it from the user’s perspective."
+            },
+            {
+                "type": "paragraph",
+                "content": "At its core, design thinking is about understanding user needs and problems and then designing solutions that address them in the most user-friendly way possible."
+            },
+            {
+                "type": "paragraph",
+                "content": "It is a systematic approach that can be broken down into five distinct stages."
+            },
+            {
+                "type": "heading",
+                "content": "The ideal design thinking approach",
+                "id": "idealDesign",
+                "tableHeader": true
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/designThinking/design2.png",
+                "caption": "design2"
+            },
+            {
+                "type": "heading",
+                "content": "Empathize:"
+            },
+            {
+                "type": "paragraph",
+                "content": "It all begins with gathering an in-depth understanding of user needs. User personas and empathy maps are a great way to document this understanding without losing track of the big picture. It then matures into understanding the vision of the business, charting out the competitors, researching the industry landscape, and decoding the functions and processes involved along with the existing information architecture."
+            },
+            {
+                "type": "heading",
+                "content": "Define:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Once the research is completed, it’s time to define the problem. This is typically the subject of multiple brainstorming sessions with stakeholders to unearth an impeccable user journey backed by data. It involves analyzing observations and using them to define the core problems, mapping journeys to digital touchpoints, measuring the experience of every touchpoint through relevant KPIs, and identifying the digital channels through which the user will interact with the product."
+            },
+            {
+                "type": "heading",
+                "content": "Ideate:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Once the problem is well-defined, it’s time to think outside the box and implement innovative solutions that address the user’s needs in the best possible way. The ideation stage is all about generating as many ideas as possible without judgment and then narrowing them down to the ones that have the potential to be turned into a reality."
+            },
+            {
+                "type": "heading",
+                "content": "Identifying product lines:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Grouping disparate journeys to entire product lines and mapping them to relevant digital channels and customer touchpoints."
+            },
+            {
+                "type": "heading",
+                "content": "Formulating product & platform strategies:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Begins with connecting related product lines and ends with data-driven personalization."
+            },
+            {
+                "type": "heading",
+                "content": "Aligning product & platform strategies:"
+            },
+            {
+                "type": "paragraph",
+                "content": "Aligning product & platform strategies with business goals, improving productivity with internal products, creating data-driven products that leverage new-age automation philosophies, and more."
+            },
+            {
+                "type": "heading",
+                "content": "Prototyping:"
+            },
+            {
+                "type": "paragraph",
+                "content": "In a testing phase, the goal is to create multiple prototypes so that they do not sink budgets and offer enough clarity on solving the problem at hand. It is important to note that prototypes are not just for products. They can be for processes, workflows, and anything else that needs to be validated before being implemented on a larger scale."
+            },
+            {
+                "type": "paragraph",
+                "content": "Prototypes must create immersive experiences through interactions that can be A/B tested, give a taste of the MVP, and facilitate experience measurement. They must also clarify the required architecture and engineering strategies, tech stacks, program roadmap, and accelerators."
+            },
+            {
+                "type": "heading",
+                "content": "Test:"
+            },
+            {
+                "type": "paragraph",
+                "content": "The final stage of the design thinking process is testing. In this stage, prototypes are put to the test by actual users to validate assumptions and measure the results. The collected feedback is then used to improve the product before it is launched."
+            },
+            {
+                "type": "paragraph",
+                "content": "It’s important to note that this design thinking is an iterative process. After successful testing, you can return to previous stages to refine the problem statement and create iterations of the proposed solution."
+            },
+            {
+                "type": "paragraph",
+                "content": "While this process may seem linear, it is anything but that. It is an ongoing cycle that helps organizations stay customer-centric and agile, two essential qualities in the ever-changing business landscape."
+            },
+            {
+                "type": "heading",
+                "id":"expectedOutcomes",
+                "tableHeader": true,
+                "content": "Expected outcomes"
+            },
+            {
+                "type": "paragraph",
+                "content": "Usually, the other end of a Design Thinking journey for an organization should not just be an innovative solution but also a well-defined product strategy, detailed product roadmaps, buy-in from all stakeholders, and, more importantly, a happy customer."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "domain":"AI Engineering",
+        "title": "Ethical Bias In AI-Based Security Systems: The Big Data Disconnect",
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical1.png",
+                "caption": "ethical1"
+            },
+            {
+                "type": "paragraph",
+                "content": "It’s a question that has surfaced at the discussion tables of conferences and social chats everywhere-“Can machines turn on humans?”. It’s a question that often accompanies scenes and visuals from movies like the Terminator. But what we know and what we’ve seen from the use of AI in big data is that certain uncertainties and biases have to be considered when designing systems for larger scales with more complex environments."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical2.png",
+                "caption": "ethical2"
+            },
+            {
+                "type": "paragraph",
+                "content": "What is it that machines feel? What is it that makes them behave the way they are other than the code that’s inserted into their mainframe? Do Isaac Asimov’s three laws still hold ground today in defining the standards for how machines should behave in a convoluted environment? The answers to these questions lie in the way we choose to define the rules of the game and how the machine responds to sudden changes."
+            },
+            {
+                "type": "paragraph",
+                "content": "Ethical biases are a special zone of uncertainty in Artificial Intelligence studies that concerns the trinkets and levers that pull machines to behave in ways that may seem strange or even detrimental at times. With the rise of autonomous vehicles and AI-driven production methods set to take over the world, an unanswered question demands an answer once again. What do we do about the machines?"
+            },
+            {
+                "type": "heading",
+                "content": "Introduction To Biases",
+                "id": "intro",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "Biases and variances from a data perspective are linked to the proximity of the measured values from the actual values. Variance, in this case, is a measure of how far the measured values differ from each other and biases refer to how much the measured values differ from the actual values. In a highly specific case of models with great accuracies, both variance and bias would be small. This may, however, reflect how poorly the model will perform with new data. Nevertheless, having a low bias and variance is difficult to achieve and is the bane of data analysts everywhere. Biases are particularly more difficult to treat for use cases that involve simple decision making where simple binary computations aren’t enough."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical3.png",
+                "caption": "ethical3"
+            },
+            {
+                "type": "paragraph",
+                "content": "One is tempted to ask, why is it that biases find their way into the system? And if a machine fails to decide at a critical point no worse than humans, then why are they used in the first place? To answer these questions, one has to look at the general methodology of how models are built in the big data realm."
+            },
+            {
+                "type": "paragraph",
+                "content": "Data is first collected and cleaned from actuators and sensors that provide raw numbers for analysts to work on. These values then undergo a preprocessing step where they are normalized, standardized or converted to a form where dimensions and units are removed. Once the data is converted into a suitable tabular or comma-separated format, it is inserted into a network of layers or functional equations. If the model uses a series of hidden layers, rest assured they will have an activation function that will introduce a bias every step of the way."
+            },
+            {
+                "type": "paragraph",
+                "content": "However, biases can also enter the system through the many pitfalls of collection methods. Maybe the data wasn’t balanced towards a certain group or class of outputs, maybe the data was incomplete, erroneous or maybe there wasn’t any data, to begin with. As the datasets grow larger and larger with more incomplete records, the possibility of the system filling those gaps with some predefined values is certain. This results in another kind of assumptive bias."
+            },
+            {
+                "type": "heading",
+                "content": "The Black Box Conundrum",
+                "id": "blackbox",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "Many scholars would also argue that numbers may not mean the same thing without proper context. In the controversial book titled-‘The Bell Curve’ for example, the claim made by the author about IQ variations among racial groups was challenged with the notion of environmental constraints and differences. But if a human can arrive at such resolutions, how long would it take a machine to remove such judgmental lapses in its logic?"
+            },
+            {
+                "type": "paragraph",
+                "content": "Chances are minimal. If the machine has been fed with erroneous or faulty data, it will output faulty values. The problem arises from the ambiguity of how the AI model is built. These are usually black box models that exist as data sinks and sources with no explanation of what goes inside. To the user, such black-box models cannot be interrogated or questioned as to how it arrives at a result. Furthermore, there are additional problems to be tackled with result variations. Due to a lack of understanding of how the black box operates, analysts may arrive at different results even with the same inputs. Such variations may not make a huge difference for values where precision isn’t key, but the data realm is seldom so generous. Industrial manufacturers, for example, would be at a loss if AI systems failed to predict highly specific parameters such as pH, temperature or pressure to large points. However, when the objective is to provide answers to problems like loan compatibility, criminal recidivism or even applicability for college admissions, AI’s lack of crisp values comes at a disadvantage. The onus is however on AI enthusiasts to tackle the issue from another angle."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical4.png",
+                "caption": "ethical4"
+            },
+            {
+                "type": "paragraph",
+                "content": "Put, the methods and the rules of the interferences between layers must be resolved to interpret what every line of code and coefficient represents. The black-boxes thus have to be uprooted and dissected to know what makes the machines tick, which is easier said than done. Taking a look at even the simplest of neural network AI is enough to show how complicated such systems are original. Nodes and layers all stack up with individual weights that interact with the weights of other layers."
+            },
+            {
+                "type": "paragraph",
+                "content": "It may look like a magnificent deal to the trained eye, but it leaves little interpretation for understanding the machines. Can it be simply due to the difference in language levels of humans and machines? Can there be a way to break down the logic of machine language in a format that the layman can understand?"
+            },
+            {
+                "type": "heading",
+                "content": "Types of Biases",
+                "id": "types",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "Covering back the history of biases in data analysis, there can be several biases that are introduced as a result of improper techniques or predefined biases in the entity responsible for the analysis. Misclassification and presumptive biases can be produced from models that are well-positioned towards balanced results because of certain inclinations and interests of the programmer."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical5.png",
+                "caption": "ethical5"
+            },
+            {
+                "type": "paragraph",
+                "content": "It’s an all too common mistake that certain marketing analysts make when dealing with leads. Collection software provides great data on people who have converted and those who haven’t. Instead of focusing on models that focus on both classes of people, most may be tempted to build models just for the unconverted leads. In doing so, they end up blinding themselves to the richness of available data for those that have become customers."
+            },
+            {
+                "type": "paragraph",
+                "content": "Another issue that plagues AI models is the inability to properly classify or misclassify data that culminates into a disaster for analysts. In the production industry, such errors fall under the Type I and Type II category-the former being when a classification is made for a record which doesn’t belong and the latter being when it fails to classify which does belong. From the context of the production lot, quality control engineers are quick to stamp the accuracy of goods by testing only a small portion of them. It saves time as well as money. But it can be the perfect environment for such hypothetical biases to occur."
+            },
+            {
+                "type": "paragraph",
+                "content": "Another similar example has been observed in image detection software where neural networks scan through broken portions of pictures to reconstruct logical shapes. There can be multiple problems caused by the similarity in the orientation of the objects in images that can cause the model to give out strikingly contentious results. Current age Convolutional Neural Networks are capable of factoring such intricacies but require large amounts of testing and training data for reasonable results."
+            },
+            {
+                "type": "paragraph",
+                "content": "Certain biases are a consequence of the lack of proper data being available were using complex models unwarranted and even unnecessary. It is a commonly held belief that certain models and neural network programming should only be applied to datasets once they reach a statistically significant number of records. This also means that algorithms have to be designed to check the quality of data on a timely basis reiteratively."
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "fightingAi",
+                "content": "Fighting AI With AI"
+            },
+            {
+                "type": "paragraph",
+                "content": "Is the solution to the problem with AI biases hidden within AI itself? Researchers believe that improving the tuning methods by which analysts collect and demarcate information is important and should take into account that not all information is necessary."
+            },
+            {
+                "type": "paragraph",
+                "content": "That being said, there should be an increased emphasis in removing and eradicating inputs and values that skew the models in completely untoward places. Data auditing is another means by which biases can be checked and removed well in time. This method like any standard auditing procedure involves a thorough cleanup and checkup of the processed data as well as the raw input data. Auditors track changes and note down possible improvements that can be made to the data as well as ensuring that the data has complete transparency to all stakeholders."
+            },
+            {
+                "type": "paragraph",
+                "content": "Specialized XAI models have been in question as well that can be put to the question table under the right circumstances. These models involve a much detailed parametric model development where every step and change is recorded, allowing analysts to pinpoint likely issues and trigger instances."
+            },
+            {
+                "type": "paragraph",
+                "content": "AI has also become a frontier for validating the accuracy and confusion matrices of models instead of relying on simpler tools like ROC curves and AUC plots. These models look at performing repeated quality checks before the deployment of the dataset and attempt to cover the data overall classes, regardless of distribution or shape. The nature of such pretesting is made more difficult with datasets where differences in units and ranges vary significantly over the inputs. Likewise, for media-related data, the time taken to break down and condense content to numeric formats can still lead to biases."
+            },
+            {
+                "type": "paragraph",
+                "content": "However, thanks to a new slew of changes in fundamentals for data transparency and third-party checks, companies are at least acknowledging that something is going wrong. New explainer loops are being inserted between the models as well that intend to accentuate the black boxes that fill most AI models. These are again driven by AI models that are fine-tuned systematically to look for inconsistencies and errors."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical6.png",
+                "caption": "ethical6"
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "fewCases",
+                "content": "A Few Case Examples In AI Ethical Failures"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data analysts would be familiar with the concepts of false negatives and false positives. These discrepancies in identifying outputs can result in special cases of errors with detrimental effects on people. A false negative put is when the system incorrectly recognizes a positive class as negative. Similarly, a false positive occurs when a negative class is incorrectly recognized to be positive."
+            },
+            {
+                "type": "paragraph",
+                "content": "The severity of such false cases can be better understood in the context of actual big data studies. In the famous case of CHD(coronary heart disease) being modeled using logistic regression, confusion matrices for the false positives and false negatives yielded large numbers, despite yielding a high accuracy. To the average person, an accurate model may seem like the only important ‘make or break’ check. But even in the early days of data analysis, it was clear that such models would fall flat and even misdiagnose new patients."
+            },
+            {
+                "type": "paragraph",
+                "content": "The trade-off was made by collecting more data streams and cleaning the columns to induce better data normalization. A step that is becoming the staple for the industry these days."
+            },
+            {
+                "type": "paragraph",
+                "content": "Uber’s autonomous vehicles suffering crashes in testing phases aren’t the only red flags that industry professionals are concerned about. These fears extend to other spheres such as identification and machine perception as well. Tech giant Amazon came under the scrutiny of the media after its model had learned to develop what the media called a ‘gender bias’ towards women. In a shocking case of applicant bias(seen previously with applicants in tech companies), the models generated negative compliance for the applied job higher for women than men. Problems at the other end of the spectrum have been observed in tech giants like Apple, where the consumer hyped FaceID, allowed different users to access locked phones. One may argue that the models used to identify facial cues for detection might be generating similar results even for different people."
+            },
+            {
+                "type": "paragraph",
+                "content": "It was only a matter of time that engineers would stick to ironing out faults and conclude that there were assumptive biases produced from questionable inputs. AI’s big leap in the medical world has been set back quite a notch due to the failure in integrating ethical values; values which would have replaced nurses and staff on the go. This is mainly dealt with by construing all the possible number of case examples where a machine can properly replace a human and take the very same decisions. Although philosophy majors may argue that even humans don’t operate under a set of guidelines. There are various schools of ethics- Kantian, egalitarian, utilitarian and so on. How these schools of thought conform to various ethical conundrums is left to the person and his/her interests."
+            },
+            {
+                "type": "paragraph",
+                "content": "In the famous trolley case, a person’s inclinations to pull or not pull the lever dictated purely by the ethical framework in which the person operates. The question of accountability becomes fuzzy when machines take the place of the decision-maker."
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "finalWords",
+                "content": "Final Words-How To Make A More Ethical?"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/bigDataConnect/ethical7.png",
+                "caption": "ethical7"
+            },
+            {
+                "type": "paragraph",
+                "content": "The eternal question of where we draw our tolerance of those systems leads the line for including machines in our day to day activities. AI has been the building block for life-saving and supporting frameworks such as transportation, predictive studies, financial investments, security, communication, and production.It has seeped into all significant aspects of human life without raising many nay-sayers."
+            },
+            {
+                "type": "paragraph",
+                "content": "The line is drawn when AI fails to embed the very philosophies that the humans who created it operate under. We are far ahead from the days of Yevgeny Zamyatin and Alan Turing when machines were regarded to be impartial. To breathe a new life in machines by teaching AI to be ethical is a challenge that drops to the fundamental question of what it means to be ‘human’?"
+            },
+            {
+                "type": "paragraph",
+                "content": "We now know that to construct a perfect ethical framework, AI has to be stripped down to its bare essentials and needs to be driven a context abled approach that emphasizes on the quality of the results. As with the fundamentals of diversity in the workplace, the steps are simple:-"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Keep a close watch on the data.",
+                    "Keep it varied but normalized.",
+                    "Have a team monitor the preprocessing steps from time to time.",
+                    "Eradicate exclusions of any form in the output.",
+                    "Remove junk values that may be erroneous or useless to the model.",
+                    "Refine, audit, share and recollect results, incorporating them into the model.",
+                    "Eliminate interactions, data silos and always have sanity checks for what the objective ultimately is.",
+                    "Knockdown data silos and teach the AI to think rather than modeling it to think.",
+                    "Keep the Johari window of awareness in check. Cover unknown knowns and known unknowns. As for the unknown unknowns, such biases will always remain, unfortunately."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Data as a Product: Data Architecture Principles for Management Blueprint",
+        "domain":"Data Engineering",
+        "tags": [
+            "Data As a Product",
+            "Data Architecture",
+            "Architecture Principles"
+        ],
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct.png",
+                "caption": "dap1"
+            },
+            {
+                "type": "paragraph",
+                "content": "In today’s work, The goal of every organization is to ensure that data is managed properly which meets their business needs for information and more. Hence, they invest to create strong data architecture, which is a discipline that documents an organization’s data assets, maps how data flows through its systems, and provides a blueprint for managing data."
+            },
+            {
+                "type": "paragraph",
+                "content": "While data architecture can support operational applications, its output includes a multilayer framework for data platforms and data management tools, as well as specifications and standards for collecting, integrating, transforming and storing data. It most prominently defines the underlying data environment for business intelligence (BI) and advanced analytics initiatives."
+            },
+            {
+                "type": "paragraph",
+                "content": "Ideally, data architecture design is the first step in the data management process. But that usually isn’t the case, which creates inconsistent environments that need to be harmonized as part of a data architecture. Also, despite their foundational nature, data architectures aren’t set in stone and must be updated as data and business needs change. This makes them an ongoing concern for data management teams. Data architecture goes hand in hand with data modeling, which creates diagrams of data structures, business rules and relationships between data elements. They’re separate data management disciplines, though. This article on data architecture further explains what it is, why it’s important and the business benefits it provides."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct2.png",
+                "caption": "dap2"
+            },
+            {
+                "type": "heading",
+                "content": "Evolution of data architectures",
+                "id": "evolution",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "In the past, most data architectures were less complicated than they are now. They mostly involved structured data from transaction processing systems that were stored in relational databases. Analytics environments consisted of a data warehouse, sometimes with smaller data marts built for individual business units and an operational data store as a staging area. The transaction data was processed for analysis in batch jobs, using traditional extract, transform and load (ETL) processes for data integration."
+            },
+            {
+                "type": "paragraph",
+                "content": "Starting in the mid-2000s, the adoption of big data technologies in businesses added unstructured and semi-structured forms of data to many architectures. This led to the deployment of data lakes, which often store raw data in its native format instead of filtering and transforming it for analysis upfront — a big change from the data warehousing process. This new approach started driving wider use of ELT data integration, an alternative to ETL that inverts the load and transform steps."
+            },
+            {
+                "type": "paragraph",
+                "content": "The increased use of stream processing systems has also brought real-time data into more data architectures. Many architectures now support artificial intelligence and machine learning applications too, in addition to the basic BI and reporting driven by data warehouses. The shift to cloud-based systems further adds to the complexity of data architectures."
+            },
+            {
+                "type": "paragraph",
+                "content": "Another emerging architecture concept is the data fabric, which aims to streamline data integration and management processes. It has a variety of potential use cases in data environments."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct3.png",
+                "caption": "dap3"
+            },
+            {
+                "type": "heading",
+                "id": "dataArchitects",
+                "tableHeader": true,
+                "content": "Why are data architectures important?"
+            },
+            {
+                "type": "paragraph",
+                "content": "A well-designed data architecture is a crucial part of the data management process. It supports data integration and data quality improvement efforts, as well as data engineering and data preparation. It also enables effective data governance and the development of internal data standards. These two things, in turn, help organizations ensure that their data is accurate and consistent."
+            },
+            {
+                "type": "paragraph",
+                "content": "A data architecture is also the foundation of a data strategy that supports business goals and priorities. In an article on key data strategy components, Donald Farmer, Principal of Consultancy — TreeHive Strategy, wrote that “a modern business strategy depends on data”. This makes data management and analytics too important to leave to individuals, Farmer said. To manage and use data well, an organization needs to create a comprehensive data strategy, underpinned by a strong data architecture."
+            },
+            {
+                "type": "heading",
+                "content": "What are the characteristics and components of a data architecture?",
+                "id": "characteristics",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "As per principles of modern data architectures, it is important to include both data governance and regulatory compliance processes and the growing need to support multi-cloud environments. As per our observation, data’s potential business value will be wasted if a data architecture doesn’t make it available for analytics uses. It’s a cliché of modern data management that data is a business asset, we know that data that just sits idle is only a cost center, requiring maintenance without providing any business benefits."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct4.png",
+                "caption": "dap4"
+            },
+            {
+                "type": "paragraph",
+                "content": "From a purist’s point of view, data architecture components don’t include platforms, tools and other technologies. Instead, a data architecture is a conceptual infrastructure that is described by a set of diagrams and documents. Data management teams then use them to guide technology deployments and how data is managed."
+            },
+            {
+                "type": "paragraph",
+                "content": "Some examples of those components, or artifacts, are as follows:"
+            },
+            { 
+                "type":"list",
+                "items": [
+                    "data models, data definitions and common vocabularies for data elements",
+                    "data flow diagrams that illustrate how data flows through systems and applications",
+                    "documents that map data usage to business processes, such as a CRUD matrix — short for create, read, update and delete",
+                    "other documents that describe business goals, concepts and functions to help align data management initiatives with them",
+                    "policies and standards that govern how data is collected, integrated, transformed and stored",
+                    "a high-level architectural blueprint, with different layers for processes like data ingestion, data integration and data storage"
+                ]
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct5.png",
+                "caption": "dap5"
+            },
+            {
+                "type": "heading",
+                "content": "What are the benefits of a data architecture?",
+                "id": "benefits",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "Ideally, a well-designed data architecture helps an organization develop effective data analytics platforms that deliver useful information and insights. In companies, these insights improve strategic planning and operational decision-making, potentially leading to better business performance and competitive advantages."
+            },
+            {
+                "type": "paragraph",
+                "content": "Data architectures also aid in various other applications, such as the diagnosis of medical conditions and scientific research. Also, it helps in improving data quality, streamline data integration and reduce data storage costs, among other benefits. It does so by taking an enterprise view compared to domain-specific data modeling or focusing on architecture at the database level."
+            },
+            {
+                "type": "paragraph",
+                "content": "Well-constructed data architecture can offer businesses several key benefits, which include:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataAsProduct/dataAsProduct6.png",
+                "caption": "dap6"
+            },
+            {
+                "type": "heading",
+                "content": "What are the risks of bad data architecture design?",
+                "id": "risks",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "One data architecture pitfall is too much complexity. The dreaded ‘spaghetti architecture’ is evidence of that, with a tangle of lines representing different data flows and point-to-point connections. The result is a ramshackle data environment with incompatible data silos that are hard to integrate for analytics uses. Ironically, data architecture projects often aim to bring order to existing messy environments that developed organically. But if not managed carefully, they can create similar problems."
+            },
+            {
+                "type": "paragraph",
+                "content": "Another challenge is getting universal agreement on standardized data definitions, formats and requirements, without which, it’s hard to create an effective data architecture. The same goes for putting data in a business context. Done well, data architecture ‘captures the business meaning of the data required to run the organization’. But, failing to do so may create a disconnect between the architecture and the strategic data requirements it’s supposed to meet."
+            },
+            {
+                "type": "paragraph",
+                "content": "Read more in the subset of this blog — Role of Data Architecture and Data Modelling Strategy, as we go into details of data architecture, crucial in supporting operational applications, defining the underlying data environment for business intelligence (BI) and advanced analytics initiatives, and creating effective data governance and internal data standards. Learn how a well-designed data architecture aids in developing effective data analytics platforms that deliver useful information and insights, improves strategic planning, and operational decision-making, among other benefits."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "domain":"Data Architecture",
+        "tags":[
+            "Data As a Product",
+            "Architecture",
+            "Data Modelling"
+        ],
+        "title": "Data as a Product: The Role of Data Architecture and Data Modelling Strategy",
+        "children": [
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy1.png",
+                "caption": "strategy1"
+            },
+            {
+                "type": "paragraph",
+                "content": "In our Data as a Product blog series, the earlier blog on Data Architecture Principles for Management Blueprint covered the fundamentals of data architecture — discipline that involves documenting an organization’s data assets, mapping how data flows through its systems, and providing a blueprint for managing data. It creates a multilayer framework for data platforms and management tools, as well as specifications and standards for collecting, integrating, transforming, and storing data."
+            },
+            {
+                "type": "paragraph",
+                "content": "Data architecture is crucial in supporting operational applications, defining the underlying data environment for business intelligence (BI) and advanced analytics initiatives, and creating effective data governance and internal data standards. A well-designed data architecture also aids in developing effective data analytics platforms that deliver useful information and insights, improves strategic planning, and operational decision-making, among other benefits."
+            },
+            {
+                "type": "paragraph",
+                "content": "Now let’s understand how data architecture goes hand in hand with data modeling, which creates diagrams of data structures, business rules and relationships between data elements. We’ll also look at the associated frameworks and associated roles that come with data architecture."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"davsdm",
+                "content": "Data architecture vs. Data modeling"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data modeling focuses on the details of specific data assets. It creates a visual representation of data entities, their attributes, and how different entities relate to each other. This helps in scoping the data requirements for applications and systems and then designing database structures for the data, a process that’s done through a progression of conceptual, logical and physical data models."
+            },
+            {
+                "type": "paragraph",
+                "content": "Data architecture takes a more global view of an organization’s data to create a framework for data management and usage. Data models are a crucial element in data architectures, and an established data architecture simplifies data modeling. Below are few recommendations for data modeling:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Gather both business and data requirements upfront,before building models",
+                    "Develop data models iteratively and incrementally to make the process manageable",
+                    "Use data models as a tool for communicating with business users about their needs",
+                    "Manage data models just like any other type of application code"
+                ]
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy2.png",
+                "caption": "strategy2"
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "DAvsIE",
+                "content": "Data architecture vs. Information and Enterprise architecture"
+            },
+            {
+                "type": "paragraph",
+                "content": "Difference between data architecture and information architecture in enterprise applications is ‘information is data in context’. An information architecture defines the context that an enterprise uses for its business operations and management. A data architecture that delivers high-quality, reliable data is the foundation for the information architecture."
+            },
+            {
+                "type": "paragraph",
+                "content": "Meanwhile, data architecture is commonly viewed as a subset of enterprise architecture (EA), which aims to create an organizational blueprint for an organization in four domains or more. EA also encompasses the following:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy3.png",
+                "caption": "strategy3"
+            },
+            {
+                "type": "heading",
+                "content": "What data architecture frameworks are available?",
+                "id": "frameworks",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "Organizations can use standardized frameworks to design and implement data architectures instead of starting completely from scratch. These are three well-known framework options:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy4.png",
+                "caption": "strategy4"
+            },
+            {
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "DAMA-DMBOK2",
+                        "content": "The DAMA Guide to the Data Management Body of Knowledge, is a data management framework and reference guide created by DAMA International, a professional association for data managers. Now in its second edition and commonly known as DAMA-DMBOK2, the framework addresses data architecture along with other data management disciplines. The first edition was published in 2009, and the second one became available in 2017."
+                    },
+                    {
+                        "heading": "TOGAF",
+                        "content": "Created in 1995 and updated several times since then, TOGAF is an enterprise architecture framework and methodology that includes a section on data architecture design and roadmap development. It was developed by The Open Group, and TOGAF initially stood for The Open Group Architecture Framework. But it’s now referred to simply as the TOGAF standard."
+                    },
+                    {
+                        "heading": "The Zachman Framework",
+                        "content": "This is an ontology framework that uses a 6-x-6 matrix of rows and columns to describe an enterprise architecture, including data elements. It doesn’t include an implementation methodology; instead, it’s meant to serve as the basis for an architecture. The framework was originally developed in 1987 by John Zachman, an IBM executive who retired from the company in 1990 and founded a consulting firm called Zachman International."
+                    }
+                ]
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "dataArchitecture",
+                "content": "Key steps for creating a data architecture"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy5.png",
+                "caption": "strategy5"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data management teams must work closely with business executives and other end users to develop a data architecture. If they don’t, it may not be in tune with business strategies and data requirements. Engaging with senior executives to get their support and meeting with users to understand their data needs are two of the nine data architecture planning steps."
+            },
+            {
+                "type": "paragraph",
+                "content": "Developing a full-scale enterprise data architecture starts with several important steps that data architects must follow when devising a solid data architecture plan:"
+            },
+            {
+                "type": "paragraph",
+                "content": "1. Socialize with senior leaders — As with any strategic technology initiative, the value of developing a data architecture must be effectively articulated and continually communicated to C-suite executives. Craft a message that demonstrates the benefits a data architecture brings to the enterprise. Identify and engage key stakeholders to gain their support."
+            },
+            {
+                "type": "paragraph",
+                "content": "2. Identify the data personas — An organization’s technology environment is driven by the information needs of data consumers. Application system custodians are accountable for the data sets their applications produce and use. Ascertain the people who create, store, update, read and otherwise touch data within the enterprise. Identify stereotypical personas and characterize them according to their data touch points."
+            },
+            {
+                "type": "paragraph",
+                "content": "3. Determine information requirements — Engage the data consumers to understand their business strategy and solicit their business requirements for data. Document how those requirements relate to the abstract data domains, such as ‘customer’ or ‘product’ data, and the discrete data sets these consumers currently use or anticipate needing."
+            },
+            {
+                "type": "paragraph",
+                "content": "4. Evaluate information risks — Identify and interpret data governance directives and how they relate to the handling, management and protection of data."
+            },
+            {
+                "type": "paragraph",
+                "content": "5. Assess the data landscape — Survey and document the name, location, owner, producer, consumers and contents of enterprise data sets. Classify each data set according to usage scenarios and sensitivity and collect this information in a data catalog."
+            },
+            {
+                "type": "paragraph",
+                "content": "6. Analyze the data lifecycles — Evaluate how data sets flow from their origination points to their final destinations. Document the data lineage mapping of data pipelines."
+            },
+            {
+                "type": "paragraph",
+                "content": "7. Appraise the data infrastructure — Document the current state of data management in the enterprise and capture the current technology infrastructure — what systems, database structures, data warehouses, data marts and operational data stores are used, whether they’re on premises or in the cloud and, if the latter, the cloud service providers."
+            },
+            {
+                "type": "paragraph",
+                "content": "8. Do a SWOT analysis — Synthesize the knowledge that has been collected and analyze the strengths, weaknesses, opportunities and threats. Identify the greatest opportunities for improvement."
+            },
+            {
+                "type": "paragraph",
+                "content": "9. Create a blueprint and roadmap — Devise a blueprint for framing the enterprise data architecture that summarizes the collected knowledge and highlights proposed deployment projects. Scope out a roadmap for the proposed projects across the near-term, medium-term and longer-term horizons."
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition to the 9 steps mentioned above, we recommend organizations do the following:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy6.png",
+                "caption": "strategy6"
+            },
+            {
+                "type": "heading",
+                "content": "What are the different roles in data architecture design and development?",
+                "id": "differentRoles",
+                "tableHeader": true
+            },
+            {
+                "type": "paragraph",
+                "content": "The lead role in data architecture initiatives typically goes to data architects. They need a variety of technical skills, as well as the ability to interact and communicate with business users. A data architect spends a lot of time working with end users to document business processes and existing data usage, as well as new data requirements."
+            },
+            {
+                "type": "paragraph",
+                "content": "On the technical side, data architects create data models themselves and supervise modeling work by others. They also build data architecture blueprints, data flow diagrams and other artifacts. Other duties may involve outlining data integration processes and overseeing the development of data definitions, business glossaries and data catalogs. In some organizations, data architects are also responsible for designing data platforms and evaluating and selecting technologies."
+            },
+            {
+                "type": "paragraph",
+                "content": "Other data management professionals who often are involved in the data architecture process include the following:"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/dataStrategy/strategy7.png",
+                "caption": "strategy7"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "domain":"Data Architecture",
+        "title": "Deep Dive into Application Architecture: Understanding the Concepts Through a Real-World Example",
+        "children": [
+            {
+                "type": "paragraph",
+                "src": "/images/blogImages/applicationArchitecture/deepDive1.png",
+                "content": "In a previous post,I delved into the intricate components that make up a scalable web application architecture. By exploring the fundamental building blocks, that article serves as a valuable resource for comprehending the essentials of application architecture."
+            },
+            {
+                "type": "paragraph",
+                "content": "Embarking on this post, we will delve into the design and examination of the application architecture behind a food delivery service similar to Swiggy, Zomato, or Uber Eats. By exploring this real-world example, we will gain deeper insights into the complexities of application architecture, including event-driven architecture, data architecture, and more. So, without further ado, let us commence this enlightening journey."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"applicationArch",
+                "content": "Unveiling the application architecture of a food delivery service."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive20.png",
+                "caption": "application1"
+            },
+            {
+                "type": "paragraph",
+                "content": "Within a food delivery service like Swiggy, numerous strategic sections on the backend, known as bounded contexts, exist, encompassing order management, payment handling, inventory management, restaurant onboarding and management, and delivery management. These bounded contexts align with the principles of domain-driven design. Additionally, at the architectural level, the application encompasses various components, including a search component for restaurant and menu exploration, as well as a notification component to keep customers, delivery personnel, and restaurants informed about order statuses, payment updates, and more."
+            },
+            {
+                "type": "paragraph",
+                "content": "To prevent our codebase from turning into an unwieldy mess, it is essential to avoid cramming all these functionalities into a monolithic architecture. Instead, we will adopt a microservices approach in our application architecture, ensuring scalability, availability, and ease of management for the system."
+            },
+            {
+                "type": "paragraph",
+                "content": "Here is the architectural diagram of our application."
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive2.png",
+                "caption": "application2"
+            },
+            {
+                "type": "paragraph",
+                "content": "Now, let’s delve into the request-response flow and explore the integral components involved in the process."
+            },
+            {
+                "type": "heading",
+                "content": "Exploring the Request-Response Flow within the Application Architecture",
+                "id": "exploring",
+                "tableHeader": true
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive3.png",
+                "caption": "application3"
+            },
+            {
+                "type": "paragraph",
+                "content": "Upon the customer opening our app, a request will be sent to the backend, seeking information about restaurants and their menus. As this data remains predominantly static, it will be efficiently served from the content delivery network (CDN) at the edge location. However, any new or updated data, as well as data not available in the CDN, will be fetched from the application search service."
+            },
+            {
+                "type": "paragraph",
+                "content": "Once the user chooses a specific item and proceeds to book an order with a selected restaurant, the request is directed to the backend through the load balancer and the API gateway designed to handle customer requests. The architecture incorporates multiple API gateways, implementing the backends for frontends pattern to enhance efficiency and scalability."
+            },
+            {
+                "type": "paragraph",
+                "content": "Assuming our service operates within a specific geographic region, we can simplify our setup. However, if we aim for global availability, we would need to implement global load balancing, regional load balancers, and distribute our application across multiple cloud regions and availability zones worldwide."
+            },
+            {
+                "type": "paragraph",
+                "content": "API Gateways serve as the entry point for all traffic directed to the backend, ensuring secure access to our services through a REST API."
+            },
+            {
+                "type": "paragraph",
+                "content": "When the request reaches the order management service, it initiates events to communicate with various other services, including the payment service, user membership service, delivery management service, inventory service, and more."
+            },
+            {
+                "type": "paragraph",
+                "content": "The communication between these services takes place through asynchronous delivery of events via distributed message queues. This architectural approach, known as Event-driven architecture, promotes loose coupling among application components, allowing them to communicate asynchronously through events."
+            },
+            {
+                "type": "paragraph",
+                "content": "In order to ensure transactional integrity across multiple microservices, the Saga pattern is commonly employed. The Saga pattern serves as an architectural pattern for managing failures, enabling consistency in distributed applications and coordinating transactions between multiple microservices to maintain data consistency."
+            },
+            {
+                "type": "heading",
+                "tableHeader": true,
+                "id": "search",
+                "content": "Search Service: Empowering Seamless Exploration and Discovery"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive4.png",
+                "caption": "application4"
+            },
+            {
+                "type": "paragraph",
+                "content": "Streaming the application data from various microservices into their respective databases, the relevant data required for user food item searches is seamlessly fed into the search server using the change data capture approach."
+            },
+            {
+                "type": "paragraph",
+                "content": "By employing the change data capture approach, databases are continuously monitored for data modifications. Based on predefined business rules, the latest data is extracted and forwarded to a message queue, destined for various downstream components, including the search storage component within our application."
+            },
+            {
+                "type": "paragraph",
+                "content": "In addition to storing data in the search server, static data such as images and video files find their home in cloud object storage, ensuring efficient management."
+            },
+            {
+                "type": "paragraph",
+                "content": "Furthermore, alongside streaming data to the search server through change data capture, all database data is also streamed to the data warehouse and data lake to facilitate data analytics and insights."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"harnessing",
+                "content": "Harnessing the Power of Data Analytics in Application Architecture"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive5.png",
+                "caption": "application5"
+            },
+            {
+                "type": "paragraph",
+                "content": "Leveraging data analytics within the application architecture provides valuable insights in two key aspects:"
+            },
+            {
+                "type": "paragraph",
+                "content": "1. Infrastructure Insights: By analyzing the application data, developers can gain a deeper understanding of the application infrastructure. This includes identifying the root causes of issues such as app crashes for specific users or high compute consumption for certain services. Additionally, analytics can help determine the optimal number of additional servers required for a particular service cluster to ensure its availability and performance."
+            },
+            {
+                "type": "paragraph",
+                "content": "2. Business Insights: Data analytics also offers valuable business insights. It enables the examination of metrics such as the churn rate of the application, average order rate during specific time intervals, the number of users who subscribed to annual memberships in the previous year, and projections for the current year based on current data. These insights assist in making informed decisions and shaping strategies to drive business growth and enhance user experiences."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"dataStaginf",
+                "content": "Data Staging Area: A Crucial Hub for Efficient Data Management and Processing"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive6.png",
+                "caption": "application6"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Staging Area: Facilitating Seamless Data Flow and Preparing for Effective Data Processing"
+            },
+            {
+                "type": "paragraph",
+                "content": "In the application architecture, data originating from databases and cloud storage is seamlessly streamed to a dedicated staging area using a message queue. The staging area, also known as the staging database, acts as a temporary storage space, serving as an intermediate step before the data is transferred to a data warehouse."
+            },
+            {
+                "type": "paragraph",
+                "content": "Given that the data streaming from multiple sources is often heterogeneous, it requires preparation before being passed on to downstream components within the data architecture. In the staging area, the extracted data undergoes transformation to ensure a standardized format and structure, enabling smoother downstream processing."
+            },
+            {
+                "type": "paragraph",
+                "content": "Notably, in the event of any issues during the data extraction or transformation phase, the entire process can be rolled back, preventing any potential contamination of the data within the data warehouse."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id": "warehouse",
+                "content": "Data Warehouse: Empowering Advanced Data Analytics and Insights"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive7.png",
+                "caption": "application7"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Warehouse: Empowering Comprehensive Analysis and Eliminating Operational Database Burden"
+            },
+            {
+                "type": "paragraph",
+                "content": "A data warehouse serves as a central repository for storing large volumes of structured data in a format optimized for efficient querying. It acts as a reliable single source of truth, facilitating reporting and analysis tasks. By organizing the data into tables, engineers can effectively harness the power of data analytics, enabling them to derive valuable insights from the vast amounts of data accumulated by the application over time."
+            },
+            {
+                "type": "paragraph",
+                "content": "As discussed earlier, data analytics plays a vital role in driving business success. Without data warehouses, analytics teams would need to query production databases of individual microservices for data, potentially leading to data inconsistencies and errors, as well as placing additional load on those databases. The presence of a data warehouse alleviates these concerns, allowing for reliable and accurate analysis while reducing the strain on operational databases."
+            },
+            {
+                "type": "heading",
+                "id":"dataMarts",
+                "tableHeader": true,
+                "content": "Data Marts: Focused Data Warehousing for Specific Analytical Needs"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive8.png",
+                "caption": "application8"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Marts: Simplifying Analytics for Individual Enterprise Teams within the Data Warehouse"
+            },
+            {
+                "type": "paragraph",
+                "content": "Within a data warehouse, various enterprise teams such as order management, payments, restaurant management, and inventory management, rely on shared data for their analytics needs. However, dealing with the extensive volume of data can become complex for these teams."
+            },
+            {
+                "type": "paragraph",
+                "content": "To enhance manageability, the data is partitioned into separate data marts based on bounded contexts, enabling individual teams to work on specific areas. For example, there can be dedicated data marts for order management, payment processing, inventory management, and more. A data mart serves as a condensed version of a data warehouse, typically containing data volumes below 100 gigabytes."
+            },
+            {
+                "type": "paragraph",
+                "content": "In the application architecture diagram, we observe that data from the distributed message queue not only flows into the staging area but also feeds into the data lake. Let’s delve into the concept of a data lake to gain further insights."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"dataLake",
+                "content": "Data Lake: Empowering Comprehensive Storage and Analysis of Raw and Unstructured Data"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive9.png",
+                "caption": "application9"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Lake: Harnessing the Power of Raw Data for Real-Time Insights and Flexible Processing"
+            },
+            {
+                "type": "paragraph",
+                "content": "Differing from a data warehouse, a data lake stores data in its raw and unprocessed form, allowing immediate access to the data even when its purpose is yet to be determined. This enables real-time insights to be extracted, contrasting with the data warehouse where data may take some time to become available."
+            },
+            {
+                "type": "paragraph",
+                "content": "When engineers establish the appropriate data handling approach, the data can be either moved to the data warehouse for further analysis or directly processed within the data compute layer, based on the determined requirements and objectives."
+            },
+            {
+                "type": "heading",
+                "id":"dataCompute",
+                "tableHeader":true,
+                "content": "Data Compute Service: Empowering Efficient Processing and Analysis of Data"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive10.png",
+                "caption": "application10"
+            },
+            {
+                "type": "paragraph",
+                "content": "Data Compute Service: Enhancing Data Processing and Analysis for Informed Insights"
+            },
+            {
+                "type": "paragraph",
+                "content": "The data compute service plays a pivotal role in enabling various compute tasks on the data, including executing machine learning algorithms, data aggregation algorithms, and more. This processing takes place before delivering organized reports to stakeholders, developers, data scientists, and data analytics engineers. The component responsible for delivering these reports is referred to as the data visualization service."
+            },
+            {
+                "type": "paragraph",
+                "content": "Now, let’s swiftly delve into the notification service for further exploration."
+            },
+            {
+                "type": "heading",
+                "tableHeader":true,
+                "id":"notification",
+                "content": "Notification Service: Enabling Timely and Targeted Communication"
+            },
+            {
+                "type": "image",
+                "src": "/images/blogImages/applicationArchitecture/deepDive11.png",
+                "caption": "application11"
+            },
+            {
+                "type": "paragraph",
+                "content": "Efficient Notification Delivery: Streamlining Real-Time Communication"
+            },
+            {
+                "type": "paragraph",
+                "content": "To ensure seamless notification delivery to customers, restaurants, and delivery personnel, a dedicated notification queue is established. Events required for sending notifications are directed to this queue, which receives event data from various services such as order management, payments, and inventory."
+            },
+            {
+                "type": "paragraph",
+                "content": "The notification service processes these events, enabling the timely generation and dispatch of appropriate notifications to the intended recipients in real time."
+            },
+            {
+                "type": "paragraph",
+                "content": "Thank you for reading this article. If you found it valuable, please consider sharing it with your network to extend its reach."
+            }
+        ]
+    }
+]

@@ -1,0 +1,101 @@
+import React, { useState } from 'react';
+import { Box, Container, Typography, Grid, Button } from '@mui/material';
+
+const Platform = () => {
+    return (
+        <Box sx={{ py: 4, my: 8, bgcolor: 'white' }}>
+            <Container maxWidth="lg">
+                <Box
+                    sx={{
+                        display: "grid",
+                        gridTemplateColumns: { xs: "1fr", md: "1fr 2fr" },
+                        gap: { xs: 8, md: 40 },
+                        alignItems: "flex-start",
+                        textAlign: "left"
+                    }}
+                >
+                    <Box>
+                        <Typography variant="h3" sx={{
+                            fontWeight: 600,
+                            textTransform: 'uppercase',
+                            lineHeight: 1.2,
+                            color: '#212121',
+                            fontFamily: "'Roboto Condensed', sans-serif",
+                            fontSize: { xs: "2.5rem", md: "3rem" }
+                        }}>
+                            Life Science<br />Expertise
+                        </Typography>
+                    </Box>
+                    <Box>
+                        <Typography variant="body1" sx={{
+                            mb: 4,
+                            fontFamily: 'Georgia, serif',
+                            color: '#444',
+                            fontSize: '1.25rem',
+                            lineHeight: 1.6
+                        }}>
+                            DataObserve provides a wide range of solutions tailored to the unique needs of the life science and pharmaceutical industry.
+                        </Typography>
+                        <Button
+                            variant="contained"
+                            href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
+                            sx={{
+                                bgcolor: '#1E90FF',
+                                color: 'white',
+                                textTransform: 'none',
+                                fontWeight: 'bold',
+                                px: 4,
+                                py: 1.5,
+                                borderRadius: "4px",
+                                boxShadow: "none",
+                                '&:hover': {
+                                    bgcolor: '#187bcd',
+                                    boxShadow: "none"
+                                }
+                            }}
+                        >
+                            Request a demo {'>'}
+                        </Button>
+                    </Box>
+                </Box>
+            </Container>
+        </Box>
+    );
+};
+
+const IndustryBlock = ({ title, description }) => {
+    // Placeholder for hover content interaction
+    const [isHovered, setIsHovered] = React.useState(false);
+
+    return (
+        <Box
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            sx={{
+                bgcolor: '#f5f5f5',
+                p: 6,
+                mb: 4,
+                width: '100%',
+                transition: 'all 0.3s ease',
+                position: 'relative',
+                overflow: 'hidden'
+            }}
+        >
+            <Typography variant="h5" sx={{ fontWeight: 900, textTransform: 'uppercase', mb: 2 }}>
+                {title}
+            </Typography>
+            <Typography variant="body1" sx={{ fontFamily: 'Georgia, serif', color: '#444', lineHeight: 1.6, maxWidth: '800px' }}>
+                {description}
+            </Typography>
+
+            {/* Hover Content Placeholder - To be implemented when content is provided */}
+            {isHovered && (
+                <Box sx={{ mt: 2, display: 'none' }}>
+                    {/* User will provide content here */}
+                </Box>
+            )}
+        </Box>
+    );
+};
+
+export default Platform;

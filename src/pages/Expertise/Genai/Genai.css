@@ -1,0 +1,770 @@
+.redefine-genai {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Ai-genai {
+  width: 470px;
+}
+.Aitech-genai {
+  font-size: 20px;
+  font-weight: 700;
+}
+.forntier-genai {
+  font-size: 15px;
+}
+.genai-transform-video {
+  width: 100%;
+  object-fit: cover;
+  /* height: 600px; */
+}
+
+.genaibg{
+  position: relative;
+
+}
+
+
+
+.generative-genai {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 400;
+}
+.sparkin-genai {
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.5;
+}
+.generativeai-genai {
+  padding: 200px 625px 50px 150px;
+}
+.Genaicon {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+}
+.Genaicon-text {
+  font-size: 14px;
+}
+.generativeAI {
+  background-color: #1a4ab9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  /* margin-top: 50px; */
+  margin-bottom: 30px;
+}
+.btn-genai {
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  max-width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.businessachive-genai {
+  color: #fff;
+  font-size: 40px;
+}
+.text-btn {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.btn-text {
+  color: blue;
+  /* padding-right: 12px; */
+  /* background-color: white; */
+  margin-bottom: 0px;
+}
+.generative-genai1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.generative-genai3 {
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+  /* margin-bottom: 32px; */
+}
+.para-genai {
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: -7px;
+ 
+}
+.texthead-genai {
+  background: #1a4ab9;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  padding: -1px 91.3px 0px 91.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.card-text{
+  margin-bottom: 10px;
+  /* text-align: justify; */
+}
+.texthead1-genai {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.icon-genai {
+  height: 40px;
+  width: 150px;
+}
+.generative-genai2 {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.genaiviewrecentbutton {
+  margin-top: 43px;
+  display: inline-flex;
+  padding: 18px 32.17px 18px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12.83px;
+  border-radius: 4px;
+  background: #1a4ab9;
+  color: #fff;
+  font-size: 17.6px;
+  font-weight: 600;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-left: 38%;
+}
+#v-pills-tab .nav-link.active,
+#v-pills-tab .show > .nav-link {
+  color: #fff;
+  background-color: #146dff;
+  border-radius: 0px;
+  border-bottom: 0px !important;
+}
+.healthcare-genai {
+  color: black;
+}
+.cloudimgcard1 {
+  width: 25%;
+  height: 450px;
+  padding: 10px;
+  padding-right: 0px;
+  position: relative;
+}
+.cloudcard1 {
+  position: absolute;
+  top: 55%;
+  background: rgba(31, 31, 31, 0.4);
+  backdrop-filter: blur(13px);
+  max-width: 100%;
+  height: 42.9%;
+  padding: 9px;
+  border-radius: 0px !important;
+  
+}
+.cloudcardheading1 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  /* line-height: 27.5px; */
+  letter-spacing: -0.32px;
+}
+.cloudcardpara1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 8.5px;
+  font-weight: 400;
+  /* line-height: 23.2px; */
+  letter-spacing: -0.32px;
+  visibility: visible;
+}
+.cloudimgcard1:hover {
+  cursor: pointer;
+}
+.cloudimgcard1 {
+  transition: transform 0.5s ease;
+}
+.cardimgcard1 .cloudcard1:hover {
+  color: #03b5d2;
+}
+.cloudimgcard1:hover {
+  transform: scale(1.1);
+}
+.cloudimgcard1:hover .cloudcardpara1 {
+  font-size: 11px;
+  opacity: 1;
+}
+.cloudimgcard1:hover .cloudcard1 {
+  top: 30%;
+  height: 304px;
+}
+.cloudimgcard1:hover .cloudcardheading1 {
+  font-size: 18px;
+  opacity: 1;
+}
+.cloudcardheadings {
+  font-weight: 700;
+}
+
+.unleash-gen-ai{
+  padding-top: 17px;
+  font-weight: 700;
+}
+
+
+/* ...changes... */
+
+.no-gutters-genai-1 {
+  align-items: center;
+  /* height: 558px; */
+  padding: 30px;
+}
+.card-img-1{
+ width: 100%;
+}
+
+.Genai-main-car{
+  height: fit-content;
+  padding: 30px 0px;  
+}
+.recentworks {
+  padding: 30px 150px;
+}
+
+
+
+
+
+.table td,
+.table th {
+  padding: 0.51rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+p {
+  margin-top: 0;
+  /* margin-bottom: 0.3rem; */
+}
+.cloudcards1 {
+  /* margin-left: 10%; */
+  width: 100%;
+  position: relative;
+margin-bottom: 100px;
+  margin: 4px, 4px;
+  padding: 4px;
+  
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.cloudcards1::-webkit-scrollbar {
+  display: none;
+}
+.ccdiv1 {
+  display: flex;
+  width: 117%;
+  margin-top: 25px;
+}
+
+/* ....changes... */
+.texthead-genai-framework{
+  background: #1a4ab9;
+  display: flex;
+  width: 300px;
+  height: 144px;
+  padding: -1px 91.3px 0px 91.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.table .thead-dark th{
+  background-color: #000 !important;
+}
+
+.genai-point{
+  padding: 0px 25px !important;
+  font-weight: 700;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 467px){
+
+  .GenAI-DO{
+    top:40px !important;
+    padding-left: 0px !important;
+    left: 10% !important;
+  
+  }
+  .recentworks {
+    padding: 0px;
+  }
+  
+  .text-muted {
+  font-size: 14px !important;
+  }
+
+  .GENAI-HEADing{
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+
+  .GenAI-Redefine{
+  font-size: 18px !important;
+  padding: 0px 10px;
+  }
+
+  .Genai-pioneer{
+    text-align: justify !important;
+  }
+
+  .businessachive-genai {
+    font-size: 18px;
+    text-align: center;
+  }
+  .genai-AI-Application{
+    font-size: 20px;
+  }
+  .unleash-gen-ai{
+    font-size: 20px;
+  }
+
+  .genai-Healthcare{
+    font-size: 22px;
+  }
+.genai-Health-Para{
+  font-size: 15px;
+  text-align: justify;
+  word-spacing: -2px;
+}
+.card-text{
+  letter-spacing: 0.68px;
+  font-size: 15px;
+  line-height: 20px !important;
+}
+
+.no-gutters-genai-1 {
+  align-items: center;
+  /* height: 558px; */
+  padding: 30px;
+}
+.table td, .table th{
+  font-size: 12px;
+}
+.generative-genai1 {
+  font-size: 19px
+}
+.generative-genai2 {
+  font-size: 17px;
+}
+.GenAI-Paragraph{
+  font-size: 13px;
+}
+.texthead-genai-framework {
+  height: 70px;
+  width: 100%;
+}
+.texthead-genai {
+  height: 70px;
+  width: 100%; 
+}
+.icon-genai{
+  margin: 10px;
+}
+
+.Genai-OVERALL-Body{
+  margin-left: 0px;
+}
+.cloudimgcard1{
+  padding: 0px !important;
+}
+.cloudcard1{
+  width: 100% !important;
+  top: 57%;
+}
+.cloudcardheadings1{
+  font-size: 14px;
+}
+.cloudcardpara1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: 400;
+  /* line-height: 23.2px; */
+  letter-spacing: -0.32px;
+  visibility: visible;
+  line-height: 23px;
+}
+.generativeAI{
+  margin-top: 50px;
+}
+.Genai-Read-button{
+  margin-bottom: 10px;
+  height: 49px !important;
+  padding: 13px 16px 13px 16px !important;
+
+}
+.READ-Genai-more{
+  font-size: 14px !important;
+}
+.Genai-One{
+  height: fit-content !important;
+}
+
+.genaiviewrecentbutton {
+ margin: 25px 0px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.83px;
+  border-radius: 4px;
+  background: #1a4ab9;
+  color: #fff;
+  font-size: 13.6px;
+  font-weight: 600;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-left: 0px !important;
+}
+}
+
+@media only screen and (min-width: 468px) and (max-width:767px){
+
+  .GenAI-DO{
+    top:18% !important;
+    padding-left: 0px !important;
+    left:12% !important;
+  }
+  .recentworks {
+    padding: 0px;
+  }
+  .text-muted {
+  font-size: 20px !important;
+  }
+  .GENAI-HEADing{
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .GenAI-Redefine{
+  font-size:22px !important;
+  padding: 0px 10px;
+  }
+  .Genai-pioneer{
+    text-align: justify !important;
+    font-size: 16px;
+  }
+  .businessachive-genai {
+    font-size: 25px;
+    text-align: center;
+  }
+  .genai-AI-Application{
+    font-size: 20px;
+  }
+  .unleash-gen-ai{
+    font-size: 25px;
+  }
+
+  .genai-Healthcare{
+    font-size: 19px;
+  }
+  .genai-Health-Para{
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: -2px;
+  }
+  .card-text{
+    letter-spacing: 0.68px;
+    font-size: 15px;
+    line-height: 20px !important;
+  }
+
+.no-gutters-genai-1 {
+  align-items: center;
+  /* height: 558px; */
+  padding: 30px;
+}
+.table td, .table th{
+  font-size: 12px;
+}
+.generative-genai1 {
+  font-size: 25px !important;
+}
+.generative-genai2 {
+  font-size: 20px;
+}
+.GenAI-Paragraph{
+  font-size: 15px;
+}
+.texthead-genai-framework {
+  height: 70px;
+  width: 100%;
+}
+.texthead-genai {
+  height: 70px;
+  width: 100%; 
+}
+.icon-genai{
+  margin: 10px;
+}
+
+.Genai-OVERALL-Body{
+  margin-left: 0px;
+}
+.cloudimgcard1{
+  padding: 0px !important;
+}
+.cloudcard1{
+  width: 100% !important;
+  top: 57%;
+}
+.cloudcardheadings1{
+  font-size: 14px;
+}
+.cloudcardpara1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  /* line-height: 23.2px; */
+  letter-spacing: -0.32px;
+  visibility: visible;
+  line-height: 23px;
+}
+.generativeAI{
+  margin-top: 50px;
+}
+.Genai-Read-button{
+  margin-bottom: 10px;
+  height: 49px !important;
+  padding: 13px 16px 13px 16px !important;
+
+}
+.READ-Genai-more{
+  font-size: 14px !important;
+}
+.Genai-One{
+  height: fit-content !important;
+}
+
+.genaiviewrecentbutton {
+ margin: 25px 0px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.83px;
+  border-radius: 4px;
+  background: #1a4ab9;
+  color: #fff;
+  font-size: 13.6px;
+  font-weight: 600;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-left: 0px !important;
+}
+.cloudcardheading1 {
+  font-size: 20px;
+}
+.mobile-text{
+  width: 97%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+  .GenAI-DO{
+    top:18% !important;
+    padding-left: 0px !important;
+    left:12% !important;
+  }
+  .recentworks {
+    padding: 0px;
+  }
+  .text-muted {
+  font-size: 20px !important;
+  }
+  .GENAI-HEADing{
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .GenAI-Redefine{
+  font-size:30px !important;
+  padding: 0px 10px;
+  }
+  .Genai-pioneer{
+    text-align: justify !important;
+    font-size: 16px;
+  }
+  .businessachive-genai {
+    font-size: 30px;
+    text-align: center;
+  }
+  .genai-AI-Application{
+    font-size: 20px;
+  }
+  .unleash-gen-ai{
+    font-size: 25px;
+  }
+
+  .genai-Healthcare{
+    font-size: 19px;
+  }
+  .genai-Health-Para{
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: -2px;
+  }
+  .card-text{
+    letter-spacing: 0.68px;
+    font-size: 15px;
+    line-height: 20px !important;
+  }
+
+.no-gutters-genai-1 {
+  align-items: center;
+  /* height: 558px; */
+  padding: 30px;
+}
+.table td, .table th{
+  font-size: 12px;
+}
+.generative-genai1 {
+  font-size: 25px !important;
+}
+.generative-genai2 {
+  font-size: 20px;
+}
+.GenAI-Paragraph{
+  font-size: 15px;
+}
+.texthead-genai-framework {
+  /* height: 70px; */
+  width: 100%;
+}
+.texthead-genai {
+  height: 70px;
+  width: 100%; 
+}
+.icon-genai{
+  margin: 10px;
+}
+
+.Genai-OVERALL-Body{
+  margin-left: 0px;
+}
+.cloudimgcard1{
+  padding: 0px !important;
+}
+.cloudcard1{
+  width: 100% !important;
+  top: 57%;
+}
+.cloudcardheadings1{
+  font-size: 14px;
+}
+.cloudcardpara1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 9px;
+  font-weight: 400;
+  /* line-height: 23.2px; */
+  letter-spacing: -0.32px;
+  visibility: visible;
+  line-height: 14px;
+}
+.generativeAI{
+  margin-top: 50px;
+}
+.Genai-Read-button{
+  margin-bottom: 10px;
+  height: 49px !important;
+  padding: 13px 16px 13px 16px !important;
+
+}
+.READ-Genai-more{
+  font-size: 14px !important;
+}
+.Genai-One{
+  height: fit-content !important;
+}
+
+.genaiviewrecentbutton {
+ margin: 25px 0px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.83px;
+  border-radius: 4px;
+  background: #1a4ab9;
+  color: #fff;
+  font-size: 13.6px;
+  font-weight: 600;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-left: 0px !important;
+}
+.cloudcardheading1 {
+  font-size: 12px;
+}
+.mobile-text{
+  width: 97%;
+}
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .cloudcard1 {
+    position: absolute;
+    top: 55%;
+    background: rgba(31, 31, 31, 0.4);
+    backdrop-filter: blur(13px);
+    width: 88.4%;
+    height: 42.6%;
+    padding: 9px;
+    border-radius: 0px !important;
+  }
+  .cardimgcard1 .cloudcard1:hover {
+    color: #03b5d2;
+  }
+  .cloudimgcard1:hover {
+    transform: scale(1.1);
+  }
+  .cloudimgcard1:hover .cloudcardpara1 {
+    font-size: 14px;
+    opacity: 1;
+  }
+  .cloudimgcard1:hover .cloudcard1 {
+    top: 40%;
+    height: 259px;
+  }
+  .cloudimgcard1:hover .cloudcardheading1 {
+    font-size: 19px;
+    opacity: 1;
+  }
+  .cloudcardheadings {
+    font-weight: 700;
+  }
+  .GenAI-Redefine {
+    font-size: 40px;
+  }
+}
+
+
+
+

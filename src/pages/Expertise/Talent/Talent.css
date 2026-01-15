@@ -1,0 +1,536 @@
+.contact {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid blue;
+}
+
+.hire{
+  position: relative;
+
+}
+
+.talent {
+  width: 100%;
+  object-fit: cover;
+}
+
+.observe-talent{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cloudcardheadings{
+  font-weight: bold !important;
+}
+
+.talent-leading-icons{
+  justify-content:space-around;
+  align-items:center;
+}
+.talent-leading-icons{
+  justify-content:space-around;
+  align-items:center;
+}
+
+/* .logo-main {
+  width: 38px;
+  height: 24px;
+  margin-top: 17px;
+  margin-right: 10px;
+} */
+.logo-text {
+  margin-top: 10px;
+}
+
+
+.bestprac {
+  background-image: url("../../public/images/bestprac.png");
+  height: 400px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+/* .energydo {
+  background-image: url("../../public/images/energydo-1.png");
+  height: 350px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+} */
+.TaleNT-Exp-Years .Talent-EXP{
+  text-decoration: none !important;
+}
+
+.Talent-Energy{
+  width: 100%;
+}
+.Talent-DOMAIN-Energy{
+  position: absolute;
+  left: 5%;
+  top: 6%;
+}
+.Talent-advanced-1{
+  position: relative;
+
+}
+.Talent-Domain-limit{
+  position: absolute;
+  left: 43%;
+  top: 5%;
+  text-align: justify;
+  max-width: 50% !important;
+}
+
+/* .Talent-Domain-02{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+} */
+/* .Talent-test-Paragraph{
+  font-size: 15px;
+} */
+
+.talent-ENergy-domain{
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 700;
+  color: white;
+}
+
+.Talent-test-Paragraph{
+  font-size: 20px;
+  color: #fff;
+  padding: 50px 0px;
+  margin: 50px 0px;
+  line-height: 27px;
+}
+
+
+.Talent-GBR-ECO{
+  font-weight: 700;
+  color: white;
+}
+.TALENT-RAMA-krishna{
+color: white;
+font-weight: 700;
+}
+.talent-CEO{
+  color: rgba(255, 255, 255, 0.70);;
+}
+.Talent-Data-lakeHouse{
+  color: rgba(255, 255, 255, 0.70);
+  font-weight: 500;
+  text-align: justify;
+  font-size: 18px;
+}
+.Cocreater-talent{
+  width: 100%;
+}
+.botn {
+  background-color: #0046e8;
+  border-radius: 10px;
+  border: none;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: black;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.bg-color {
+  background-color: #1a4ab9;
+  height: 418px;
+  padding: 60px 0px 0px 0px;
+}
+.card-body1 {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  height: fit-content;
+  padding: 67px;
+}
+/* .card {
+  border-radius: 10px !important;
+} */
+.expertcardbody1 {
+  background-color: #f6f9ff;
+  padding: 0px 20px 0px 30px !important;
+  width: 380px;
+  border-radius: 30px;
+}
+.title {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.question {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+.hello {
+  margin: 10px;
+}
+.bg-white {
+  padding-top: 30px;
+  border-radius: 13px 13px 0px 0px;
+}
+.name {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-us-2 {
+  width: 100%;
+  /* margin-top: 16px; */
+  background-color: #0046e8;
+  color: white;
+  border: 1px solid blue;
+  padding: 5px;
+  font-weight: 500;
+  padding: 10px 5px;
+  border-radius: 8px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer-heading {
+  color: #0046e8 !important;
+}
+.cloud-head {
+  text-align: center;
+  font-weight: 700;
+}
+/* .faq-class {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  border: none;
+  height: fit-content;
+  padding: 67px;
+} */
+.talentimages {
+  width: 91%;
+  height: 300px;
+}
+.talentcaromatter {
+  position: absolute;
+  top: 10%;
+  /* padding: 10px; */
+  padding-left: 12px;
+  width: 100%;
+  height: 100%;
+}
+.caroheading {
+  color: #fff;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: 700;
+}
+.exav {
+  color: #fff;
+  /* opacity: 0.7; */
+  font-weight: 700;
+}
+.ef {
+  color: #fff;
+  opacity: 0.7;
+}
+.talentcarosalbg {
+background-color: darkblue;
+border-radius: 30px;
+}
+.talentheading {
+  color: #fff;
+  font-size: 25.904px;
+  font-weight: 700;
+  text-align: center;
+}
+.box-padding1 {
+  padding: 46px 20px;
+  box-shadow: 2px 2px 35px -18px #323c8d;
+  border-radius: 20px;
+  margin: 25px 0px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+
+
+
+/* ....CHANGES... */
+
+.Talent-gayatri{
+  width: 100%;
+  height: 380px;
+}
+
+.TALENT-NAMES{
+  background-color: #011628;
+ opacity: 0.6;
+  width: 100%;
+  height: 380px;
+  border-radius: 35px;
+  padding: 30px;
+}
+.Talent-Aws{
+  background-color: transparent;
+  /* opacity: 0.6; */
+  color: white;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.Talent-Course-Names{
+  padding-bottom: 10px;
+}
+
+.TALEnt-ate{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.TALEnt-ate-1{
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.EXPERIENCE-TALENT{
+align-items: center;
+justify-content: space-around;
+
+}
+
+.Talent-Steve{
+  color: white;
+  font-weight: 600;
+}
+.Talent-Python{
+  color: #B8C3D9;
+ font-size: 18px;
+}
+
+.TaLent-EXPERT{
+  color: white;
+  font-size: 20px;
+}
+
+.Talent-stu-develop{
+  padding-bottom: 10px;
+}
+
+.Talent-EXP{
+  font-size: 20px;
+  color: white;
+}
+
+.Talent-Years{
+  color: #B8C3D9;
+  font-size: 18px;
+}
+
+.Talent-Overall-Background{
+  background: #1A4AB9;
+  width: 100%;
+  height: 500px;
+  padding: 60px;
+}
+.Talent-Energy {
+  height: 500px;
+  width: 100%;
+}
+
+.Talent-DOcreaters{
+  position: relative;
+}
+
+.Talent-MEET-Creatores{
+  position: absolute;
+  top: 10%;
+  
+}
+.Talent-HIRING{
+  padding-right: 20px;
+  font-weight: 700;
+  /* letter-spacing: -0.32px; */
+
+}
+.Talent-explore-DO-1{
+  padding: 20px 45px 19.19px 45px;
+  color: white;
+  background-color: #1A4AB9;
+  border-radius: 4px;
+  /* letter-spacing: -0.32px; */
+font-size: 16px;
+border: 1px solid #1A4AB9;
+
+}
+.Talent-meet-creator-heading{
+  font-weight: 600;
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+.Talent-overall-SERVICE{
+  margin-bottom: 6%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 468px){
+  .talent-leading-icons{
+    flex-wrap: wrap;
+  }
+
+  .Talent-Steve{
+    font-size: 14px;
+  }
+  .Talent-Python{
+    font-size: 12px;
+  }
+  .TALENT-NAMES{
+    height: 370px;
+    margin-top: 48px;
+  }
+  .Talent-Overall-Background {
+    padding: 0px !important;
+  }
+  .Talent-Aws{
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .Talent-EXP {
+    font-size: 14px;
+  }
+  .Talent-Years{
+    font-size: 12px;
+  }
+  .TaLent-EXPERT{
+    font-size: 14px;
+  }
+
+  .talent-ENergy-domain{
+    font-size: 12px;
+  }
+  .Talent-Data-lakeHouse{
+    font-size: 6px;
+  }
+  .Talent-test-Paragraph{
+    padding: 0px;
+    margin: 0px;
+    line-height: 14px;
+    /* text-align: left; */
+    font-size: 10px;
+    width: 100%;
+    word-spacing: -1px;
+}
+  
+  .Talent-GBR-ECO{
+    font-size: 10px;
+  }
+  /* .Talent-Energy {
+    height: 200px;
+  } */
+
+  .TALENT-RAMA-krishna{
+    font-size: 10px;
+    word-spacing: -1px;
+    margin-top: 10px;
+  }
+  .talent-CEO{
+    font-size: 10px;
+    word-spacing: -1px;
+    padding-bottom: 0px;
+  }
+  /* .Talent-Domain-limit{
+    max-width: 66% !important;
+  } */
+  .Talent-Energy {
+    height: 270px;
+    width: 100%;
+  }
+  .talent-leading-icons-1{
+    flex-wrap: wrap;
+  }
+  .Talent-DOMAIN-Energy{
+    max-width: 50%;
+  }
+  .Talent-HIRING{
+    font-size: 10px;
+  }
+  .Talent-meet-creator-heading{
+    font-size: 10px;
+    padding: 4px;
+    margin: 0px;
+  }
+  .Cocreater-talent {
+height: 187px;
+}
+.Talent-explore-DO-1{
+  padding: 7px;
+  font-size: 10px;
+}
+.Talent-MEET-Creatores {
+  left: 46%;
+  top: 4%;
+}
+}

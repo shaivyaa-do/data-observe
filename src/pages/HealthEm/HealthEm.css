@@ -1,0 +1,272 @@
+.healthheader {
+  position:absolute;
+  top:249px;
+  left:119px;
+}
+
+.health-em-video-bg{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.healthheadertext {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 64.8px;
+  width: 60%;
+}
+.healthpg1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.healthstartbutton {
+  display: flex;
+  padding: 21px 60.23px 21px 61px;
+  align-items: center;
+  border-radius: 4px;
+  background: #0046e8;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.96px;
+}
+.screenpath {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.screenpathtext {
+  margin-left: 87px;
+  font-size: 14.6px;
+  font-weight: 700;
+  line-height: 18.9px;
+}
+.screenpathspan {
+  color: #fe5000;
+  font-size: 14.6px;
+  font-weight: 700;
+  line-height: 18.9px;
+}
+.lifecyclehead {
+  color: #000;
+  text-align: center;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 64.8px;
+  margin-bottom: 15px;
+}
+.lifecycletext1 {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #707070;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.4px;
+  margin-bottom: 16px;
+}
+.lifecycletext2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #707070;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.lifecyclebutton {
+  padding: 21px 59.857px 21px 60.843px;
+  border-radius: 51px;
+  border: 1px solid #f58220;
+  background: linear-gradient(90deg, #fe5000 0%, #f58220 100%);
+  margin-bottom: 88px;
+  margin-left: 15%;
+}
+.lifecyclebuttontext {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.96px;
+  text-decoration: none;
+}
+.lifecyclebuttontext:hover {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.96px;
+  text-decoration: none;
+}
+.lifecyclebuttontext:focus-visible {
+  outline: 0px;
+}
+.healtharrowclass {
+  width: 62.19px;
+  height: 60.19px;
+}
+.arrowhead {
+  color: #000;
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 64.8px;
+}
+.arrowclass {
+  margin-bottom: 24px;
+}
+.healtharrowbutton {
+  background-color: white;
+  border: none;
+}
+.healtharrowbutton:focus {
+  outline: none;
+}
+.arrowimage1class {
+  width: 100%;
+  height: 100%;
+}
+.middlesectionarrow {
+  background-color: #f8f8f8;
+}
+.arrowmiddletext {
+  color: #000;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-top: 15px;
+}
+.arrowmiddlepara {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.4px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.arrowcardtext {
+  padding: 10px;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.arrowcard {
+  border-left: 2px solid #fe5000;
+}
+.arrowfinalbutton {
+  text-align: center;
+  margin-top: 25px;
+  padding: 21px 60.348px 21px 60.922px;
+  border-radius: 51px;
+  border: 1px solid #f58220;
+  background: linear-gradient(90deg, #fe5000 0%, #f58220 100%);
+  margin-left: 336px;
+}
+.arrowfinalbuttontext {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.96px;
+}
+.arrowfinalbuttontext:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.arrowfinalbutton:focus {
+  outline: none;
+}
+.consultingclass {
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+}
+.consultheading {
+  padding-top: 48px;
+  width: 82%;
+}
+.consultnavtabs {
+  margin-top: 60px;
+}
+.consultnavbuttons {
+  border: 0px;
+  padding: 15px;
+  text-align: initial;
+  border-radius: 0px !important;
+  /* margin-bottom: 3px; */
+  background-color: white;
+}
+.consultnavbuttons:focus {
+  outline: none;
+  background: linear-gradient(102deg, #fe5000 3.79%, #f58220 93.36%);
+}
+.consultnavbuttons:active {
+  outline: none;
+  background: linear-gradient(102deg, #fe5000 3.79%, #f58220 93.36%);
+}
+.consultnavlinks .nav-pills .nav-link.active,
+.consultnavlinks .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: white !important;
+  background: linear-gradient(102deg, #fe5000 3.79%, #f58220 93.36%) !important;
+}
+.arrowimage2class {
+  width: 100%;
+  height: 340.02px;
+  align-self: stretch;
+}
+.memberhead {
+  color: #000;
+  font-size: 28.7px;
+  font-weight: 500;
+  line-height: 34.42px;
+  margin-top: 24px;
+}
+.memberpara {
+  color: #707070;
+  font-size: 21.6px;
+  font-weight: 400;
+  line-height: 32.4px;
+}
+.ytchead {
+  color: #000;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 81px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+.ytccards {
+  margin-left: 5px;
+}
+.ytchooseclass {
+  margin-bottom: 129px;
+}
+.ytc-card {
+  padding: 25px;
+  /* border: 0px !important; */
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0px !important;
+  box-shadow: 1px 1px 7px #F8F8F8;
+  border-style: solid;
+  border-width: 8px;
+  border-image: linear-gradient(91deg, #FE5000 3.79%, #F58220 93.36%) 1;
+}
+.ytccardimageclass {
+  width: 80px;
+  height: 77.785px;
+}
+
+.ytccardtext{
+    color: #000;
+font-size: 21.6px;
+font-weight: 400;
+line-height: 32.4px;
+margin-top: 31px;
+}

@@ -1,0 +1,279 @@
+.Artificial-Learing-Main{
+  position: relative;
+
+}
+.artificial-machinelearn {
+  width: 100%;
+  object-fit: cover;
+}
+.contact {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid blue;
+}
+
+/* .logo-main {
+  width: 38px;
+  height: 24px;
+  margin-top: 17px;
+  margin-right: 10px;
+} */
+.logo-text {
+  margin-top: 10px;
+}
+
+
+.expertise {
+  margin-left: 50px;
+}
+.slide {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: black;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.bg-color {
+  background-color: #1a4ab9;
+  height: 418px;
+  padding: 60px 0px 0px 0px;
+}
+.expertcardbody1 {
+  background-color: #1a4ab9;
+  border-radius: 10px 60px 60px 0px !important;
+  height: 314px;
+  padding: 40px;
+}
+/* .card {
+  border-radius: 10px !important;
+} */
+.title {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.question {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+.hello {
+  margin: 10px;
+}
+.bg-white {
+  padding-top: 30px;
+  border-radius: 13px 13px 0px 0px;
+}
+.name {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-us-2 {
+  width: 100%;
+  /* margin-top: 16px; */
+  background-color: #0046e8;
+  color: white;
+  border: 1px solid blue;
+  padding: 5px;
+  font-weight: 500;
+  padding: 10px 5px;
+  border-radius: 8px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer-heading {
+  color: #0046e8 !important;
+}
+.cloud-head {
+  text-align: center;
+  font-weight: 700;
+}
+.box {
+  margin: 0px !important;
+}
+
+.arrow {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 90px;
+}
+.arrowtext {
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+}
+.box-padding {
+  padding: 30px 20px;
+  /* box-shadow: 2px 2px 35px -18px #323c8d; */
+  border-radius: 20px;
+  margin: 25px 0px;
+}
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded="true"] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+.card-body1 {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  height: 327px;
+  padding: 67px;
+}
+/* .faq-class {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  height: fit-content;
+  padding: 67px;
+} */

@@ -1,0 +1,249 @@
+.previousButton {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #d5e0fa;
+  border: none;
+  color: rgba(0, 70, 232, 0.69);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ebooksheader {
+  background: #1a4ab9;
+}
+
+.ebooksmatter {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ebooktitle1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-transform: capitalize;
+}
+
+.ebooktitle2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.8px;
+  /* 120% */
+  text-transform: capitalize;
+}
+
+.domainbuttonclass {
+  border-radius: 20px;
+  border: 1px solid #ede4e4;
+  display: flex;
+  /* width: 96px; */
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  margin-top: 20px;
+}
+
+.ebooktitle3 {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+
+.ebooktitle4 {
+  color: #000;
+  /* font-family: Roboto; */
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ebooktitle5 {
+  color: #484848;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.papercover {
+  color: #484848;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
+}
+
+.listyle {
+  color: #484848;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.insights {
+  color: #0282C3;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.jeffBezos {
+  color: #777;
+  font-family: Merriweather;
+  font-size: 19.945px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 35px;
+  border-left: 5px solid #E0E0E0;
+  background: #F5F5F5;
+}
+
+.eb-text-end {
+  text-align: end;
+}
+
+.freecopy {
+  padding-left: 52px;
+  padding-top: 30px;
+  color: #FFF;
+  /* font-family: Roboto; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ebooks-long-bg-card {
+  border-radius: 25px;
+  background: #1A4AB9;
+  width: 358px;
+  height: 906px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+
+.ebooks-bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #359BCF;
+  padding-bottom: 20px;
+
+}
+
+.eb-img-style {
+  /* margin: 68px 0px 0px 61px; */
+  width: 70%;
+}
+
+.eb-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ebooks-checkbox {
+  accent-color: yellow;
+}
+
+.ebook-btn {
+  width: 70%;
+  background: yellow;
+}
+
+.eb-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.eb-formnames {
+  color: #FFF;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.2px;
+}
+
+.privacy-policy {
+  color: yellow;
+  text-decoration: underline;
+
+}
+
+.privacy-policy:hover {
+  color: yellow;
+  border-bottom: yellow;
+
+}
+
+.eb-form-dw-pr {
+  color: #FFF;
+  /* font-family: Raleway; */
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 30px;
+}
+
+.eb-label {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.listyle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 468px)
+{
+  .ebooktitle2{
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .ebooktitle4{
+    font-size: 18px;
+  }
+}

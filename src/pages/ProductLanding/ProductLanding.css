@@ -1,0 +1,446 @@
+.footer-do-Logo-product {
+    width: 168px;
+    height: 26px;
+
+}
+
+.Product-landing-Redirect {
+    display: flex;
+    height: 58px;
+    /* padding: 15px; */
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background: #2B2B2B;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.04);
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+
+.navbar-angle-product {
+    color: #ECECEC;
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.Products-Landing-02 {
+    color: #ECECEC;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.493px;
+    /* 190.581% */
+    letter-spacing: 0.392px;
+    margin-bottom: 0px;
+}
+
+.landing-ProudcT {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ...video.. */
+
+.Landing-play-bg-video-Product {
+
+    position: relative;
+}
+
+.lANDING-VIdeo-Product {
+    width: 100%;
+    object-fit: cover;
+height: 367px;
+    margin-bottom: -1%;
+
+
+}
+
+.LANDING-1-science-Product {
+    position: absolute;
+    top: 23%;
+    left: 0%;
+    right: 0%
+}
+
+.future-home-complete-Product {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto Condensed;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 86.4px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    margin-left: -3px;
+}
+
+.Landing-play-bg-video-Product::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    background: linear-gradient(180deg, rgba(43, 43, 43, 0.00) 0%, #2B2B2B 100%);
+    z-index: 1;
+  mix-blend-mode: multiply; 
+
+}
+
+
+
+/* boxes.... */
+
+.Product-land-360 {
+    color: #2B2B2B;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+.product-elevate-solution {
+    color: rgba(43, 43, 43, 0.80);
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+    letter-spacing: -0.32px;
+}
+
+
+.landing-Product-over-pad {
+    background: rgba(236, 236, 236, 0.93);
+    height: 403px;
+    position: relative;
+    transition: all .5s ease-in;
+    height: 403px;
+    padding: 24px 33px 245px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 22px;
+    max-width: 64.67% !important;
+    cursor: pointer;
+
+}
+
+.landing-Product-over-pad-02 {
+    transition: all .5s ease-in;
+    position: relative;
+    height: 403px;
+    padding: 24px 29px 245px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    background: rgba(236, 236, 236, 0.93);
+     margin-right: 22px;
+    max-width: 30.67% !important; 
+    cursor: pointer;
+  
+
+}
+
+.product-land-doinsights {
+    color: #2B2B2B;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+.PRODUCT-everyone {
+    color: rgba(43, 43, 43, 0.80);
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+    letter-spacing: -0.32px;
+}
+
+
+.overlay-product {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(21, 138, 255, 0.93);
+    visibility: none;
+    padding: 24px 33px 129px 24px;
+    z-index: 2;
+
+ 
+
+}
+.overlay-product-small{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(21, 138, 255, 0.93);
+    visibility: none;
+    padding: 24px 33px 129px 24px;
+    z-index: 2;
+
+ 
+
+}
+
+
+.landing-Product-over-pad:hover .overlay-product {
+    /* height: 100%; */
+    opacity: 1;
+}
+.landing-Product-over-pad-02:hover .overlay-product-small {
+    /* height: 100%; */
+    opacity: 1;
+}
+
+
+
+.products-cards-land {
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+
+
+.Product-land-360degree{
+    color: #ECECEC;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Product-land-360degree-small{
+    color: #ECECEC;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-upside{
+    width: 24px;
+height: 24px;
+
+}
+
+.main-do-360-product{
+color: #ECECEC;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 36px */
+letter-spacing: -0.32px;
+text-transform: uppercase;
+}
+.main-do-360-product-small{
+    color: #ECECEC;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    }
+
+.landing-Product-over-pad:hover .Product-land-360{
+    opacity: 0;
+}
+.landing-Product-over-pad:hover .product-elevate-solution{
+    opacity: 0;
+}
+
+.landing-Product-over-pad-02:hover .product-land-doinsights{
+    opacity: 0;
+}
+.landing-Product-over-pad-02:hover .PRODUCT-everyone{
+    opacity: 0;
+}
+
+
+
+.Detect-resolve h4{
+    color: #2B2B2B;
+font-family: Roboto Condensed;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+letter-spacing: -0.32px;
+text-transform: uppercase;
+}
+.Detect-resolve-small h4{
+color: #2B2B2B;
+font-family: Roboto Condensed;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+letter-spacing: -0.32px;
+text-transform: uppercase;
+}
+.depend-proDuct{
+color: rgba(43, 43, 43, 0.80);
+font-family: Merriweather;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 200%; /* 36px */
+letter-spacing: -0.32px;
+}
+.depend-proDuct-small{
+color: rgba(43, 43, 43, 0.80);
+font-family: Merriweather;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 192%; /* 36px */
+letter-spacing: -0.32px;
+}
+
+.box-product-landings{
+    margin-bottom: 22px;
+    margin-left: 0px !important;
+}
+
+
+
+.back-section-Last{
+background: #ECECEC;
+height: 293px;
+padding: 8px 10px 8px 16px;
+justify-content: center;
+align-items: center;
+/* gap: 4px; */
+padding-top: 11%;
+}
+.back-to-industries{
+   
+
+height: 293px;
+padding: 8px 10px 8px 16px;
+justify-content: center;
+align-items: center;
+/* gap: 4px; */
+background: #158AFF;
+padding-top: 11%;
+
+}
+
+.BACK-product{
+color: #2B2B2B;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18.2px; /* 130% */
+}
+
+.home-angle-Product {
+    margin-right: 10px;
+  }
+
+  .home-angle-Product-color{
+    color: white;
+  }
+
+.BACK-product-industires{
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18.2px; /* 130% */
+margin-right: 10px;
+  }
+
+
+  .back-industrie-last{
+    justify-content: center;
+    
+  }
+
+
+
+  
+
+  @media only screen and (min-width: 991px) and (max-width: 1024px)  {
+    .LANDING-1-science-Product{
+      left: 7.5% !important;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1200px)  {
+    .LANDING-1-science-Product{
+      left: 8% !important;
+    }
+  }
+  /* @media only screen and (min-width: 1200px) and (max-width: 1300px)  {
+    .LANDING-1-science-Product{
+      left: 8% !important;
+    }
+  }
+  @media only screen and (min-width: 1300px) and (max-width: 1400px)  {
+    .LANDING-1-science-Product{
+      left: 8.8% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) and (max-width: 1500px)  {
+    .LANDING-1-science-Product{
+      left: 11.4% !important;
+    }
+  } */

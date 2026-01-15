@@ -1,0 +1,96 @@
+import React from 'react';
+import { Box, Typography, Container, Breadcrumbs, Link, Button } from '@mui/material';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+
+const HeroTop = () => {
+    return (
+        <React.Fragment>
+            {/* Custom Header Section */}
+            <Box sx={{ bgcolor: '#212121', py: 2 }}>
+                <Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Breadcrumbs
+                        separator={<span style={{ color: 'white', fontSize: '1.2rem', margin: '0 8px' }}>&gt;</span>}
+                        aria-label="breadcrumb"
+                        sx={{ color: 'white', display: 'flex', alignItems: 'center' }}
+                    >
+                        {/* Logo */}
+                        <Link href="/" sx={{ display: 'flex', alignItems: 'center', color: 'white', textDecoration: 'none' }}>
+                            <img
+                                src="/images/header-logo-new.png"
+                                alt="logo"
+                                height={28}
+                                style={{ display: 'block', marginRight: '10px' }}
+                            />
+                        </Link>
+
+                        <Link underline="always" color="inherit" href="/industries-hub" sx={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem' }}>
+                            Industries
+                        </Link>
+                        <Typography color="inherit" sx={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem' }}>
+                            Life Sciences
+                        </Typography>
+                    </Breadcrumbs>
+
+                    <Button
+                        variant="contained"
+                        sx={{
+                            bgcolor: '#1A4AB9',
+                            textTransform: 'none',
+                            fontWeight: 'bold',
+                            borderRadius: 1,
+                            px: 3,
+                            '&:hover': {
+                                bgcolor: '#153a96'
+                            }
+                        }}
+                        href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
+                    >
+                        Contact Us &gt;
+                    </Button>
+                </Container>
+            </Box>
+
+            {/* Video Hero Section */}
+            <Box sx={{ position: 'relative', height: '500px', width: '100%', overflow: 'hidden', color: 'white' }}>
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{
+                        position: 'absolute',
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        zIndex: -1,
+                    }}
+                >
+                    <source src="https://storage.googleapis.com/do-website-resources/life-science.mp4" type="video/mp4" />
+                </video>
+                <Box
+                    sx={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                        zIndex: 0
+                    }}
+                />
+                <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                    <Box>
+                        <Typography variant="h3" component="h1" sx={{ fontWeight: 'bold', mb: 2, textTransform: 'uppercase' }}>
+                            Life Science
+                        </Typography>
+                        <Typography variant="h6" sx={{ maxWidth: '600px', fontWeight: 'bold' }}>
+                            Developing data solutions in the Life Sciences sector to stimulate innovation.
+                        </Typography>
+                    </Box>
+                </Container>
+            </Box>
+        </React.Fragment>
+    );
+};
+
+export default HeroTop;

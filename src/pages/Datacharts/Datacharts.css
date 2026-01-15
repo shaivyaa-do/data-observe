@@ -1,0 +1,413 @@
+.doinsightsvideo-1 {
+    position: relative;
+    height: 964px;
+    background-color: #0046E8;;
+  }
+ 
+  .doinsightsheading-1 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55.2px;
+    letter-spacing: -0.32px;
+  }
+  .doinsightsheaderpara-1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.16px;
+    margin-top: 3px;
+    margin-right: 100%;
+    width: 100%;
+  }
+  .doinsightsplayvideoclass-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .doin {
+    border-radius: 10px;
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+    margin-left: 18%;
+  }
+  .iodefinitionClass-1 {
+    width: 100%;
+    height: fit-content;
+    background-color: #f6f9ff;
+    margin-top: 27%;
+  }
+  .tenetsclass-1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .tenetsheading-01 {
+    color: #050505;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -0.32px;
+  }
+  .doinsightrequestguideclass-1{
+      background-image: url('../../public/images/doinsightrequestguidebg.png');
+      background-position: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-flex;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+  }
+  .doinsightguideclass-1{
+      display: flex;
+    padding: 60px 60px 59.6px 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+    background: rgba(0, 70, 232, 0.50);
+    /* width: 781px;
+    margin-left: 100px; */
+  }
+  .productvideoClass-1 {
+    /* position: absolute; */
+    /* top: 82%; */
+    /* margin-top: 100px; */
+    margin-top: 5%;
+    left: 18%;
+  }
+ 
+  .playClass-1 {
+    background-color: #2e2e2e;
+    width: 100%;
+    /* height: 430px; */
+    border-radius: 24px;
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10%; */
+    /* transform: translateY(-96px); */
+}
+
+  .charts-width{
+    max-width: 100% !important;
+  }
+  .charts-frame{
+    margin-left: 15%;
+  }
+
+  .linkClass{
+    font-size: 13px;
+    /* color: blue; */
+  }
+  .linkclass-data{
+    padding-top: 28px;
+  }
+
+  .qualitypara{
+    margin: auto;
+  }
+  .qualityhead{
+    font-weight: 700;
+  }
+
+  /* .link-active{
+    color: blue !important;
+  } */
+
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #0046E8;
+    font-weight: 700;
+  }
+
+  .guidebuttontext{
+    font-size: 13px;
+  }
+  .header-section{
+    position: absolute;
+    top:5%
+  }
+  .observability-MAIN {
+    height: 720px;
+    position: relative;
+  }
+  .data-pad{
+    padding-top: 30px;
+  }
+  .data-charts{
+    margin-top: 28px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+  }
+
+  .issuematterhead-01{
+    color: #050505;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.6px;
+  }
+  .headingpillars-01 {
+    text-align: center;
+    font-weight: 700;
+    
+} 
+
+.charts-maps-ParagrapH{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.showdowclass-data {
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 28px 65px 0px #f1f4f9;
+  padding: 20px;
+  height: 360px;
+}
+.do360Datacharts-01{
+  height: 730px;
+}
+.guidetext-01{
+  color: #fff;
+}
+
+
+
+  
+
+  @media only screen and (min-width: 320px) and (max-width: 467px)  {
+    .do360Datacharts-01{
+      height: 340px !important;
+    }
+    .productvideoClass-1 {
+      left: 0%;
+    }
+    .data-pad{
+      padding-top: 5px;
+    }
+    .data-charts{
+      margin-top: 0px;
+      font-size: 12px;
+    }
+
+    .observability-MAIN {
+      height: 450px;
+    }
+    .obspara1{
+      font-size: 14px !important;
+    }
+    .obsheading{
+      font-size: 20px !important;
+    }
+    .issuematterhead-01{
+      font-size: 17px !important;
+    }
+    
+    .iodefinitionClass-1 {
+      margin-top: 30px;
+    }
+    .mobile-size-01{
+      width: 70px;
+      height: 91px;
+    }
+    .tenetsheading-01 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .doinsightguideclass-1 {
+      padding: 0;
+    }
+    .text-mb{
+      font-size: 10px !important;
+    }
+    .guidetext-01 {
+      font-size: 8px !important;
+      line-height: 0px !important;
+      color: #fff !important;
+    }
+    .tenetsclass-1 {
+      margin: 20px 0px;
+
+    }
+
+    .mobile-data{
+      font-size: 19px !important;
+    }
+    .showdowclass-data{
+      height: fit-content;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 468px) and (max-width: 767px)  {
+    .mobile-data{
+      font-size: 30px;
+    }
+    .do360Datacharts-01{
+      height: 420px !important;
+    }
+    .productvideoClass-1 {
+      left: 0%;
+    }
+    .data-pad{
+      padding-top: 5px;
+    }
+    .data-charts{
+      margin-top: 0px;
+      font-size: 15px;
+    }
+    .demoClass {
+      margin-top: 10px;
+    }
+    .observability-MAIN {
+      height: 600px;
+    }
+    .obspara1{
+      font-size: 14px !important;
+    }
+    .obsheading{
+      font-size: 30px !important;
+    }
+    .issuematterhead-01{
+      font-size: 25px !important;
+    }
+    
+    .iodefinitionClass-1 {
+      margin-top: 30px;
+    }
+    .mobile-size-01{
+      width: 90px;
+      height: 110px;
+    }
+    .tenetsheading-01 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .doinsightguideclass-1 {
+      padding: 0;
+    }
+    .text-mb{
+      font-size: 18px !important;
+    }
+    .guidetext-01 {
+      font-size: 13px !important;
+      line-height: 20px !important;
+      color: #fff;
+    }
+    .tenetsclass-1 {
+      margin: 20px 0px;
+    }
+    .recentworkshead {
+      font-size: 30px !important;
+    }
+    .linkClass {
+      font-size: 14px !important;
+  }
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px)  {
+
+    .mobile-data{
+      font-size: 30px !important;
+    }
+    .do360Datacharts-01{
+      height: 500px !important;
+    }
+    .productvideoClass-1 {
+      left: 16%;
+    }
+    .data-pad{
+      padding-top: 5px;
+    }
+    .data-charts{
+      margin-top: 0px;
+      font-size: 15px;
+    }
+    .demoClass {
+      margin-top: 10px;
+    }
+    .observability-MAIN {
+      height: 720px;
+    }
+    .obspara1{
+      font-size: 14px !important;
+    }
+    /* .obsheading{
+      font-size: 20px !important;
+    } */
+    .issuematterhead-01{
+      font-size: 20px !important;
+    }
+    
+    .iodefinitionClass-1 {
+      margin-top: 30px;
+    }
+    .mobile-size-01{
+      width: 90px;
+      height: 110px;
+    }
+    .tenetsheading-01 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .doinsightguideclass-1 {
+      padding: 30px;
+    }
+    .text-mb{
+      font-size: 24px !important;
+    }
+    .guidetext-01 {
+      font-size: 18px !important;
+      line-height: 28px !important;
+      color: #fff !important;
+    }
+    .tenetsclass-1 {
+      margin: 20px 0px;
+    }
+    .recentworkshead {
+      font-size: 30px !important;
+    }
+    .linkClass {
+      font-size: 18px !important;
+  }
+  .headingpillars-01{
+    font-size: 30px !important;
+  }
+  
+  }
+
+  @media only screen and (min-width: 991px) and (max-width: 1200px)  {
+    .mobile-data{
+      font-size: 35px !important;
+    }
+    .do360Datacharts-01{
+      height: 670px;
+    }
+    .observability-MAIN {
+      height: 600px;
+    }
+    .guidetext-01 {
+      font-size: 18px !important;
+      line-height: 28px !important;
+      color: #fff !important;
+    }
+    .doinsightguideclass-1 {
+      padding: 40px;
+    }
+    .showdowclass-data {
+      height: 380px;
+    }
+
+  }
+
+
+
+

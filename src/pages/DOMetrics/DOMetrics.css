@@ -1,0 +1,832 @@
+/* XGenesis Hero Section */
+.heroContainer {
+    width: 100%;
+    max-width: 1722px;
+    /* From user specs */
+    height: 655px;
+    /* From user specs */
+    margin: 0 auto;
+    opacity: 1;
+    transform: rotate(0deg);
+    position: relative;
+    overflow: hidden;
+}
+
+.bgImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heroText {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align left */
+    justify-content: center;
+    padding: 24px 64px;
+    /* Added left padding for better visual */
+    text-align: left;
+    /* Align text left */
+    color: white;
+}
+
+.heroHeader {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heroSubtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 100;
+    max-width: 800px;
+    margin: 0;
+    /* Remove auto centering */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/* AI Power Section */
+.ai-power-section {
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.ai-power-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.dometrics-intro-title {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 24px !important;
+    color: #000000;
+    margin-bottom: 8px;
+    line-height: 1.4 !important;
+    font-weight: 400 !important;
+}
+
+.dometrics-intro-subtitle {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 24px !important;
+    color: #000000;
+    line-height: 1.4 !important;
+    font-weight: 400 !important;
+}
+
+.ai-power-faded {
+    color: #000000;
+}
+
+
+
+.heroGrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* Ensure all items stretch to the same height */
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 0;
+    width: 100%;
+    max-width: 1500px;
+    /* Increased from 1200px to make cards wider */
+}
+
+.heroCardItem {
+    flex: 1 0 0;
+    /* Grow and shrink equally */
+    min-width: 250px;
+    /* Minimum width before wrapping */
+    display: flex;
+    /* Allow paper to stretch */
+}
+
+@media (min-width: 900px) {
+    .heroCardItem {
+        min-width: 22%;
+        /* 4 columns */
+        max-width: 25%;
+    }
+}
+
+.heroPaper {
+    width: 100%;
+    /* Fill the card item */
+    padding: 24px 24px;
+    /* Reduced vertical padding */
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(8px);
+    color: white;
+    border-radius: 4px;
+    /* default MUI paper radius */
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    /* default MUI shadow */
+    height: auto;
+    /* Let it grow with flex */
+    min-height: 220px;
+    /* Reduced from 280px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stepLabel {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    /* Reduced margin */
+    opacity: 0.8;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    /* h6 */
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0.35em;
+}
+
+.cardDesc {
+    font-size: 0.875rem;
+    /* body2 */
+    font-weight: 400;
+    line-height: 1.43;
+    text-align: left;
+}
+
+.animatedBtnDark {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 8px 22px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.animatedBtnDark:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    /* hover opacity */
+    border-color: white;
+}
+
+/* Stats Section */
+.caliber-stats-section {
+    background-color: #f0f2f5;
+    /* Light gray background */
+    padding: 80px 0;
+}
+
+.caliber-stat-item {
+    padding: 20px;
+}
+
+.caliber-stat-number {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0d6efd;
+    /* Bootstrap primary blue */
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.caliber-stat-desc {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Cloud/Intro Section */
+.caliber-intro-section {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.caliber-intro-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #212529;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.caliber-intro-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.caliber-blue-btn {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.caliber-blue-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+/* Process Section */
+.caliber-process-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.caliber-section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.caliber-step-item {
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    border-left: 2px solid #ddd;
+}
+
+.caliber-step-item:last-child {
+    border-left: none;
+}
+
+.caliber-step-circle {
+    position: absolute;
+    left: -16px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #333;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.caliber-step-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.caliber-step-desc {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.caliber-step-list li {
+    margin-bottom: 8px;
+}
+
+/* Features Styling */
+.caliber-features-section {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    /* Reduced padding */
+    color: inherit;
+}
+
+.caliber-section-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    /* Reduced from 32px */
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #212529;
+    text-align: center;
+}
+
+.caliber-feature-card {
+    /* Scaled down specs */
+    width: 300px;
+    /* Reduced from 340.34px */
+    height: 210px;
+    /* Reduced from 225px */
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 0 10px;
+    border: none;
+    background: transparent;
+    /* Ensure transparent background */
+}
+
+/* Override bootstrap col width if necessary to fit the exact 340px */
+@media (min-width: 768px) {
+    .caliber-feature-card {
+        flex: 0 0 auto;
+        /* Stop it from growing/shrinking if in flex container */
+    }
+}
+
+.caliber-feature-card:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.caliber-feature-icon {
+    /* Scaled down logo */
+    width: 60px;
+    /* Reduced from 80px */
+    height: 60px;
+    /* Reduced from 80px */
+    /* Container for icon to ensure spacing */
+    font-size: 45px;
+    /* Reduced from 60px */
+    /* Adjust font size to fit within 80px box reasonably */
+    color: black;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align left as per screenshot roughly or just use font-size */
+}
+
+/* If using font-awesome, force the size */
+.caliber-feature-icon i {
+    font-size: 45px;
+    /* Reduced from 60px */
+    /* Adjust to visually match an 80px icon block */
+    color: black;
+}
+
+.caliber-feature-title {
+    /* Scaled down Heading */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    /* Bold */
+    font-size: 21px;
+    /* Reduced from 24px */
+    line-height: 120%;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.caliber-feature-desc {
+    /* Scaled down Description */
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    /* Regular */
+    font-size: 14px;
+    /* Reduced from 16px */
+    line-height: 1.8;
+    /* Slightly reduced leading */
+    letter-spacing: 0%;
+    color: #555;
+}
+
+
+/* App/Mobile Section */
+.caliber-app-section {
+    padding: 80px 0;
+    background-color: #f0f2f5;
+}
+
+.caliber-app-title-main {
+    font-size: 32px;
+    font-weight: 800;
+    color: #212529;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.caliber-app-subtitle {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.caliber-app-side-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #212529;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.caliber-app-desc {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.caliber-app-download-btn {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.caliber-app-download-btn:hover {
+    background-color: #0b5ed7;
+    color: white;
+    text-decoration: none;
+}
+
+.caliber-phone-img {
+    max-width: 85%;
+    /* Reduced from 100% to prevent overlap */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Removed legacy/duplicate .caliber-app-* styles */
+
+
+/* Easy Apply Section */
+.caliber-easy-apply-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.caliber-easy-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.caliber-easy-subtitle {
+    font-size: 16px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    color: #555;
+    line-height: 1.6;
+}
+
+.caliber-timeline-item {
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    border-left: 2px solid #ccc;
+    margin-left: 20px;
+    /* Offset for the line */
+}
+
+.caliber-timeline-item:last-child {
+    border-left: none;
+    padding-bottom: 0;
+}
+
+.caliber-timeline-circle {
+    position: absolute;
+    left: -17px;
+    /* Center on line (2px line, 32px circle -> -15px + adjustment) */
+    top: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #333;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.caliber-timeline-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d6efd;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.caliber-timeline-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.caliber-timeline-list li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Comprehensive Footer-like Section */
+.caliber-comprehensive-section {
+    background: linear-gradient(180deg, #888 0%, #ddd 100%);
+    /* Gradient as per image */
+    color: white;
+    min-height: 1005px;
+    /* Exact height requested */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.caliber-comp-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.caliber-comp-desc {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    max-width: 900px;
+    /* reasonably wide text block */
+    margin: 0 auto 50px auto;
+    color: #f8f9fa;
+    line-height: 1.8;
+}
+
+/* Content Sections (Lead Gen & Qualification) */
+.caliber-content-section {
+    padding: 80px 0;
+}
+
+.caliber-content-section.lead-gen {
+    background-color: white;
+}
+
+.caliber-content-section.lead-qual {
+    background-color: #eee;
+    /* Light gray background */
+}
+
+.caliber-content-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.caliber-vertical-list-container {
+    position: relative;
+    padding-left: 40px;
+    border-left: 2px solid #999;
+    /* Vertical line */
+    margin-left: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    /* Center the block conceptually if needed, or use grid offset */
+}
+
+.caliber-content-item {
+    margin-bottom: 40px;
+}
+
+.caliber-item-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d6efd;
+    /* Blue color */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.caliber-item-desc {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+.caliber-lead-gen-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.caliber-lead-gen-desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.caliber-lead-gen-group {
+    border-left: 2px solid #ddd;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* Lead Qualification Section */
+.caliber-lead-qual-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+/* Reuse similar styles for headers/text but ensure distinct background */
+
+/* Field Force Section */
+.caliber-field-force-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+/* Field Force Section */
+.caliber-content-section.field-force {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.caliber-field-main-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.caliber-field-main-desc {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.caliber-field-item {
+    margin-bottom: 40px;
+}
+
+.caliber-item-title-dark {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    /* Dark color as per image */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.caliber-field-force-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+/* Case Studies Section */
+.caliber-case-studies-section {
+    background-color: #222;
+    color: white;
+    padding: 100px 0;
+}
+
+.caliber-case-study-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.caliber-case-study-card {
+    background-color: transparent;
+}
+
+.caliber-case-study-img-placeholder {
+    background-color: #555;
+    height: 400px;
+    width: 100%;
+}
+
+.caliber-case-study-content {
+    padding-left: 30px;
+}
+
+.caliber-case-study-head {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.caliber-case-study-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Explore Products Section */
+.caliber-explore-products-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.caliber-explore-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.caliber-explore-subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+.caliber-product-card {
+    background-color: #f0f0f0;
+    padding: 30px;
+    height: 100%;
+    min-height: 300px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.caliber-product-card.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.caliber-product-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.caliber-product-card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.caliber-product-card.dark-mode .caliber-product-card-text {
+    color: #ddd;
+}
