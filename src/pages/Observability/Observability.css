@@ -75,7 +75,7 @@
 .definitionClass {
   width: 100%;
   height: fit-content;
-  background-color: #f6f9ff;
+  background-color: #EDEDED;
   margin-top: 30%;
   padding-top: 60px;
 }
@@ -88,7 +88,7 @@
 }
 
 .obsheading {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-style: normal;
@@ -143,7 +143,7 @@
 }
 
 .cardHead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 30px;
   font-style: normal;
@@ -171,11 +171,11 @@
 }
 
 .linkClass:hover {
-  color: #050505;
+  color: #2B2B2B;
 }
 
 .linkClass {
-  color: #05050559;
+  color: #2B2B2B59;
 }
 
 .linkClass:active {
@@ -214,7 +214,7 @@
 }
 
 .differclass {
-  background-color: #f6f9ff;
+  background-color: #EDEDED;
 }
 
 .maindiv {
@@ -337,7 +337,7 @@
 }
 
 .issueshead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-style: normal;
@@ -382,7 +382,7 @@
 }
 
 .issuematterhead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -493,7 +493,7 @@
 }
 
 .plugplay {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-weight: 700;
@@ -515,7 +515,7 @@
 }
 
 .plugcardtext {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
@@ -525,7 +525,7 @@
 }
 
 .requestguideclass {
-  background: #f6f9ff;
+  background: #EDEDED;
   display: inline-flex;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -622,7 +622,7 @@
 }
 
 .recentworkshead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-weight: 700;
@@ -751,7 +751,7 @@
 
 .workcardpara {
   margin-top: 10px;
-  color: #050505;
+  color: #2B2B2B;
   font-size: 18px;
   font-weight: 600;
   line-height: 25.2px;
@@ -778,7 +778,7 @@
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  color: #000;
+  color: #2B2B2B;
   background-color: white;
   border-bottom: 3px solid blue !important;
   border-radius: 0px;

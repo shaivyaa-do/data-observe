@@ -21,7 +21,7 @@ function Navbar() {
   };
   return (
     <div className="bg-white mainbar-nav" style={{ paddingTop: "0px" }}>
-      <div className="container d-flex justify-content-between align-items-center mobile-res d-none d-md-block" style={{ maxWidth: "1198px" }}>
+      <div className="container d-flex justify-content-between align-items-center mobile-res d-none d-md-block">
         <nav className="navbar navbar-expand-lg navbar-light">
           <button
             className="navbar-toggler"

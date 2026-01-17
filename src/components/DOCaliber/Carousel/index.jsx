@@ -22,35 +22,35 @@ const data = [
         title: "Debug with tracing",
         content:
             "Debug and iterate on GenAI applications using MLflow's tracing, which captures your app's entire execution, including prompts, retrievals, tool calls. MLflow's open-source, OpenTelemetry-compatible tracing SDK helps avoid vendor lock-in.",
-        img: "xgenesis",
+        img: "xcalibre",
         centerImg: "debug"
     },
     {
         title: "Accurately measure free-form language with LLM judges",
         content:
             "Utilize LLM-as-a-judge metrics, mimicking human expertise, to assess and enhance GenAI quality. Access pre-built judges for common metrics like hallucination or relevance, or develop custom judges tailored to your business needs and expert insights.",
-        img: "xgenesis",
+        img: "xcalibre",
         centerImg: "metrics"
     },
     {
         title: "Prompt Registry",
         content:
             "AI embeds directly into interfaces and processes, allowing defined AI employees for tasks like analysis or research while keeping usage controlled, transparent, and customizable.",
-        img: "xgenesis",
+        img: "xcalibre",
         centerImg: "prompt"
     },
     {
         title: "Agent and application versioning",
         content:
             "Version your agents, capturing their associated code, parameters, and evalation metrics for each iteration. MLflow's centralized management of agents complements Git, providing full lifecycle capabilities for all your generative AI assets.",
-        img: "xgenesis",
+        img: "xcalibre",
         centerImg: "version"
     },
     {
         title: "AI Gateway",
         content:
             "Standardize access to multiple LLM providers with unified endpoints, centralized key management, and rate limiting.",
-        img: "xgenesis",
+        img: "xcalibre",
         centerImg: "code"
     }
 ];
@@ -79,7 +79,7 @@ const Carousel = () => {
     };
 
     return (
-        <Box sx={{ py: 8, mt: "64px", width: "100%", bgcolor: mode === "light" ? "#f6f9ff" : "background.paper" }}>
+        <Box sx={{ py: 8, width: "100%", bgcolor: mode === "light" ? "#EDEDED" : "background.paper" }}>
             <Container style={{ position: "relative" }} ref={containerRef} maxWidth="lg">
                 <motion.div style={{ y }}>
                     <Paper

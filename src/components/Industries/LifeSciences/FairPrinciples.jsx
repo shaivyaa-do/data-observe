@@ -8,22 +8,22 @@ const items = [
     {
         title: "FINDABLE",
         description: "Data is characterized by comprehensive metadata & possesses a distinct and enduring identifier.",
-        icon: <FileCopyOutlinedIcon sx={{ fontSize: 60, color: "#333" }} />,
+        icon: <FileCopyOutlinedIcon sx={{ fontSize: 60, color: "#2B2B2B" }} />,
     },
     {
         title: "ACCESSIBLE",
         description: "Data, along with its associated metadata, is comprehensible to both humans and machines and can be accessed through clearly defined protocols.",
-        icon: <FileCopyOutlinedIcon sx={{ fontSize: 60, color: "#333" }} />,
+        icon: <FileCopyOutlinedIcon sx={{ fontSize: 60, color: "#2B2B2B" }} />,
     },
     {
         title: "INTEROPERABLE",
         description: "Data and their accompanying metadata employ formal and accessible knowledge representation methods to ensure their reusability.",
-        icon: <HandshakeOutlinedIcon sx={{ fontSize: 60, color: "#333" }} />,
+        icon: <HandshakeOutlinedIcon sx={{ fontSize: 60, color: "#2B2B2B" }} />,
     },
     {
         title: "REUSABLE",
         description: "With our proficiency and readiness to deliver large-scale analytics solutions for both B2B and B2C businesses, coupled with our track record of supporting top-tier retail and CPG enterprises.",
-        icon: <CachedOutlinedIcon sx={{ fontSize: 60, color: "#333" }} />,
+        icon: <CachedOutlinedIcon sx={{ fontSize: 60, color: "#2B2B2B" }} />,
     },
 ];
 

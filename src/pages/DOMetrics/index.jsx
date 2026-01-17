@@ -39,11 +39,11 @@ const DOMetrics = () => {
                     <HeroTop />
                 </motion.div>
             </Suspense>
-            <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
+            {/* <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                 <motion.div {...animationProps}>
                     <VideoSection videoSrc={DO360Video} />
                 </motion.div>
-            </Suspense>
+            </Suspense> */}
             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                 <motion.div {...animationProps}>
                     <IntroText />

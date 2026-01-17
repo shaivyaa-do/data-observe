@@ -21,7 +21,7 @@ const stats = [
 
 const InfoTop = () => {
     return (
-        <Box sx={{ py: 8, bgcolor: '#fff' }}>
+        <Box sx={{ py: 8, bgcolor: '#EDEDED' }}>
             <Container maxWidth="lg">
                 <Box
                     sx={{

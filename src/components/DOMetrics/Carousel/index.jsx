@@ -79,7 +79,7 @@ const Carousel = () => {
     };
 
     return (
-        <Box sx={{ py: 8, mt: "64px", width: "100%", bgcolor: mode === "light" ? "#f5f5f5" : "background.paper" }}>
+        <Box sx={{ py: 8, width: "100%", bgcolor: mode === "light" ? "#EDEDED" : "background.paper" }}>
             <Container style={{ position: "relative" }} ref={containerRef} maxWidth="lg">
                 <motion.div style={{ y }}>
                     <Paper

@@ -11,7 +11,7 @@ function company() {
 
       <div className="company-play-bg-video">
         <video className="COMPANY-VIdeo" autoPlay loop muted>
-          <source src="https://storage.googleapis.com/do-website-resources/company.mp4"type="video/mp4" />
+          <source src="https://storage.googleapis.com/do-website-resources/company.mp4" type="video/mp4" />
         </video>
 
         <div className="body-science">
@@ -26,12 +26,12 @@ function company() {
               About Us
             </p>
             <span className="our-story">Our Story </span>
-           <p className="col-md-6 Navigate-Journey">
-           Navigating your journey
-            from insights to value
-            realization
-           </p>
-          
+            <p className="col-md-6 Navigate-Journey">
+              Navigating your journey
+              from insights to value
+              realization
+            </p>
+
           </p>
         </div>
       </div>
@@ -45,7 +45,7 @@ function company() {
       <div
         className="container ourstory-heading-Main"
         style={{
-          color: "black",
+          color: "#2B2B2B",
           fontSize: 47,
           fontFamily: "Poppins",
           fontWeight: 400,

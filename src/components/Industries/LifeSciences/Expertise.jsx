@@ -5,7 +5,7 @@ const Expertise = () => {
     return (
         <Box sx={{ py: 8, bgcolor: 'white' }}>
             <Container maxWidth={false} sx={{ maxWidth: '750px' }}>
-                {/* Intro Text */}
+
                 <Box sx={{ maxWidth: '800px', mx: 'auto', textAlign: 'center', mb: 8 }}>
                     <Typography variant="h4" sx={{ fontWeight: 900, textTransform: 'uppercase', mb: 3 }}>
                         Developing data solutions in the life<br />science sector to stimulate innovation.

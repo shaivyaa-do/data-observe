@@ -6,7 +6,7 @@ import Footer from "../../components/Layout/Footer";
 import Carousel from "../../components/DO360/Carousel";
 import HeroBottom from "../../components/DO360/Hero/Bottom";
 
-import bussiness from "../../assets/videos/productvideo.mp4";
+import bussiness from "../../assets/videos/DO360.mp4";
 
 function Observability() {
   const navigate = useNavigate();

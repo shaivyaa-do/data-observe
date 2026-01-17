@@ -3,7 +3,7 @@ import { Box, Container, Typography } from '@mui/material';
 
 const IntroText = () => {
     return (
-        <Box sx={{ py: 8, bgcolor: '#fff' }}>
+        <Box sx={{ py: 5, bgcolor: '#EDEDED' }}>
             <Container maxWidth="lg">
                 <div className="ai-power-content">
                     <h2 className="do360-intro-title">What is observability?</h2>

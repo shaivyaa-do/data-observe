@@ -60,7 +60,7 @@ const Platform = () => {
     };
 
     return (
-        <Box sx={{ py: 8, bgcolor: '#f5f5f5' }}>
+        <Box sx={{ py: 8, bgcolor: '#f6f9ff' }}>
             <Container maxWidth="lg">
                 <Typography
                     variant="h3"
@@ -68,7 +68,9 @@ const Platform = () => {
                         fontWeight: 'bold',
                         textAlign: 'center',
                         mb: 5,
-                        color: '#212121'
+                        color: '#2B2B2B',
+                        fontFamily: "'Roboto Condensed', sans-serif",
+                        textTransform: 'uppercase'
                     }}
                 >
                     Pillars of Dataobserve 360
@@ -80,12 +82,19 @@ const Platform = () => {
                         onChange={handleTabChange}
                         variant="scrollable"
                         scrollButtons="auto"
+                        textColor="inherit"
                         sx={{
+                            '& .MuiTabs-indicator': { backgroundColor: '#1E90FF' },
                             '& .MuiTab-root': {
-                                textTransform: 'none',
+                                textTransform: 'uppercase',
                                 fontSize: '1rem',
                                 fontWeight: 600,
-                                minWidth: 120
+                                minWidth: 120,
+                                color: '#2B2B2B',
+                                '&.Mui-selected': {
+                                    color: '#1E90FF',
+                                    fontFamily: "'Roboto Condensed', sans-serif"
+                                }
                             }
                         }}
                     >
@@ -95,13 +104,14 @@ const Platform = () => {
                     </Tabs>
                 </Box>
 
-                <Box sx={{ bgcolor: 'white', p: 4, borderRadius: 2, minHeight: 300 }}>
+                <Box sx={{ bgcolor: 'white', p: 4, borderRadius: "4px", minHeight: 300 }}>
                     <Typography
                         variant="h4"
                         sx={{
                             fontWeight: 'bold',
                             mb: 3,
-                            color: '#212121'
+                            color: '#2B2B2B',
+                            fontFamily: "'Roboto Condensed', sans-serif"
                         }}
                     >
                         {pillarsData[selectedTab].title}
@@ -114,8 +124,8 @@ const Platform = () => {
                                 fontSize: '1.1rem',
                                 lineHeight: 1.8,
                                 mb: 2,
-                                color: '#444',
-                                fontFamily: 'Georgia, serif',
+                                color: '#2B2B2B',
+                                fontFamily: "'Merriweather', serif",
                                 textAlign: 'justify'
                             }}
                         >

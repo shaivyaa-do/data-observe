@@ -22,14 +22,14 @@ const Platform = () => {
     };
 
     return (
-        <Box sx={{ py: 10, width: "100%", bgcolor: themeMode === "light" ? "#f5f5f5" : "background.paper" }}>
+        <Box sx={{ py: 10, width: "100%", bgcolor: themeMode === "light" ? "#EDEDED" : "background.paper" }}>
             <Container maxWidth="lg">
                 {/* Changed background color to transparent */}
                 <Paper sx={{ bgcolor: "transparent", p: 8, borderRadius: 0 }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
                         Regenerative Platform Components
                     </Typography>
-                    <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ fontFamily: "'Merriweather', serif" }}>
+                    <Typography textAlign="center" pb={8} variant="h6" sx={{ fontFamily: "'Merriweather', serif", color: "#2B2B2B" }}>
                         Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
                         delivery.
                     </Typography>
@@ -42,18 +42,18 @@ const Platform = () => {
                                 indicatorColor="primary"
                                 sx={{
                                     borderBottom: '1px solid #e0e0e0',
-                                    "& .MuiTabs-indicator": { backgroundColor: "#1976d2", height: "3px" }, // Blue indicator
+                                    "& .MuiTabs-indicator": { backgroundColor: "#1E90FF", height: "3px" }, // Blue indicator
                                     "& .MuiTab-root": {
                                         textTransform: "uppercase",
                                         fontSize: "14px",
                                         fontWeight: 600,
                                         margin: "0 20px",
-                                        color: "#6c757d",
+                                        color: "#2B2B2B",
                                         border: "none", // Ensure no border
                                         outline: "none", // Ensure no outline
                                         "&.Mui-focusVisible": { outline: "none" }, // Remove focus ring
                                         "&.Mui-selected": {
-                                            color: "#0d6efd", // Using DO Blue for active text to match indicator
+                                            color: "#1E90FF", // Using DO Blue for active text to match indicator
                                             outline: "none",
                                             border: "none",
                                             fontFamily: "'Roboto Condensed', sans-serif"

@@ -35,7 +35,7 @@ const cardData = [
 const Tab4 = () => {
     return (
         <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={400} />}>
-            <Cards cardData={cardData} />
+            <Cards cardData={cardData} justifyContent="flex-start" />
         </Suspense>
     );
 };

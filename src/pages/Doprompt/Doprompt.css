@@ -211,7 +211,7 @@
 } */
 
 .benfits-head {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 44px;
@@ -236,7 +236,7 @@
 }
 
 .benfits-h1 {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 22px;
@@ -248,7 +248,7 @@
 }
 
 .benfits-Prompt {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 22px;
@@ -260,7 +260,7 @@
 }
 
 .benfits-h1b {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 22px;
@@ -769,7 +769,8 @@
   .ppt-api-h1 {
     font-size: 21px;
   }
-  .generative-para{
+
+  .generative-para {
     font-size: 14px;
   }
 

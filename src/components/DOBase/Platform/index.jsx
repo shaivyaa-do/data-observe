@@ -44,7 +44,11 @@ const Platform = () => {
     const themeMode = useSelector((state) => state.themeReducer?.mode) || 'light';
 
     return (
-        <Box sx={{ py: 10, width: "100%", bgcolor: themeMode === "light" ? "#f5f5f5" : "background.paper" }}>
+        <Box sx={{
+            py: 10,
+            width: "100%",
+            bgcolor: themeMode === "light" ? "#EDEDED" : "background.paper"
+        }}>
             <Container maxWidth="lg"> {/* Aligned to 1200px */}
                 <Paper sx={{ bgcolor: "transparent", p: 5, borderRadius: "0px" }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold' }}>
@@ -54,12 +58,12 @@ const Platform = () => {
                         Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
                         delivery.
                     </Typography>
-                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: 'center' }}>
+                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0, justifyContent: 'center' }}>
                         {cardData.map(({ img, title, desc }) => (
                             <Box
                                 key={title}
                                 sx={{
-                                    width: { xs: '100%', md: 'calc(33.333% - 16px)' }, // Force 3 columns on md+, stack on xs
+                                    width: { xs: '100%', md: '33.333%' }, // Force 3 columns on md+, stack on xs
                                     display: 'flex'
                                 }}
                             >
@@ -74,7 +78,8 @@ const Platform = () => {
                                         display: "flex",
                                         flexDirection: "column",
                                         borderRadius: "0px", // Keeping rounded corners as per previous user verification
-                                        boxShadow: "0px 4px 20px rgba(0,0,0,0.05)"
+                                        borderRadius: "0px", // Keeping rounded corners as per previous user verification
+                                        border: "1px solid #f2f2f2"
                                     }}
                                 >
                                     <div style={{ height: '40px', display: 'flex', alignItems: 'center', marginBottom: '16px' }}>
@@ -83,7 +88,7 @@ const Platform = () => {
                                     <Typography variant="h6" gutterBottom sx={{ fontFamily: "'Roboto Condensed', sans-serif", fontWeight: 700, fontSize: '1.25rem', lineHeight: 1.4, mb: 2 }}>
                                         {title}
                                     </Typography>
-                                    <Typography variant="body2" textAlign="left" sx={{ fontFamily: "'Merriweather', serif", color: "#666", lineHeight: 1.6 }}>
+                                    <Typography variant="body2" textAlign="left" sx={{ fontFamily: "'Merriweather', serif", color: "#2B2B2B", lineHeight: 1.6 }}>
                                         {desc}
                                     </Typography>
                                 </Paper>

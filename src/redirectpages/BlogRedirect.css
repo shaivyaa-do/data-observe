@@ -14,13 +14,16 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .blogsheader {
   background: #1a4ab9;
 }
+
 .blogmatter {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .blogtitle1 {
   color: #fff;
   font-size: 28px;
@@ -28,6 +31,7 @@
   line-height: 52.8px;
   text-transform: capitalize;
 }
+
 .blogtitle2 {
   color: #fff;
   font-size: 44px;
@@ -36,6 +40,7 @@
   text-transform: capitalize;
   padding-left: 0px;
 }
+
 .domainbuttonclass {
   border-radius: 20px;
   border: 1px solid #ede4e4;
@@ -53,17 +58,20 @@
   letter-spacing: -0.32px;
   margin-top: 20px;
 }
+
 .doteamclass {
   display: flex !important;
   align-items: center;
   /* justify-content: center; */
 }
+
 .doteamframe {
   width: 42px;
   height: 42px;
   border-radius: 200px;
   background: #d8d8d8;
 }
+
 .doteamtext {
   color: #3b3b3b;
   font-size: 24px;
@@ -73,6 +81,7 @@
   margin-left: 10px;
   margin-top: 7px;
 }
+
 .likesandcomments {
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
@@ -82,18 +91,22 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .blogapplause {
   width: 20px;
   height: 20px;
 }
+
 .blogcommentimg {
   width: 20px;
   height: 20px;
 }
+
 .blogimage1 {
   width: 100%;
   position: relative;
 }
+
 .blogimagetext {
   position: absolute;
   top: 20%;
@@ -102,12 +115,14 @@
   font-weight: 900;
   line-height: 52.8px;
 }
+
 .tablecolumn {
   display: flex;
   justify-content: center;
   position: sticky;
   top: 5%;
 }
+
 .tableclass {
   border-radius: 30px;
   background: rgba(239, 113, 121, 0.1);
@@ -118,14 +133,16 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.tablebullet{
+
+.tablebullet {
   color: rgb(3, 3, 253);
   font-size: 16px;
   font-weight: 900;
   padding-bottom: 5px;
 }
+
 .blogtableheading {
-  color: #000;
+  color: #2B2B2B;
   font-size: 19px;
   font-style: normal;
   font-weight: 600;
@@ -135,42 +152,49 @@
   padding: 10px;
   border-radius: 20px;
 }
+
 .blogtablepara {
   color: rgba(0, 0, 0, 0.7);
   font-size: 13px;
   font-weight: 400;
   line-height: 19.2px;
 }
+
 .blogtablepara:hover {
-  color: black;
+  color: #2B2B2B;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
 }
+
 .blogtableparadiv {
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
+
 .blogpara1 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: -0.32px;
 }
+
 .blogheading2 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 22px;
   font-weight: 600;
   line-height: 27.5px;
   letter-spacing: -0.32px;
 }
+
 .blogheading3 {
-  color: #050505;
+  color: #2B2B2B;
   font-size: 30px;
   font-weight: 600;
   line-height: 37.5px;
   letter-spacing: -0.32px;
 }
+
 .blogmatterdot {
   font-size: 30px;
   margin-right: 10px;
@@ -178,131 +202,150 @@
   margin-top: -9px;
   padding-top: 0px;
 }
+
 .blogpara2 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
   letter-spacing: -0.32px;
 }
+
 .horizonline {
   border-left: 5px solid #5e6d7c;
   margin-left: 5px;
   margin-bottom: 5px;
 }
+
 .blogheading4 {
   color: #6f7988;
   font-size: 22px;
   line-height: 32px;
   font-weight: 600;
 }
+
 .blogpara3 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 15px;
   font-weight: 400;
   line-height: 38px;
   letter-spacing: -0.32px;
   padding-top: 10px;
 }
+
 .blogspanhead {
   font-weight: 700;
   font-size: 20px;
 }
+
 .blogheading5 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 28px;
   font-weight: 700;
   line-height: 38px;
   letter-spacing: -0.32px;
 }
+
 .blogpara4 {
-  color: #000;
+  color: #2B2B2B;
   font-size: 16px;
   font-weight: 400;
   line-height: 38px;
   letter-spacing: -0.32px;
 }
+
 .bloglinkhead {
-  color: #000;
+  color: #2B2B2B;
   font-size: 16px;
   font-weight: 700;
   line-height: 38px;
   letter-spacing: -0.32px;
 }
 
-.wall{
+.wall {
   align-items: center;
   /* justify-content: center; */
 }
 
-@media only screen  and (min-width:320px) and (max-width:468px){
-  .blogtitle1{
+@media only screen and (min-width:320px) and (max-width:468px) {
+  .blogtitle1 {
     font-size: 15px;
     font-weight: 600;
-    }
-
-    .blogtitle2{
-      font-size: 23px;
-      font-weight: 600;
-      line-height: 33.8px;
-    }
-    .blogimagetext{
-      font-weight: 600;
-      line-height: 28.8px;
-      font-size: 18px;
-      /* margin-top: -240px; */
-      width: 95%;
-      padding-right: 15px;
-      padding-left: 12px;
-      top: -3%;
-    }
-    .blogpara1{
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 23px;
-      
-    }
-    .tablecolumn{
-      position: relative;
-    }
-    .blogheading3{
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 34.5px;
-    }
-    .blogpara2{
-      font-size: 11px;
-    }
-    .blogheading4{
-      font-size: 16px;
-      line-height: 27px;
-    }
-    .blogpara3{
-      line-height: 27px;
-      font-size: 12px;
-    }
-    .blogspanhead{
-      font-size: 16px;
-      font-weight: 600;
-    }
-    .blogheading5{
-      font-size: 24px;
-      font-weight: 600;
-      line-height: 32px;
-    }
-    .blogpara4{
-      line-height: 30px;
-      font-weight: 400;
-      font-size: 13px;
-    }
-    .bloglinkhead{
-      font-size: 13px;
-      /* margin-left: 34px; */
-      
-    }
-    .wall .bloglinkhead{
-      align-items: center;
-      /* justify-content: center; */
-    }
   }
 
+  .blogtitle2 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 33.8px;
+  }
+
+  .blogimagetext {
+    font-weight: 600;
+    line-height: 28.8px;
+    font-size: 18px;
+    /* margin-top: -240px; */
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 12px;
+    top: -3%;
+  }
+
+  .blogpara1 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+
+  }
+
+  .tablecolumn {
+    position: relative;
+  }
+
+  .blogheading3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34.5px;
+  }
+
+  .blogpara2 {
+    font-size: 11px;
+  }
+
+  .blogheading4 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .blogpara3 {
+    line-height: 27px;
+    font-size: 12px;
+  }
+
+  .blogspanhead {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .blogheading5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .blogpara4 {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .bloglinkhead {
+    font-size: 13px;
+    /* margin-left: 34px; */
+
+  }
+
+  .wall .bloglinkhead {
+    align-items: center;
+    /* justify-content: center; */
+  }
+}

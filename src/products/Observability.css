@@ -1,27 +1,30 @@
-
-.vability-do{
+.vability-do {
   position: relative;
   height: 780px !important;
 
 }
+
 .header-section {
   width: 100%;
   height: 964px;
-  
+
   position: absolute;
   top: 20%;
- 
+
 }
+
 .emailClass {
   width: 526.5px;
   height: 38px;
   margin-left: 15px;
 }
+
 .emailClass::placeholder {
   color: #ffffff80;
   font-weight: 400;
   font-size: 14px;
 }
+
 .emailClass:hover {
   border-right: 0px;
   border-left: 0px;
@@ -30,9 +33,11 @@
   color: #ffffff;
   background: none;
 }
+
 .emailClass:focus-visible {
   outline: 0px;
 }
+
 .demoClass {
   width: 185px;
   height: 65.59px;
@@ -44,9 +49,11 @@
   color: #0046e8;
   border: 0px;
 }
+
 .demoClass:focus {
   outline: 0px;
 }
+
 .playClass {
   background-color: #2e2e2e;
   width: 100%;
@@ -59,24 +66,28 @@
   /* margin-left: 10%; */
   /* transform: translateY(-96px); */
 }
+
 .imageClass {
   width: 164px;
   height: 164px;
 }
+
 .definitionClass {
   width: 100%;
-  height: fit-content;  
-  background-color: #f6f9ff;
+  height: fit-content;
+  background-color: #EDEDED;
   margin-top: 30%;
 }
+
 .def1Class {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
 
 }
+
 .obsheading {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-style: normal;
@@ -84,6 +95,7 @@
   line-height: 55px;
   letter-spacing: -0.32px;
 }
+
 .obspara1 {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -93,6 +105,7 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .obspara2 {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -102,9 +115,11 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .para {
   width: 683px;
 }
+
 .cardText {
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -114,23 +129,27 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .cardText2 {
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
+  /* 160% */
   letter-spacing: -0.16px;
 }
+
 .cardHead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
 }
+
 .videoClass {
   /* position: absolute; */
   /* top: 82%; */
@@ -138,6 +157,7 @@
   left: 18%;
   bottom: -20%;
 }
+
 .headingpillars {
   text-align: center;
   font-weight: 700;
@@ -147,16 +167,20 @@
 .pillarnavs {
   text-align: center;
 }
+
 .linkClass:hover {
-  color: #050505;
+  color: #2B2B2B;
 }
+
 .linkClass {
-  color: #05050559;
+  color: #2B2B2B59;
 }
+
 .linkClass:active {
   background-color: none;
   border: none;
 }
+
 .linkClass {
   border-bottom: 3px solid #e2ecff;
   border-radius: 0px !important;
@@ -165,64 +189,80 @@
 .pillarlinksul:focus-visible {
   outline: 0px;
 }
+
 .qualityimgclass {
   width: 100%;
 }
+
 .qualitypara {
   max-width: 50.3333% !important;
   padding-top: 10px;
 }
+
 .matter {
   margin-top: 40px;
 }
+
 .qualityhead {
   text-align: left;
 }
+
 .qualitymatter {
   text-align: left;
 }
+
 .differclass {
-  background-color: #f6f9ff;
+  background-color: #EDEDED;
 }
+
 .maindiv {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .differencepart {
   margin-top: 50px;
   position: relative;
 }
+
 .do1 {
   font-size: 44px;
   font-weight: 700;
 }
+
 .do1p {
   font-size: 16px;
   font-weight: 400;
 }
+
 .do2 {
   font-size: 22px;
   font-weight: 600;
   padding-bottom: 22px;
 }
+
 .differencecard {
   width: 50%;
 }
+
 .maindiffernce {
   margin-top: 30px;
   margin: auto;
 }
+
 .monitorclass {
   padding: 30px;
   border-radius: 30px;
   background-color: rgba(238, 113, 121, 0.1);
 }
+
 .monitorhead {
   color: #ef7179;
   font-size: 22px;
   font-weight: 600;
   line-height: 28.6px;
 }
+
 .monitordef {
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
@@ -230,20 +270,24 @@
   line-height: 23.4px;
   letter-spacing: -0.32px;
 }
+
 .horline {
   height: 1px;
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.1);
 }
+
 .senmark {
   width: 22px;
   height: 23px;
   margin-right: 12px;
   text-align: center;
 }
+
 .sentenceclass {
   display: flex;
 }
+
 .observabilityclass {
   padding: 30px;
   border-radius: 30px;
@@ -251,12 +295,14 @@
   margin-left: 2px;
   height: 100%;
 }
+
 .observehead {
   color: #00b686;
   font-size: 22px;
   font-weight: 600;
   line-height: 28.6px;
 }
+
 .observedef {
   color: rgba(0, 0, 0, 0.8);
   font-size: 18px;
@@ -264,6 +310,7 @@
   line-height: 23.4px;
   letter-spacing: -0.32px;
 }
+
 .verses {
   border-radius: 110px;
   background-color: #1a4ab9;
@@ -277,15 +324,18 @@
   left: 47.7%;
   top: 45%;
 }
+
 .vsclass {
   color: white;
 }
+
 .issuesclass {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .issueshead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-style: normal;
@@ -294,9 +344,11 @@
   letter-spacing: -0.32px;
 
 }
+
 .issuecards {
   margin-top: 47px;
 }
+
 .showdowclass {
   border-radius: 30px;
   background: #fff;
@@ -304,6 +356,7 @@
   padding: 20px;
   height: 320px;
 }
+
 .issuesmatter {
   margin-top: 30px;
   margin-bottom: 33px;
@@ -311,26 +364,30 @@
   flex-direction: column;
   align-items: center;
 }
+
 .issueimage {
   width: 53px;
   height: 53px;
   text-align: center !important;
   margin-bottom: 20px;
 }
+
 .issue2image {
   width: 65px;
   height: 76px;
   text-align: center !important;
   /* margin-bottom: 20px; */
 }
+
 .issuematterhead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: 28.6px;
 }
+
 .issuematterpara {
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -339,9 +396,11 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .solutionclass {
   background-color: #2859ca;
 }
+
 .solheading {
   color: #fff;
   font-size: 44px;
@@ -350,6 +409,7 @@
   line-height: 55px;
   letter-spacing: -0.32px;
 }
+
 .subsolclass {
   padding-top: 69px;
   padding-bottom: 115px;
@@ -357,6 +417,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .solpara1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
@@ -365,6 +426,7 @@
   letter-spacing: -0.32px;
   margin-top: 16px;
 }
+
 .solpara2 {
   color: rgba(255, 255, 255, 0.8);
 
@@ -375,20 +437,24 @@
   /* width: 993px;
   margin-top: 24.78px; */
 }
+
 .solimageclass {
   border-radius: 29.074px;
   border: 2px solid #e9e9e9;
   background: #fff;
   margin-top: 60px;
 }
+
 .solimage1 {
   width: 100%;
   /* height: 500px; */
 }
+
 .solpara3div {
   margin-top: 83px;
   text-align: center;
 }
+
 .solpara3 {
   color: rgba(255, 255, 255, 0.6);
   font-size: 20px;
@@ -396,48 +462,58 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .solpicclass {
   width: 48px;
   height: 60px;
   margin-bottom: 20px;
 }
+
 .solcardhead {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
   line-height: 23.4px;
 }
+
 .solcardtext {
   color: rgba(255, 255, 255, 0.7);
   font-size: 15px;
   font-weight: 400;
-  line-height: 25.6px; /* 170.667% */
+  line-height: 25.6px;
+  /* 170.667% */
   letter-spacing: -0.32px;
   margin-top: 10px;
 }
+
 .solcardsclass {
   margin-top: 70px;
 }
+
 .plugplay {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-weight: 700;
   line-height: 55px;
   letter-spacing: -0.32px;
 }
+
 .plugclass {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .plugcards {
   margin-top: 60px;
 }
+
 .plugcard {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .plugcardtext {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
@@ -445,8 +521,9 @@
   letter-spacing: -0.32px;
   padding-top: 43px;
 }
+
 .requestguideclass {
-  background: #f6f9ff;
+  background: #EDEDED;
   display: inline-flex;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -454,9 +531,11 @@
   align-items: flex-start;
   width: 100%;
 }
+
 .guidecontainer {
   width: 100% !important;
 }
+
 .guideclass {
   display: flex;
   padding: 60px 60px 59.6px 60px;
@@ -467,6 +546,7 @@
   width: 781px;
   margin-left: 100px;
 }
+
 .guidehead {
   color: #fff;
   font-size: 24px;
@@ -474,6 +554,7 @@
   line-height: 31.2px;
   letter-spacing: -0.32px;
 }
+
 .guidetext {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
@@ -481,6 +562,7 @@
   line-height: 25.6px;
   letter-spacing: -0.32px;
 }
+
 .guidedemobutton {
   border-radius: 4px;
   border: 1px solid #fff;
@@ -493,12 +575,15 @@
   align-items: center;
   gap: 8.75px;
 }
-.observe-button{
+
+.observe-button {
   padding: 20px 10px 21.19px 25px;
 }
+
 .guidedemobutton:focus-visible {
   outline: 0px;
 }
+
 .guidebuttontext {
   color: #0046e8;
   font-size: 17.6px;
@@ -507,14 +592,17 @@
   letter-spacing: -0.32px;
   margin-bottom: 0px !important;
 }
+
 .guidebuttontext:focus-visible {
   outline: 0px;
 }
+
 .guidearrowclass {
   width: 23px;
   height: 13.443px;
   flex-shrink: 0;
 }
+
 .recentworks {
   display: inline-flex;
   padding: 100px 150px;
@@ -522,6 +610,7 @@
   align-items: center;
   width: 100%;
 }
+
 .mainrecentworkclass {
   display: flex;
   max-width: 1170px;
@@ -529,17 +618,20 @@
   align-items: center;
   gap: 66px;
 }
+
 .recentworkshead {
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-size: 44px;
   font-weight: 700;
   line-height: 55px;
   letter-spacing: -0.32px;
 }
+
 .cardclass {
   margin-top: 60px;
 }
+
 .recentworkimgclass {
   background-image: url("../../public/images/recentworks1.png");
   background-position: center;
@@ -551,6 +643,7 @@
   padding-bottom: 10px;
   /* position: relative; */
 }
+
 .recentworkimgclass1 {
   background-image: url("../../public/images/recentworks2.png");
   background-position: center;
@@ -562,6 +655,7 @@
   padding-bottom: 10px;
   /* position: relative; */
 }
+
 .recentworkimgclass2 {
   background-image: url("../../public/images/recentworks3.jpeg");
   background-position: center;
@@ -579,6 +673,7 @@
   width: fit-content;
   height: 21px;
 }
+
 .recentworkimgclass .card {
   margin-bottom: 5px;
   border-radius: 30px !important;
@@ -587,6 +682,7 @@
   bottom: 0;
   width: fit-content;
 }
+
 .recentworkimgclass1 .card {
   margin-bottom: 5px;
   border-radius: 22px !important;
@@ -595,6 +691,7 @@
   bottom: 0;
   width: fit-content;
 }
+
 .recentworkimgclass2 .card {
   margin-bottom: 5px;
   border-radius: 22px !important;
@@ -603,9 +700,11 @@
   bottom: 0;
   width: fit-content;
 }
-.cardcol{
+
+.cardcol {
   padding-right: 0px !important;
 }
+
 .recentcardhead1 {
   color: #1a4ab9;
   font-size: 14px;
@@ -615,6 +714,7 @@
   text-transform: uppercase;
   margin-left: 5px;
 }
+
 .recentcardhead2 {
   color: #ff4925;
   font-size: 14px;
@@ -624,33 +724,39 @@
   text-transform: uppercase;
   margin-left: 5px;
 }
+
 .workcard {
   margin: 16px;
 }
+
 .dummyclass {
   background: none;
   width: 100%;
   height: 240px;
 }
+
 .dummyclass1 {
   background: none;
   width: 100%;
   height: 165px;
 }
+
 .dummyclass2 {
   background: none;
   width: 100%;
   height: 264px;
 }
+
 .workcardpara {
   margin-top: 10px;
-  color: #050505;
+  color: #2B2B2B;
   font-size: 18px;
   font-weight: 600;
   line-height: 25.2px;
   letter-spacing: -0.32px;
   width: fit-content;
 }
+
 .viewrecentbutton {
   margin-top: 43px;
   display: inline-flex;
@@ -667,25 +773,29 @@
   letter-spacing: -0.32px;
   margin-left: 38%;
 }
+
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   color: #000;
   background-color: white;
   border-bottom: 3px solid blue !important;
   border-radius: 0px;
 }
-.size-font{
+
+.size-font {
   padding-top: 30px;
 }
-.mobile-observa{
+
+.mobile-observa {
   color: #FFF;
   font-size: 46px;
   font-weight: 700;
 }
-.text-observa{
+
+.text-observa {
   margin-top: 26px;
   font-size: 16px;
-  color:rgba(255, 255, 255, 0.80) ;
+  color: rgba(255, 255, 255, 0.80);
   font-weight: 400;
 }
 
@@ -700,107 +810,131 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 468px)  {
+@media only screen and (min-width: 320px) and (max-width: 468px) {
   .cardcol {
     margin-right: 15px;
   }
-.box-padding-360{
-  height: fit-content !important;
-  padding: 20px !important;
-}
-  .mobile-observa{
+
+  .box-padding-360 {
+    height: fit-content !important;
+    padding: 20px !important;
+  }
+
+  .mobile-observa {
     font-size: 15px !important;
   }
-  .text-observa{
+
+  .text-observa {
     margin-top: 0px !important;
     font-size: 10px;
   }
-  .size-font{
+
+  .size-font {
     padding-top: 0px;
   }
-  .class-demo{
+
+  .class-demo {
     margin-top: 0px;
   }
 
   .mobile-size {
     width: 70px;
     height: 91px;
-}
-.observabilityclass {
-  font-size: 14px !important;
-}
+  }
+
+  .observabilityclass {
+    font-size: 14px !important;
+  }
 
   .header-section {
-    top:2% !important;
+    top: 2% !important;
   }
-  .do360bannerclass{
+
+  .do360bannerclass {
     height: 380px;
   }
+
   .videoClass {
     margin-top: 10%;
     left: 0%;
   }
+
   .faq-class {
 
     padding: 10px !important;
   }
+
   .vability-do {
     height: 450px !important;
   }
+
   .maindiv {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .monitorclass {
     padding: 15px;
     margin-bottom: 15px;
     font-size: 14px;
   }
+
   .monitordef {
     font-size: 14px;
   }
+
   .monitorhead {
     font-size: 16px;
   }
+
   .verses {
     top: 48%;
     left: 39.7%;
-}
-.issueshead {
-  font-size: 23px;
-  line-height: 30px;
-}
-.issuesclass {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-.mb-p{
-  font-size: 16px !important;
-  line-height: 30px;
-}
-.plugclass {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.guideclass {
-  width: 100%;
-  margin-left: 0px;
-  padding: 30px;
-}
-.workcardpara {
-  font-size: 13px;
-}
+  }
+
+  .issueshead {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .issuesclass {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .mb-p {
+    font-size: 16px !important;
+    line-height: 30px;
+  }
+
+  .plugclass {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .guideclass {
+    width: 100%;
+    margin-left: 0px;
+    padding: 30px;
+  }
+
+  .workcardpara {
+    font-size: 13px;
+  }
 
   .accordion button {
     font-size: 14px !important;
   }
+
   .faq-class {
     padding: 20px !important;
     text-align: justify;
   }
+
   .card-title {
     text-align: center;
   }
+
   /* .footercardbody {
     padding: 30px!important;
     height: 220px !important;
@@ -808,265 +942,328 @@
   .recentworks {
     padding: 20px;
   }
+
   .viewrecentbutton {
     margin-left: 20px !important;
     padding: 10px !important;
   }
+
   .recentworkshead {
     font-size: 20px;
     line-height: 0px;
   }
+
   .showdowclass {
-  height: 280px !important;
-  margin-bottom: 15px;
-}
-.offset-2 {
-  margin-left: 0%;
-}
-.subsolclass {
-  padding-top: 20px;
-  padding-bottom: 35px;
-}
-.tenetsheading {
-  font-size: 16px !important;
-  line-height: 30px !important;
-}
-.ml-5{
-margin-left: 0px !important;
-}
-.issuesmatter {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.issuematterhead {
-  font-size: 16px !important;
-}
-.solheading {
-  font-size: 25px;
-}
-/* .iodefinitionClass {
+    height: 280px !important;
+    margin-bottom: 15px;
+  }
+
+  .offset-2 {
+    margin-left: 0%;
+  }
+
+  .subsolclass {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+
+  .tenetsheading {
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
+
+  .ml-5 {
+    margin-left: 0px !important;
+  }
+
+  .issuesmatter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .issuematterhead {
+    font-size: 16px !important;
+  }
+
+  .solheading {
+    font-size: 25px;
+  }
+
+  /* .iodefinitionClass {
   height: 1420px !important;
 } */
-/* h1{
+  /* h1{
   font-size: 20px !important;
 } */
-.do1 {
-  font-size: 24px;
-  margin-top: 10px;
-}
-.do2{
-  text-align: center;
-  font-size: 18px !important;
-}
-.observehead {
-  font-size: 16px !important;
-}
-.observedef {
-  font-size: 15px;
-}
-.differencepart {
-  margin-top: 20px;
-}
-.qualitypara {
-  max-width: 100% !important;
-}
-.plugcardtext {
-  padding-top: 20px;
-}
-.obsheading {
-  font-size: 23px;
-}
-.playClass {
-  width: 100%;
-}
-.productvideoClass {
-  margin-top: 15% !important;
-  left: 0% !important;
-}
-.def1Class {
-  padding-top: 25px;
-  width: 100%;
-}
-.doinsightsheaderpara {
-  margin-right: 0px !important;
-  font-size: 12px;
-  line-height: 13px;
-  width: 90%;
-}
-.doinsightsheading {
-  font-size: 20px;
-  line-height: 32px;
-}
-.doinsightsvideo {
-  height: 540px;
-}
-.emailClass {
-  width: 90%;
-  margin-left: 8px !important;
-}
-.guidehead {
-  font-size: 8px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-}
-.guidetext {
-  font-size: 10px !important;
-  line-height: 18px !important;
-}
-.guidedemobutton {
-  padding: 5px;
-  margin-bottom: 0px;
-  height: 32px;
-}
-.doinsightguideclass{
-  padding: 0px;
+  .do1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .do2 {
+    text-align: center;
+    font-size: 18px !important;
+  }
+
+  .observehead {
+    font-size: 16px !important;
+  }
+
+  .observedef {
+    font-size: 15px;
+  }
+
+  .differencepart {
+    margin-top: 20px;
+  }
+
+  .qualitypara {
+    max-width: 100% !important;
+  }
+
+  .plugcardtext {
+    padding-top: 20px;
+  }
+
+  .obsheading {
+    font-size: 23px;
+  }
+
+  .playClass {
+    width: 100%;
+  }
+
+  .productvideoClass {
+    margin-top: 15% !important;
+    left: 0% !important;
+  }
+
+  .def1Class {
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .doinsightsheaderpara {
+    margin-right: 0px !important;
+    font-size: 12px;
+    line-height: 13px;
+    width: 90%;
+  }
+
+  .doinsightsheading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .doinsightsvideo {
+    height: 540px;
+  }
+
+  .emailClass {
+    width: 90%;
+    margin-left: 8px !important;
+  }
+
+  .guidehead {
+    font-size: 8px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+  .guidetext {
+    font-size: 10px !important;
+    line-height: 18px !important;
+  }
+
+  .guidedemobutton {
+    padding: 5px;
+    margin-bottom: 0px;
+    height: 32px;
+  }
+
+  .doinsightguideclass {
+    padding: 0px;
+  }
+
+  .demoClass {
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+  }
+
+  .guidebuttontext {
+    font-size: 13px;
+  }
+
+  .guidearrowclass {
+    width: 18px;
+  }
+
+  .mobile-size {
+    width: 70px;
+    height: 91px;
+  }
+
+  .cardHead {
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .tenetsclass {
+    margin: 30px 0px;
+  }
+
+  .obspara1-1 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  .obspara2-2 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  .cardcol {
+    margin-bottom: 13px;
+  }
+
+  .issuematterpara {
+    font-size: 14px;
+  }
+
+  .DO-insights-image {
+    height: 480px;
+  }
+
+
 }
 
-.demoClass {
-  width: 150px;
-  height: 30px;
-  padding: 0px;
-}
-.guidebuttontext {
-  font-size: 13px;
-}
-.guidearrowclass {
-  width: 18px;
-}
-.mobile-size{
-  width: 70px;
-  height: 91px;
-}
-.cardHead {
-  font-size: 20px;
-  line-height: 15px;
-}
-.tenetsclass{
-  margin: 30px 0px;
-}
-.obspara1-1{
-  font-size: 15px;
-  line-height: 20px;
-  text-align: justify;
-}
-.obspara2-2{
-  font-size: 15px;
-  line-height: 20px;
-  text-align: justify;
-}
-.cardcol{
-  margin-bottom: 13px;
-}
-.issuematterpara{
-  font-size: 14px;
-}
-.DO-insights-image{
-  height: 480px;
-}
+@media only screen and (min-width: 468px) and (max-width: 767px) {
 
-
-}
-
-@media only screen and (min-width: 468px) and (max-width: 767px)  {
-
-  .mobile-observa{
+  .mobile-observa {
     font-size: 20px !important;
   }
-  .text-observa{
+
+  .text-observa {
     margin-top: 0px !important;
     font-size: 12px;
   }
-  .size-font{
+
+  .size-font {
     padding-top: 0px;
   }
-  .class-demo{
+
+  .class-demo {
     margin-top: 0px;
   }
 
   .mobile-size {
     width: 85px;
     height: 100px;
-}
-.observabilityclass {
-  font-size: 18px !important;
-}
-.definitionClass{
-  margin-top: 42%;
-}
-.linkClass {
-  font-size: 18px !important;
-}
+  }
+
+  .observabilityclass {
+    font-size: 18px !important;
+  }
+
+  .definitionClass {
+    margin-top: 42%;
+  }
+
+  .linkClass {
+    font-size: 18px !important;
+  }
 
   .header-section {
-    top:2% !important;
+    top: 2% !important;
   }
-  .do360bannerclass{
+
+  .do360bannerclass {
     height: 420px;
   }
+
   .videoClass {
     margin-top: 10%;
     left: 0%;
   }
+
   .faq-class {
 
     padding: 10px !important;
   }
+
   .vability-do {
     height: 450px !important;
   }
+
   .maindiv {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .monitorclass {
     padding: 20px;
     margin-bottom: 20px;
     font-size: 18px;
-}
+  }
+
   .monitordef {
     font-size: 18px;
   }
+
   .monitorhead {
     font-size: 16px;
   }
+
   .verses {
     top: 50%;
     left: 42.7%;
-}
-.issueshead {
-  line-height: 35px;
-}
-.issuesclass {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-.mb-p{
-  font-size: 20px !important;
-  line-height: 30px;
-}
-.plugclass {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.guideclass {
-  width: 100%;
-  margin-left: 0px;
-  padding: 30px;
-}
-.workcardpara {
-  font-size: 16px;
-}
+  }
+
+  .issueshead {
+    line-height: 35px;
+  }
+
+  .issuesclass {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .mb-p {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+
+  .plugclass {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .guideclass {
+    width: 100%;
+    margin-left: 0px;
+    padding: 30px;
+  }
+
+  .workcardpara {
+    font-size: 16px;
+  }
 
   .accordion button {
     font-size: 14px !important;
   }
+
   .faq-class {
     padding: 20px !important;
     text-align: justify;
   }
+
   .card-title {
     text-align: center;
   }
+
   /* .footercardbody {
     padding: 30px!important;
     height: 220px !important;
@@ -1074,289 +1271,361 @@ margin-left: 0px !important;
   .recentworks {
     padding: 20px;
   }
+
   .viewrecentbutton {
     margin-left: 20px !important;
     padding: 10px !important;
   }
+
   .recentworkshead {
     font-size: 20px;
     line-height: 0px;
   }
+
   .showdowclass {
-  height: 280px !important;
-  margin-bottom: 15px;
-}
-.offset-2 {
-  margin-left: 0%;
-}
-.subsolclass {
-  padding-top: 20px;
-  padding-bottom: 35px;
-}
-.tenetsheading {
-  font-size: 16px !important;
-  line-height: 30px !important;
-}
-.ml-5{
-margin-left: 0px !important;
-}
-.issuesmatter {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.issuematterhead {
-  font-size: 13px;
-}
-/* .iodefinitionClass {
+    height: 280px !important;
+    margin-bottom: 15px;
+  }
+
+  .offset-2 {
+    margin-left: 0%;
+  }
+
+  .subsolclass {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+
+  .tenetsheading {
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
+
+  .ml-5 {
+    margin-left: 0px !important;
+  }
+
+  .issuesmatter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .issuematterhead {
+    font-size: 13px;
+  }
+
+  /* .iodefinitionClass {
   height: 1420px !important;
 } */
-/* h1{
+  /* h1{
   font-size: 20px !important;
 } */
-.do1 {
-  font-size: 24px;
-  margin-top: 10px;
-}
-.do2{
-  text-align: center;
-  font-size: 18px !important;
-}
-.observehead {
-  font-size: 18px !important;
-}
-.observedef {
-  font-size: 18px;
-}
-.differencepart {
-  margin-top: 20px;
-}
-.qualitypara {
-  max-width: 100% !important;
-}
-.plugcardtext {
-  padding-top: 20px;
-}
-.obsheading {
-  font-size: 23px;
-}
-.playClass {
-  width: 100%;
-}
-.productvideoClass {
-  margin-top: 15% !important;
-  left: 0% !important;
-}
-.def1Class {
-  padding-top: 25px;
-  width: 100%;
-}
-.doinsightsheaderpara {
-  margin-right: 0px !important;
-  font-size: 12px;
-  line-height: 13px;
-  width: 90%;
-}
-.doinsightsheading {
-  font-size: 20px;
-  line-height: 32px;
-}
-.doinsightsvideo {
-  height: 540px;
-}
-.emailClass {
-  width: 90%;
-  margin-left: 8px !important;
-}
-.guidehead {
-  font-size: 8px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-}
-.guidetext {
-  font-size: 15px !important;
-  line-height: 18px !important;
-}
-.guidedemobutton {
-  padding: 5px;
-  margin-bottom: 0px;
-  height: 32px;
-}
-.doinsightguideclass{
-  padding: 0px;
+  .do1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .do2 {
+    text-align: center;
+    font-size: 18px !important;
+  }
+
+  .observehead {
+    font-size: 18px !important;
+  }
+
+  .observedef {
+    font-size: 18px;
+  }
+
+  .differencepart {
+    margin-top: 20px;
+  }
+
+  .qualitypara {
+    max-width: 100% !important;
+  }
+
+  .plugcardtext {
+    padding-top: 20px;
+  }
+
+  .obsheading {
+    font-size: 23px;
+  }
+
+  .playClass {
+    width: 100%;
+  }
+
+  .productvideoClass {
+    margin-top: 15% !important;
+    left: 0% !important;
+  }
+
+  .def1Class {
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .doinsightsheaderpara {
+    margin-right: 0px !important;
+    font-size: 12px;
+    line-height: 13px;
+    width: 90%;
+  }
+
+  .doinsightsheading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .doinsightsvideo {
+    height: 540px;
+  }
+
+  .emailClass {
+    width: 90%;
+    margin-left: 8px !important;
+  }
+
+  .guidehead {
+    font-size: 8px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+  .guidetext {
+    font-size: 15px !important;
+    line-height: 18px !important;
+  }
+
+  .guidedemobutton {
+    padding: 5px;
+    margin-bottom: 0px;
+    height: 32px;
+  }
+
+  .doinsightguideclass {
+    padding: 0px;
+  }
+
+  .demoClass {
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+  }
+
+  .guidebuttontext {
+    font-size: 13px;
+  }
+
+  .guidearrowclass {
+    width: 18px;
+  }
+
+  .mobile-size {
+    width: 70px;
+    height: 91px;
+  }
+
+  .cardHead {
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .tenetsclass {
+    margin: 30px 0px;
+  }
+
+  .obspara1-1 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  .obspara2-2 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  .cardcol {
+    margin-bottom: 13px;
+  }
+
+  .issuematterpara {
+    font-size: 14px;
+  }
+
+  .DO-insights-image {
+    height: 480px;
+  }
+
+
 }
 
-.demoClass {
-  width: 150px;
-  height: 30px;
-  padding: 0px;
-}
-.guidebuttontext {
-  font-size: 13px;
-}
-.guidearrowclass {
-  width: 18px;
-}
-.mobile-size{
-  width: 70px;
-  height: 91px;
-}
-.cardHead {
-  font-size: 20px;
-  line-height: 15px;
-}
-.tenetsclass{
-  margin: 30px 0px;
-}
-.obspara1-1{
-  font-size: 15px;
-  line-height: 20px;
-  text-align: justify;
-}
-.obspara2-2{
-  font-size: 15px;
-  line-height: 20px;
-  text-align: justify;
-}
-.cardcol{
-  margin-bottom: 13px;
-}
-.issuematterpara{
-  font-size: 14px;
-}
-.DO-insights-image{
-  height: 480px;
-}
-
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px)  {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
   .mobile-observa {
     font-size: 25px;
   }
+
   .text-observa {
-      margin-top: 10px;
-      font-size: 14px;
+    margin-top: 10px;
+    font-size: 14px;
   }
+
   .size-font {
     padding-top: 18px;
-}
-.demoClass {
-  margin-top: 14px;
-}
-.vability-do {
-  position: relative;
-  height: 620px !important;
-}
-.do360bannerclass{
-  height: 650px;
-}
-.obspara1 {
-  font-size: 20px;
-}
-.obspara2 {
-  font-size: 20px;
-}
-.cardText {
-  font-size: 20px;
-}
-.cardText2{
-  font-size: 18px;
-}
-.linkClass {
-  font-size: 20px !important;
-}
-.do1 {
-  font-size: 34px;
-}
-.monitorclass {
-  height: 100%;
-}
-.observabilityclass {
-  height: 100%;
-}
-.verses {
-  left: 45.7%;
+  }
+
+  .demoClass {
+    margin-top: 14px;
+  }
+
+  .vability-do {
+    position: relative;
+    height: 620px !important;
+  }
+
+  .do360bannerclass {
+    height: 650px;
+  }
+
+  .obspara1 {
+    font-size: 20px;
+  }
+
+  .obspara2 {
+    font-size: 20px;
+  }
+
+  .cardText {
+    font-size: 20px;
+  }
+
+  .cardText2 {
+    font-size: 18px;
+  }
+
+  .linkClass {
+    font-size: 20px !important;
+  }
+
+  .do1 {
+    font-size: 34px;
+  }
+
+  .monitorclass {
+    height: 100%;
+  }
+
+  .observabilityclass {
+    height: 100%;
+  }
+
+  .verses {
+    left: 45.7%;
     top: 50%;
-}
-.issueshead {
-  font-size: 30px;
-}
-.issuematterhead{
-  font-size: 20px !important;
-}
-.guideclass {
-  width: 100%;
-  margin-left: 0px;
-}
-.plugplay {
-  font-size: 30px;
+  }
+
+  .issueshead {
+    font-size: 30px;
+  }
+
+  .issuematterhead {
+    font-size: 20px !important;
+  }
+
+  .guideclass {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .plugplay {
+    font-size: 30px;
+
+  }
+
+  .showdowclass {
+    height: 430px;
+  }
+
+  .issuesclass {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .plugclass {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    max-width: 811px;
+  }
+
+  .do2 {
+    text-align: center;
+  }
 
 }
-.showdowclass {
-  height: 430px;
-}
-.issuesclass{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.plugclass {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.container{
-  max-width: 811px;
-}
-.do2{
-  text-align: center;
-}
 
-}
-
-@media only screen and (min-width: 991px) and (max-width: 1200px)  {
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
 
   .text-observa {
     margin-top: 10px;
     font-size: 18px;
   }
+
   .demoClass {
     margin-top: 20px;
   }
-  .do360bannerclass{
+
+  .do360bannerclass {
     height: 800px;
   }
+
   .videoClass {
     margin-top: 5%;
     left: 16%;
   }
+
   .obspara1 {
     font-size: 20px;
-}
-.do2 {
-  font-size: 32px;
-}
-.obspara1 {
-  font-size: 20px;
-}
-.obspara2 {
-  font-size: 20px;
-}
-.cardText {
-  font-size: 20px;
-}
-.cardText2{
-  font-size: 18px;
-}
-.linkClass {
-  font-size: 20px !important;
-}
-.monitorclass {
-  height: 383px;
-}
-.verses {
-  left: 46.7%;
-    top: 50%;
-}
-}
+  }
 
+  .do2 {
+    font-size: 32px;
+  }
+
+  .obspara1 {
+    font-size: 20px;
+  }
+
+  .obspara2 {
+    font-size: 20px;
+  }
+
+  .cardText {
+    font-size: 20px;
+  }
+
+  .cardText2 {
+    font-size: 18px;
+  }
+
+  .linkClass {
+    font-size: 20px !important;
+  }
+
+  .monitorclass {
+    height: 383px;
+  }
+
+  .verses {
+    left: 46.7%;
+    top: 50%;
+  }
+}

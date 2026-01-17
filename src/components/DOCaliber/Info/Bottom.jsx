@@ -15,20 +15,20 @@ const InfoBottom = () => {
     const themeMode = useSelector((state) => state.themeReducer?.mode) || 'light';
 
     return (
-        <Box sx={{ py: 5, width: "100%", bgcolor: themeMode === "light" ? "#f6f9ff" : "background.paper" }}>
+        <Box sx={{ py: 10, width: "100%", bgcolor: themeMode === "light" ? "#ffffff" : "background.paper" }}>
             <Container maxWidth="lg">
                 <Paper sx={{ bgcolor: "transparent", p: 8, borderRadius: 0 }} elevation={0}>
-                    <h2 className="caliber-section-title text-center" style={{ fontFamily: "'Roboto Condensed', sans-serif", fontSize: '2.2rem', marginBottom: '16px' }}>Gen AI Transforms IT</h2>
-                    <p className="text-center mb-5" style={{ fontFamily: "'Roboto', sans-serif", fontSize: '18px', color: '#666', maxWidth: '800px', margin: '0 auto 48px auto' }}>
-                        Unified, secure, and scalable foundations for modern enterprises.
+                    <h2 className="caliber-section-title text-center" style={{ fontFamily: "'Roboto Condensed', sans-serif", fontSize: '2.2rem', marginBottom: '16px' }}>DO Caliber Transforms</h2>
+                    <p className="text-center mb-5" style={{ fontFamily: "'Merriweather', serif", fontSize: '18px', color: '#2B2B2B', maxWidth: '800px', margin: '0 auto 48px auto' }}>
+                        Revolutionizing Enterprise AI with unified, secure, and scalable foundations tailored for the modern business landscape.
                     </p>
-                    <div className="row justify-content-center" style={{ alignItems: 'stretch' }}>
+                    <div className="row justify-content-center" style={{ display: 'flex', flexWrap: 'wrap', gap: '80px', justifyContent: 'center', margin: '0 auto', maxWidth: '1000px', paddingLeft: '150px' }}>
                         {featuresData.map((feature, index) => (
-                            <div className="col-md-4 mb-4" key={index} style={{ display: 'flex' }}>
-                                <div className="caliber-feature-card w-100" style={{ minHeight: '100%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left', padding: '0px' }}> {/* Removed padding 32px as Paper has p-8(64px) now, or keep card style? The previous one had card padding. Let's keep card minimal inside the grid */}
-                                    <div className="caliber-feature-icon" style={{ marginBottom: '24px' }}><i className={`fa ${feature.icon}`} style={{ fontSize: '36px', color: '#000' }}></i></div>
-                                    <h3 className="caliber-feature-title" style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '16px', minHeight: 'auto' }}>{feature.title.toUpperCase()}</h3>
-                                    <p className="caliber-feature-desc" style={{ fontSize: '16px', lineHeight: '1.6', color: '#555' }}>{feature.desc}</p>
+                            <div key={index} style={{ display: 'flex', width: 'calc(50% - 40px)' }}>
+                                <div className="caliber-feature-card w-100" style={{ minHeight: '100%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left', padding: '0px' }}>
+                                    <div className="caliber-feature-icon" style={{ marginBottom: '24px' }}><i className={`fa ${feature.icon}`} style={{ fontSize: '60px', color: '#2B2B2B' }}></i></div>
+                                    <h3 className="caliber-feature-title" style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '16px', minHeight: 'auto', fontFamily: "'Roboto Condensed', sans-serif", color: '#2B2B2B' }}>{feature.title.toUpperCase()}</h3>
+                                    <p className="caliber-feature-desc" style={{ fontSize: '16px', lineHeight: '1.6', color: '#2B2B2B', fontFamily: "'Merriweather', serif" }}>{feature.desc}</p>
                                 </div>
                             </div>
                         ))}

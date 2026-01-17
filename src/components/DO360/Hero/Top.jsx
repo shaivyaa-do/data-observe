@@ -4,7 +4,7 @@ import { ImgXGenesis } from '@assets/images';
 const HeroTop = () => {
     return (
         <div className="heroContainer" style={{ backgroundColor: '#e0e0e0' }}>
-            <div className="heroText" style={{ color: '#333' }}>
+            <div className="heroText" style={{ color: '#2B2B2B', textAlign: 'left', paddingLeft: '40px' }}>
                 <h1 className="heroHeader">
                     Data Observability
                     Solution - Elevate

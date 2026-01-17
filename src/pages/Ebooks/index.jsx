@@ -41,13 +41,13 @@ function Ebooks() {
             <div>
               <h2 className='papercover'>This whitepaper covers:</h2>
 
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>Overview of application modernization</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>Benefits of updating legacy systems</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>Various migration paths for updating legacy systems</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>AWS cost optimization strategies for modernization</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>Overview of AWS services for application modernization</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>Case studies</span></li>
-              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "black" }}>How we can help you navigate your legacy system</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>Overview of application modernization</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>Benefits of updating legacy systems</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>Various migration paths for updating legacy systems</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>AWS cost optimization strategies for modernization</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>Overview of AWS services for application modernization</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>Case studies</span></li>
+              <li className='listyle' style={{ color: "blue" }}><span style={{ color: "#2B2B2B" }}>How we can help you navigate your legacy system</span></li>
 
 
             </div>

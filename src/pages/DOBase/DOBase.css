@@ -1,10 +1,9 @@
 /* XGenesis Hero Section */
-.heroContainer {
+.dobase-hero-main {
     width: 100%;
+    /* background-color removed */
     max-width: 1722px;
-    /* From user specs */
-    height: 655px;
-    /* From user specs */
+    height: 570px;
     margin: 0 auto;
     opacity: 1;
     transform: rotate(0deg);
@@ -12,32 +11,34 @@
     overflow: hidden;
 }
 
-.bgImg {
+.dobase-bg-img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
+    overlay: (rgba(7, 1, 174, 0.9));
+    backdrop-filter: blur(8px);
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 0;
+    opacity: 0.7;
+
 }
 
-.heroText {
+.dobase-hero-text {
     position: absolute;
     inset: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* Align left */
     justify-content: center;
     padding: 24px 64px;
-    /* Added left padding for better visual */
     text-align: left;
-    /* Align text left */
     color: white;
+    z-index: 1;
 }
 
-.heroHeader {
+.dobase-hero-header {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 3.2rem;
     line-height: 1.2;
@@ -46,7 +47,7 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.heroSubtitle {
+.dobase-hero-subtitle {
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -60,8 +61,8 @@
 
 /* AI Power Section */
 .ai-power-section {
-    padding: 100px 0;
-    background-color: #fff;
+    padding: 60px 0;
+    background-color: #EDEDED;
     text-align: center;
 }
 
@@ -74,7 +75,7 @@
 .dobase-intro-title {
     font-family: 'Roboto Condensed', sans-serif !important;
     font-size: 24px !important;
-    color: #000000;
+    color: #2B2B2B;
     margin-bottom: 8px;
     line-height: 1.4 !important;
     font-weight: 400 !important;
@@ -83,13 +84,13 @@
 .dobase-intro-subtitle {
     font-family: 'Roboto Condensed', sans-serif !important;
     font-size: 24px !important;
-    color: #000000;
+    color: #2B2B2B;
     line-height: 1.4 !important;
     font-weight: 400 !important;
 }
 
 .ai-power-faded {
-    color: #000000;
+    color: #2B2B2B;
 }
 
 
@@ -228,7 +229,7 @@
 .caliber-intro-title {
     font-size: 36px;
     font-weight: 800;
-    color: #212529;
+    color: #2B2B2B;
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -292,7 +293,7 @@
     border-radius: 50%;
     background-color: white;
     border: 2px solid #333;
-    color: #333;
+    color: #2B2B2B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -332,7 +333,7 @@
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 50px;
-    color: #212529;
+    color: #2B2B2B;
     text-align: center;
 }
 
@@ -373,7 +374,7 @@
     font-size: 45px;
     /* Reduced from 60px */
     /* Adjust font size to fit within 80px box reasonably */
-    color: black;
+    color: #2B2B2B;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -386,7 +387,7 @@
     font-size: 45px;
     /* Reduced from 60px */
     /* Adjust to visually match an 80px icon block */
-    color: black;
+    color: #2B2B2B;
 }
 
 .caliber-feature-title {
@@ -399,7 +400,7 @@
     line-height: 120%;
     letter-spacing: -0.32px;
     text-transform: uppercase;
-    color: #212529;
+    color: #2B2B2B;
     margin-bottom: 8px;
 }
 
@@ -426,7 +427,7 @@
 .caliber-app-title-main {
     font-size: 32px;
     font-weight: 800;
-    color: #212529;
+    color: #2B2B2B;
     text-transform: uppercase;
     margin-bottom: 15px;
     text-align: center;
@@ -445,7 +446,7 @@
 .caliber-app-side-title {
     font-size: 28px;
     font-weight: 800;
-    color: #212529;
+    color: #2B2B2B;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -491,7 +492,7 @@
 /* Easy Apply Section */
 .caliber-easy-apply-section {
     padding: 80px 0;
-    background-color: white;
+    background-color: #EDEDED;
 }
 
 .caliber-easy-title {
@@ -500,7 +501,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
-    color: #212529;
+    color: #2B2B2B;
 }
 
 .caliber-easy-subtitle {
@@ -536,7 +537,7 @@
     border-radius: 50%;
     background-color: white;
     border: 1px solid #333;
-    color: #333;
+    color: #2B2B2B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -620,7 +621,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 60px;
-    color: #333;
+    color: #2B2B2B;
 }
 
 .caliber-vertical-list-container {
@@ -702,7 +703,7 @@
     font-size: 32px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #333;
+    color: #2B2B2B;
     line-height: 1.2;
     margin-bottom: 30px;
     padding-right: 20px;
@@ -724,7 +725,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: #333;
+    color: #2B2B2B;
     /* Dark color as per image */
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -810,8 +811,24 @@
 }
 
 .caliber-product-card.dark-mode {
-    background-color: #333;
+    background-color: #2B2B2B;
     color: white;
+}
+
+.caliber-pro.dobase-intro-title {
+    font-size: 84px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2B2B2B;
+}
+
+.dobase-intro-subtitle {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #2B2B2B;
+    font-family: 'Merriweather', serif;
 }
 
 .caliber-product-card-title {
@@ -829,4 +846,17 @@
 
 .caliber-product-card.dark-mode .caliber-product-card-text {
     color: #ddd;
+}
+
+/* Responsive Hero Height */
+@media (max-width: 968px) {
+    .dobase-hero-main {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dobase-hero-main {
+        height: 450px;
+    }
 }

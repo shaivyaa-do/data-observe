@@ -2,19 +2,21 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import './Challenges.css';
 
+import { MoneyOff, Speed, Security } from '@mui/icons-material';
+
 const challengesData = [
     {
-        icon: "💻",
+        icon: <MoneyOff sx={{ fontSize: 40, color: '#1E90FF' }} />,
         title: "Unsustainable technical debt",
         description: "Spiraling costs to maintain legacy systems, COBOL-based infrastructure, and low-code apps stitched together with code"
     },
     {
-        icon: "⚡",
+        icon: <Speed sx={{ fontSize: 40, color: '#1E90FF' }} />,
         title: "Relentless pace of change",
         description: "Constant pressure to innovate while managing existing systems and keeping up with technological evolution"
     },
     {
-        icon: "🔒",
+        icon: <Security sx={{ fontSize: 40, color: '#1E90FF' }} />,
         title: "Escalating security risks",
         description: "Growing cybersecurity threats requiring constant vigilance and updates across fragmented technology stacks"
     }
@@ -22,14 +24,14 @@ const challengesData = [
 
 const Challenges = () => {
     return (
-        <Box sx={{ bgcolor: '#f6f9ff', py: 8, width: '100%' }}>
+        <Box sx={{ bgcolor: '#EDEDED', py: 8, width: '100%' }}>
             <Container maxWidth="lg">
                 <Typography
                     variant="h3"
                     sx={{
                         fontWeight: 700,
                         mb: 2,
-                        color: '#050505',
+                        color: '#2B2B2B',
                         fontSize: { xs: '1.75rem', md: '2rem' },
                         textAlign: 'center'
                     }}

@@ -5,7 +5,7 @@
 }
 
 .required:after {
-  content:" *";
+  content: " *";
   color: red;
 }
 
@@ -19,7 +19,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #1a4ab9;
   background: none;
-  color: white!important;
+  color: white !important;
 }
 
 .connect-page {
@@ -39,18 +39,21 @@
   border-radius: 4px;
   margin-top: 30px;
 }
+
 /* .all-names-form{
   border: 1px solid blue;
   padding: 0px 10px 0px 10px;
 } */
-.messagebox-shadow{
+.messagebox-shadow {
   height: 30px;
   width: 30px;
 }
+
 .full-name {
   color: rgba(255, 255, 255, 0.7) !important;
   font-weight: 400;
 }
+
 .connectpage-1 {
   background-color: #1a4ab9;
   background: rgba(255, 255, 255, 0.07);
@@ -65,6 +68,7 @@
 .contact-overall {
   padding-top: 6%;
 }
+
 .pattern {
   position: absolute;
 
@@ -73,6 +77,7 @@
   height: 100px;
   width: 156px;
 }
+
 .contact-heading {
   color: white;
   font-size: 65px;
@@ -80,6 +85,7 @@
   font-weight: 800;
   line-height: 78px;
 }
+
 .contact-paragraph {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
@@ -87,6 +93,7 @@
   font-weight: 400;
   line-height: 25.6px;
 }
+
 .mobile-number {
   padding-left: 10px;
   color: white;
@@ -95,6 +102,7 @@
   font-weight: 400;
   line-height: 25.6px;
 }
+
 .contact-phone {
   font-size: 18px;
   color: white;
@@ -102,12 +110,13 @@
 
 .our-location {
   text-align: center;
-  color: black;
+  color: #2B2B2B;
   font-size: 44px;
   font-family: Poppins;
   font-weight: 700;
   margin-bottom: 36px;
 }
+
 .map {
   width: 100%;
   margin-bottom: 73px;
@@ -125,7 +134,7 @@
 /* Tooltip content hidden by default */
 [data-tooltip]:before,
 [data-tooltip]:after {
-  transition: all  ease-in-out;
+  transition: all ease-in-out;
   visibility: hidden;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -146,8 +155,8 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   background-color: #FFFFFF;
-  background-color: hsl(0,0%,100%, 0.9);
-  color: black;
+  background-color: hsl(0, 0%, 100%, 0.9);
+  color: #2B2B2B;
   content: attr(data-tooltip);
   text-align: center;
   font-size: 15px;
@@ -164,7 +173,7 @@
   margin-left: -5px;
   width: 0;
   border-top: 5px solid #FFFFFF;
-  border-top: 5px solid hsl(0,0%,100%, 0.9);
+  border-top: 5px solid hsl(0, 0%, 100%, 0.9);
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
   content: " ";
@@ -182,52 +191,57 @@
   opacity: 1;
 }
 
-.main-map-icon-head{
+.main-map-icon-head {
   position: relative;
 }
 
 
-.icon-tool-1{
+.icon-tool-1 {
   position: absolute;
   top: 23%;
   left: 21%;
   font-size: 33px;
 }
-.icon-tool-2{
+
+.icon-tool-2 {
   position: absolute;
   top: 40%;
   left: 25%;
   font-size: 33px;
 }
-.icon-tool-3{
+
+.icon-tool-3 {
   position: absolute;
   top: 30%;
   left: 49%;
   font-size: 33px;
 }
-.icon-tool-4{
+
+.icon-tool-4 {
   position: absolute;
   top: 45%;
   left: 58%;
   font-size: 33px;
 }
 
-.icon-tool-5{
+.icon-tool-5 {
   position: absolute;
   top: 50%;
   left: 66%;
   font-size: 33px;
 }
-.icon-tool-6{
+
+.icon-tool-6 {
   position: absolute;
   top: 49%;
   left: 71%;
   font-size: 33px;
 }
 
-.icon-tool-5 [data-tooltip]:before{
-  border: 1px solid blue!important;
+.icon-tool-5 [data-tooltip]:before {
+  border: 1px solid blue !important;
 }
+
 /* ...tooltip end... */
 
 
@@ -242,12 +256,14 @@
   border-radius: 30px;
   padding: 20px 10px 10px 20px;
 }
+
 .costa-all {
   background: rgba(239, 113, 121, 0.08);
   border-radius: 30px;
   padding: 20px 10px 10px 20px;
   margin-top: 32px;
 }
+
 .nether-all {
   background: rgba(26, 74, 185, 0.08);
   border-radius: 30px;
@@ -266,33 +282,40 @@
   font-size: 21px;
   font-weight: 600;
 }
+
 .canada-heading {
   color: #ffd703;
   font-size: 21px;
   font-weight: 600;
 }
+
 .virginia-heading {
   font-size: 17px;
   font-weight: 600;
 }
+
 .nevada-heading {
   font-size: 21px;
   font-weight: 600;
 }
+
 .texas {
   font-size: 21px;
   font-weight: 600;
 }
+
 .costa-heading {
   color: #ef7179;
   font-size: 21px;
   font-weight: 600;
 }
+
 .nether-heading {
   color: #1a4ab9;
   font-size: 21px;
   font-weight: 600;
 }
+
 .india-heading {
   color: #00b686;
   font-size: 21px;
@@ -315,6 +338,7 @@
 .location-pad {
   margin-top: 64px;
 }
+
 /* .....grid.... */
 
 .line-bottom {
@@ -330,30 +354,31 @@
     background-size: contain;
     position: relative;
 } */
-.Location-Contact{
+.Location-Contact {
   width: 100%;
 }
-.overall-location-text{
+
+.overall-location-text {
   position: absolute;
   top: 7px;
   left: 87px;
 }
 
-.coming-office-head{
+.coming-office-head {
   background: rgba(171.26, 171.26, 171.26, 0.08);
   border-radius: 30px;
- 
+
   padding: 17px 20px;
   width: 100%;
-  
- 
+
+
 }
 
-.all-image-text-head-contact{
+.all-image-text-head-contact {
   margin-right: 62px;
 }
 
-.canada-list-singa li{
+.canada-list-singa li {
   margin-top: 14px;
   margin-bottom: 14px;
   margin-right: 10px;
@@ -362,50 +387,55 @@
   color: #0046E8;
   font-weight: 600;
 }
-.canada-list-singa{
+
+.canada-list-singa {
   list-style-type: none;
 }
-.come-soon{
+
+.come-soon {
   font-size: 15px;
   margin-left: 14px;
   font-weight: 600;
 
 }
 
-.india-main{
-color: #00B686;
-font-size: 21px;
-font-family: Poppins;
-font-weight: 600;
+.india-main {
+  color: #00B686;
+  font-size: 21px;
+  font-family: Poppins;
+  font-weight: 600;
 
 }
 
-.hyderabad-main{
+.hyderabad-main {
   color: #292829;
   font-size: 17px;
   font-family: Poppins;
   font-weight: 600;
-  
+
 }
-.local-main-text{
+
+.local-main-text {
   color: rgba(41, 40, 41, 0.80);
   font-size: 15px;
   font-family: Poppins;
   font-weight: 400;
-  
+
 }
 
 /* .....footer... */
 
-.last-foot-m{
+.last-foot-m {
   margin-top: 30px;
 }
+
 .footer {
   width: 100%;
   position: relative;
   height: auto;
   background-color: black;
 }
+
 .footer .coll {
   height: auto;
   float: left;
@@ -414,6 +444,7 @@ font-weight: 600;
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
+
 .footer .coll h1 {
   margin: 0;
   padding: 0;
@@ -428,8 +459,8 @@ font-weight: 600;
   /* color: #ff4925!important; */
 }
 
-.footer-data .coll .company{
-  color: #ff4925!important;
+.footer-data .coll .company {
+  color: #ff4925 !important;
 }
 
 
@@ -438,6 +469,7 @@ font-weight: 600;
   margin: 0;
   padding: 0;
 }
+
 .footer .coll ul li {
   color: #fff;
   font-size: 14px;
@@ -449,6 +481,7 @@ font-weight: 600;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
 }
+
 .social ul li {
   display: inline-block;
   padding-right: 5px !important;
@@ -460,9 +493,11 @@ font-weight: 600;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
 }
+
 .clearfix {
   clear: both;
 }
+
 .footer-data {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -471,9 +506,11 @@ font-weight: 600;
 .footer-heading {
   color: #ff4925 !important;
 }
+
 .head-footer {
   color: #ff4925 !important;
 }
+
 .cloud li {
   font-size: 8px;
 }
@@ -483,6 +520,7 @@ font-weight: 600;
   width: 39px;
   cursor: pointer;
 }
+
 .socialmedia-images {
   justify-content: space-evenly;
   margin-bottom: 54px;
@@ -492,69 +530,73 @@ font-weight: 600;
 .privacy-policy-1 {
   color: #828282;
 }
-.privacy-dataobserve-text{
+
+.privacy-dataobserve-text {
   font-size: 13px;
   margin-left: -80px;
   margin-top: 17px;
 }
+
 .agilisium {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.logo-main-footer{
+.logo-main-footer {
   width: 38px;
   height: 24px;
-  margin-top: 14px!important;
+  margin-top: 14px !important;
   margin-right: 10px;
 }
-.logo-text-footer{
+
+.logo-text-footer {
   margin-top: 10px;
 }
 
-.data-footer{
-color: white;
-font-size: 19.60px;
-font-family: Roboto;
-font-weight: 100;
-line-height: 30.49px;
-letter-spacing: 0.39px;
-word-wrap: break-word
-
-}
-.observe-footer{
-color: white;
-font-size: 19.60px;
-font-family: Roboto;
-font-weight: 800;
-line-height: 30.49px;
-
+.data-footer {
+  color: white;
+  font-size: 19.60px;
+  font-family: Roboto;
+  font-weight: 100;
+  line-height: 30.49px;
+  letter-spacing: 0.39px;
+  word-wrap: break-word
 }
 
-.data-copy-right{
+.observe-footer {
+  color: white;
+  font-size: 19.60px;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: 30.49px;
+
+}
+
+.data-copy-right {
   color: rgba(255, 255, 255, 0.50);
   font-weight: 300;
 
 }
 
-.observe-copy-right{
+.observe-copy-right {
   color: rgba(255, 255, 255, 0.50);
   font-weight: 700;
 
 }
 
-.all-rights-footer{
+.all-rights-footer {
   color: rgba(255, 255, 255, 0.50);
   font-weight: 300;
 }
 
-.privacy-policy{
+.privacy-policy {
   color: #828282;
-font-size: 13px;
-font-family: Poppins;
-font-weight: 500;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 500;
 
 }
-.terms-condition-1{
+
+.terms-condition-1 {
   color: #828282;
   font-size: 13px;
   font-family: Poppins;
@@ -564,62 +606,73 @@ font-weight: 500;
 .footer-img {
   width: 28%;
 }
+
 @media only screen and (min-width: 1280px) {
   .contain {
     width: 1200px;
     margin: 0 auto;
   }
 }
+
 @media only screen and (max-width: 1139px) {
   .contain .social {
     width: 1000px;
     display: block;
   }
+
   .social h1 {
     margin: 0px;
   }
 }
+
 @media only screen and (max-width: 950px) {
   .footer .col {
     width: 33%;
   }
+
   .footer .col h1 {
     font-size: 14px;
   }
+
   .footer .col ul li {
     font-size: 13px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .footer .col {
     width: 50%;
   }
+
   .footer .col h1 {
     font-size: 14px;
   }
+
   .footer .col ul li {
     font-size: 13px;
   }
 }
+
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 468px)
-{
-  .contact-heading{
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+  .contact-heading {
     color: white;
     font-size: 26px;
     font-family: Poppins;
     font-weight: 800;
     line-height: 33px
   }
-  .contact-paragraph{
+
+  .contact-paragraph {
     font-size: 10px;
     line-height: 23px;
   }
+
   .contact-us-3 {
     width: 44%;
     padding: 5px;
@@ -628,101 +681,118 @@ font-weight: 500;
     font-size: 13px;
   }
 
-  .our-location{
+  .our-location {
     font-size: 22px;
   }
-  .map-location-size{
+
+  .map-location-size {
     font-size: 17px;
   }
 
-  .location-india{
+  .location-india {
     margin-top: 10%;
   }
-  .map{
+
+  .map {
     margin-bottom: 6px !important;
   }
-  .come-soon{
+
+  .come-soon {
     font-size: 13px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     font-size: 10px;
   }
-  .canada-list-singa{
+
+  .canada-list-singa {
     margin-bottom: 0px !important;
     list-style-type: none;
 
   }
-  .overall-location-text{
-   
+
+  .overall-location-text {
+
     position: absolute !important;
     top: 38px;
     left: 33px;
-   
+
   }
 
   .india-main {
     font-size: 14px;
   }
+
   .hyderabad-main {
     font-size: 12px;
   }
+
   .local-main-text {
     font-size: 10px;
   }
-  
-  .coming-office-head{
+
+  .coming-office-head {
     margin-top: 30px;
     width: 100%;
 
   }
-  .last-foot-m{
+
+  .last-foot-m {
     margin-top: 45px;
   }
 
-  .logo-contact-page{
+  .logo-contact-page {
     margin-left: 0px;
   }
-  .privacy-dataobserve-text{
+
+  .privacy-dataobserve-text {
     margin-left: 0px;
     margin-top: 12px;
     margin: 0px;
   }
-  .socialmedia-images{
-   
-    margin-bottom: 0px ;
+
+  .socialmedia-images {
+
+    margin-bottom: 0px;
   }
-  .fb{
+
+  .fb {
     height: 34px;
     width: 34px;
   }
-  .connectpage-1{
+
+  .connectpage-1 {
     width: 100% !important;
   }
+
   .full-name {
     font-size: 14px;
   }
-  .mobile-number{
+
+  .mobile-number {
     font-size: 14px !important;
   }
-  .Location-Contact{
+
+  .Location-Contact {
     margin-top: 32px;
     height: 177px;
   }
 }
 
-@media only screen and (min-width: 468px) and (max-width: 768px)
-{
-  .contact-heading{
+@media only screen and (min-width: 468px) and (max-width: 768px) {
+  .contact-heading {
     color: white;
     font-size: 37px;
     font-family: Poppins;
     font-weight: 800;
     line-height: 40px
   }
-  .contact-paragraph{
+
+  .contact-paragraph {
     font-size: 13px;
     line-height: 23px;
   }
+
   .contact-us-3 {
     width: 44%;
     padding: 5px;
@@ -731,102 +801,120 @@ font-weight: 500;
     font-size: 15px;
   }
 
-  .our-location{
+  .our-location {
     font-size: 24px;
   }
-  .map-location-size{
+
+  .map-location-size {
     font-size: 21px;
   }
 
-  .location-india{
+  .location-india {
     margin-top: 10%;
   }
-  .map{
+
+  .map {
     margin-bottom: 6px !important;
   }
-  .come-soon{
+
+  .come-soon {
     font-size: 13px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     font-size: 12px;
   }
-  .overall-location-text{
-   
+
+  .overall-location-text {
+
     position: absolute !important;
     top: 38px;
     left: 33px;
-   
+
   }
 
   .india-main {
     font-size: 17px;
   }
+
   .hyderabad-main {
     font-size: 13px;
   }
+
   .local-main-text {
     font-size: 11px;
   }
-  
-  .coming-office-head{
+
+  .coming-office-head {
     margin-top: 30px;
     width: 100%;
 
   }
-  .last-foot-m{
+
+  .last-foot-m {
     margin-top: 45px;
   }
 
-  .logo-contact-page{
+  .logo-contact-page {
     margin-left: 0px;
   }
-  .privacy-dataobserve-text{
+
+  .privacy-dataobserve-text {
     margin-left: 0px;
     margin-top: 12px;
     margin: 0px;
   }
-  .socialmedia-images{
-   
-    margin-bottom: 0px ;
+
+  .socialmedia-images {
+
+    margin-bottom: 0px;
   }
-  .fb{
+
+  .fb {
     height: 34px;
     width: 34px;
   }
-  .connectpage-1{
+
+  .connectpage-1 {
     width: 100% !important;
   }
+
   .full-name {
     font-size: 16px;
   }
-  .mobile-number{
+
+  .mobile-number {
     font-size: 15px !important;
   }
-  .Location-Contact{
+
+  .Location-Contact {
     margin-top: 32px;
     height: 200px;
   }
+
   .full-g {
     padding: 20px;
   }
-  .contact-bg-color{
+
+  .contact-bg-color {
     height: 836px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{
-  .contact-heading{
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-heading {
     color: white;
     font-size: 44px;
     font-family: Poppins;
     font-weight: 800;
     line-height: 43px
   }
-  .contact-paragraph{
+
+  .contact-paragraph {
     font-size: 13px;
     line-height: 23px;
   }
+
   .contact-us-3 {
     width: 44%;
     padding: 5px;
@@ -835,107 +923,126 @@ font-weight: 500;
     font-size: 15px;
   }
 
-  .our-location{
+  .our-location {
     font-size: 25px;
   }
-  .map-location-size{
+
+  .map-location-size {
     font-size: 24px;
   }
 
-  .location-india{
+  .location-india {
     margin-top: 10%;
   }
-  .map{
+
+  .map {
     margin-bottom: 6px !important;
   }
-  .come-soon{
+
+  .come-soon {
     font-size: 13px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     font-size: 12px;
   }
-  .overall-location-text{
-   
+
+  .overall-location-text {
+
     position: absolute !important;
     top: 38px;
     left: 33px;
-   
+
   }
 
   .india-main {
     font-size: 17px;
   }
+
   .hyderabad-main {
     font-size: 13px;
   }
+
   .local-main-text {
     font-size: 11px;
   }
-  
-  .coming-office-head{
+
+  .coming-office-head {
     margin-top: 30px;
     width: 100%;
 
   }
-  .last-foot-m{
+
+  .last-foot-m {
     margin-top: 45px;
   }
 
-  .logo-contact-page{
+  .logo-contact-page {
     margin-left: 0px;
   }
-  .privacy-dataobserve-text{
+
+  .privacy-dataobserve-text {
     margin-left: 0px;
     margin-top: 12px;
     margin: 0px;
   }
-  .socialmedia-images{
-   
-    margin-bottom: 0px ;
+
+  .socialmedia-images {
+
+    margin-bottom: 0px;
   }
-  .fb{
+
+  .fb {
     height: 34px;
     width: 34px;
   }
-  .connectpage-1{
+
+  .connectpage-1 {
     width: 100% !important;
   }
+
   .full-name {
     font-size: 16px;
   }
-  .mobile-number{
+
+  .mobile-number {
     font-size: 15px !important;
   }
-  .Location-Contact{
+
+  .Location-Contact {
     margin-top: 32px;
     height: 210px;
   }
+
   .full-g {
     padding: 20px;
   }
-  .contact-bg-color{
+
+  .contact-bg-color {
     height: 836px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     margin-top: 11px;
     margin-bottom: 11px;
   }
 }
 
 
-@media only screen and (min-width: 990px) and (max-width: 1024px)
-{
-  .contact-heading{
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+  .contact-heading {
     color: white;
     font-size: 44px;
     font-family: Poppins;
     font-weight: 800;
     line-height: 46px
   }
-  .contact-paragraph{
+
+  .contact-paragraph {
     font-size: 13px;
     line-height: 23px;
   }
+
   .contact-us-3 {
     width: 44%;
     padding: 5px;
@@ -944,89 +1051,106 @@ font-weight: 500;
     font-size: 15px;
   }
 
-  .our-location{
+  .our-location {
     font-size: 25px;
   }
-  .map-location-size{
+
+  .map-location-size {
     font-size: 24px;
   }
 
-  .location-india{
+  .location-india {
     margin-top: 10%;
   }
-  .map{
+
+  .map {
     margin-bottom: 6px !important;
   }
-  .come-soon{
+
+  .come-soon {
     font-size: 13px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     font-size: 12px;
   }
 
-  .overall-location-text{
-   
+  .overall-location-text {
+
     position: absolute !important;
     top: 38px;
     left: 33px;
-   
+
   }
 
   .india-main {
     font-size: 17px;
   }
+
   .hyderabad-main {
     font-size: 13px;
   }
+
   .local-main-text {
     font-size: 11px;
   }
-  
-  .coming-office-head{
+
+  .coming-office-head {
     margin-top: 30px;
     width: 100%;
 
   }
-  .last-foot-m{
+
+  .last-foot-m {
     margin-top: 45px;
   }
 
-  .logo-contact-page{
+  .logo-contact-page {
     margin-left: 0px;
   }
-  .privacy-dataobserve-text{
+
+  .privacy-dataobserve-text {
     margin-left: 0px;
     margin-top: 12px;
     margin: 0px;
   }
-  .socialmedia-images{
-   
-    margin-bottom: 0px ;
+
+  .socialmedia-images {
+
+    margin-bottom: 0px;
   }
-  .fb{
+
+  .fb {
     height: 34px;
     width: 34px;
   }
-  .connectpage-1{
+
+  .connectpage-1 {
     width: 100% !important;
   }
+
   .full-name {
     font-size: 16px;
   }
-  .mobile-number{
+
+  .mobile-number {
     font-size: 15px !important;
   }
-  .Location-Contact{
+
+  .Location-Contact {
     margin-top: 32px;
     height: 210px;
   }
+
   .full-g {
     padding: 20px;
   }
-  .contact-bg-color{
+
+  .contact-bg-color {
     height: 836px;
   }
-  .canada-list-singa li{
+
+  .canada-list-singa li {
     margin-top: 11px;
     margin-bottom: 11px;
   }

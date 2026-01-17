@@ -586,16 +586,18 @@
 .card-img {
   margin: 16px 0px 14px 0px;
 }
-.back-point{
-  /* background: #F6F9FF; */
+
+.back-point {
+  /* background: #EDEDED; */
   height: fit-content;
 }
+
 .Navigate-Journey {
   margin-left: -13px;
   font-weight: bold;
 }
 
-.Cloud-title{
+.Cloud-title {
   padding-left: 14px !important;
 }
 
@@ -749,14 +751,14 @@
     width: 60px;
   }
 
-  .CLOUD-APP-LOGO{
-    height: 60px !important ;
+  .CLOUD-APP-LOGO {
+    height: 60px !important;
   }
 
   .box-padding-cloud {
     padding: 20px;
     height: fit-content !important;
-    
+
   }
 
   .no-gutters {
@@ -779,7 +781,8 @@
     text-align: center;
     margin: 0px !important;
   }
-  .ObserverS-Cloud{
+
+  .ObserverS-Cloud {
     display: flex;
     justify-content: center;
   }
@@ -995,7 +998,7 @@
   .box-padding-cloud {
     /* height: 260px !important; */
     /* padding: 5px; */
-   
+
   }
 
   .no-gutters {
@@ -1344,9 +1347,11 @@
     font-size: 18px;
 
   }
+
   .cloudcardpara {
     font-size: 12px;
   }
+
   .cloudcard {
     position: absolute;
     top: 55%;

@@ -171,7 +171,7 @@
 }
 
 
-.explore-Tool-Acc:hover{
+.explore-Tool-Acc:hover {
   text-decoration: underline;
 
 }
@@ -550,7 +550,7 @@
   border-radius: 5px;
   border: 2px solid #FFF;
   padding: 10px 20px;
-  color: #000;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 19.313px;
@@ -563,7 +563,7 @@
   border-radius: 5px;
   border: 2px solid #FFF;
   padding: 10px 20px;
-  color: #000;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 19.313px;
@@ -607,7 +607,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  color: #050505;
+  color: #2B2B2B;
   text-align: center;
   font-family: Poppins;
   font-size: 17px;
@@ -658,7 +658,7 @@
 
 
 
-.overlay-landing-page::before{
+.overlay-landing-page::before {
   content: '';
   position: absolute;
   top: 0%;
@@ -668,7 +668,7 @@
   background-color: #2b2b2b;
   opacity: 0.8;
   mix-blend-mode: color;
-  
+
 }
 
 
@@ -816,7 +816,7 @@
 
 
 .software-homePAGE {
-  background: #F6F9FF;
+  background: #EDEDED;
   height: 324px;
   align-items: center;
   padding-top: 4%;
@@ -1068,7 +1068,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-line-height: 120%;
+  line-height: 120%;
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }
@@ -1110,10 +1110,10 @@ line-height: 120%;
   position: absolute;
   top: 23%;
   left: 22%;
- 
+
 }
 
-.online-Zoom{
+.online-Zoom {
   height: 136px;
   width: 135.5px;
 }
@@ -1276,7 +1276,7 @@ line-height: 120%;
 .lANDING-VIdeo {
   width: 100%;
   object-fit: cover;
-  
+
   margin-bottom: -1%;
   /* opacity: 0.6; */
 
@@ -1553,7 +1553,7 @@ line-height: 120%;
     position: absolute;
     top: 15%;
     left: 51%;
-   
+
   }
 
   .online-Zoom {
@@ -1657,7 +1657,7 @@ line-height: 120%;
     padding-left: 0px;
   }
 
-  
+
 
   .confidence-landing-Page {
     font-size: 17px;
@@ -1786,7 +1786,7 @@ line-height: 120%;
     margin: 10%;
   }
 
- 
+
 
   .landing-PartnerdBRING {
     font-size: 17px;

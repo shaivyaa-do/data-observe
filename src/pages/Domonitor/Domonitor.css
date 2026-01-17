@@ -333,7 +333,7 @@
 .swiper-container ul a {
   display: block;
   text-decoration: none;
-  color: #333;
+  color: #2B2B2B;
   display: block;
   padding: 0.6rem 0.3rem;
   font-weight: 400;
@@ -837,6 +837,7 @@
   .do-mon {
     height: 400px;
   }
+
   .domonitor2ndbg {
     height: 470px;
   }
@@ -851,7 +852,7 @@
     margin: 18px;
   }
 
- 
+
   .section1head {
     margin-top: 30px;
   }
@@ -864,6 +865,7 @@
   .qualityhead {
     font-size: 25px;
   }
+
   .linkClass {
     font-size: 15px !important;
   }
@@ -878,21 +880,14 @@
     margin-top: 35px;
     padding-top: 35px;
   }
+
   .list-type-1 li {
     list-style-type: disc;
     margin-left: 19px;
-}
-.headingpillars {
-  font-size: 40px;
-}
+  }
+
+  .headingpillars {
+    font-size: 40px;
+  }
 
 }
-
-
-
-
-
-
-
-
-

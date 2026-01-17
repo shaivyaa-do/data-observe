@@ -72,7 +72,7 @@ const Carousel = () => {
     };
 
     return (
-        <Box sx={{ py: 8, mt: "64px", width: "100%", bgcolor: mode === "light" ? "#f5f5f5" : "background.paper" }}>
+        <Box sx={{ py: 8, width: "100%", bgcolor: mode === "light" ? "#EDEDED" : "background.paper" }}>
             <Container style={{ position: "relative" }} ref={containerRef} maxWidth="lg">
                 <motion.div style={{ y }}>
                     <Paper
@@ -98,7 +98,7 @@ const Carousel = () => {
                             </Typography>
                             <Typography
                                 gutterBottom
-                                sx={{ fontFamily: "'Merriweather', serif", color: '#666', fontSize: "15px", mb: 4, lineHeight: 1.6 }}
+                                sx={{ fontFamily: "'Merriweather', serif", color: '#2B2B2B', fontSize: "15px", mb: 4, lineHeight: 1.6 }}
                             >
                                 Practical AI for Real Business Needs
                             </Typography>
@@ -138,7 +138,7 @@ const Carousel = () => {
                                             >
                                                 <Typography
                                                     sx={{
-                                                        color: isActive ? "#0d6efd" : "#6c757d",
+                                                        color: isActive ? "#0d6efd" : "#2B2B2B",
                                                         fontWeight: isActive ? 700 : 500,
                                                         fontFamily: "'Roboto Condensed', sans-serif",
                                                         fontSize: "16px",
@@ -151,7 +151,7 @@ const Carousel = () => {
                                             <AccordionDetails sx={{ px: 0, pb: "16px", pt: "0px" }}>
                                                 <Typography
                                                     sx={{
-                                                        color: "#6c757d",
+                                                        color: "#2B2B2B",
                                                         fontFamily: "'Merriweather', serif",
                                                         fontSize: "14px",
                                                         fontWeight: 400,
@@ -194,7 +194,7 @@ const Carousel = () => {
                                 })}
                             </Box>
 
-                            <Typography variant="body2" my={3} sx={{ fontFamily: "'Merriweather', serif", color: '#999' }}>
+                            <Typography variant="body2" my={3} sx={{ fontFamily: "'Merriweather', serif", color: '#2B2B2B' }}>
                                 Create valuable AI agents and agentic workflows with confidence and ongoing control.
                             </Typography>
 
