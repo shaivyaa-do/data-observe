@@ -5,8 +5,8 @@ import caseStudyImage from "../../../assets/images/others/case-study1.png";
 
 const CaseStudies = () => {
     return (
-        <Box component="section" sx={{ py: 10, bgcolor: "#1a1a1a", color: "#fff" }}>
-            <Container maxWidth="lg">
+        <Box component="section" sx={{ py: 10, bgcolor: "#2b2b2b", color: "#fff" }}>
+            <Container maxWidth={false} sx={{ maxWidth: "1000px" }}>
                 {/* Section Title */}
                 <Typography
                     variant="h4"
@@ -15,7 +15,9 @@ const CaseStudies = () => {
                         fontWeight: 700,
                         mb: 6,
                         textAlign: "left",
-                        fontFamily: "'Roboto Condensed', sans-serif" // Explicitly ensure font
+                        color: "#fff",
+                        fontFamily: "'Roboto Condensed', sans-serif", // Explicitly ensure font
+                        fontSize: "36px"
                     }}
                 >
                     Our Case Studies
@@ -68,8 +70,9 @@ const CaseStudies = () => {
                                 fontWeight: 800,
                                 mb: 3,
                                 textTransform: "uppercase",
-                                fontSize: { xs: "1.5rem", md: "1.8rem" },
+                                fontSize: "30px", // Updated to 30px
                                 lineHeight: 1.2,
+                                color: "#fff",
                                 fontFamily: "'Roboto Condensed', sans-serif" // Explicitly ensure font
                             }}
                         >
@@ -78,7 +81,7 @@ const CaseStudies = () => {
                         <Typography
                             variant="body1"
                             sx={{
-                                fontSize: "1.1rem",
+                                fontSize: "18px", // Updated to 18px
                                 lineHeight: 1.8,
                                 mb: 4,
                                 color: "#ccc"
@@ -90,7 +93,7 @@ const CaseStudies = () => {
                             variant="contained"
                             endIcon={<KeyboardArrowRightIcon />}
                             sx={{
-                                bgcolor: "#2196f3",
+                                bgcolor: "#158aff",
                                 color: "#fff",
                                 px: 4,
                                 py: 1,
@@ -98,7 +101,7 @@ const CaseStudies = () => {
                                 textTransform: "none",
                                 borderRadius: "4px",
                                 "&:hover": {
-                                    bgcolor: "#1976d2",
+                                    bgcolor: "#158aff",
                                 },
                             }}
                         >
@@ -106,8 +109,8 @@ const CaseStudies = () => {
                         </Button>
                     </Box>
                 </Box>
-            </Container>
-        </Box>
+            </Container >
+        </Box >
     );
 };
 

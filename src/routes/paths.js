@@ -15,6 +15,7 @@ export const PATHS = {
     INDUSTRIES: '/life-science',
     GAMING: '/gaming',
     MEDIA: '/media',
+    MEDIA_ENTERTAINMENT: '/media-entertainment',
     BLOG_DETAIL: '/blog/:id',
     CASESTUDIES: '/casestudies',
     EBOOKS: '/ebooks',

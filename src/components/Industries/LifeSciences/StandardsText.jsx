@@ -4,12 +4,12 @@ import { Box, Container, Grid, Typography, Button } from "@mui/material";
 const StandardsText = () => {
     return (
         <Box sx={{ py: 20, my: 15, bgcolor: "#fff" }}>
-            <Container maxWidth="lg">
+            <Container maxWidth={false} sx={{ maxWidth: "1000px" }}>
                 <Box
                     sx={{
                         display: "grid",
-                        gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
-                        gap: { xs: 8, md: 40 },
+                        gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" }, // Increase heading width
+                        gap: { xs: 8, md: 15 },
                         alignItems: "flex-start",
                         textAlign: "left"
                     }}
@@ -21,48 +21,28 @@ const StandardsText = () => {
                             sx={{
                                 fontWeight: 800,
                                 textTransform: "uppercase",
-                                fontSize: { xs: "2.5rem", md: "3rem" },
+                                fontSize: "36px",
                                 lineHeight: 1.1,
-                                color: "#222",
+                                color: "#2b2b2b",
                                 fontFamily: "'Roboto Condensed', sans-serif"
                             }}
                         >
-                            LIFE SCIENCE<br />EXPERTISE
+                            ENHANCING INDUSTRY STANDARDS THROUGH THE INTEGRATION OF AI AND ANALYTICS.
                         </Typography>
                     </Box>
                     <Box>
                         <Typography
                             variant="body1"
                             sx={{
-                                fontSize: "1.25rem",
+                                fontSize: "18px",
                                 lineHeight: 1.6,
-                                color: "#444",
+                                color: "#2b2b2b",
                                 mb: 4,
                                 fontFamily: "Georgia, serif"
                             }}
                         >
-                            DataObserve provides a wide range of solutions tailored to the unique needs of the life science and pharmaceutical industry.
+                            Each industry presents its unique challenges, and for numerous pressing issues, there are no established playbooks. Achieving solutions requires a delicate balance between adhering to best practices and engaging in fundamental, ground-up thinking.
                         </Typography>
-                        <Button
-                            variant="contained"
-                            sx={{
-                                bgcolor: "#1E90FF",
-                                color: "#fff",
-                                textTransform: "none",
-                                fontSize: "1rem",
-                                fontWeight: "bold",
-                                px: 4,
-                                py: 1.5,
-                                borderRadius: "4px",
-                                boxShadow: "none",
-                                "&:hover": {
-                                    bgcolor: "#1C86EE",
-                                    boxShadow: "none"
-                                }
-                            }}
-                        >
-                            Request a demo {'>'}
-                        </Button>
                     </Box>
                 </Box>
             </Container>

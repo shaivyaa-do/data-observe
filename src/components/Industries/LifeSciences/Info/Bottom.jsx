@@ -6,7 +6,7 @@ const InfoBottom = () => {
     const items = [
         {
             title: "ADVANCED BUSINESS INTELLIGENCE.",
-            icon: <Timeline sx={{ fontSize: 40, color: '#1E90FF' }} />,
+            icon: <Timeline sx={{ fontSize: 40, color: '#158aff' }} />,
             points: [
                 {
                     title: "Integration of Advanced BI in Life Science",
@@ -24,7 +24,7 @@ const InfoBottom = () => {
         },
         {
             title: "DATA-DRIVEN R&D.",
-            icon: <Storage sx={{ fontSize: 40, color: '#1E90FF' }} />,
+            icon: <Storage sx={{ fontSize: 40, color: '#158aff' }} />,
             points: [
                 {
                     title: "Cloud-Driven Lab Informatics",
@@ -42,7 +42,7 @@ const InfoBottom = () => {
         },
         {
             title: "MANUFACTURING AND SUPPLY CHAIN.",
-            icon: <PrecisionManufacturing sx={{ fontSize: 40, color: '#1E90FF' }} />,
+            icon: <PrecisionManufacturing sx={{ fontSize: 40, color: '#158aff' }} />,
             points: [
                 {
                     title: "Cutting-Edge Big Data Analytics Solutions",
@@ -60,7 +60,7 @@ const InfoBottom = () => {
         },
         {
             title: "DECENTRALIZED CLINICAL TRIALS",
-            icon: <DonutLarge sx={{ fontSize: 40, color: '#1E90FF' }} />,
+            icon: <DonutLarge sx={{ fontSize: 40, color: '#158aff' }} />,
             points: [
                 {
                     title: "Future-Focused Clinical Trials",
@@ -78,7 +78,7 @@ const InfoBottom = () => {
         },
         {
             title: "MEDICAL DEVICES",
-            icon: <Inventory2 sx={{ fontSize: 40, color: '#1E90FF' }} />,
+            icon: <Inventory2 sx={{ fontSize: 40, color: '#158aff' }} />,
             points: [
                 {
                     title: "Empowering Life Science Organizations",
@@ -98,8 +98,8 @@ const InfoBottom = () => {
 
     return (
         <Box sx={{ py: 8, bgcolor: '#EEEEEE' }}>
-            <Container maxWidth="lg">
-                <Typography variant="h4" align="center" gutterBottom sx={{ fontWeight: 'bold', textTransform: 'uppercase', mb: 18, color: '#212121' }}>
+            <Container maxWidth={false} sx={{ maxWidth: "1000px" }}>
+                <Typography variant="h4" align="center" gutterBottom sx={{ fontWeight: 'bold', textTransform: 'uppercase', mb: 18, color: '#2b2b2b' }}>
                     WHY DATAOBSERVE’S LIFE SCIENCE?
                 </Typography>
 
@@ -121,7 +121,8 @@ const InfoBottom = () => {
                             alignItems: 'flex-start', // Prevent stretching to reveal line
                             mb: 8,
                             position: 'relative',
-                            ml: { xs: 0, md: 'calc(20% - 40px)' } // item margin matches 30%
+                            ml: { xs: 0, md: 'calc(20% - 40px)' }, // item margin matches 30%
+                            minHeight: '450px'
                         }}>
                             {/* Icon Wrapper */}
                             <Box sx={{
@@ -138,22 +139,23 @@ const InfoBottom = () => {
                             {/* Content */}
                             <Box sx={{ pl: { xs: 2, md: 4 }, maxWidth: '700px' }}>
                                 <Typography variant="h5" sx={{
-                                    color: '#1E90FF',
+                                    color: '#158aff',
                                     fontWeight: 'bold',
                                     textTransform: 'uppercase',
                                     mb: 3,
-                                    mt: 0 // Remove default margin for alignment
+                                    mt: 0, // Remove default margin for alignment
+                                    fontSize: '36px'
                                 }}>
                                     {item.title}
                                 </Typography>
                                 <Box component="ul" sx={{ pl: 4, m: 0 }}>
                                     {item.points.map((point, idx) => (
-                                        <Box component="li" key={idx} sx={{ mb: 2, fontFamily: 'Georgia, serif', color: '#444' }}>
-                                            <Typography component="span" sx={{ fontWeight: 'bold' }}>
+                                        <Box component="li" key={idx} sx={{ mb: 5, fontFamily: 'Georgia, serif', color: '#2b2b2b', fontSize: '18px' }}>
+                                            <Typography component="span" sx={{ fontWeight: 'bold', fontSize: '18px' }}>
                                                 {point.title}:
                                             </Typography>
                                             {' '}
-                                            <Typography component="span" sx={{ fontFamily: 'Georgia, serif' }}>
+                                            <Typography component="span" sx={{ fontFamily: 'Georgia, serif', fontSize: '18px' }}>
                                                 {point.text}
                                             </Typography>
                                         </Box>

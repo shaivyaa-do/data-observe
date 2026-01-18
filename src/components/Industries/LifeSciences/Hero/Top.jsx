@@ -1,12 +1,12 @@
 import React from 'react';
 import { Box, Typography, Container, Breadcrumbs, Link, Button } from '@mui/material';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import lifeScienceVid from '../../../../assets/videos/life-science.mp4';
 
 const HeroTop = () => {
     return (
         <React.Fragment>
             {/* Custom Header Section */}
-            <Box sx={{ bgcolor: '#212121', py: 2 }}>
+            <Box sx={{ bgcolor: '#2b2b2b', py: 2 }}>
                 <Container maxWidth="lg" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <Breadcrumbs
                         separator={<span style={{ color: 'white', fontSize: '1.2rem', margin: '0 8px' }}>&gt;</span>}
@@ -34,13 +34,13 @@ const HeroTop = () => {
                     <Button
                         variant="contained"
                         sx={{
-                            bgcolor: '#1A4AB9',
+                            bgcolor: '#158aff',
                             textTransform: 'none',
                             fontWeight: 'bold',
                             borderRadius: 1,
                             px: 3,
                             '&:hover': {
-                                bgcolor: '#153a96'
+                                bgcolor: '#158aff'
                             }
                         }}
                         href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
@@ -63,9 +63,10 @@ const HeroTop = () => {
                         height: '100%',
                         objectFit: 'cover',
                         zIndex: -1,
+                        filter: 'grayscale(90%) blur(1px)'
                     }}
                 >
-                    <source src="https://storage.googleapis.com/do-website-resources/life-science.mp4" type="video/mp4" />
+                    <source src={lifeScienceVid} type="video/mp4" />
                 </video>
                 <Box
                     sx={{
@@ -80,10 +81,10 @@ const HeroTop = () => {
                 />
                 <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                     <Box>
-                        <Typography variant="h3" component="h1" sx={{ fontWeight: 'bold', mb: 2, textTransform: 'uppercase' }}>
+                        <Typography variant="h3" component="h1" sx={{ fontWeight: 'bold', mb: 2, textTransform: 'uppercase', color: '#ffffff' }}>
                             Life Science
                         </Typography>
-                        <Typography variant="h6" sx={{ maxWidth: '600px', fontWeight: 'bold' }}>
+                        <Typography variant="h6" sx={{ maxWidth: '600px', fontWeight: 'bold', color: '#ffffff' }}>
                             Developing data solutions in the Life Sciences sector to stimulate innovation.
                         </Typography>
                     </Box>

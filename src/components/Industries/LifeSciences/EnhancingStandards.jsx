@@ -26,7 +26,7 @@ const EnhancingStandards = () => {
                         sx={{
                             fontWeight: 700,
                             textTransform: "uppercase",
-                            fontSize: "24px", // Reduced size as requested
+                            fontSize: "32px", // Increased size as requested
                             lineHeight: 1.2,
                             letterSpacing: "0.02em",
                             color: "#fff",
@@ -56,7 +56,7 @@ const EnhancingStandards = () => {
                         variant="contained"
                         endIcon={<KeyboardArrowRightIcon />}
                         sx={{
-                            bgcolor: "#0ea5e9", // Bright blue
+                            bgcolor: "#158aff", // Bright blue
                             color: "#fff",
                             px: 5,
                             py: 2,
@@ -67,7 +67,7 @@ const EnhancingStandards = () => {
                             boxShadow: "0 4px 15px rgba(14,165,233,0.4)",
                             transition: "all 0.3s ease",
                             "&:hover": {
-                                bgcolor: "#0284c7", // Darker blue
+                                bgcolor: "#158aff", // Darker blue
                                 transform: "translateY(-2px)",
                                 boxShadow: "0 6px 20px rgba(14,165,233,0.6)",
                             },

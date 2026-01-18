@@ -21,10 +21,10 @@ const InfoTop = () => {
                 >
                     {stats.map((stat, index) => (
                         <Box key={index}>
-                            <Typography variant="h3" sx={{ fontWeight: 'bold', mb: 2, color: '#1A4AB9' }}>
+                            <Typography variant="h3" sx={{ fontWeight: 'bold', mb: 2, color: '#158aff', fontSize: '36px' }}>
                                 {stat.value}
                             </Typography>
-                            <Typography variant="body1" sx={{ lineHeight: 1.6, fontFamily: 'Georgia, serif', color: '#444' }}>
+                            <Typography variant="body1" sx={{ lineHeight: 1.6, fontFamily: 'Georgia, serif', color: '#2b2b2b' }}>
                                 {stat.label}
                             </Typography>
                         </Box>

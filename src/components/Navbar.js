@@ -102,9 +102,8 @@ const Navbar = () => {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-dark"
-                  href="#"
+                  href="/industries-hub"
                   id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
@@ -117,11 +116,17 @@ const Navbar = () => {
                   <a class="dropdown-item" href="/industries">
                     Life Science
                   </a>
-                  <a class="dropdown-item" href="/media">
+                  <a class="dropdown-item" href="/media-entertainment">
                     Media & Entertainment
                   </a>
                   <a class="dropdown-item" href="/gaming">
                     Gaming
+                  </a>
+                  <a class="dropdown-item" href="/financial-services">
+                    Financial Services
+                  </a>
+                  <a class="dropdown-item" href="/travel-hospitality">
+                    Travel & Hospitality
                   </a>
                 </div>
               </li>

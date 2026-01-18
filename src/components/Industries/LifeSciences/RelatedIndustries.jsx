@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Button, useTheme, useMediaQuery } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import caseStudyImage from "../../../assets/images/others/life-01.png"; // Placeholder
+import footerlandVideo from "../../../assets/videos/footerland.mp4";
 
 const industries = [
     {
@@ -22,35 +23,15 @@ const industries = [
 ];
 
 const RelatedIndustries = () => {
-    const theme = useTheme();
-    // Although the user wants a "full-width grid", on purely mobile screens (xs), 
-    // stacking might still be necessary for usability. 
-    // HOWEVER, the user said "no wrapping issues" and "one line". 
-    // I will stick to the desktop requirement mainly, but 'repeat(4, 1fr)' on mobile is unusable.
-    // I will use a responsive grid definition: 1 col on xs, 2 on sm, 4 on md.
-    // BUT the user specifically complained about it 'not being fixed' in previous turns when I used breakpoints.
-    // AND they said "Fix requirements: Use grid-template-columns to match the reference layout".
-    // AND "Grid must remain stable on resize".
-    // I will implement a robust 4-column grid for tablet/desktop (md+) and a managed stack for mobile 
-    // to strictly preserve the design where it fits.
-
-    // Actually, looking at the previous turns, the user wanted it forced on "ALL" screens. 
-    // I will honor the "forced 4 columns" logic I established previously if that is their strict preference,
-    // OR I will simply use min-width logic to prevent wrapping.
-    // Given the "Fix requirements" list, I'll aim for the 4-column layout on md+ and likely sm+ too.
-
     return (
         <Box
             component="section"
             sx={{
                 width: "100%",
-                height: { xs: "auto", md: "850px" }, // Increased height
+                height: { xs: "auto", md: "850px" },
                 display: "grid",
-                // Strict 4 columns on md (900px) and up. 
-                // Using 2 columns on sm (600px-900px) for readability? 
-                // The user previously wanted "one line" triggered aggressively. 
-                // I will set it to 'repeat(4, 1fr)' for 'sm' and up to match the "one line" request.
-                gridTemplateColumns: { xs: "1fr", sm: "1fr 1fr 1fr 0.6fr", md: "1fr 1fr 1fr 0.6fr" },
+                // Ensure 3 equal columns + 1 narrower column
+                gridTemplateColumns: { xs: "1fr", sm: "repeat(3, 1fr) 300px", md: "repeat(3, 1fr) 300px" },
                 gridTemplateRows: { xs: "auto", sm: "1fr" },
             }}
         >
@@ -60,36 +41,53 @@ const RelatedIndustries = () => {
                     sx={{
                         position: "relative",
                         width: "100%",
-                        height: { xs: "500px", sm: "100%" }, // Height is determined by grid container on desktop
-                        bgcolor: "#333", // Placeholder blank background
+                        height: { xs: "500px", sm: "100%" },
+                        bgcolor: "#2b2b2b",
                         overflow: "hidden",
                         isolation: "isolate",
                         "&::after": {
                             content: '""',
                             position: "absolute",
                             inset: 0,
-                            // Dark gradient overlay (top -> bottom)
-                            background: "linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.9) 100%)",
+                            background: "rgba(0,0,0,0.5)", // Dark overlay for text readability
                             zIndex: 1,
                         }
                     }}
                 >
-                    {/* Content: Vertically Centered */}
+                    {/* Video Background */}
                     <Box
+                        component="video"
+                        src={footerlandVideo}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
                         sx={{
-                            position: "relative", // Changed from absolute to relative to sit inside the flex container (wait, the parent is relative/hidden)
-                            // Actually, let's make the parent flex to center this child, OR make this child absolute + full height + flex center
                             position: "absolute",
                             top: 0,
                             left: 0,
                             width: "100%",
-                            height: "100%", // Full height to enable vertical centering
+                            height: "100%",
+                            objectFit: "cover",
+                            zIndex: 0,
+                            filter: "grayscale(90%) blur(1px)" // Applied grayscale and blur
+                        }}
+                    />
+
+                    {/* Content */}
+                    <Box
+                        sx={{
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            width: "100%",
+                            height: "100%",
                             display: "flex",
                             flexDirection: "column",
-                            justifyContent: "center", // Vertically center
+                            justifyContent: "center",
                             padding: 4,
                             zIndex: 2,
-                            color: "#fff",
+                            color: "#ffffff",
                             textAlign: "left"
                         }}
                     >
@@ -101,7 +99,8 @@ const RelatedIndustries = () => {
                                 mb: 1,
                                 textTransform: "uppercase",
                                 fontSize: { xs: "1.5rem", lg: "2rem" },
-                                lineHeight: 1.1
+                                lineHeight: 1.1,
+                                color: "#ffffff"
                             }}
                         >
                             {item.title}
@@ -112,7 +111,8 @@ const RelatedIndustries = () => {
                                 mb: 3,
                                 fontSize: "1rem",
                                 opacity: 0.9,
-                                maxWidth: "90%"
+                                maxWidth: "90%",
+                                color: "#ffffff"
                             }}
                         >
                             {item.description}
@@ -121,15 +121,16 @@ const RelatedIndustries = () => {
                             variant="contained"
                             endIcon={<KeyboardArrowRightIcon />}
                             sx={{
-                                bgcolor: "#2196f3",
-                                color: "#fff",
+                                bgcolor: "#158aff",
+                                color: "#ffffff",
                                 textTransform: "none",
                                 borderRadius: "4px",
                                 px: 3,
                                 py: 1,
                                 fontWeight: 600,
                                 fontSize: "0.9rem",
-                                "&:hover": { bgcolor: "#1976d2" },
+                                width: "fit-content",
+                                "&:hover": { bgcolor: "#158aff" },
                             }}
                         >
                             View
@@ -143,19 +144,18 @@ const RelatedIndustries = () => {
                 sx={{
                     position: "relative",
                     width: "100%",
-                    height: { xs: "200px", sm: "100%" }, // Matches grid height on sm+
-                    bgcolor: "#2196f3", // Solid Blue
+                    height: { xs: "200px", sm: "100%" },
+                    bgcolor: "#158aff",
                     display: "flex",
-                    alignItems: "center", // Vertically centered as per image 1? 
-                    // Wait, image 1 shows "Explore Industries" text centered.
+                    alignItems: "center",
                     justifyContent: "center",
                     cursor: "pointer",
                     transition: "background-color 0.3s",
-                    "&:hover": { bgcolor: "#1976d2" },
+                    "&:hover": { bgcolor: "#137ce6" },
                 }}
             >
-                <Box sx={{ display: "flex", alignItems: "center", color: "#fff", gap: 1 }}>
-                    <Typography variant="h6" component="span" sx={{ fontWeight: 700, fontSize: "1.2rem" }}>
+                <Box sx={{ display: "flex", alignItems: "center", color: "#ffffff", gap: 1 }}>
+                    <Typography variant="h6" component="span" sx={{ fontWeight: 700, fontSize: "1.2rem", color: "#ffffff" }}>
                         Explore Industries
                     </Typography>
                     <KeyboardArrowRightIcon />

@@ -1,1 +1,35 @@
-/* Styles for TravelHospitality */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+.travel-hospitality-page {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fafafa;
+}
+
+/* Apply Merriweather to Body, Paragraphs, Spans, and Buttons */
+body,
+p,
+span,
+button,
+.MuiTypography-body1,
+.MuiTypography-body2,
+.MuiButton-root {
+    font-family: 'Merriweather', serif !important;
+}
+
+/* Apply Roboto Condensed to all Headings */
+/* Placed AFTER body rules to ensure precedence */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h6 {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}

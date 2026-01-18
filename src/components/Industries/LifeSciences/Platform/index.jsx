@@ -19,9 +19,10 @@ const Platform = () => {
                             fontWeight: 600,
                             textTransform: 'uppercase',
                             lineHeight: 1.2,
-                            color: '#212121',
+                            color: '#2b2b2b',
                             fontFamily: "'Roboto Condensed', sans-serif",
-                            fontSize: { xs: "2.5rem", md: "3rem" }
+                            fontSize: "36px",
+                            pl: 12 // Shift to right more
                         }}>
                             Life Science<br />Expertise
                         </Typography>
@@ -30,9 +31,10 @@ const Platform = () => {
                         <Typography variant="body1" sx={{
                             mb: 4,
                             fontFamily: 'Georgia, serif',
-                            color: '#444',
-                            fontSize: '1.25rem',
-                            lineHeight: 1.6
+                            color: '#2b2b2b',
+                            fontSize: '18px',
+                            lineHeight: 1.6,
+                            maxWidth: '600px' // Reduce width
                         }}>
                             DataObserve provides a wide range of solutions tailored to the unique needs of the life science and pharmaceutical industry.
                         </Typography>
@@ -40,7 +42,7 @@ const Platform = () => {
                             variant="contained"
                             href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
                             sx={{
-                                bgcolor: '#1E90FF',
+                                bgcolor: '#158aff',
                                 color: 'white',
                                 textTransform: 'none',
                                 fontWeight: 'bold',
@@ -49,7 +51,7 @@ const Platform = () => {
                                 borderRadius: "4px",
                                 boxShadow: "none",
                                 '&:hover': {
-                                    bgcolor: '#187bcd',
+                                    bgcolor: '#158aff',
                                     boxShadow: "none"
                                 }
                             }}

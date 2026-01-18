@@ -192,7 +192,7 @@ function Navbar() {
                       <a className="dropdown-item linksclass" href="/life-science">
                         Life Science
                       </a>
-                      <a className="dropdown-item linksclass" href="/media">
+                      <a className="dropdown-item linksclass" href="/media-entertainment">
                         Media & Entertainment
                       </a>
                       <a className="dropdown-item linksclass" href="/gaming">
@@ -535,7 +535,7 @@ function Navbar() {
                       <a className="dropdown-item linksclass" href="/life-science">
                         Life Science
                       </a>
-                      <a className="dropdown-item linksclass" href="/media">
+                      <a className="dropdown-item linksclass" href="/media-entertainment">
                         Media & Entertainment
                       </a>
                       <a className="dropdown-item linksclass" href="/gaming">

@@ -17,6 +17,7 @@ import Dataeng from '../pages/Expertise/Dataeng';
 import Industries from '../pages/Industries/LifeSciences';
 import Gaming from '../pages/Industries/Gaming';
 import Media from '../pages/Industries/Media';
+import MediaEntertainment from '../pages/Industries/MediaEntertainment';
 import BlogsRedirect from '../pages/BlogsRedirect';
 import CasestudiesRedirect from '../pages/CasestudiesRedirect';
 import Ebooks from '../pages/Ebooks';
@@ -32,10 +33,11 @@ import DOCaliber from '../pages/DOCaliber';
 import DOBase from '../pages/DOBase';
 import DOMetrics from '../pages/DOMetrics';
 import Observability from '../pages/Observability';
-import FinancialServices from '../pages/Industries/FinancialServices';
-import TravelHospitality from '../pages/Industries/TravelHospitality';
+import { lazy } from 'react';
+const FinancialServices = lazy(() => import("../pages/Industries/FinancialServices"));
+const TravelHospitality = lazy(() => import("../pages/Industries/TravelHospitality"));
 import CPG from '../pages/Industries/CPG';
-import IndustriesHub from '../pages/Industries/Industries';
+import IndustriesHub from '../pages/Industries/IndustriesHub';
 
 export default function Router() {
     return useRoutes([
@@ -54,7 +56,9 @@ export default function Router() {
         { path: PATHS.DATAENG, element: <Dataeng /> },
         { path: PATHS.INDUSTRIES, element: <Industries /> },
         { path: PATHS.GAMING, element: <Gaming /> },
+        { path: PATHS.TRAVEL_HOSPITALITY, element: <TravelHospitality /> },
         { path: PATHS.MEDIA, element: <Media /> },
+        { path: PATHS.MEDIA_ENTERTAINMENT, element: <MediaEntertainment /> },
         { path: PATHS.BLOG_DETAIL, element: <BlogsRedirect /> },
         { path: PATHS.CASESTUDIES, element: <CasestudiesRedirect /> },
         { path: PATHS.EBOOKS, element: <Ebooks /> },
