@@ -193,7 +193,7 @@ function Home() {
           <div>
             <p className="why-data-Observe">WHY dataobserve?</p>
           </div>
-          <div className="container">
+          <div className="container" style={{ position: "relative", zIndex: 2 }}>
             <div className="row">
               <div className="pro-data">
                 <div className="col-md-1 new-text">
