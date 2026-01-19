@@ -1,3 +1,9 @@
+/* Increased horizontal padding for better spacing */
+.container {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
 .redefine-genai {
   display: flex;
   justify-content: space-between;
@@ -19,6 +25,9 @@
 
 .genai-transform-video {
   width: 100%;
+  min-height: 600px;
+  height: 100vh;
+  max-height: 800px;
   object-fit: cover;
   /* height: 600px; */
 }
@@ -43,7 +52,7 @@
 }
 
 .generativeai-genai {
-  padding: 200px 625px 50px 150px;
+  padding: 200px 750px 50px 150px;
 }
 
 .Genaicon {
@@ -91,7 +100,7 @@
 
 .btn-text {
   color: blue;
-  /* padding-right: 12px; */
+  /* padding-right: 14px; */
   /* background-color: white; */
   margin-bottom: 0px;
 }
@@ -280,7 +289,7 @@
 }
 
 .recentworks {
-  padding: 30px 150px;
+  padding: 30px 180px;
 }
 
 
@@ -300,6 +309,7 @@ p {
 }
 
 .cloudcards1 {
+  margin-top: 50px;
   /* margin-left: 10%; */
   width: 100%;
   position: relative;
@@ -340,7 +350,7 @@ p {
 }
 
 .genai-point {
-  padding: 0px 25px !important;
+  padding: 0px 30px !important;
   font-weight: 700;
 }
 
@@ -370,7 +380,7 @@ p {
 
   .GenAI-Redefine {
     font-size: 18px !important;
-    padding: 0px 10px;
+    padding: 0px 12px;
   }
 
   .Genai-pioneer {
@@ -477,7 +487,7 @@ p {
   .Genai-Read-button {
     margin-bottom: 10px;
     height: 49px !important;
-    padding: 13px 16px 13px 16px !important;
+    padding: 13px 19px 13px 16px !important;
 
   }
 
@@ -492,7 +502,7 @@ p {
   .genaiviewrecentbutton {
     margin: 25px 0px;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 24px;
     justify-content: center;
     align-items: center;
     gap: 12.83px;
@@ -530,7 +540,7 @@ p {
 
   .GenAI-Redefine {
     font-size: 22px !important;
-    padding: 0px 10px;
+    padding: 0px 12px;
   }
 
   .Genai-pioneer {
@@ -638,7 +648,7 @@ p {
   .Genai-Read-button {
     margin-bottom: 10px;
     height: 49px !important;
-    padding: 13px 16px 13px 16px !important;
+    padding: 13px 19px 13px 16px !important;
 
   }
 
@@ -653,7 +663,7 @@ p {
   .genaiviewrecentbutton {
     margin: 25px 0px;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 24px;
     justify-content: center;
     align-items: center;
     gap: 12.83px;
@@ -700,7 +710,7 @@ p {
 
   .GenAI-Redefine {
     font-size: 30px !important;
-    padding: 0px 10px;
+    padding: 0px 12px;
   }
 
   .Genai-pioneer {
@@ -808,7 +818,7 @@ p {
   .Genai-Read-button {
     margin-bottom: 10px;
     height: 49px !important;
-    padding: 13px 16px 13px 16px !important;
+    padding: 13px 19px 13px 16px !important;
 
   }
 
@@ -823,7 +833,7 @@ p {
   .genaiviewrecentbutton {
     margin: 25px 0px;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 24px;
     justify-content: center;
     align-items: center;
     gap: 12.83px;

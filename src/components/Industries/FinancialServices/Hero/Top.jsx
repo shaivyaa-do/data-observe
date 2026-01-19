@@ -63,7 +63,8 @@ const HeroTop = () => {
                         height: '100%',
                         objectFit: 'cover',
                         zIndex: -1,
-                        filter: 'grayscale(90%) blur(1px)'
+                        filter: 'grayscale(90%) blur(1px)',
+                        transform: 'scale(1.18)'
                     }}
                 >
                     <source src={financeVid} type="video/mp4" />
@@ -81,10 +82,10 @@ const HeroTop = () => {
                 />
                 <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                     <Box sx={{ pl: { xs: 5, md: 15 } }}>
-                        <Typography variant="h3" component="h1" sx={{ fontWeight: '900', fontSize: { xs: '36px', md: '5rem' }, mb: 2, textTransform: 'uppercase', color: '#ffffff', letterSpacing: '2px', fontFamily: "'Roboto Condensed', sans-serif" }}>
+                        <Typography variant="h3" component="h6" sx={{ fontWeight: '500', fontSize: { xs: '36px', md: '36px' }, mb: 2, textTransform: 'uppercase', color: '#ffffff', letterSpacing: '2px', fontFamily: "'Roboto Condensed', sans-serif" }}>
                             FINANCIAL SERVICES
                         </Typography>
-                        <Typography variant="h6" sx={{ maxWidth: '600px', fontWeight: '300', color: '#ffffff', fontSize: { xs: '1.2rem', md: '1.5rem' }, fontFamily: 'Georgia, serif' }}>
+                        <Typography variant="h6" sx={{ maxWidth: '600px', fontWeight: '300', color: '#ffffff', fontSize: { xs: '18px', md: '18px' }, fontFamily: 'Georgia, serif' }}>
                             Utilize data to extract customized insights, fostering significant outcomes and bolstering financial performance within the financial services industry.
                         </Typography>
                     </Box>

@@ -143,6 +143,7 @@ const RelatedIndustries = () => {
             ))}
 
             <Box
+                onClick={() => window.location.href = '/industries-hub'}
                 sx={{
                     position: "relative",
                     width: "100%",

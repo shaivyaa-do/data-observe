@@ -3,14 +3,14 @@ import React from 'react'
 function Faq() {
   return (
     <div>
-        <div class="card text-center" style={{border: "0px"}}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -20,7 +20,7 @@ function Faq() {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -29,13 +29,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -72,11 +72,11 @@ function Faq() {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa
@@ -92,7 +92,7 @@ function Faq() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -101,13 +101,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -145,11 +145,11 @@ function Faq() {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa
@@ -165,7 +165,7 @@ function Faq() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -174,13 +174,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -218,11 +218,11 @@ function Faq() {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa
@@ -238,7 +238,7 @@ function Faq() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -247,13 +247,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -291,11 +291,11 @@ function Faq() {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa
@@ -311,7 +311,7 @@ function Faq() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -320,13 +320,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -364,11 +364,11 @@ function Faq() {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa
@@ -384,7 +384,7 @@ function Faq() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -393,13 +393,13 @@ function Faq() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -416,7 +416,7 @@ function Faq() {
                     }}
                   >
                     <p style={{ margin: "0px" }}>
-                    Why choose DataObserve for AWS cloud migration?
+                      Why choose DataObserve for AWS cloud migration?
                     </p>
                     <p
                       style={{
@@ -437,11 +437,11 @@ function Faq() {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia aute,
                   non cupidatat skateboard dolor brunch. Food truck quinoa

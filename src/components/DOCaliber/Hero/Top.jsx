@@ -41,7 +41,7 @@ const HeroTop = () => {
                         Extend to DO Caliber & <br /> accelerate your AI application journey
                     </h1>
                     <p className="heroSubtitle">
-                        Rapidly build, test, and run Regenerative Applications that minimize technical debt and grow stronger and more secure over time.
+                        Rapidly build, test, and run Generative Applications that minimize technical debt and grow stronger and more secure over time.
                     </p>
                 </div>
             </div>

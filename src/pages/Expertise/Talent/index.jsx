@@ -2,10 +2,9 @@ import React from "react";
 import "./Talent.css";
 import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
-import talent from "../../../assets/videos/talent.MOV";
+import talent from "../../../assets/videos/talent-vid.mp4";
 import Footer from "../../../components/Layout/Footer";
 import Talktous from "../../../components/Common/Talktous";
-
 import Slider from "react-slick";
 
 function Arrow(props) {
@@ -54,7 +53,7 @@ const Talent = () => {
         <div className="hire">
           <div>
             <video className="talent" autoPlay loop muted>
-              <source src={talent} type="video/mp4" />
+              <source src={talent} />
             </video>
             <div className="Cloud-Main-hEading">
               <p className="cLOUD-TRANSFORM">
@@ -311,20 +310,20 @@ const Talent = () => {
       <section className="Talent-Overall-Background d-md-block d-none">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <div>
                 <div className="container">
                   <div className="row">
@@ -388,7 +387,7 @@ const Talent = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <div>
                 <div className="container">
                   <div className="row">
@@ -454,7 +453,7 @@ const Talent = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <div>
                 <div className="container">
                   <div className="row">
@@ -524,22 +523,22 @@ const Talent = () => {
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </section>
@@ -547,20 +546,20 @@ const Talent = () => {
       <section className="Talent-Overall-Background d-block d-md-none">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <div>
                 <div className="container">
                   <div className="row">
@@ -624,7 +623,7 @@ const Talent = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <div>
                 <div className="container">
                   <div className="row">
@@ -690,7 +689,7 @@ const Talent = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <div>
                 <div className="container">
                   <div className="row">
@@ -760,22 +759,22 @@ const Talent = () => {
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </section>
@@ -791,9 +790,9 @@ const Talent = () => {
         <h4 className="cloudcardheadings">
           Hire top 1% of Global Data &<br /> Analytics Engineers
         </h4>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/dataen.png"
@@ -803,7 +802,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">Data Engineering</p>
               </div>
             </div>
-            <div class=" col-md-3">
+            <div className=" col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/clouden.png"
@@ -813,7 +812,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">Cloud Engineering</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/dataan.png"
@@ -823,7 +822,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">Data Analystics & Bi</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/datasc.png"
@@ -835,9 +834,9 @@ const Talent = () => {
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 ">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3 ">
               <div className="box-padding1">
                 <img
                   src="./images/devops.png"
@@ -847,7 +846,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">DevOps</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/cloudops.png"
@@ -857,7 +856,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">CloudOps</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <div className=" box-padding1">
                 <img
                   src="./images/fullstack.png"
@@ -867,7 +866,7 @@ const Talent = () => {
                 <p className="cloudcardheadings pt-3">FullStack Development</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div className="col-md-3">
               <div className="box-padding1">
                 <img
                   src="./images/qa.png"
@@ -1015,7 +1014,7 @@ const Talent = () => {
                   <button className="Talent-explore-DO-1">
                     Explore DOcreators{" "}
                     <i
-                      class="fa fa-long-arrow-right ml-2"
+                      className="fa fa-long-arrow-right ml-2"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -1025,14 +1024,14 @@ const Talent = () => {
           </section>
         </div>
       </div>
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -1042,7 +1041,7 @@ const Talent = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1051,13 +1050,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -1097,11 +1096,11 @@ const Talent = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Talent as a Service is a model that provides on-demand access
                   to skilled professionals and expertise. It allows
                   organizations to quickly scale their teams, access specialized
@@ -1112,7 +1111,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1121,13 +1120,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -1166,11 +1165,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   TaaS addresses talent needs by providing access to a pool of
                   pre-vetted, skilled professionals across various domains.
                   Whether you need developers, designers, project managers, or
@@ -1182,7 +1181,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1191,13 +1190,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -1236,11 +1235,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Our Talent as a Service offering covers a wide range of roles
                   and expertise, including but not limited to software
                   development, UX/UI design, data science, project management,
@@ -1251,7 +1250,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1260,13 +1259,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -1305,11 +1304,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, TaaS is designed to be flexible and adaptable to the
                   duration of your projects. Whether you need talent for a
                   short-term project, a specific phase of development, or an
@@ -1320,7 +1319,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1329,13 +1328,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1374,11 +1373,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Talent as a Service streamlines the hiring process by
                   providing access to a curated pool of pre-screened
                   professionals. Instead of going through lengthy hiring cycles,
@@ -1390,7 +1389,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1399,13 +1398,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1444,11 +1443,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, we rigorously vet and qualify the professionals in our
                   talent pool. Our selection process ensures that you have
                   access to skilled individuals with proven expertise in their
@@ -1460,7 +1459,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1469,13 +1468,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1514,11 +1513,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Talent as a Service offers cost-effectiveness by allowing
                   organizations to scale their workforce without the long-term
                   financial commitments of traditional hiring. You only pay for
@@ -1530,7 +1529,7 @@ const Talent = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1539,13 +1538,13 @@ const Talent = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1584,11 +1583,11 @@ const Talent = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Absolutely. Talent as a Service is well-suited for remote and
                   distributed work setups. Our professionals are experienced in
                   collaborating across various geographical locations. We

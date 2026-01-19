@@ -11,23 +11,29 @@ const Cards = lazy(() => import("./Cards"));
 const cardData = [
     {
         img: ImgVerifiedCertif,
-        title: "Platform Security",
-        desc: "With FedRAMP, ISO, and SOC2 certifications, Unqork’s multitiered defense is trusted across the world’s most regulated industries."
+        title: "Conversational Analytics",
+        desc: "Ask natural-language questions and get precise answers from your structured data."
     },
     {
         img: ImgTerminalBlue,
-        title: "RBAC",
-        desc: "Centrally manage access across the organization by role, group, environment, workspace, app, and component."
+        title: "Data Modeling Intelligence",
+        desc: "Define tables, relationships, and metrics to guide the AI. Ensure queries respect data structure and deliver meaningful, actionable insights."
     },
     {
         img: ImgDataBlue,
-        title: "Shared Security Model",
-        desc: "Create solutions that stay up-to-date and secure by leveraging capabilities from leaders in highly regulated industries."
+        title: "Trusted Decision Engine",
+        desc: "CLeverage pre-approved queries and past examples to generate consistent results."
+    },
+
+    {
+        img: ImgDataBlue,
+        title: "RBAC",
+        desc: "Role-based access control (RBAC) ensures that users have the right permissions to access the data they need."
     },
     {
         img: ImgScience,
-        title: "Application Performance Monitoring",
-        desc: "Continuously detect and resolve issues. Gain near real-time trace and span telemetry across modules, workflows, & components."
+        title: "Unified Multi-Modal Search",
+        desc: "Continuously dSearch and analyze text, documents, images, and audio in one place. Combine semantic and keyword search for faster, context-rich insights."
     }
 ];
 

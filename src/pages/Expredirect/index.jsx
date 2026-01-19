@@ -1,7 +1,7 @@
 import React from "react";
 import "./Expredirect.css";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import talent from "../../assets/videos/talent.MOV";
+import talent from "../../assets/videos/talent-vid.mp4";
 
 import footerland from "../../assets/videos/footerland.mp4";
 

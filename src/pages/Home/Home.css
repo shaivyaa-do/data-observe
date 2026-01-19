@@ -1,3 +1,55 @@
+/* Home Page Font Scheme: Headings = Roboto Condensed, Descriptions = Merriweather */
+
+/* Headings use Roboto Condensed */
+.home-page-container h1,
+.home-page-container h2,
+.home-page-container h3,
+.home-page-container h4,
+.home-page-container h5,
+.home-page-container h6,
+.home-page-container .MuiTypography-h1,
+.home-page-container .MuiTypography-h2,
+.home-page-container .MuiTypography-h3,
+.home-page-container .MuiTypography-h4,
+.home-page-container .MuiTypography-h5,
+.home-page-container .MuiTypography-h6 {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* Title classes that use p tags but should be Roboto Condensed */
+.home-page-container .Landing-page-DES,
+.home-page-container .land-page-DES-2,
+.home-page-container .why-data-Observe,
+.home-page-container .home-access,
+.home-page-container .ai-ana-home,
+.home-page-container .Global-Home,
+.home-page-container .data-inte-jo,
+.home-page-container .BOOST-Heading,
+.home-page-container .partnered-home-heading,
+.home-page-container .future-home-complete,
+.home-page-container .what-POWER-us,
+.home-page-container .Observer-LENSE,
+.home-page-container .confidence-landing-Page,
+.home-page-container .proven {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* Descriptions and body text use Merriweather */
+.home-page-container p,
+.home-page-container span,
+.home-page-container .MuiTypography-body1,
+.home-page-container .MuiTypography-body2 {
+  font-family: 'Merriweather', serif !important;
+}
+
+/* Buttons and links use Roboto Condensed */
+.home-page-container button,
+.home-page-container a,
+.home-page-container .MuiButton-root {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+
 .HomePage-Video {
   position: relative;
   /* height: 764px; */
@@ -38,7 +90,7 @@
 
 .organize-home {
   color: rgba(43, 43, 43, 0.80);
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   line-height: 200%;
   font-size: 18px;
   font-style: normal;
@@ -65,7 +117,7 @@
 .foremost-home {
   /* text-align: justify; */
   color: rgba(43, 43, 43, 0.80);
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   margin-bottom: 40px;
   font-size: 18px;
   font-style: normal;
@@ -114,7 +166,7 @@
   border: 1px solid #158AFF;
   color: white;
   color: #FFF;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -133,7 +185,7 @@
   border: 1px solid #158AFF;
   color: white;
   color: #FFF;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -163,7 +215,7 @@
 
 .explore-Tool-Acc {
   color: #158AFF;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -192,7 +244,7 @@
   border: 1px solid #158AFF;
   color: white;
   color: #FFF;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -206,7 +258,7 @@
 .cLOUD-TRANSFORM {
   color: white;
   font-size: 40px;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-weight: 500;
 
 }
@@ -224,6 +276,7 @@
   /* 43.2px */
   letter-spacing: -0.547px;
   text-transform: uppercase;
+  padding-top: 120px;
 
 }
 
@@ -243,7 +296,7 @@
 .Homepage-dataobserve-content {
 
   color: #2c2929;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -304,7 +357,7 @@
 
 .We-do-home {
   margin-top: 13px !important;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
 
 }
 
@@ -322,7 +375,7 @@
 
 .Effective-landing-wedo {
   color: #ECECEC !important;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -352,7 +405,7 @@
 
 .WHAT-LANDING {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 15.375px;
   font-style: normal;
   font-weight: 400;
@@ -363,7 +416,7 @@
 
 .landing-Read {
   color: #197FF3;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -375,7 +428,7 @@
 
 .landing-Read-1 {
   color: #197FF3;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -516,7 +569,7 @@
 
 .landing-power-us {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 31.125px;
   font-style: normal;
   font-weight: 700;
@@ -525,7 +578,7 @@
 
 .landing-observer-dna {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 30.125px;
   font-style: normal;
   font-weight: 700;
@@ -535,7 +588,7 @@
 
 .landing-dna-paragraph {
   color: #F4F4F4;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 14.875px;
   font-style: normal;
   font-weight: 400;
@@ -552,7 +605,7 @@
   padding: 10px 20px;
   color: #2B2B2B;
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 19.313px;
   font-style: normal;
   font-weight: 500;
@@ -565,7 +618,7 @@
   padding: 10px 20px;
   color: #2B2B2B;
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 19.313px;
   font-style: normal;
   font-weight: 500;
@@ -593,7 +646,7 @@
   justify-content: center;
   color: rgba(0, 0, 0, 0.70);
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -609,7 +662,7 @@
   justify-content: center;
   color: #2B2B2B;
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
@@ -717,7 +770,7 @@
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
 
 }
 
@@ -741,7 +794,7 @@
 
 .unique-home {
   color: #FFF;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -752,7 +805,7 @@
 
 .Building-Heading {
   color: #21314F;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 38.906px;
   /* font-style: normal; */
   font-weight: 700;
@@ -762,7 +815,7 @@
 
 .Building-paragraph {
   color: hsl(218, 81%, 19%);
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 13.75px;
   /* font-style: normal; */
   font-weight: 400;
@@ -773,7 +826,7 @@
 
 .AI-Journey {
   color: #197FF3;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -830,7 +883,7 @@
 
 .landing-PartnerdBRING {
   color: #312E2D;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 31.938px;
   font-style: normal;
   font-weight: 300;
@@ -874,7 +927,7 @@
 
 .Potential {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 39.375px;
   font-style: normal;
   font-weight: 400;
@@ -884,7 +937,7 @@
 
 .landing-EXplore {
   color: #FFF;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 22.313px;
   font-style: normal;
   font-weight: 400;
@@ -912,7 +965,7 @@
   justify-content: center;
   color: rgba(0, 0, 0, 0.70);
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -955,7 +1008,7 @@
 
 .Intelligent-Heading {
   color: #312E2D;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 30.875px;
   font-style: normal;
   font-weight: 300;
@@ -1088,7 +1141,7 @@
 
 .Inherent-quality {
   color: #2B2B2B;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
 
   font-size: 18px;
   font-style: normal;
@@ -1148,7 +1201,7 @@
   margin: auto;
   outline: none !important;
   height: 40px;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   line-height: 120%;
 }
 
@@ -1179,7 +1232,7 @@
 
 .obser-monitor-Home {
   color: #505050;
-  font-family: Roboto;
+  font-family: Roboto Condensed;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -1241,7 +1294,7 @@
 
 .emphasis-paragraph-home {
   color: #2B2B2B;
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1259,7 +1312,7 @@
 .partnered-home-heading {
   color: #2B2B2B;
   text-align: center;
-  font-family: Poppins;
+  font-family: Roboto Condensed;
   font-size: 27px;
   font-style: normal;
   font-weight: 700;
@@ -1410,7 +1463,7 @@
 .collaborative-landing {
   color: #FFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -1439,7 +1492,7 @@
 
 .Lies-Landing {
   color: rgba(43, 43, 43, 0.80);
-  font-family: Merriweather;
+  font-family: Roboto Condensed;
 
   font-size: 18px;
   font-style: normal;
@@ -1491,7 +1544,7 @@
     border: 1px solid #158AFF;
     color: white;
     color: #FFF;
-    font-family: Poppins;
+    font-family: Roboto Condensed;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;

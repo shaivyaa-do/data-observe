@@ -1,7 +1,13 @@
+/* Increased horizontal padding for better spacing */
+.container {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
 .contact {
   background-color: blue;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 12px;
   border-radius: 6px;
   font-weight: 500;
   border: 1px solid blue;
@@ -14,6 +20,9 @@
 
 .talent {
   width: 100%;
+  min-height: 600px;
+  height: 100vh;
+  max-height: 800px;
   object-fit: cover;
 }
 
@@ -40,7 +49,7 @@
   width: 38px;
   height: 24px;
   margin-top: 17px;
-  margin-right: 10px;
+  margin-right: 12px;
 } */
 .logo-text {
   margin-top: 10px;
@@ -166,7 +175,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 24px 20px 20px;
 }
 
 .footer .col h1 {
@@ -202,7 +211,7 @@
 
 .social ul li {
   display: inline-block;
-  padding-right: 5px !important;
+  padding-right: 6px !important;
 }
 
 .footer .col ul li:hover {
@@ -230,7 +239,7 @@
 } */
 .expertcardbody1 {
   background-color: #EDEDED;
-  padding: 0px 20px 0px 30px !important;
+  padding: 0px 24px 0px 30px !important;
   width: 380px;
   border-radius: 30px;
 }
@@ -272,7 +281,7 @@
   border: 1px solid blue;
   padding: 5px;
   font-weight: 500;
-  padding: 10px 5px;
+  padding: 10px 6px;
   border-radius: 8px;
 }
 
@@ -305,7 +314,7 @@
   position: absolute;
   top: 10%;
   /* padding: 10px; */
-  padding-left: 12px;
+  padding-left: 14px;
   width: 100%;
   height: 100%;
 }
@@ -341,7 +350,7 @@
 }
 
 .box-padding1 {
-  padding: 46px 20px;
+  padding: 46px 24px;
   box-shadow: 2px 2px 35px -18px #323c8d;
   border-radius: 20px;
   margin: 25px 0px;
@@ -374,7 +383,7 @@
   background-color: transparent;
   /* opacity: 0.6; */
   color: white;
-  padding: 10px 30px;
+  padding: 10px 36px;
   border-radius: 40px;
   border: 2px solid rgba(255, 255, 255, 0.15);
 }
@@ -452,14 +461,14 @@
 }
 
 .Talent-HIRING {
-  padding-right: 20px;
+  padding-right: 24px;
   font-weight: 700;
   /* letter-spacing: -0.32px; */
 
 }
 
 .Talent-explore-DO-1 {
-  padding: 20px 45px 19.19px 45px;
+  padding: 20px 54px 19.19px 45px;
   color: white;
   background-color: #1A4AB9;
   border-radius: 4px;
@@ -502,7 +511,7 @@
   }
 
   .Talent-Aws {
-    padding: 10px 20px;
+    padding: 10px 24px;
     font-size: 10px;
   }
 

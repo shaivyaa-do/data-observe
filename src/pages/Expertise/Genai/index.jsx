@@ -6,7 +6,7 @@ import Footer from "../../../components/Layout/Footer";
 import { Link } from "react-router-dom";
 import Talktous from "../../../components/Common/Talktous";
 
-// import genai from "../../../assets/videos/genaivdbg.mp4";
+import devops from "../../../assets/videos/devops-vid.mp4";
 import Slider from "react-slick";
 
 function Arrow(props) {
@@ -54,7 +54,7 @@ function Genai() {
       <Navbar />
       <div className="genaibg">
         <video className="genai-transform-video" autoPlay loop muted>
-          <source src="https://storage.googleapis.com/do-website-resources/genaivdbg.mp4" type="video/mp4" />
+          <source src={devops} />
         </video>
         <div
           className="GenAI-DO"
@@ -123,7 +123,7 @@ function Genai() {
       </div>
 
       <div className="cloudcards1 d-md-block d-none">
-        <div class="ccdiv1">
+        <div className="ccdiv1">
           <div className="cloudimgcard1">
             <img className="notrepimg" src="/images/ccon.png" alt="" />
             <div className="cloudcard1 card">
@@ -343,7 +343,7 @@ function Genai() {
               Ball Rolling
             </p>
             <i
-              class="fa fa-arrow-circle-o-right"
+              className="fa fa-arrow-circle-o-right"
               style={{ color: "blue", marginLeft: "5px", fontSize: "20px" }}
               aria-hidden="true"
             ></i>
@@ -352,8 +352,8 @@ function Genai() {
       </div>
       <div className="container mt-5">
         <h2 className="genai-AI-Application">Generative AI Applications</h2>
-        <table class="table table-striped">
-          <thead class="thead-dark">
+        <table className="table table-striped">
+          <thead className="thead-dark">
             <tr>
               <th scope="col">Task</th>
               <th scope="col">Description</th>
@@ -429,7 +429,7 @@ function Genai() {
         </table>
       </div>
       <div
-        class="container card"
+        className="container card"
         style={{
           maxWidth: "100%",
           marginTop: "50px",
@@ -438,20 +438,20 @@ function Genai() {
         }}
       >
         <div className="container">
-          <div class="row no-gutters-genai">
+          <div className="row no-gutters-genai">
             <div
-              class="col-md-6"
+              className="col-md-6"
               style={{ display: "flex", alignItems: "center" }}
             >
-              <img src="/images/generativeaibg.png" class="card-img" alt="..." />
+              <img src="/images/generativeaibg.png" className="card-img" alt="..." />
             </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title generative-genai1">
+            <div className="col-md-6">
+              <div className="card-body">
+                <h5 className="card-title generative-genai1">
                   Generative AI
                   <br /> opportunity assessment
                 </h5>
-                <p class="card-text para-genai">
+                <p className="card-text para-genai">
                   Our AI specialists harness a wide array of models, including
                   text, vision, audio, multimodal, reinforcement learning,
                   time-series, and graph models to cater to your needs. To
@@ -461,7 +461,7 @@ function Genai() {
                 </p>
                 <li className="para-genai">
                   <i
-                    class="fa fa-angle-double-right"
+                    className="fa fa-angle-double-right"
                     style={{ color: "blue", marginTop: "3px" }}
                     aria-hidden="true"
                   >
@@ -474,7 +474,7 @@ function Genai() {
                 </li>
                 <li className="para-genai">
                   <i
-                    class="fa fa-angle-double-right"
+                    className="fa fa-angle-double-right"
                     style={{ color: "blue", marginTop: "3px" }}
                     aria-hidden="true"
                   ></i>{" "}
@@ -484,7 +484,7 @@ function Genai() {
                 </li>
                 <li className="para-genai">
                   <i
-                    class="fa fa-angle-double-right"
+                    className="fa fa-angle-double-right"
                     style={{ color: "blue", marginTop: "3px" }}
                     aria-hidden="true"
                   ></i>
@@ -495,7 +495,7 @@ function Genai() {
                 </li>
                 <li className="para-genai">
                   <i
-                    class="fa fa-angle-double-right"
+                    className="fa fa-angle-double-right"
                     style={{ color: "blue", marginTop: "3px" }}
                     aria-hidden="true"
                   ></i>
@@ -506,7 +506,7 @@ function Genai() {
                 </li>
                 <li className="para-genai">
                   <i
-                    class="fa fa-angle-double-right"
+                    className="fa fa-angle-double-right"
                     style={{ color: "blue", marginTop: "3px" }}
                     aria-hidden="true"
                   ></i>
@@ -533,7 +533,7 @@ function Genai() {
               <br /> Ball Rolling
             </span>
             <i
-              class="fa fa-arrow-circle-o-right"
+              className="fa fa-arrow-circle-o-right"
               style={{ color: "blue", marginLeft: "5px", fontSize: "20px" }}
               aria-hidden="true"
             ></i>
@@ -546,16 +546,16 @@ function Genai() {
             Unleash the limitless possibilities of generative AI for your
             business
           </h2>
-          <div class="row" style={{ marginTop: "2rem" }}>
-            <div class="col-md-3" style={{ background: "#F8F8F8" }}>
+          <div className="row" style={{ marginTop: "2rem" }}>
+            <div className="col-md-3" style={{ background: "#F8F8F8" }}>
               <div
-                class="nav flex-column nav-pills"
+                className="nav flex-column nav-pills"
                 id="v-pills-tab"
                 role="tablist"
                 aria-orientation="vertical"
               >
                 <a
-                  class="nav-link active healthcare-genai"
+                  className="nav-link active healthcare-genai"
                   id="v-pills-home-tab"
                   data-toggle="pill"
                   href="#v-pills-home"
@@ -566,7 +566,7 @@ function Genai() {
                   Healthcare
                 </a>
                 <a
-                  class="nav-link healthcare-genai"
+                  className="nav-link healthcare-genai"
                   id="v-pills-profile-tab"
                   data-toggle="pill"
                   href="#v-pills-profile"
@@ -577,7 +577,7 @@ function Genai() {
                   Manufacturing
                 </a>
                 <a
-                  class="nav-link healthcare-genai"
+                  className="nav-link healthcare-genai"
                   id="v-pills-messages-tab"
                   data-toggle="pill"
                   href="#v-pills-messages"
@@ -588,7 +588,7 @@ function Genai() {
                   Retail
                 </a>
                 <a
-                  class="nav-link healthcare-genai"
+                  className="nav-link healthcare-genai"
                   id="v-pills-settings-tab"
                   data-toggle="pill"
                   href="#v-pills-settings"
@@ -599,7 +599,7 @@ function Genai() {
                   Supply Chain & Logistics
                 </a>
                 <a
-                  class="nav-link healthcare-genai"
+                  className="nav-link healthcare-genai"
                   id="v-pills-bank-tab"
                   data-toggle="pill"
                   href="#v-pills-bank"
@@ -610,7 +610,7 @@ function Genai() {
                   Banking & Finance
                 </a>
                 <a
-                  class="nav-link healthcare-genai"
+                  className="nav-link healthcare-genai"
                   id="v-pills-insurance-tab"
                   data-toggle="pill"
                   href="#v-pills-insurance"
@@ -622,10 +622,10 @@ function Genai() {
                 </a>
               </div>
             </div>
-            <div class="col-md-9">
-              <div class="tab-content" id="v-pills-tabContent">
+            <div className="col-md-9">
+              <div className="tab-content" id="v-pills-tabContent">
                 <div
-                  class="tab-pane fade show active"
+                  className="tab-pane fade show active"
                   id="v-pills-home"
                   role="tabpanel"
                   aria-labelledby="v-pills-home-tab"
@@ -644,7 +644,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -654,7 +654,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -664,7 +664,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -674,7 +674,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -684,7 +684,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -695,7 +695,7 @@ function Genai() {
                   </li>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="v-pills-profile"
                   role="tabpanel"
                   aria-labelledby="v-pills-profile-tab"
@@ -708,7 +708,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -719,7 +719,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -729,7 +729,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -739,7 +739,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -749,7 +749,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -759,7 +759,7 @@ function Genai() {
                   </li>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="v-pills-messages"
                   role="tabpanel"
                   aria-labelledby="v-pills-messages-tab"
@@ -773,7 +773,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -783,7 +783,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -794,7 +794,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -805,7 +805,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -815,7 +815,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -825,7 +825,7 @@ function Genai() {
                   </li>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="v-pills-settings"
                   role="tabpanel"
                   aria-labelledby="v-pills-settings-tab"
@@ -844,7 +844,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -855,7 +855,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -866,7 +866,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -876,7 +876,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -887,7 +887,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -897,7 +897,7 @@ function Genai() {
                   </li>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="v-pills-bank"
                   role="tabpanel"
                   aria-labelledby="v-pills-bank-tab"
@@ -916,7 +916,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -927,7 +927,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -938,7 +938,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -949,7 +949,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -960,7 +960,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -970,7 +970,7 @@ function Genai() {
                   </li>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="v-pills-insurance"
                   role="tabpanel"
                   aria-labelledby="v-pills-insurance-tab"
@@ -989,7 +989,7 @@ function Genai() {
                   </p>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -999,7 +999,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -1009,7 +1009,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -1019,7 +1019,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -1029,7 +1029,7 @@ function Genai() {
                   </li>
                   <li className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     ></i>
@@ -1048,14 +1048,14 @@ function Genai() {
           <div>
             <div
               id="carouselExampleIndicators"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#carouselExampleIndicators"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 ></li>
                 <li
                   data-target="#carouselExampleIndicators"
@@ -1063,10 +1063,10 @@ function Genai() {
                 ></li>
                 {/* <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> */}
               </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row no-gutters-genai-1">
-                    <div class="col-md-8">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="row no-gutters-genai-1">
+                    <div className="col-md-8">
                       <div>
                         <p
                           style={{
@@ -1078,13 +1078,13 @@ function Genai() {
                           <em>Success Stories</em>
                         </p>
                         <h5
-                          class="card-title generative-genai1"
+                          className="card-title generative-genai1"
                           style={{ color: "white" }}
                         >
                           Generative AI solutions for better hardware schematics
                         </h5>
                         <p
-                          class="card-text para-genai"
+                          className="card-text para-genai"
                           style={{ color: "white" }}
                         >
                           Simplifying Resume Screening for a Leading Staffing
@@ -1101,7 +1101,7 @@ function Genai() {
                         </p>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1113,7 +1113,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1125,7 +1125,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1137,7 +1137,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1149,7 +1149,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1161,7 +1161,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "3px" }}
                             aria-hidden="true"
                           >
@@ -1174,20 +1174,20 @@ function Genai() {
                       </div>
                     </div>
                     <div
-                      class="col-md-4"
+                      className="col-md-4"
                       style={{ display: "flex", alignItems: "center" }}
                     >
                       <img
                         src="/images/G-AI-img2.webp1.png"
-                        class="card-img-1"
+                        className="card-img-1"
                         alt="..."
                       />
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="row no-gutters-genai">
-                    <div class="col-md-8">
+                <div className="carousel-item">
+                  <div className="row no-gutters-genai">
+                    <div className="col-md-8">
                       <div>
                         <p
                           style={{
@@ -1199,13 +1199,13 @@ function Genai() {
                           <em>Success Stories</em>
                         </p>
                         <h5
-                          class="card-title generative-genai1"
+                          className="card-title generative-genai1"
                           style={{ color: "white" }}
                         >
                           Revolutionizing Hardware Schematic Design with
                           Generative AI Solutions
                         </h5>
-                        <p class="card-text" style={{ color: "white" }}>
+                        <p className="card-text" style={{ color: "white" }}>
                           <p>
                             In a quest to enhance their product quality and
                             expedite the design phase, a US-based OEM embarked
@@ -1223,7 +1223,7 @@ function Genai() {
                         </p>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "0px" }}
                             aria-hidden="true"
                           >
@@ -1243,7 +1243,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "0px" }}
                             aria-hidden="true"
                           >
@@ -1263,7 +1263,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "0px" }}
                             aria-hidden="true"
                           >
@@ -1283,7 +1283,7 @@ function Genai() {
                         </li>
                         <li className="para-genai" style={{ color: "white" }}>
                           <i
-                            class="fa fa-angle-double-right"
+                            className="fa fa-angle-double-right"
                             style={{ color: "white", marginTop: "0px" }}
                             aria-hidden="true"
                           >
@@ -1346,12 +1346,12 @@ function Genai() {
                       </div>
                     </div>
                     <div
-                      class="col-md-4"
+                      className="col-md-4"
                       style={{ display: "flex", alignItems: "center" }}
                     >
                       <img
                         src="/images/success-genai-2.png"
-                        class="card-img-1"
+                        className="card-img-1"
                         alt="..."
                       />
                     </div>
@@ -1359,28 +1359,28 @@ function Genai() {
                 </div>
               </div>
               <a
-                class="carousel-control-prev prev1"
+                className="carousel-control-prev prev1"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next next1"
+                className="carousel-control-next next1"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
@@ -1613,20 +1613,20 @@ function Genai() {
         <h2 className="generative-genai1">
           Why choose DataObserve for your generative AI needs?
         </h2>
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col mb-4">
-            <div class="card GENAI-overall-bussiness">
+        <div className="row row-cols-1 row-cols-md-2">
+          <div className="col mb-4">
+            <div className="card GENAI-overall-bussiness">
               <div
-                class="card-body Genai-One"
+                className="card-body Genai-One"
                 style={{ height: "256px", background: "#F8F8F8" }}
               >
-                <h5 class="generative-genai2">
+                <h5 className="generative-genai2">
                   Collaborate with a Business-Centric Approach
                 </h5>
                 <div>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1639,7 +1639,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1652,7 +1652,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1664,7 +1664,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1679,17 +1679,17 @@ function Genai() {
               </div>
             </div>
           </div>
-          <div class="col mb-4">
-            <div class="card GENAI-overall-bussiness">
+          <div className="col mb-4">
+            <div className="card GENAI-overall-bussiness">
               <div
-                class="card-body Genai-One"
+                className="card-body Genai-One"
                 style={{ height: "256px", background: "#F8F8F8" }}
               >
-                <h5 class="generative-genai2">Boost Ecosystem Innovation</h5>
+                <h5 className="generative-genai2">Boost Ecosystem Innovation</h5>
                 <div>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1702,7 +1702,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1715,7 +1715,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1728,7 +1728,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1743,19 +1743,19 @@ function Genai() {
               </div>
             </div>
           </div>
-          <div class="col mb-4">
-            <div class="card GENAI-overall-bussiness">
+          <div className="col mb-4">
+            <div className="card GENAI-overall-bussiness">
               <div
-                class="card-body Genai-One"
+                className="card-body Genai-One"
                 style={{ height: "256px", background: "#F8F8F8" }}
               >
-                <h5 class="generative-genai2">
+                <h5 className="generative-genai2">
                   Elevate Responsible AI Practices
                 </h5>
                 <div>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1768,7 +1768,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1781,7 +1781,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1794,7 +1794,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1809,17 +1809,17 @@ function Genai() {
               </div>
             </div>
           </div>
-          <div class="col mb-4">
-            <div class="card GENAI-overall-bussiness">
+          <div className="col mb-4">
+            <div className="card GENAI-overall-bussiness">
               <div
-                class="card-body Genai-One"
+                className="card-body Genai-One"
                 style={{ height: "256px", background: "#F8F8F8" }}
               >
-                <h5 class="generative-genai2">Expertise in generative AI</h5>
+                <h5 className="generative-genai2">Expertise in generative AI</h5>
                 <div>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1833,7 +1833,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1846,7 +1846,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1859,7 +1859,7 @@ function Genai() {
                   </li>
                   <li style={{ fontSize: "13px" }} className="para-genai">
                     <i
-                      class="fa fa-angle-double-right"
+                      className="fa fa-angle-double-right"
                       style={{ color: "blue", marginTop: "3px" }}
                       aria-hidden="true"
                     >
@@ -1953,14 +1953,14 @@ function Genai() {
         </div>
       </section>
       {/* <Faq /> */}
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -1970,7 +1970,7 @@ function Genai() {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1979,13 +1979,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -2025,12 +2025,12 @@ function Genai() {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2057,7 +2057,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2066,13 +2066,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -2110,12 +2110,12 @@ function Genai() {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:{" "}
@@ -2141,7 +2141,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2150,13 +2150,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -2195,12 +2195,12 @@ function Genai() {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2227,7 +2227,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2236,13 +2236,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -2281,12 +2281,12 @@ function Genai() {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2314,7 +2314,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2323,13 +2323,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -2368,12 +2368,12 @@ function Genai() {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2401,7 +2401,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2410,13 +2410,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -2455,12 +2455,12 @@ function Genai() {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2488,7 +2488,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2497,13 +2497,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -2542,12 +2542,12 @@ function Genai() {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:
@@ -2575,7 +2575,7 @@ function Genai() {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -2584,13 +2584,13 @@ function Genai() {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -2629,12 +2629,12 @@ function Genai() {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
                 <div
-                  class="card-body"
+                  className="card-body"
                   style={{ textAlign: "left", listStyle: "none" }}
                 >
                   Generative AI in the Insurance Industry:

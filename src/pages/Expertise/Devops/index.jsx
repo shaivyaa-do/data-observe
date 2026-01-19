@@ -2,7 +2,7 @@ import React from "react";
 import "./Devops.css";
 import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
-// import devops from "../../../assets/videos/devops.mp4";
+import devops from "../../../assets/videos/devops-vid.mp4";
 import Footer from "../../../components/Layout/Footer";
 import Slider from "react-slick";
 import Talktous from "../../../components/Common/Talktous";
@@ -55,7 +55,7 @@ const Devops = () => {
         <div>
           <video className="devops" autoPlay loop muted>
             <source
-              src="https://storage.googleapis.com/do-website-resources/devops.mp4"
+              src={devops}
               type="video/mp4"
             />
           </video>
@@ -138,7 +138,7 @@ const Devops = () => {
         </p>
       </div>
       <div className="cloudcards d-md-block d-none">
-        <div class="ccdiv w-100">
+        <div className="ccdiv w-100">
           <div className="cloudimgcard">
             <img className="notrepimg" src="/images/cops.png" alt="" />
             <div className="cloudcard card">
@@ -295,13 +295,16 @@ const Devops = () => {
         </section>
       </div>
 
-      <h1 className="case mt-5">Our Case Studies</h1>
+      <h1 className="case mt-5" style={{ textAlign: "center" }}>Our Case Studies</h1>
 
       <div
-        class="container  mb-3 mt-5 Built-back-colour"
+        className="container  mb-3 mt-5 Built-back-colour"
         style={{
           backgroundColor: "#1A4AB9",
           borderRadius: "20px",
+          marginLeft: "100px",
+          marginRight: "200px",
+          width: "auto",
         }}
       >
         <div className="right-media-Corner">
@@ -315,14 +318,14 @@ const Devops = () => {
         </div>
 
         <div
-          class="row overall-built-Corner"
+          className="row overall-built-Corner"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "spacebetween",
           }}
         >
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img
               style={{ height: "250px", width: "100%" }}
               src="./images/build.png"
@@ -330,10 +333,10 @@ const Devops = () => {
               alt="..."
             />
           </div>
-          <div class="col-md-7 cLOUD-Unified">
-            <div class="card-body CLOUD-bODY">
+          <div className="col-md-7 cLOUD-Unified">
+            <div className="card-body CLOUD-bODY">
               <h5
-                class="col-md-9 card-title CLouD-BULIT"
+                className="col-md-9 card-title CLouD-BULIT"
                 style={{
                   color: "white",
                   letterSpacing: "0.68px",
@@ -344,17 +347,17 @@ const Devops = () => {
                 <br /> decision intelligence Platform
               </h5>
               <p
-                class="col-md-9 card-text-3"
+                className="col-md-9 card-text-3"
                 style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
               >
                 Learn how we created a self-service, predictive, insights
                 platform driven by an adaptive machine learning engine which
                 helps improve decision-making.
               </p>
-              <p class=" col-md-9 card-text" style={{ color: "white" }}>
+              <p className=" col-md-9 card-text" style={{ color: "white" }}>
                 <p style={{ fontSize: 16 }}>
                   Read case study
-                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
+                  <i className="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
               </p>
               <div
@@ -556,7 +559,7 @@ const Devops = () => {
           </div>
           <div>
             <div
-              class="mb-3 mt-5"
+              className="mb-3 mt-5"
               style={{
                 backgroundColor: "#1A4AB9",
                 maxWidth: "100%",
@@ -564,23 +567,23 @@ const Devops = () => {
               }}
             >
               <div
-                class="row no-gutters"
+                className="row no-gutters"
                 style={{
                   alignItems: "center",
                   justifyContent: "spacebetween",
                 }}
               >
-                <div class="col-md-9">
-                  <div class="">
+                <div className="col-md-9">
+                  <div className="">
                     <div>
                       <h5
-                        class="col-md-9 card-title Cloud-title"
+                        className="col-md-9 card-title Cloud-title"
                         style={{ color: "white", fontSize: "24px" }}
                       >
                         Maximize Your Cloud Capabilities with the
                         DataObserve Advantage
                       </h5>
-                      <p class="col-md-9 card-text Cloud-color-paragraph">
+                      <p className="col-md-9 card-text Cloud-color-paragraph">
                         Facing an issue or stuck with a problem regarding BI and
                         Analytics Services? Connect with our support services at
                         any time of the day, and our experts will help you with
@@ -603,7 +606,7 @@ const Devops = () => {
                   >
                     Get a demo{" "}
                     <i
-                      class="fa fa-long-arrow-right Arrow-cloud"
+                      className="fa fa-long-arrow-right Arrow-cloud"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -645,7 +648,7 @@ const Devops = () => {
                 <h5 className="cloudcardheadings">Premium Quality</h5>
 
                 <p className="arrowtext text-center">
-                Every project completed by our DevOps teams goes through internal quality checks to ensure quality before being delivered.
+                  Every project completed by our DevOps teams goes through internal quality checks to ensure quality before being delivered.
                 </p>
               </div>
             </div>
@@ -771,14 +774,14 @@ const Devops = () => {
         </div>
       </section>
 
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -788,7 +791,7 @@ const Devops = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -797,13 +800,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -843,11 +846,11 @@ const Devops = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   DevOps as a Service (DaaS) is a model that provides end-to-end
                   automation and continuous delivery for software development.
                   It streamlines collaboration between development and
@@ -858,7 +861,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -867,13 +870,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -911,11 +914,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   DevOps as a Service accelerates software delivery by
                   automating key aspects of the development process. This
                   includes continuous integration, continuous testing, and
@@ -927,7 +930,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -936,13 +939,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -981,11 +984,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Our DevOps as a Service offering includes a comprehensive set
                   of components such as continuous integration tools, automated
                   testing frameworks, deployment automation, monitoring, and
@@ -996,7 +999,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1005,13 +1008,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -1049,11 +1052,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   DevOps as a Service reduces costs by automating repetitive and
                   time-consuming tasks, minimizing manual errors, and optimizing
                   resource utilization. It streamlines processes across the
@@ -1065,7 +1068,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1074,13 +1077,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1119,11 +1122,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, our DevOps as a Service solutions are designed to be
                   flexible and compatible with a variety of infrastructures,
                   including on-premises, cloud, and hybrid environments. Our
@@ -1134,7 +1137,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1143,13 +1146,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1188,11 +1191,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Security is a top priority in our DevOps as a Service
                   approach. We incorporate security measures throughout the
                   development lifecycle, including code scanning, automated
@@ -1203,7 +1206,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1212,13 +1215,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1257,11 +1260,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Absolutely. We understand the importance of compliance with
                   industry regulations. Our DevOps as a Service solutions can be
                   customized to meet specific industry standards and
@@ -1272,7 +1275,7 @@ const Devops = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1281,13 +1284,13 @@ const Devops = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1326,11 +1329,11 @@ const Devops = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   End-to-end automation in the DevOps process brings several
                   benefits, including reduced manual errors, faster release
                   cycles, and improved collaboration. Automation allows your

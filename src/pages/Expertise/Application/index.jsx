@@ -2,7 +2,7 @@ import React from "react";
 import "./Application.css";
 import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
-// import digital from "../../../assets/videos/digitaltransform.mp4";
+import devops from "../../../assets/videos/devops-vid.mp4";
 import Footer from "../../../components/Layout/Footer";
 import Talktous from "../../../components/Common/Talktous";
 import Slider from "react-slick";
@@ -54,7 +54,7 @@ const Application = () => {
       <div className="Application-video-Main">
         <video className="digital-transform-video" autoPlay loop muted>
           <source
-            src="https://storage.googleapis.com/do-website-resources/digitaltransform.mp4"
+            src={devops}
             type="video/mp4"
           />
         </video>
@@ -138,7 +138,7 @@ const Application = () => {
       </div>
       <div>
         <div className="cloudcards d-md-block d-none">
-          <div class="ccdiv w-100">
+          <div className="ccdiv w-100">
             <div className="cloudimgcard">
               <img
                 className="notrepimg"
@@ -303,12 +303,15 @@ const Application = () => {
         </div>
       </div>
 
-      <h1 className="case mt-5">Our Case Studies</h1>
+      <h1 className="case mt-5" style={{ textAlign: "center" }}>Our Case Studies</h1>
       <div
-        class="container  mb-3 mt-5 Built-back-colour"
+        className="container  mb-3 mt-5 Built-back-colour"
         style={{
           backgroundColor: "#1A4AB9",
           borderRadius: "20px",
+          marginLeft: "100px",
+          marginRight: "200px",
+          width: "auto",
         }}
       >
         <div className="right-media-Corner">
@@ -322,14 +325,14 @@ const Application = () => {
         </div>
 
         <div
-          class="row overall-built-Corner"
+          className="row overall-built-Corner"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "spacebetween",
           }}
         >
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img
               style={{ height: "250px", width: "100%" }}
               src="./images/build.png"
@@ -337,10 +340,10 @@ const Application = () => {
               alt="..."
             />
           </div>
-          <div class="col-md-7 cLOUD-Unified">
-            <div class="card-body CLOUD-bODY">
+          <div className="col-md-7 cLOUD-Unified">
+            <div className="card-body CLOUD-bODY">
               <h5
-                class="col-md-9 card-title CLouD-BULIT"
+                className="col-md-9 card-title CLouD-BULIT"
                 style={{
                   color: "white",
                   letterSpacing: "0.68px",
@@ -351,17 +354,17 @@ const Application = () => {
                 <br /> decision intelligence Platform
               </h5>
               <p
-                class="col-md-9 card-text-3"
+                className="col-md-9 card-text-3"
                 style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
               >
                 Learn how we created a self-service, predictive, insights
                 platform driven by an adaptive machine learning engine which
                 helps improve decision-making.
               </p>
-              <p class=" col-md-9 card-text" style={{ color: "white" }}>
+              <p className=" col-md-9 card-text" style={{ color: "white" }}>
                 <p style={{ fontSize: 16 }}>
                   Read case study
-                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
+                  <i className="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
               </p>
               <div
@@ -493,7 +496,7 @@ const Application = () => {
           </div>
           <div>
             <div
-              class="mb-3 mt-5"
+              className="mb-3 mt-5"
               style={{
                 backgroundColor: "#1A4AB9",
                 maxWidth: "100%",
@@ -501,22 +504,22 @@ const Application = () => {
               }}
             >
               <div
-                class="row no-gutters"
+                className="row no-gutters"
                 style={{
                   alignItems: "center",
                   justifyContent: "spacebetween",
                 }}
               >
-                <div class="col-md-9">
-                  <div class="">
+                <div className="col-md-9">
+                  <div className="">
                     <div>
                       <h5
-                        class="card-title Cloud-title"
+                        className="card-title Cloud-title"
                         style={{ color: "white", fontSize: "24px" }}
                       >
                         Modernize Your Applications with Optimal Efficiency
                       </h5>
-                      <p class="col-md-9 card-text Cloud-color-paragraph">
+                      <p className="col-md-9 card-text Cloud-color-paragraph">
                         Modernize Your Applications Seamlessly with Zero
                         Downtime, Supported by Our Dedicated Team
                       </p>
@@ -537,7 +540,7 @@ const Application = () => {
                   >
                     Get a demo{" "}
                     <i
-                      class="fa fa-long-arrow-right Arrow-cloud"
+                      className="fa fa-long-arrow-right Arrow-cloud"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -725,14 +728,14 @@ const Application = () => {
         </div>
       </section>
 
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -742,7 +745,7 @@ const Application = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -751,13 +754,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -797,11 +800,11 @@ const Application = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Application Modernization as a Service involves upgrading and
                   optimizing existing applications to align with modern
                   technologies and business needs. This service can benefit your
@@ -812,7 +815,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -821,13 +824,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -866,11 +869,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   While traditional application development often involves
                   building new applications from scratch, Application
                   Modernization focuses on updating and improving existing
@@ -881,7 +884,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -890,13 +893,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -935,11 +938,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Our Application Modernization services encompass a variety of
                   components, including legacy system assessment, technology
                   stack upgrades, migration to cloud environments, user
@@ -950,7 +953,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -959,13 +962,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -1004,11 +1007,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Application Modernization improves agility by incorporating
                   technologies like containerization and microservices
                   architecture. This allows for more flexible and modular
@@ -1019,7 +1022,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1028,13 +1031,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1073,11 +1076,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   While cloud migration is often a component of Application
                   Modernization, it's not always mandatory. The decision to
                   migrate to the cloud depends on your organization's goals,
@@ -1088,7 +1091,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1097,13 +1100,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1142,11 +1145,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Security is a top priority in our Application Modernization
                   process. We conduct thorough security assessments, implement
                   best practices for secure coding, and ensure that data remains
@@ -1156,7 +1159,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1165,13 +1168,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1210,11 +1213,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, our Application Modernization services are designed to
                   support both monolithic and distributed architectures. Whether
                   your application is a large monolith or a set of
@@ -1225,7 +1228,7 @@ const Application = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1234,13 +1237,13 @@ const Application = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1279,11 +1282,11 @@ const Application = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Application Modernization includes user interface redesign and
                   improvements to enhance the overall user experience. This may
                   involve updating the look and feel, optimizing navigation, and

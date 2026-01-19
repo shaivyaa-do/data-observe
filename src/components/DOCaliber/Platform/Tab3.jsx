@@ -11,33 +11,33 @@ const Cards = lazy(() => import("./Cards"));
 const cardData = [
     {
         img: ImgVerifiedCertif,
-        title: "Pre-built LLM judges",
-        desc: "Empower cross-functional teams to rapidly co-create, launch, and manage enterprise applications with Unqork’s intuitive IDE."
+        title: "Multilingual Text Translation",
+        desc: "Convert text from any language into a common language for consistent analysis. Streamline global data processing without external translation tools."
     },
     {
         img: ImgTerminalBlue,
-        title: "Customized LLM judges",
-        desc: "Build complex workflows with a visual drag-and-drop tool that separates complex logic into steps, from orchestration to dynamic flows."
+        title: "Aggregate Insights",
+        desc: "Condense large volumes of text into clear, actionable summaries. Quickly extract key insights without reading every detail."
     },
     {
         img: ImgDataBlue,
-        title: "Test new app / variants",
-        desc: "Seamlessly create and configure API endpoints, store submission data in distinct collections, and establish relationships between models."
+        title: "Automated Categorization",
+        desc: "Categorize text based on predefined business rules or intent. Transform unstructured data into structured, actionable metrics."
     },
     {
         img: ImgScience,
-        title: "Customize with code-based metrics",
-        desc: "Leverage ready-to-use use cases (e.g. dashboards, portals, & workflows) with customizable pre-built components."
+        title: "AI-Powered Question Answering",
+        desc: "Ask specific questions and generate accurate answers from unstructured text. Extract key insights without manual review."
     },
     {
         img: ImgTimeline,
-        title: "Identify root causes with evaluation review UIs",
-        desc: "Integrate with 700+ systems across on-prem and cloud apps &databases—all in a drag-and-drop environment."
+        title: "Transcribe & Image Analysis",
+        desc: "Transform audio reviews into text and generate descriptive captions for images. Integrate all media into your analytics workflow."
     },
     {
         img: ImgVerified,
-        title: "Compare versions side-by-side",
-        desc: "Build in parallel by simplifying editing, testing, deployment.and rollback—and enable seamless merging of changes across versions."
+        title: "Sentiment",
+        desc: "Quantify sentiment in textual data to measure opinions and attitudes. Understand customer or user reactions at scale."
     }
 ];
 

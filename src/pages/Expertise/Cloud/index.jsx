@@ -4,6 +4,7 @@ import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
 
 // import cloud from "../../../assets/videos/cloud.mp4";
+import cloud from "../../../assets/videos/cloud-e-vid.mp4";
 import Footer from "../../../components/Layout/Footer";
 import Slider from "react-slick";
 import Talktous from "../../../components/Common/Talktous";
@@ -46,7 +47,7 @@ const Cloud = () => {
           initialSlide: 1,
         },
       },
-      
+
     ],
   };
   return (
@@ -55,12 +56,12 @@ const Cloud = () => {
       <div className="cloudempower">
         <video className="cloud-transform-video" autoPlay loop muted>
           <source
-            src="https://storage.googleapis.com/do-website-resources/cloud.mp4"
+            src={cloud}
             type="video/mp4"
           />
         </video>
         <div className="Cloud-Main-hEading">
-          <p className="cLOUD-TRANSFORM">
+          <div className="cLOUD-TRANSFORM">
             <p className="cloud-transform-Size"
               style={{
                 fontWeight: "600",
@@ -68,52 +69,52 @@ const Cloud = () => {
                 letterSpacing: "1px",
               }}
             >
-             Cloud Transformation
+              Cloud Transformation
             </p>
-            
-           <p className="col-md-6 Navigate-Journey">
-           Empower Your Business Transformation Through Cloud Migration
-           </p>
-          <button
-            className="datatypes"
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "70px",
-              borderRadius: "5px",
-            }}
-          >
-            <span
-              className="spans"
+
+            <p className="col-md-6 Navigate-Journey">
+              Empower Your Business Transformation Through Cloud Migration
+            </p>
+            <button
+              className="datatypes"
               style={{
-                color: "#0046E8",
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "600",
-                lineHeight: "19px",
+                display: "flex",
+                height: "61px",
+                maxWidth: "255px",
+                padding: "20px 46px 21px 48px",
+                justifyContent: "center",
+                alignItems: "center",
+                border: "none",
+                marginTop: "70px",
+                borderRadius: "5px",
               }}
             >
-              Talk to us now!
-            </span>{" "}
-            <i
-              className="fa fa-long-arrow-right ARROW-RIGHT-CLOUD"
-              style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#0046E8",
-                marginLeft: "12px",
-              }}
-              aria-hidden="true"
-            ></i>
-          </button> 
-          
-          </p>
+              <span
+                className="spans"
+                style={{
+                  color: "#0046E8",
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  lineHeight: "19px",
+                }}
+              >
+                Talk to us now!
+              </span>{" "}
+              <i
+                className="fa fa-long-arrow-right ARROW-RIGHT-CLOUD"
+                style={{
+                  width: "23px",
+                  fontSize: "29px",
+                  flexShrink: "0",
+                  color: "#0046E8",
+                  marginLeft: "12px",
+                }}
+                aria-hidden="true"
+              ></i>
+            </button>
+
+          </div>
         </div>
       </div>
       <div className="container"
@@ -135,7 +136,7 @@ const Cloud = () => {
         </p>
       </div>
       <div className="cloudcards d-md-block d-none">
-        <div class="ccdiv w-100">
+        <div className="ccdiv w-100">
           <div className="cloudimgcard">
             <img className="notrepimg" src="/images/ccon.png" alt="" />
             <div className="cloudcard card">
@@ -276,13 +277,17 @@ const Cloud = () => {
         </section>
       </div>
 
-      <h1 className="case mt-5">Our Case Studies</h1>
+      <h1 className="case mt-5" style={{ textAlign: "center" }}>Our Case Studies</h1>
 
       <div
-        class="container  mb-3 mt-5 Built-back-colour"
+        className="container  mb-3 mt-5 Built-back-colour"
         style={{
           backgroundColor: "#1A4AB9",
           borderRadius: "20px",
+          marginLeft: "100px",
+          marginRight: "200px",
+          width: "auto",
+
         }}
       >
         <div className="right-media-Corner">
@@ -296,14 +301,14 @@ const Cloud = () => {
         </div>
 
         <div
-          class="row overall-built-Corner"
+          className="row overall-built-Corner"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "spacebetween",
           }}
         >
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img
               style={{ height: "250px", width: "100%" }}
               src="./images/build.png"
@@ -311,10 +316,10 @@ const Cloud = () => {
               alt="..."
             />
           </div>
-          <div class="col-md-7 cLOUD-Unified">
-            <div class="card-body CLOUD-bODY">
+          <div className="col-md-7 cLOUD-Unified">
+            <div className="card-body CLOUD-bODY">
               <h5
-                class="col-md-9 card-title CLouD-BULIT"
+                className="col-md-9 card-title CLouD-BULIT"
                 style={{
                   color: "white",
                   letterSpacing: "0.68px",
@@ -325,19 +330,19 @@ const Cloud = () => {
                 <br /> decision intelligence Platform
               </h5>
               <p
-                class="col-md-9 card-text-3"
+                className="col-md-9 card-text-3"
                 style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
               >
                 Learn how we created a self-service, predictive, insights
                 platform driven by an adaptive machine learning engine which
                 helps improve decision-making.
               </p>
-              <p class=" col-md-9 card-text" style={{ color: "white" }}>
+              <div className=" col-md-9 card-text" style={{ color: "white" }}>
                 <p style={{ fontSize: 16 }}>
                   Read case study
-                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
+                  <i className="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-              </p>
+              </div>
               <div
                 style={{
                   display: "flex",
@@ -392,7 +397,7 @@ const Cloud = () => {
       </div>
 
 
-      
+
       <div className="container mt-3">
         <div className="row box">
           <div className="col-md-4">
@@ -463,7 +468,7 @@ const Cloud = () => {
         </div>
         <div>
           <div
-            class="mb-3 mt-5"
+            className="mb-3 mt-5"
             style={{
               backgroundColor: "#1A4AB9",
               maxWidth: "100%",
@@ -471,23 +476,23 @@ const Cloud = () => {
             }}
           >
             <div
-              class="row no-gutters"
+              className="row no-gutters"
               style={{
                 alignItems: "center",
                 justifyContent: "spacebetween",
               }}
             >
-              <div class="col-md-9">
-                <div class="">
+              <div className="col-md-9">
+                <div className="">
                   <div>
-                    <h5 
-                      class="col-md-8 card-title Cloud-title"
+                    <h5
+                      className="col-md-8 card-title Cloud-title"
                       style={{ color: "white", fontSize: "24px" }}
                     >
                       Maximize Your Cloud Capabilities with the  DataObserve
                       Advantage
                     </h5>
-                    <p class="col-md-9 card-text Cloud-color-paragraph">
+                    <p className="col-md-9 card-text Cloud-color-paragraph">
                       Streamline your cloud-driven business transformation with
                       DataObserve's comprehensive suite of cloud services,
                       encompassing consulting, optimization, migration, and
@@ -506,12 +511,12 @@ const Cloud = () => {
                     height: "55px",
                     margin: "50px",
                     borderRadius: "6px",
-                    color:"#0046E8",
+                    color: "#0046E8",
                   }}
                 >
                   Talk to us now{" "}
                   <i
-                    class="fa fa-long-arrow-right Arrow-cloud"
+                    className="fa fa-long-arrow-right Arrow-cloud"
                     aria-hidden="true"
                   ></i>
                 </button>
@@ -522,17 +527,17 @@ const Cloud = () => {
       </div>
 
 
-<section className="back-point mt-5">
-<div>
-        <div
-          className="container"
-          style={{
-            justifyContent: "center",
-            flexDirection: "column",
-            display: "flex",
-          }}
-        >
-          {/* <h3 className="cloud-head" style={{ textAlign: "center" }}>
+      <section className="back-point mt-5">
+        <div>
+          <div
+            className="container"
+            style={{
+              justifyContent: "center",
+              flexDirection: "column",
+              display: "flex",
+            }}
+          >
+            {/* <h3 className="cloud-head" style={{ textAlign: "center" }}>
             What Makes Us Stand Out
           </h3>
           <p
@@ -546,155 +551,155 @@ const Cloud = () => {
             that drive business optimization. Explore some key factors that
             position us as an industry leader for the years ahead.
           </p> */}
-        </div>
-        <div className="container mt-3">
-          <div className="row box">
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding-cloud"
-                style={{ height: "380px" }}
-              >
-                <img
-                  src="./images/ddma.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={80}
-                  height={100}
-                />
-                <h5 className="cloudcardheadings text-center">
-                  Data-Driven Migration Assessment
-                </h5>
+          </div>
+          <div className="container mt-3">
+            <div className="row box">
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding-cloud"
+                  style={{ height: "380px" }}
+                >
+                  <img
+                    src="./images/ddma.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={80}
+                    height={100}
+                  />
+                  <h5 className="cloudcardheadings text-center">
+                    Data-Driven Migration Assessment
+                  </h5>
 
-                <p className="arrowtext text-left">
-                  Our cloud-ready, data-driven migration assessment enables you
-                  to assess the feasibility of migrating your resources and
-                  infrastructure to the cloud. Inquire about how DataObserve
-                  experts can assist you throughout the entire migration
-                  journey.
-                </p>
+                  <p className="arrowtext text-left">
+                    Our cloud-ready, data-driven migration assessment enables you
+                    to assess the feasibility of migrating your resources and
+                    infrastructure to the cloud. Inquire about how DataObserve
+                    experts can assist you throughout the entire migration
+                    journey.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding-cloud"
-                style={{ height: "380px" }}
-              >
-                <img
-                  src="./images/unte.png"
-                  className="App-logo"
-                  alt="logo"
-                  w width={80}
-                  height={100}
-                />
-                <h5 className="cloudcardheadings text-center">
-                  Unparalleled Talent and Experience
-                </h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding-cloud"
+                  style={{ height: "380px" }}
+                >
+                  <img
+                    src="./images/unte.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={80}
+                    height={100}
+                  />
+                  <h5 className="cloudcardheadings text-center">
+                    Unparalleled Talent and Experience
+                  </h5>
 
-                <p className="arrowtext text-left">
-                  With years of industry expertise and a team of committed and
-                  seasoned cloud migration consultants, we offer an unparalleled
-                  range of high-quality services that are sure to ensure your
-                  growth.
-                </p>
+                  <p className="arrowtext text-left">
+                    With years of industry expertise and a team of committed and
+                    seasoned cloud migration consultants, we offer an unparalleled
+                    range of high-quality services that are sure to ensure your
+                    growth.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding-cloud"
-                style={{ height: "380px" }}
-              >
-                <img
-                  src="./images/pics.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={80}
-                  height={100}
-                />
-                <h5 className="cloudcardheadings text-center">
-                  Proven, Industry-tailored Cloud Solutions
-                </h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding-cloud"
+                  style={{ height: "380px" }}
+                >
+                  <img
+                    src="./images/pics.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={80}
+                    height={100}
+                  />
+                  <h5 className="cloudcardheadings text-center">
+                    Proven, Industry-tailored Cloud Solutions
+                  </h5>
 
-                <p className="arrowtext text-left">
-                  Our cloud migration and big data processing solutions are
-                  customized to align with the distinct requirements and
-                  preferences of your business. Rest assured, all our cloud
-                  migration solutions adhere to the highest industry standards.
-                </p>
+                  <p className="arrowtext text-left">
+                    Our cloud migration and big data processing solutions are
+                    customized to align with the distinct requirements and
+                    preferences of your business. Rest assured, all our cloud
+                    migration solutions adhere to the highest industry standards.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding-cloud"
-                style={{ height: "380px" }}
-              >
-                <img
-                  src="./images/tep.png"
-                  className="App-logo CLOUD-APP-LOGO"
-                  alt="logo"
-                  width={80}
-                  height={80}
-                />
-                <h5 className="cloudcardheadings text-center" style={{ marginTop: "24px" }}>
-                  Trusted Enterprise Partner
-                </h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding-cloud"
+                  style={{ height: "380px" }}
+                >
+                  <img
+                    src="./images/tep.png"
+                    className="App-logo CLOUD-APP-LOGO"
+                    alt="logo"
+                    width={80}
+                    height={80}
+                  />
+                  <h5 className="cloudcardheadings text-center" style={{ marginTop: "24px" }}>
+                    Trusted Enterprise Partner
+                  </h5>
 
-                <p className="arrowtext text-left">
-                  With over incredible amount of data migrated and managed
-                  annually, DataObserve is in the process to establishedit self
-                  as one of the most highly trusted cloud migration providers.
-                  We firmly believe in delivering 100% customer satisfaction and
-                  cater to a global clientele of happy customers.
-                </p>
+                  <p className="arrowtext text-left">
+                    With over incredible amount of data migrated and managed
+                    annually, DataObserve is in the process to establishedit self
+                    as one of the most highly trusted cloud migration providers.
+                    We firmly believe in delivering 100% customer satisfaction and
+                    cater to a global clientele of happy customers.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding-cloud"
-                style={{ height: "380px" }}
-              >
-                <img
-                  src="./images/pa.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={80}
-                  height={100}
-                />
-                <h5 className="cloudcardheadings text-center">Proven Accelerators</h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding-cloud"
+                  style={{ height: "380px" }}
+                >
+                  <img
+                    src="./images/pa.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={80}
+                    height={100}
+                  />
+                  <h5 className="cloudcardheadings text-center">Proven Accelerators</h5>
 
-                <p className="arrowtext text-left">
-                  Unlock exponential growth through DataObserve's cloud
-                  migration services and data solutions. With our assistance,
-                  you can effortlessly harness industry-leading Azure and AWS
-                  solutions such as Azure Stack HCI, Azure IoT, Amazon EC2,
-                  Amazon RDS, and Amazon S3.
-                </p>
+                  <p className="arrowtext text-left">
+                    Unlock exponential growth through DataObserve's cloud
+                    migration services and data solutions. With our assistance,
+                    you can effortlessly harness industry-leading Azure and AWS
+                    solutions such as Azure Stack HCI, Azure IoT, Amazon EC2,
+                    Amazon RDS, and Amazon S3.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-</section>
+      </section>
 
 
-      
+
 
 
 
 
       {/* <Faq /> */}
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -704,7 +709,7 @@ const Cloud = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -713,13 +718,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -759,11 +764,11 @@ const Cloud = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Cloud migration involves moving your business's data,
                   applications, and processes from on-premises servers to
                   cloud-based infrastructure. This transition offers numerous
@@ -775,7 +780,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -784,13 +789,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -829,11 +834,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Cloud migration is a key enabler of business transformation.
                   It allows for the seamless integration of innovative
                   technologies, facilitates collaboration, and ensures
@@ -845,7 +850,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -854,13 +859,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -898,11 +903,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   We offer comprehensive cloud migration services tailored to
                   meet your business needs. Our services include assessing your
                   current infrastructure, developing a customized migration
@@ -914,7 +919,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -923,13 +928,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -967,11 +972,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Ensuring the security of your data is our top priority. We
                   follow industry best practices and employ robust security
                   measures throughout the migration process. This includes data
@@ -983,7 +988,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -992,13 +997,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1037,11 +1042,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, our goal is to minimize disruption to your business
                   operations during the migration process. We meticulously plan
                   each step of the migration to ensure a smooth transition. We
@@ -1052,7 +1057,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1061,13 +1066,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1106,11 +1111,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Cloud migration enhances scalability by allowing you to scale
                   resources up or down based on your business requirements. This
                   flexibility ensures you only pay for the resources you use,
@@ -1121,7 +1126,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1130,13 +1135,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1175,11 +1180,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, we offer comprehensive training programs to ensure your
                   team is well-equipped to operate within the new cloud
                   environment. Our training includes hands-on sessions,
@@ -1190,7 +1195,7 @@ const Cloud = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1199,13 +1204,13 @@ const Cloud = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1243,11 +1248,11 @@ const Cloud = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Getting started is easy! Contact our team to schedule a
                   consultation. During this initial phase, we'll assess your
                   current infrastructure, understand your business goals, and

@@ -1,0 +1,337 @@
+[
+    {
+        "id": "expertise",
+        "label": "Expertise",
+        "image": "/images/navlinkgif.gif",
+        "content": {
+            "heading": "Expertise",
+            "description": "Comprehensive data and AI solutions tailored to transform your business operations and drive innovation.",
+            "ctaText": "View all expertise",
+            "ctaLink": "/expertise"
+        },
+        "items": [
+            {
+                "title": "Cloud Transformation",
+                "path": "/cloud",
+                "icon": "Cloud",
+                "description": [
+                    "Cloud Migration",
+                    "Cost Optimization",
+                    "Scalability"
+                ]
+            },
+            {
+                "title": "Data Engineering",
+                "path": "/dataeng",
+                "icon": "Storage",
+                "description": [
+                    "Data Pipelines",
+                    "Automation",
+                    "Data Quality"
+                ]
+            },
+            {
+                "title": "Data Analytics & BI",
+                "path": "/databi",
+                "icon": "Analytics",
+                "description": [
+                    "Business Insights",
+                    "Dashboards",
+                    "Visualization"
+                ]
+            },
+            {
+                "title": "AI & Machine Learning",
+                "path": "/aiml",
+                "icon": "Psychology",
+                "description": [
+                    "Predictive Models",
+                    "NLP",
+                    "Computer Vision"
+                ]
+            },
+            {
+                "title": "DevOps-as-a-service",
+                "path": "/devops",
+                "icon": "Speed",
+                "description": [
+                    "CI/CD",
+                    "Infrastructure",
+                    "Delivery"
+                ]
+            },
+            {
+                "title": "Gen AI as a Service",
+                "path": "/genai",
+                "icon": "AutoAwesome",
+                "description": [
+                    "LLM Integration",
+                    "Chatbots",
+                    "Content Generation"
+                ]
+            },
+            {
+                "title": "Talent-as-a-service",
+                "path": "/talent",
+                "icon": "People",
+                "description": [
+                    "Tech Talent",
+                    "Domain Experts",
+                    "Team Scaling"
+                ]
+            },
+            {
+                "title": "Application Modernization",
+                "path": "/application",
+                "icon": "Devices",
+                "description": [
+                    "Legacy Refactoring",
+                    "Microservices",
+                    "Cloud-Native"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "products",
+        "label": "Products",
+        "image": "/images/navlink2gif.gif",
+        "content": {
+            "heading": "Products",
+            "description": "Enterprise-grade data observability and quality solutions designed for modern data teams.",
+            "ctaText": "View all products",
+            "ctaLink": "/products"
+        },
+        "items": [
+            {
+                "title": "DO Caliber",
+                "path": "/caliber",
+                "icon": "Analytics",
+                "description": [
+                    "Quality Monitoring",
+                    "Validation",
+                    "Metrics"
+                ]
+            },
+            {
+                "title": "DO 360",
+                "path": "/observability",
+                "icon": "Speed",
+                "description": [
+                    "Observability",
+                    "Performance",
+                    "Tracing"
+                ]
+            },
+            {
+                "title": "DO Base",
+                "path": "/base",
+                "icon": "Storage",
+                "description": [
+                    "Data Platform",
+                    "Scalability",
+                    "Multi-Cloud"
+                ]
+            },
+            {
+                "title": "DO Metrics",
+                "path": "/metrics",
+                "icon": "Psychology",
+                "description": [
+                    "KPI Tracking",
+                    "Dashboards",
+                    "Analytics"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "industries",
+        "label": "Industries",
+        "image": "/images/navlink3gif.gif",
+        "content": {
+            "heading": "Industries",
+            "description": "Specialized solutions built for rapid innovation and total control across diverse industry sectors.",
+            "ctaText": "View all industries",
+            "ctaLink": "/industries"
+        },
+        "items": [
+            {
+                "title": "Life Science",
+                "path": "/life-science",
+                "icon": "Psychology",
+                "description": [
+                    "Clinical Trials",
+                    "Drug Discovery",
+                    "Compliance"
+                ]
+            },
+            {
+                "title": "Financial Services",
+                "path": "/financial-services",
+                "icon": "Analytics",
+                "description": [
+                    "Risk Management",
+                    "Fraud Detection",
+                    "Trading"
+                ]
+            },
+            {
+                "title": "Media & Entertainment",
+                "path": "/media-entertainment",
+                "icon": "Devices",
+                "description": [
+                    "Recommendations",
+                    "Audience Analytics",
+                    "Streaming"
+                ]
+            },
+            {
+                "title": "Travel & Hospitality",
+                "path": "/travel-hospitality",
+                "icon": "Cloud",
+                "description": [
+                    "Booking",
+                    "Experience",
+                    "Revenue"
+                ]
+            },
+            {
+                "title": "Gaming",
+                "path": "/gaming",
+                "icon": "Speed",
+                "description": [
+                    "Player Analytics",
+                    "Telemetry",
+                    "Monetization"
+                ]
+            },
+            {
+                "title": "CPG",
+                "path": "/cpg",
+                "icon": "Storage",
+                "description": [
+                    "Supply Chain",
+                    "Consumer Insights",
+                    "Forecasting"
+                ]
+            },
+            {
+                "title": "Industrials",
+                "path": "/industrials",
+                "icon": "AutoAwesome",
+                "description": [
+                    "Maintenance",
+                    "IoT Processing",
+                    "Efficiency"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "insights",
+        "label": "Insights",
+        "image": "/images/navlink4gif.gif",
+        "content": {
+            "heading": "Insights",
+            "description": "Expert perspectives, research, and resources to help you stay ahead in the data landscape.",
+            "ctaText": "View all insights",
+            "ctaLink": "/allinsights"
+        },
+        "items": [
+            {
+                "title": "All Insights",
+                "path": "allinsights",
+                "icon": "Analytics",
+                "description": [
+                    "All Resources",
+                    "Trends",
+                    "Perspectives"
+                ]
+            },
+            {
+                "title": "Ebooks",
+                "path": "/allinsights#ebooks",
+                "icon": "Storage",
+                "description": [
+                    "Guides",
+                    "Best Practices",
+                    "Downloads"
+                ]
+            },
+            {
+                "title": "Case Studies",
+                "path": "/allinsights#casestudies",
+                "icon": "Psychology",
+                "description": [
+                    "Success Stories",
+                    "Transformations",
+                    "Results"
+                ]
+            },
+            {
+                "title": "Whitepapers",
+                "path": "/allinsights#whitepapers",
+                "icon": "Devices",
+                "description": [
+                    "Deep Dives",
+                    "Research",
+                    "Analysis"
+                ]
+            },
+            {
+                "title": "Blogs",
+                "path": "/allinsights#blogs",
+                "icon": "AutoAwesome",
+                "description": [
+                    "Articles",
+                    "Opinions",
+                    "Leadership"
+                ]
+            },
+            {
+                "title": "Events",
+                "path": "/allinsights#top10insights",
+                "icon": "People",
+                "description": [
+                    "Webinars",
+                    "Conferences",
+                    "Networking"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "company",
+        "label": "Company",
+        "image": "/images/navlink2gif.gif",
+        "content": {
+            "heading": "Company",
+            "description": "Learn about our mission, values, and the team driving innovation in data observability.",
+            "ctaText": "Learn more about us",
+            "ctaLink": "/company"
+        },
+        "items": [
+            {
+                "title": "About Us",
+                "path": "/company",
+                "icon": "People",
+                "description": [
+                    "Mission",
+                    "Leadership",
+                    "History"
+                ]
+            },
+            {
+                "title": "Careers",
+                "path": "/people",
+                "icon": "AutoAwesome",
+                "description": [
+                    "Join Us",
+                    "Positions",
+                    "Culture"
+                ]
+            }
+        ]
+    }
+]

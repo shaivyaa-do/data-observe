@@ -2,7 +2,7 @@ import React from "react";
 import "./Aiml.css";
 import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
-// import artificial from "../../../assets/videos/artificial.mp4";
+import aiml from "../../../assets/videos/AI&ML-vid.mp4";
 import Footer from "../../../components/Layout/Footer";
 import Slider from "react-slick";
 import Talktous from "../../../components/Common/Talktous";
@@ -54,7 +54,7 @@ const Aiml = () => {
       <div className="Artificial-Learing-Main">
         <video className="artificial-machinelearn" autoPlay loop muted>
           <source
-            src="https://storage.googleapis.com/do-website-resources/artificial.mp4"
+            src={aiml}
             type="video/mp4"
           />
         </video>
@@ -136,7 +136,7 @@ const Aiml = () => {
       </div>
       <div>
         <div className="cloudcards d-md-block d-none">
-          <div class="ccdiv w-100">
+          <div className="ccdiv w-100">
             <div className="cloudimgcard">
               <img className="notrepimg" src="/images/dl.png" alt="" />
               <div className="cloudcard card">
@@ -276,13 +276,16 @@ const Aiml = () => {
         </div>
       </div>
 
-      <h1 className="case mt-5">Our Case Studies</h1>
+      <h1 className="case mt-5" style={{ textAlign: "center" }}>Our Case Studies</h1>
 
       <div
-        class="container  mb-3 mt-5 Built-back-colour"
+        className="container  mb-3 mt-5 Built-back-colour"
         style={{
           backgroundColor: "#1A4AB9",
           borderRadius: "20px",
+          marginLeft: "100px",
+          marginRight: "200px",
+          width: "auto",
         }}
       >
         <div className="right-media-Corner">
@@ -296,14 +299,14 @@ const Aiml = () => {
         </div>
 
         <div
-          class="row overall-built-Corner"
+          className="row overall-built-Corner"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "spacebetween",
           }}
         >
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img
               style={{ height: "250px", width: "100%" }}
               src="./images/build.png"
@@ -311,10 +314,10 @@ const Aiml = () => {
               alt="..."
             />
           </div>
-          <div class="col-md-7 cLOUD-Unified">
-            <div class="card-body CLOUD-bODY">
+          <div className="col-md-7 cLOUD-Unified">
+            <div className="card-body CLOUD-bODY">
               <h5
-                class="col-md-9 card-title CLouD-BULIT"
+                className="col-md-9 card-title CLouD-BULIT"
                 style={{
                   color: "white",
                   letterSpacing: "0.68px",
@@ -325,17 +328,17 @@ const Aiml = () => {
                 <br /> decision intelligence Platform
               </h5>
               <p
-                class="col-md-9 card-text-3"
+                className="col-md-9 card-text-3"
                 style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
               >
                 Learn how we created a self-service, predictive, insights
                 platform driven by an adaptive machine learning engine which
                 helps improve decision-making.
               </p>
-              <p class=" col-md-9 card-text" style={{ color: "white" }}>
+              <p className=" col-md-9 card-text" style={{ color: "white" }}>
                 <p style={{ fontSize: 16 }}>
                   Read case study
-                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
+                  <i className="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
               </p>
               <div
@@ -387,11 +390,11 @@ const Aiml = () => {
           </h4>
 
           <div className="container">
-          <p className=" container col-md-9 wides">
-            DataObserve is the fastest-growing Cloud Transformation & Data
-            Analytics company with strong expertise in Data lake solutions, Data
-            Warehouse Engineering, Data Migration & Modernization.
-          </p>
+            <p className=" container col-md-9 wides">
+              DataObserve is the fastest-growing Cloud Transformation & Data
+              Analytics company with strong expertise in Data lake solutions, Data
+              Warehouse Engineering, Data Migration & Modernization.
+            </p>
           </div>
         </div>
         <div className="container mt-3">
@@ -512,7 +515,7 @@ const Aiml = () => {
           </div>
           <div>
             <div
-              class="mb-3 mt-5"
+              className="mb-3 mt-5"
               style={{
                 backgroundColor: "#1A4AB9",
                 maxWidth: "100%",
@@ -520,23 +523,23 @@ const Aiml = () => {
               }}
             >
               <div
-                class="row no-gutters"
+                className="row no-gutters"
                 style={{
                   alignItems: "center",
                   justifyContent: "spacebetween",
                 }}
               >
-                <div class="col-md-9">
-                  <div class="">
+                <div className="col-md-9">
+                  <div className="">
                     <div>
                       <h5
-                        class="col-md-9 card-title Cloud-title"
+                        className="col-md-9 card-title Cloud-title"
                         style={{ color: "white", fontSize: "24px" }}
                       >
                         Maximize Your AI/ML Investments For Powerful Data Insights
                       </h5>
-                      <p class="col-md-9 card-text Cloud-color-paragraph">
-                      Build a host of AI and ML-based data models for maximum business benefit.
+                      <p className="col-md-9 card-text Cloud-color-paragraph">
+                        Build a host of AI and ML-based data models for maximum business benefit.
                         Our team of AI/ML experts can help you craft customized solutions for your
                         business needs.
                       </p>
@@ -552,12 +555,12 @@ const Aiml = () => {
                       height: "55px",
                       margin: "42px",
                       borderRadius: "6px",
-                      color:"#0046E8",
+                      color: "#0046E8",
                     }}
                   >
                     Get a demo{" "}
                     <i
-                      class="fa fa-long-arrow-right Arrow-cloud"
+                      className="fa fa-long-arrow-right Arrow-cloud"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -569,124 +572,124 @@ const Aiml = () => {
       </div>
 
       <section className="back-point mt-5">
-      <div>
-        <div
-          className="container"
-          style={{
-            justifyContent: "center",
-            flexDirection: "column",
-            display: "flex",
-          }}
-        >
-          <h3 className="cloud-head" style={{ textAlign: "center" }}>
-            What Makes Us Stand Out
-          </h3>
-          <p
-            className="container col-md-9 CLoud-Text-pARA"
+        <div>
+          <div
+            className="container"
             style={{
-              textAlign: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+              display: "flex",
             }}
           >
-            At DataObserve, we boast a dedicated team of developers and
-            machine-learning experts with decades of collective experience. Our
-            proficiency lies in crafting highly tailored machine-learning
-            solutions that can efficiently address your business requirements.
-            Here are several compelling reasons why we are the perfect choice:
-          </p>
-        </div>
+            <h3 className="cloud-head" style={{ textAlign: "center" }}>
+              What Makes Us Stand Out
+            </h3>
+            <p
+              className="container col-md-9 CLoud-Text-pARA"
+              style={{
+                textAlign: "center",
+              }}
+            >
+              At DataObserve, we boast a dedicated team of developers and
+              machine-learning experts with decades of collective experience. Our
+              proficiency lies in crafting highly tailored machine-learning
+              solutions that can efficiently address your business requirements.
+              Here are several compelling reasons why we are the perfect choice:
+            </p>
+          </div>
 
 
-        <div className="container mt-3">
-          <div className="row box">
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
-              >
-                <img
-                  src="./images/proven.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ width: "73px", height: "73px" }}
-                />
-                <h5 className="cloudcardheadings" style={{ marginTop: "6px" }}>
-                  Proven AI/ML Success
-                </h5>
+          <div className="container mt-3">
+            <div className="row box">
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding"
+                  style={{ height: "360px" }}
+                >
+                  <img
+                    src="./images/proven.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={100}
+                    style={{ width: "73px", height: "73px" }}
+                  />
+                  <h5 className="cloudcardheadings" style={{ marginTop: "6px" }}>
+                    Proven AI/ML Success
+                  </h5>
 
-                <p className="arrowtext text-left">
-                  DataObserve is a trusted Machine Learning partner, and our
-                  AWS/Azure validation validates our proficiency in managing
-                  AI/ML applications. Our carefully selected consultants bring
-                  in-depth expertise acquired through working with a diverse
-                  range of clients across various industries on a global scale.
-                </p>
+                  <p className="arrowtext text-left">
+                    DataObserve is a trusted Machine Learning partner, and our
+                    AWS/Azure validation validates our proficiency in managing
+                    AI/ML applications. Our carefully selected consultants bring
+                    in-depth expertise acquired through working with a diverse
+                    range of clients across various industries on a global scale.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
-              >
-                <img
-                  src="./images/dedicated.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ width: "63px", height: "76px" }}
-                />
-                <h5 className="cloudcardheadings">Dedicated Team</h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding"
+                  style={{ height: "360px" }}
+                >
+                  <img
+                    src="./images/dedicated.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={100}
+                    style={{ width: "63px", height: "76px" }}
+                  />
+                  <h5 className="cloudcardheadings">Dedicated Team</h5>
 
-                <p className="arrowtext text-left">
-                  Our in-house ML experts have extensive experience with
-                  renowned AI/ML services offered by AWS & Azure, such as Amazon
-                  Forecast, SageMaker, Synapse, ADF, and more. Our committed
-                  team ensures your business undergoes a digital transformation
-                  for the modern age.
-                </p>
+                  <p className="arrowtext text-left">
+                    Our in-house ML experts have extensive experience with
+                    renowned AI/ML services offered by AWS & Azure, such as Amazon
+                    Forecast, SageMaker, Synapse, ADF, and more. Our committed
+                    team ensures your business undergoes a digital transformation
+                    for the modern age.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
-              >
-                <img
-                  src="./images/advanced.png"
-                  className="App-logo"
-                  alt="logo"
-                  width={100}
-                  style={{ width: "73px", height: "76px" }}
-                />
-                <h5 className="cloudcardheadings">Advanced Tools</h5>
+              <div className="col-md-4">
+                <div
+                  className="text-center box-padding"
+                  style={{ height: "360px" }}
+                >
+                  <img
+                    src="./images/advanced.png"
+                    className="App-logo"
+                    alt="logo"
+                    width={100}
+                    style={{ width: "73px", height: "76px" }}
+                  />
+                  <h5 className="cloudcardheadings">Advanced Tools</h5>
 
-                <p className="arrowtext text-left">
-                  Our seasoned AI and Machine Learning service professionals
-                  harness cutting-edge tools and technology to empower your
-                  organization to achieve its full potential. Transform your
-                  ideas into reality with our AI and ML services.
-                </p>
+                  <p className="arrowtext text-left">
+                    Our seasoned AI and Machine Learning service professionals
+                    harness cutting-edge tools and technology to empower your
+                    organization to achieve its full potential. Transform your
+                    ideas into reality with our AI and ML services.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
       </section>
-      
 
 
 
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -696,7 +699,7 @@ const Aiml = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -705,13 +708,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -751,11 +754,11 @@ const Aiml = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   AI and Machine Learning Services involve the application of
                   advanced algorithms to analyze data, recognize patterns, and
                   make intelligent decisions. These services can benefit your
@@ -766,7 +769,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -775,13 +778,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -820,11 +823,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   AI and Machine Learning Services can address a wide range of
                   business challenges. This includes predictive analytics for
                   forecasting, natural language processing for improved
@@ -836,7 +839,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -845,13 +848,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -890,11 +893,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Our AI and Machine Learning Services encompass a variety of
                   solutions, including but not limited to predictive modeling,
                   natural language processing, computer vision, recommendation
@@ -906,7 +909,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -915,13 +918,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -960,11 +963,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   AI and Machine Learning enhance decision-making by providing
                   data-driven insights and predictions. These technologies
                   analyze vast amounts of data to identify patterns and trends,
@@ -976,7 +979,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -985,13 +988,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1030,11 +1033,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   No, it's not necessary. Our AI and Machine Learning Services
                   are designed to be accessible to organizations with varying
                   levels of AI expertise. We work with you to understand your
@@ -1046,7 +1049,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1055,13 +1058,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1100,11 +1103,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   AI and Machine Learning can enhance customer experiences by
                   providing personalized recommendations, automating customer
                   interactions through chatbots, and analyzing customer feedback
@@ -1115,7 +1118,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1124,13 +1127,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1169,11 +1172,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Absolutely. Our AI and Machine Learning Services are designed
                   to be flexible and compatible with existing systems and
                   applications. We can integrate AI solutions seamlessly into
@@ -1183,7 +1186,7 @@ const Aiml = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1192,13 +1195,13 @@ const Aiml = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1237,11 +1240,11 @@ const Aiml = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Data privacy and security are paramount in our AI and Machine
                   Learning Services. We adhere to industry best practices for
                   data protection, implement robust encryption methods, and

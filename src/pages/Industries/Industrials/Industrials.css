@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body,
+p,
+span,
+button,
+.MuiTypography-body1,
+.MuiTypography-body2,
+.MuiButton-root {
+    font-family: 'Merriweather', serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h6 {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}

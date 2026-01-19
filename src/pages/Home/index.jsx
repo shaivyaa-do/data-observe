@@ -33,7 +33,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="home-page-container">
       <Navbar />
 
       <section>
@@ -81,46 +81,6 @@ function Home() {
               <div className="col-md-12">
                 <p className="Landing-page-DES">Data Engineering</p>
                 <p className="land-page-DES-2">SIMPLIFIED</p>
-                {/* <a href="./contact" style={{ textDecoration: "none" }}>
-                  <button
-                    className="datatypes"
-                    style={{
-                      display: "flex",
-                      height: "61px",
-                      maxWidth: "255px",
-                      padding: "20px 46px 21px 48px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      border: "none",
-                      marginTop: "70px",
-                      borderRadius: "5px",
-                    }}
-                  >
-                    <span
-                      className="spans"
-                      style={{
-                        color: "#0046E8",
-                        fontSize: "18px",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight: "19px",
-                      }}
-                    >
-                      Contact Us
-                    </span>{" "}
-                    <i
-                      className="fa fa-long-arrow-right ARROW-RIGHT-CLOUD"
-                      style={{
-                        width: "23px",
-                        fontSize: "29px",
-                        flexShrink: "0",
-                        color: "#0046E8",
-                        marginLeft: "12px",
-                      }}
-                      aria-hidden="true"
-                    ></i>
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
@@ -154,23 +114,7 @@ function Home() {
                 it involves continually posing further questions until we grasp
                 the factors influencing success and the path to achieve it.
               </p>
-              {/* <p className="landing-Read">
-                <a
-                  href="./contact"
-                  style={{ color: "white", textDecoration: "none" }}
-                >
-                  Contact for more information
-                </a>
-              </p>
-              <hr
-                className="line-hr-home"
-                style={{
-                  width: "351px",
-                  display: "inline-block",
-                  borderTop: "1px solid white",
-                  marginTop: "0rem",
-                }}
-              /> */}
+
               <a href="./expertiselanding" style={{ textDecoration: "none" }}>
                 <button className="Homepage-Contact-Us">
                   Expertise
@@ -213,23 +157,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              {/* <div className="pro-data">
-                <div className="col-md-1 new-text">
-                  <img
-                    src="./images/alpha.png"
-                    className="tick-HOME"
-                    alt="star"
-                  />
-                </div>
-                <div className="col-md-11 text-Foremost">
-                  <h5 className="proven">Dynamic.</h5>
-                  <p className="foremost-home">
-                    Get up and running in weeks as you plan big but start small,
-                    dynamically advancing with a modular, unified platform as
-                    you scale your data and Al initiatives.
-                  </p>
-                </div>
-              </div> */}
+
               <div className="pro-data">
                 <div className="col-md-1 new-text">
                   <img

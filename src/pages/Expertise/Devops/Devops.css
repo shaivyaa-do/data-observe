@@ -1,32 +1,42 @@
+/* Increased horizontal padding for better spacing */
+.container {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
 .contact {
   background-color: blue;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 12px;
   border-radius: 6px;
   font-weight: 500;
   border: 1px solid blue;
 }
 
-.Deveps_power{
- position: relative; 
+.Deveps_power {
+  position: relative;
 
 }
+
 .devops {
   width: 100%;
+  min-height: 600px;
+  height: 100vh;
+  max-height: 800px;
   object-fit: cover;
- 
 }
 
-.Devops-Main-hEading{
-  position:absolute;
-  top:125px;
-  left:133px;
+.Devops-Main-hEading {
+  position: absolute;
+  top: 125px;
+  left: 133px;
 }
+
 /* .logo-main {
   width: 38px;
   height: 24px;
   margin-top: 17px;
-  margin-right: 10px;
+  margin-right: 12px;
 } */
 .logo-text {
   margin-top: 10px;
@@ -34,11 +44,13 @@
 
 
 .expertise {
-  margin-left: 50px;
+  margin-left: 60px;
 }
+
 .slide {
   width: 100%;
 }
+
 /* .faq-class {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
@@ -52,6 +64,7 @@
   height: auto;
   background-color: black;
 }
+
 .footer .col {
   width: 190px;
   height: auto;
@@ -59,8 +72,9 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 24px 20px 20px;
 }
+
 .footer .col h1 {
   margin: 0;
   padding: 0;
@@ -73,11 +87,13 @@
   text-transform: uppercase;
   letter-spacing: 0.25em;
 }
+
 .footer .col ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .footer .col ul li {
   color: #999999;
   font-size: 14px;
@@ -89,9 +105,10 @@
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
 }
+
 .social ul li {
   display: inline-block;
-  padding-right: 5px !important;
+  padding-right: 6px !important;
 }
 
 .footer .col ul li:hover {
@@ -100,17 +117,20 @@
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
 }
+
 .bg-color {
   background-color: #1a4ab9;
   height: 418px;
   padding: 60px 0px 0px 0px;
 }
+
 .expertcardbody {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
   height: fit-content;
   padding: 67px;
 }
+
 /* .card {
   border-radius: 10px !important;
 } */
@@ -119,6 +139,7 @@
   font-weight: 700;
   font-size: 30px;
 }
+
 .question {
   color: white;
 }
@@ -126,18 +147,22 @@
 .fa-envelope {
   color: white;
 }
+
 .hello {
   margin: 10px;
 }
+
 .bg-white {
   padding-top: 30px;
   border-radius: 13px 13px 0px 0px;
 }
+
 .name {
   border: none;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .contact-us-2 {
   width: 100%;
   /* margin-top: 16px; */
@@ -146,7 +171,7 @@
   border: 1px solid blue;
   padding: 5px;
   font-weight: 500;
-  padding: 10px 5px;
+  padding: 10px 6px;
   border-radius: 8px;
 }
 
@@ -157,10 +182,12 @@
 .footer-heading {
   color: #0046e8 !important;
 }
+
 .cloud-head {
   text-align: center;
   font-weight: 700;
 }
+
 .box {
   margin: 0px !important;
 }
@@ -171,19 +198,22 @@
   text-align: center;
   justify-content: center;
   margin-bottom: 10px;
-  margin-left: 90px;
+  margin-left: 108px;
 }
+
 .arrowtext {
   font-size: 14px;
   text-align: center;
   justify-content: center;
 }
+
 .box-padding {
-  padding: 30px 20px;
+  padding: 30px 24px;
   /* box-shadow: 2px 2px 35px -18px #323c8d; */
   border-radius: 20px;
   margin: 25px 0px;
 }
+
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -244,6 +274,7 @@
   height: 2px;
   background: currentColor;
 }
+
 .accordion button .icon::after {
   display: block;
   position: absolute;
@@ -258,15 +289,18 @@
 .accordion button[aria-expanded="true"] {
   color: #03b5d2;
 }
+
 .accordion button[aria-expanded="true"] .icon::after {
   width: 0;
 }
-.accordion button[aria-expanded="true"] + .accordion-content {
+
+.accordion button[aria-expanded="true"]+.accordion-content {
   opacity: 1;
   max-height: 9em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
@@ -274,17 +308,20 @@
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
 }
+
 .card-body1 {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
   height: 327px;
   padding: 67px;
 }
+
 /* .faq-class {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
@@ -298,49 +335,54 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 467px){
+@media only screen and (min-width: 320px) and (max-width: 467px) {
 
-  .Devops-Main-hEading{
-    top:6px;
+  .Devops-Main-hEading {
+    top: 6px;
     font-size: 14px;
     left: 20px;
-    
+
   }
 
-  .devops-Ourselves{
+  .devops-Ourselves {
     text-align: justify !important;
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 468px) and (max-width: 768px){
+
+@media only screen and (min-width: 468px) and (max-width: 768px) {
 
   .Devops-Main-hEading {
     position: absolute;
     top: 15%;
     left: 10%;
+  }
 }
-}
-@media only screen and (min-width: 769px) and (max-width: 991px){
-  
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
   .Devops-Main-hEading {
     position: absolute;
     top: 0%;
     left: 10%;
+  }
+
+  .cLOUD-TRANSFORM {
+    font-size: 35px;
+    line-height: 47px;
+  }
 }
-.cLOUD-TRANSFORM {
-  font-size: 35px;
-  line-height: 47px;
-}
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-  
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
   .Devops-Main-hEading {
     position: absolute;
     top: 8%;
     left: 10%;
-}
-.cLOUD-TRANSFORM {
-  font-size: 35px;
-  line-height: 47px;
-}
+  }
+
+  .cLOUD-TRANSFORM {
+    font-size: 35px;
+    line-height: 47px;
+  }
 }

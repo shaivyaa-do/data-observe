@@ -9,6 +9,10 @@ import ImgDOBaseHero from './others/dobase-hero-diagram.png';
 import ImgXCaliber from './others/xcalibre.png';
 import ImgXBaseBg from './others/xbase_bg.png';
 
+
+
+
+
 export {
     ImgDataBlue,
     ImgScience,
@@ -18,5 +22,6 @@ export {
     ImgVerified,
     ImgDOBaseHero,
     ImgXCaliber,
-    ImgXBaseBg
+    ImgXBaseBg,
+
 };

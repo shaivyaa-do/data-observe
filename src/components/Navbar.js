@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div>
       <div className="container d-flex justify-content-between align-items-center">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavDropdown"
@@ -16,9 +16,9 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <div className="logo d-flex">
               <a className='d-flex homenavigateclass' href='/'>
                 <img
@@ -34,10 +34,10 @@ const Navbar = () => {
                 </h4>
               </a>
             </div>
-            <ul class="navbar-nav justify-content-around">
-              <li class="nav-item dropdown expertise">
+            <ul className="navbar-nav justify-content-around">
+              <li className="nav-item dropdown expertise">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  className="nav-link dropdown-toggle text-dark"
                   href="#"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
@@ -47,35 +47,35 @@ const Navbar = () => {
                   Expertise
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="/cloud">
+                  <a className="dropdown-item" href="/cloud">
                     Cloud Transformation
                   </a>
-                  <a class="dropdown-item" href="/databi">
+                  <a className="dropdown-item" href="/databi">
                     Data Analytics & BI
                   </a>
-                  <a class="dropdown-item" href="/devops">
+                  <a className="dropdown-item" href="/devops">
                     DevOps-as-a-service
                   </a>
-                  <a class="dropdown-item" href="/talent">
+                  <a className="dropdown-item" href="/talent">
                     Talent-as-a-service
                   </a>
-                  <a class="dropdown-item" href="/dataeng">
+                  <a className="dropdown-item" href="/dataeng">
                     Data Engineering
                   </a>
-                  <a class="dropdown-item" href="/aiml">
+                  <a className="dropdown-item" href="/aiml">
                     AI & Machine Learning
                   </a>
-                  <a class="dropdown-item" href="/application">
+                  <a className="dropdown-item" href="/application">
                     Application Modernization
                   </a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  className="nav-link dropdown-toggle text-dark"
                   href="#"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
@@ -85,23 +85,23 @@ const Navbar = () => {
                   Products
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="/observability">
+                  <a className="dropdown-item" href="/observability">
                     DO360
                   </a>
-                  <a class="dropdown-item" href="healthem">
+                  <a className="dropdown-item" href="healthem">
                     DOHealth
                   </a>
-                  <a class="dropdown-item" href="/datasense">
+                  <a className="dropdown-item" href="/datasense">
                     DOsense
                   </a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  className="nav-link dropdown-toggle text-dark"
                   href="/industries-hub"
                   id="navbarDropdownMenuLink"
                   aria-haspopup="true"
@@ -110,29 +110,32 @@ const Navbar = () => {
                   Industries
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="/industries">
+                  <a className="dropdown-item" href="/industries">
                     Life Science
                   </a>
-                  <a class="dropdown-item" href="/media-entertainment">
+                  <a className="dropdown-item" href="/media-entertainment">
                     Media & Entertainment
                   </a>
-                  <a class="dropdown-item" href="/gaming">
+                  <a className="dropdown-item" href="/gaming">
                     Gaming
                   </a>
-                  <a class="dropdown-item" href="/financial-services">
+                  <a className="dropdown-item" href="/financial-services">
                     Financial Services
                   </a>
-                  <a class="dropdown-item" href="/travel-hospitality">
+                  <a className="dropdown-item" href="/travel-hospitality">
                     Travel & Hospitality
+                  </a>
+                  <a className="dropdown-item" href="/industrials">
+                    Industrials
                   </a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  className="nav-link dropdown-toggle text-dark"
                   href="#"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
@@ -142,29 +145,29 @@ const Navbar = () => {
                   Insights
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Case Studies
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Blogs
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     EBooks
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Webinars & Videos
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Events
                   </a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  className="nav-link dropdown-toggle text-dark"
                   href="#"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
@@ -174,13 +177,13 @@ const Navbar = () => {
                   Company
                 </a>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item" href="/company">
+                  <a className="dropdown-item" href="/company">
                     About Us
                   </a>
-                  <a class="dropdown-item" href="/people">
+                  <a className="dropdown-item" href="/people">
                     Careers
                   </a>
                 </div>

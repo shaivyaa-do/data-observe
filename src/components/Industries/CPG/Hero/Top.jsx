@@ -63,7 +63,8 @@ const HeroTop = () => {
                         height: '100%',
                         objectFit: 'cover',
                         zIndex: -1,
-                        filter: 'grayscale(90%) blur(1px)'
+                        filter: 'grayscale(90%) blur(1px)',
+                        transform: 'scale(1.25)'
                     }}
                 >
                     <source src={cpgVid} type="video/mp4" />

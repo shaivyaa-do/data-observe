@@ -27,7 +27,7 @@ const Platform = () => {
                 {/* Changed background color to transparent as parent has it now */}
                 <Paper sx={{ bgcolor: "transparent", p: 8, borderRadius: 0 }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
-                        Regenerative Platform Components
+                        Generative AI Platform Components
                     </Typography>
                     <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ fontFamily: "'Merriweather', serif" }}>
                         Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
@@ -61,34 +61,34 @@ const Platform = () => {
                                     }
                                 }}
                             >
-                                <Tab label="Rapid Builds" value="rapid-builds" />
-                                <Tab label="Evaluate" value="evaluate" />
-                                <Tab label="Observe" value="observe" />
-                                <Tab label="Security at Scale" value="security-at-scale" />
-                                <Tab label="Reduced Tech-Debt" value="reduced-tech-debt" />
+                                <Tab label="DO Intelligence" value="do-intelligence" />
+                                <Tab label="DO Calibre Agents" value="do-calibre-agents" />
+                                <Tab label="AI Functions" value="ai-functions" />
+                                <Tab label="DO Analyst & Search" value="do-analyst-search" />
+                                <Tab label="Large Language Models (LLM)" value="large-language-models" />
                             </TabList>
                         </Box>
-                        <TabPanel value="rapid-builds">
+                        <TabPanel value="do-intelligence">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab1 />
                             </Suspense>
                         </TabPanel>
-                        <TabPanel value="evaluate">
+                        <TabPanel value="do-calibre-agents">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab2 />
                             </Suspense>
                         </TabPanel>
-                        <TabPanel value="observe">
+                        <TabPanel value="ai-functions">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab3 />
                             </Suspense>
                         </TabPanel>
-                        <TabPanel value="security-at-scale">
+                        <TabPanel value="do-analyst-search">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab4 />
                             </Suspense>
                         </TabPanel>
-                        <TabPanel value="reduced-tech-debt">
+                        <TabPanel value="large-language-models">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab5 />
                             </Suspense>

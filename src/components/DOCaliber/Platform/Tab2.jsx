@@ -11,33 +11,33 @@ const Cards = lazy(() => import("./Cards"));
 const cardData = [
     {
         img: ImgVerifiedCertif,
-        title: "Pre-built LLM judges",
-        desc: "Empower cross-functional teams to rapidly co-create, launch, and manage enterprise applications with Unqork’s intuitive IDE."
+        title: "Unified Data Intelligence",
+        desc: "Manage both structured metrics and unstructured text like conversations, emails, and documents. Gain insights across all data types to drive smarter business decisions."
     },
     {
         img: ImgTerminalBlue,
-        title: "Customized LLM judges",
-        desc: "Build complex workflows with a visual drag-and-drop tool that separates complex logic into steps, from orchestration to dynamic flows."
+        title: "DO Analyst",
+        desc: "Convert natural language queries into SQL using semantic models. Handle complex metrics, KPIs, and analytics without writing code manually."
     },
     {
         img: ImgDataBlue,
-        title: "Test new app / variants",
-        desc: "Seamlessly create and configure API endpoints, store submission data in distinct collections, and establish relationships between models."
+        title: "Search",
+        desc: "Search documents, transcripts, and other text with hybrid semantic + keyword search. Index and query large datasets in real time for precise results."
     },
     {
         img: ImgScience,
-        title: "Customize with code-based metrics",
-        desc: "Leverage ready-to-use use cases (e.g. dashboards, portals, & workflows) with customizable pre-built components."
+        title: "Agents",
+        desc: "Agents combine search, analysis, and LLM orchestration. Retrieve data, manage context, and synthesize insights across multiple sources seamlessly."
     },
     {
         img: ImgTimeline,
-        title: "Identify root causes with evaluation review UIs",
-        desc: "Integrate with 700+ systems across on-prem and cloud apps &databases—all in a drag-and-drop environment."
+        title: "Integration",
+        desc: "Integrate agents via REST APIs or applications. Stream responses, automate workflows, and embed insights into dashboards or chat interfaces."
     },
     {
         img: ImgVerified,
-        title: "Compare versions side-by-side",
-        desc: "Build in parallel by simplifying editing, testing, deployment.and rollback—and enable seamless merging of changes across versions."
+        title: "Learning & Testing",
+        desc: "Validate agent performance with example questions. Monitor results, refine responses, and ensure accurate insights across structured and unstructured data."
     }
 ];
 

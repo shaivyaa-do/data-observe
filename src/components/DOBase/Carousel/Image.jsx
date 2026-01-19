@@ -6,8 +6,13 @@ const Image = ({ img, centerImg, title }) => {
     const [imageSrc, setImageSrc] = useState(null);
     const [centerImageSrc, setCenterImageSrc] = useState(null);
 
+    const isColor = img?.startsWith("#");
+
     useEffect(() => {
-        if (!img) setImageSrc(null);
+        if (!img || isColor) {
+            setImageSrc(null);
+            return;
+        }
         // Dynamic import for background image
         import(`../../../assets/images/others/${img}.png`)
             .then((m) => setImageSrc(m.default))
@@ -15,7 +20,7 @@ const Image = ({ img, centerImg, title }) => {
                 console.warn(`Failed to load image: ${img}`, e);
                 setImageSrc(null);
             });
-    }, [img]);
+    }, [img, isColor]);
 
     useEffect(() => {
         if (!centerImg) setCenterImageSrc(null);
@@ -32,7 +37,17 @@ const Image = ({ img, centerImg, title }) => {
 
     return (
         <Box sx={{ position: "relative", display: "inline-block", width: "100%", height: "100%" }}>
-            {imageSrc && (
+            {isColor ? (
+                <Box
+                    sx={{
+                        bgcolor: img,
+                        height: { xs: 400, md: "100%" },
+                        width: "100%",
+                        borderRadius: 0,
+                        display: "block"
+                    }}
+                />
+            ) : (imageSrc && (
                 <Box
                     component="img"
                     src={imageSrc}
@@ -42,15 +57,15 @@ const Image = ({ img, centerImg, title }) => {
                     width="100%"
                     sx={{ borderRadius: 0, display: "block", objectFit: 'cover' }}
                 />
-            )}
+            ))}
             {centerImageSrc && (
                 <Box
                     component="img"
                     src={centerImageSrc}
                     alt={title + "-center-image"}
                     loading="lazy"
-                    height="70%"
-                    width="70%"
+                    height="85%"
+                    width="85%"
                     sx={{
                         position: "absolute",
                         top: "50%",

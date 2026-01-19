@@ -11,33 +11,33 @@ const Cards = lazy(() => import("./Cards"));
 const cardData = [
     {
         img: ImgVerifiedCertif,
-        title: "UI Designer",
-        desc: "Empower cross-functional teams to rapidly co-create, launch, and manage enterprise applications with Unqork’s intuitive IDE."
+        title: "Natural Language Intelligence",
+        desc: "Get instant answers to complex business questions using natural language. DO Intelligence acts as an always-on thought partner, helping users explore data without writing SQL."
     },
     {
         img: ImgTerminalBlue,
-        title: "Workflow Builder",
-        desc: "Build complex workflows with a visual drag-and-drop tool that separates complex logic into steps, from orchestration to dynamic flows."
+        title: "AI Analysis",
+        desc: "AI agents reason across structured, unstructured, and third-party data to uncover root causes, trends, and actionable insights—faster than traditional analytics."
     },
     {
         img: ImgDataBlue,
-        title: "Data-Centric Development",
-        desc: "Seamlessly create and configure API endpoints, store submission data in distinct collections, and establish relationships between models."
+        title: "Trusted Insights",
+        desc: "Every insight is traceable to its source data. Define and reuse “golden questions” to ensure consistent, trusted answers across teams."
     },
     {
         img: ImgScience,
-        title: "Application Accelerators",
-        desc: "Leverage ready-to-use use cases (e.g. dashboards, portals, & workflows) with customizable pre-built components."
+        title: "Secure & Governed",
+        desc: "Runs entirely within a secure enterprise environment, inheriting governance, access control, and compliance policies."
     },
     {
         img: ImgTimeline,
-        title: "Integrate & Connect",
-        desc: "Integrate with 700+ systems across on-prem and cloud apps &databases—all in a drag-and-drop environment."
+        title: "Unified Data",
+        desc: "Query and analyze structured tables, documents, transcripts, and text embeddings in a unified workflow."
     },
     {
         img: ImgVerified,
-        title: "Branch & Merge",
-        desc: "Build in parallel by simplifying editing, testing, deployment.and rollback—and enable seamless merging of changes across versions."
+        title: "Team Access",
+        desc: "Enable teams to independently explore data, reducing reliance on data engineers and accelerating analytics-driven decisions."
     }
 ];
 

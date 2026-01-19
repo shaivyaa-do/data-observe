@@ -2,23 +2,23 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import './Challenges.css';
 
-import { MoneyOff, Speed, Security } from '@mui/icons-material';
+import { AutoAwesome, Hub, Security } from '@mui/icons-material';
 
 const challengesData = [
     {
-        icon: <MoneyOff sx={{ fontSize: 40, color: '#1E90FF' }} />,
-        title: "Unsustainable technical debt",
-        description: "Spiraling costs to maintain legacy systems, COBOL-based infrastructure, and low-code apps stitched together with code"
+        icon: <AutoAwesome sx={{ fontSize: 40, color: '#1E90FF' }} />,
+        title: "Easy",
+        description: "Build GenAI applications using SQL or APIs. Work with multimodal data, coordinate data agents, and uncover insights effortlessly."
     },
     {
-        icon: <Speed sx={{ fontSize: 40, color: '#1E90FF' }} />,
-        title: "Relentless pace of change",
-        description: "Constant pressure to innovate while managing existing systems and keeping up with technological evolution"
+        icon: <Hub sx={{ fontSize: 40, color: '#1E90FF' }} />,
+        title: "Connected",
+        description: "Seamlessly unify and enrich structured and unstructured data with live access to businesses and data providers, enabled by open standards for full interoperability."
     },
     {
         icon: <Security sx={{ fontSize: 40, color: '#1E90FF' }} />,
-        title: "Escalating security risks",
-        description: "Growing cybersecurity threats requiring constant vigilance and updates across fragmented technology stacks"
+        title: "Trusted",
+        description: "Secure and govern your data with industry-leading protections, running AI and LLMs safely within a controlled perimeter using built-in policies, access controls, and end-to-end observability."
     }
 ];
 
@@ -36,7 +36,7 @@ const Challenges = () => {
                         textAlign: 'center'
                     }}
                 >
-                    Challenges Confronting IT Leaders
+                    Build Smarter Agents Faster
                 </Typography>
                 <Typography
                     variant="body1"
@@ -49,7 +49,7 @@ const Challenges = () => {
                         textAlign: 'center'
                     }}
                 >
-                    The relentless pace of business and tech evolution is overwhelming legacy development methods—from traditional to low/no-code.
+                    Build, govern, and evolve agentic AI on enterprise data.
                 </Typography>
 
                 <Grid container spacing={3} justifyContent="center">

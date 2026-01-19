@@ -34,5 +34,6 @@ export const PATHS = {
     FINANCIAL_SERVICES: '/financial-services',
     TRAVEL_HOSPITALITY: '/travel-hospitality',
     CPG: '/cpg',
+    INDUSTRIALS: '/industrials',
     INDUSTRIES_HUB: '/industries-hub'
 };

@@ -37,6 +37,7 @@ import { lazy } from 'react';
 const FinancialServices = lazy(() => import("../pages/Industries/FinancialServices"));
 const TravelHospitality = lazy(() => import("../pages/Industries/TravelHospitality"));
 import CPG from '../pages/Industries/CPG';
+import Industrials from '../pages/Industries/Industrials';
 import IndustriesHub from '../pages/Industries/IndustriesHub';
 
 export default function Router() {
@@ -77,6 +78,7 @@ export default function Router() {
         { path: PATHS.FINANCIAL_SERVICES, element: <FinancialServices /> },
         { path: PATHS.TRAVEL_HOSPITALITY, element: <TravelHospitality /> },
         { path: PATHS.CPG, element: <CPG /> },
+        { path: PATHS.INDUSTRIALS, element: <Industrials /> },
         { path: PATHS.INDUSTRIES_HUB, element: <IndustriesHub /> },
     ]);
 }

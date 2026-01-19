@@ -3,7 +3,7 @@ import "./Databi.css";
 import Faq from "../../../components/Common/Faq";
 import Navbar from "../../../components/Layout/Navbar";
 import Footer from "../../../components/Layout/Footer";
-// import databi from "../../../assets/videos/datanalytics.mp4";
+import databi from "../../../assets/videos/datanalytics-vid.mp4";
 import Slider from "react-slick";
 import Talktous from "../../../components/Common/Talktous";
 
@@ -54,7 +54,7 @@ const Databi = () => {
         <div>
           <video className="daba-bi-anal" autoPlay loop muted>
             <source
-              src="https://storage.googleapis.com/do-website-resources/datanalytics.mp4"
+              src={databi}
               type="video/mp4"
             />
           </video>
@@ -136,7 +136,7 @@ const Databi = () => {
         </p>
       </div>
       <div className="cloudcards d-md-block d-none">
-        <div class="ccdiv w-100">
+        <div className="ccdiv w-100">
           <div className="cloudimgcard">
             <img className="notrepimg" src="/images/dvc.png" alt="" />
             <div className="cloudcard card">
@@ -274,13 +274,16 @@ const Databi = () => {
         </section>
       </div>
 
-      <h1 className="case mt-5">Our Case Studies</h1>
+      <h1 className="case mt-5" style={{ textAlign: "center" }}>Our Case Studies</h1>
 
       <div
-        class="container mb-3 mt-5 DATAbi-Built-back-colour"
+        className="container mb-3 mt-5 DATAbi-Built-back-colour"
         style={{
           backgroundColor: "#1A4AB9",
           borderRadius: "20px",
+          marginLeft: "100px",
+          marginRight: "200px",
+          width: "auto",
         }}
       >
         <div className="DATAbi-right-media-Corner">
@@ -294,14 +297,14 @@ const Databi = () => {
         </div>
 
         <div
-          class="row overall-built-Corner"
+          className="row overall-built-Corner"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "spacebetween",
           }}
         >
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img
               style={{ height: "250px", width: "100%" }}
               src="./images/build.png"
@@ -309,10 +312,10 @@ const Databi = () => {
               alt="..."
             />
           </div>
-          <div class="col-md-7 cLOUD-Unified">
-            <div class="card-body CLOUD-bODY">
+          <div className="col-md-7 cLOUD-Unified">
+            <div className="card-body CLOUD-bODY">
               <h5
-                class="col-md-9 card-title CLouD-BULIT"
+                className="col-md-9 card-title CLouD-BULIT"
                 style={{
                   color: "white",
                   letterSpacing: "0.68px",
@@ -323,17 +326,17 @@ const Databi = () => {
                 <br /> decision intelligence Platform
               </h5>
               <p
-                class="col-md-9 card-text-3"
+                className="col-md-9 card-text-3"
                 style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
               >
                 Learn how we created a self-service, predictive, insights
                 platform driven by an adaptive machine learning engine which
                 helps improve decision-making.
               </p>
-              <p class="col-md-9 card-text" style={{ color: "white" }}>
+              <p className="col-md-9 card-text" style={{ color: "white" }}>
                 <p style={{ fontSize: 16 }}>
                   Read case study
-                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
+                  <i className="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
               </p>
               <div
@@ -405,7 +408,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ width: "53px", height: "80px" }}
+                // style={{ width: "53px", height: "80px" }}
                 />
                 <h5 className="cloudcardheadings">
                   Faster analysis and intuitive dashboards
@@ -430,7 +433,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ width: "76px", height: "76px" }}
+                // style={{ width: "76px", height: "76px" }}
                 />
                 <h5 className="cloudcardheadings" style={{ marginTop: "44px" }}>
                   Increased organizational efficiency
@@ -455,7 +458,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ width: "59px", height: "59px" }}
+                // style={{ width: "59px", height: "59px" }}
                 />
                 <h5 className="cloudcardheadings" style={{ marginTop: "21px" }}>
                   24*7 support service
@@ -480,7 +483,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ width: "53px", height: "73px" }}
+                // style={{ width: "53px", height: "73px" }}
                 />
                 <h5 className="cloudcardheadings">
                   Improved competitive advantage
@@ -505,7 +508,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ width: "53px", height: "73px" }}
+                // style={{ width: "53px", height: "73px" }}
                 />
                 <h5 className="cloudcardheadings">
                   Unified and Robust information architecture
@@ -529,7 +532,7 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings">
                   Data-driven business decisions
@@ -547,7 +550,7 @@ const Databi = () => {
 
           <div>
             <div
-              class="mb-3 mt-5"
+              className="mb-3 mt-5"
               style={{
                 backgroundColor: "#1A4AB9",
                 maxWidth: "100%",
@@ -555,23 +558,23 @@ const Databi = () => {
               }}
             >
               <div
-                class="row no-gutters"
+                className="row no-gutters"
                 style={{
                   alignItems: "center",
                   justifyContent: "spacebetween",
                 }}
               >
-                <div class="col-md-9">
-                  <div class="">
+                <div className="col-md-9">
+                  <div className="">
                     <div>
                       <h5
-                        class="col-md-9 card-title Cloud-title"
+                        className="col-md-9 card-title Cloud-title"
                         style={{ color: "white", fontSize: "24px" }}
                       >
-                        Elevate Your Business Decision-Making 
+                        Elevate Your Business Decision-Making
                         with Amazon QuickSight or Microsoft Power BI.
                       </h5>
-                      <p class=" col-md-9 card-text Cloud-color-paragraph">
+                      <p className=" col-md-9 card-text Cloud-color-paragraph">
                         Looking to maximize the potential of Business
                         Intelligence (BI) in Amazon QuickSight or Microsoft
                         Power BI? Our team of BI experts is ready to provide
@@ -595,7 +598,7 @@ const Databi = () => {
                   >
                     Get a demo{" "}
                     <i
-                      class="fa fa-long-arrow-right Arrow-cloud"
+                      className="fa fa-long-arrow-right Arrow-cloud"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -633,7 +636,7 @@ const Databi = () => {
                   alt="logo"
                   width={70}
                   height={90}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings">High accuracy</h5>
 
@@ -657,7 +660,7 @@ const Databi = () => {
                   alt="logo"
                   width={70}
                   height={90}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings">Operational intelligence</h5>
 
@@ -681,7 +684,7 @@ const Databi = () => {
                   alt="logo"
                   width={70}
                   height={90}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings">
                   Cross-platform integration
@@ -707,7 +710,7 @@ const Databi = () => {
                   alt="logo"
                   width={80}
                   height={80}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings" style={{ marginTop: "20px" }}>
                   Power BI
@@ -733,7 +736,7 @@ const Databi = () => {
                   alt="logo"
                   width={80}
                   height={100}
-                  // style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
                 />
                 <h5 className="cloudcardheadings">Secure on-cloud data</h5>
 
@@ -769,14 +772,14 @@ const Databi = () => {
         </div>
       </section>
 
-      <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
-        <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+      <div className="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div className="card-header">Featured</div> /} */}
+        <div className="card-body faq-class">
+          <h5 className="card-title" style={{ color: "white" }}>
             FAQs
           </h5>
           <div
-            class="accordion"
+            className="accordion"
             id="accordionExample"
             style={{
               display: "flex",
@@ -786,7 +789,7 @@ const Databi = () => {
             }}
           >
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -795,13 +798,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingOne"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link"
+                    className="btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -841,11 +844,11 @@ const Databi = () => {
 
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Business Intelligence involves the use of data analysis tools
                   and processes to transform raw data into meaningful insights.
                   The benefits of BI include improved decision-making, enhanced
@@ -857,7 +860,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -866,13 +869,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingTwo"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -910,11 +913,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Data Analytics is the process of examining and interpreting
                   data to uncover valuable insights and trends. By leveraging
                   data analytics, businesses can identify growth opportunities,
@@ -925,7 +928,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -934,13 +937,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingThree"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -979,11 +982,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Our Business Intelligence and Data Analytics services are
                   comprehensive and tailored to meet your business needs. We
                   offer data visualization, predictive analytics, data
@@ -995,7 +998,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1004,13 +1007,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFour"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -1049,11 +1052,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Business Intelligence provides real-time insights into key
                   performance indicators, allowing you to make data-driven
                   decisions. It facilitates a deeper understanding of market
@@ -1064,7 +1067,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1073,13 +1076,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingFive"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -1118,11 +1121,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseFive"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Yes, ensuring the security of your data is a top priority for
                   us. We implement industry-standard security measures,
                   including encryption, access controls, and compliance with
@@ -1133,7 +1136,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1142,13 +1145,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSix"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -1187,11 +1190,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseSix"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Absolutely. Our Business Intelligence and Data Analytics
                   services are designed to seamlessly integrate with your
                   existing systems and platforms. Whether you use on-premises
@@ -1202,7 +1205,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1211,13 +1214,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingSeven"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"
@@ -1256,11 +1259,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseSeven"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   Data Analytics provides valuable insights into customer
                   behavior, preferences, and feedback. By analyzing this data,
                   businesses can tailor their products and services to meet
@@ -1271,7 +1274,7 @@ const Databi = () => {
               </div>
             </div>
             <div
-              class="card"
+              className="card"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.05)",
                 color: "white",
@@ -1280,13 +1283,13 @@ const Databi = () => {
               }}
             >
               <div
-                class="card-header"
+                className="card-header"
                 id="headingEight"
                 style={{ textAlign: "left" }}
               >
-                <h2 class="mb-0">
+                <h2 className="mb-0">
                   <button
-                    class="btn btn-link collapsed"
+                    className="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseEight"
@@ -1325,11 +1328,11 @@ const Databi = () => {
               </div>
               <div
                 id="collapseEight"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   The implementation process begins with a thorough assessment
                   of your business needs and goals. We then design a customized
                   solution, implement the necessary tools and technologies, and
