@@ -98,7 +98,7 @@
         "image": "/images/navlink2gif.gif",
         "content": {
             "heading": "Products",
-            "description": "Enterprise-grade data observability and quality solutions designed for modern data teams.",
+            "description": "A unified Ecosystem to design, build, run & observe your Data, AI & ML Engines. Introducing four enterprise platforms redefining how data is built, trusted, observed, and executed.",
             "ctaText": "View all products",
             "ctaLink": "/products"
         },
@@ -241,7 +241,7 @@
         "items": [
             {
                 "title": "All Insights",
-                "path": "allinsights",
+                "path": "/allinsights",
                 "icon": "Analytics",
                 "description": [
                     "All Resources",

@@ -2,7 +2,7 @@
     {
         "title": "Core Principles Of Design Thinking",
         "id": 1,
-        "domain":"Design",
+        "domain": "Design",
         "tags": [
             "Design Thinking",
             "Product Engineering"
@@ -37,7 +37,7 @@
             {
                 "type": "heading",
                 "content": "What is Design Thinking?",
-                "tableHeader" : true,
+                "tableHeader": true,
                 "id": "whatisDT"
             },
             {
@@ -75,7 +75,7 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
+                "tableHeader": true,
                 "id": "theNeed",
                 "content": "The need for design thinking for product and platform engineering today"
             },
@@ -163,8 +163,8 @@
             {
                 "type": "heading",
                 "content": "Principles of Design Thinking",
-                "id":"principles",
-                "tableHeader":true
+                "id": "principles",
+                "tableHeader": true
             },
             {
                 "type": "paragraph",
@@ -258,8 +258,8 @@
             {
                 "type": "heading",
                 "content": "Stages of Design Thinking",
-                "id":"stagesOf",
-                "tableHeader":true
+                "id": "stagesOf",
+                "tableHeader": true
             },
             {
                 "type": "image",
@@ -309,8 +309,8 @@
             {
                 "type": "heading",
                 "content": "Challenges to Implementing Design Thinking",
-                "id":"challenges",
-                "tableHeader":true
+                "id": "challenges",
+                "tableHeader": true
             },
             {
                 "type": "paragraph",
@@ -331,8 +331,8 @@
             {
                 "type": "heading",
                 "content": "Future Scope of Companies Adopting Design Thinking Process",
-                "id":"future",
-                "tableHeader":true
+                "id": "future",
+                "tableHeader": true
             },
             {
                 "type": "paragraph",
@@ -353,8 +353,8 @@
             {
                 "type": "heading",
                 "content": "Conclusion",
-                "tableHeader":true,
-                "id":"conclusion"
+                "tableHeader": true,
+                "id": "conclusion"
             },
             {
                 "type": "paragraph",
@@ -373,8 +373,8 @@
     {
         "title": "Key considerations for Greenfield Product Engineering to build futuristic solutions",
         "id": 2,
-        "domain":"Product Engineering",
-        "tags":[
+        "domain": "Product Engineering",
+        "tags": [
             "Product Engineering",
             "Product Development"
         ],
@@ -385,26 +385,26 @@
                 "caption": "gf1"
             },
             {
-              "type": "paragraph",
-              "content": "In a digital world that moves at breakneck speed, often disregarding long-term feasibility, greenfield product engineering provides the perfect opportunity to break the mold."
+                "type": "paragraph",
+                "content": "In a digital world that moves at breakneck speed, often disregarding long-term feasibility, greenfield product engineering provides the perfect opportunity to break the mold."
             },
             {
-              "type": "paragraph",
-              "content": "At its core, greenfield product development is about scalability, security, agility, and cost-effectiveness with a bedrock of meticulous research. Their reference to real estate stems from the fact that greenfield projects are typically initiated with a “blank slate,” with infrastructures of other key applications often acting as the cornerstone. There is complete flexibility to shake the status quo with innovative ideas — much like starting a new city on an empty field with no pre-existing structures."
+                "type": "paragraph",
+                "content": "At its core, greenfield product development is about scalability, security, agility, and cost-effectiveness with a bedrock of meticulous research. Their reference to real estate stems from the fact that greenfield projects are typically initiated with a “blank slate,” with infrastructures of other key applications often acting as the cornerstone. There is complete flexibility to shake the status quo with innovative ideas — much like starting a new city on an empty field with no pre-existing structures."
             },
             {
-              "type": "heading",
-              "content": "Approach and Key Considerations",
-              "tableHeader": true,
-              "id": "approach"
+                "type": "heading",
+                "content": "Approach and Key Considerations",
+                "tableHeader": true,
+                "id": "approach"
             },
             {
-              "type": "paragraph",
-              "content": "Innovative greenfield product engineering demands a future-forward approach that embraces adaptability. The focus should not be to break the wheel but to reimagine the wheel altogether."
+                "type": "paragraph",
+                "content": "Innovative greenfield product engineering demands a future-forward approach that embraces adaptability. The focus should not be to break the wheel but to reimagine the wheel altogether."
             },
             {
-              "type": "paragraph",
-              "content": "To begin with, key considerations here involve:"
+                "type": "paragraph",
+                "content": "To begin with, key considerations here involve:"
             },
             {
                 "type": "image",
@@ -412,127 +412,126 @@
                 "caption": "gf1"
             },
             {
-              "type": "heading",
-              "content": "1. Product Market Fitment"
+                "type": "heading",
+                "content": "1. Product Market Fitment"
             },
             {
-              "type": "paragraph",
-              "content": "Greenfield product engineering thrives on achieving product-market fitment with consumer-centric solutions. To do this, discovering and mapping user journeys must come together with a deep understanding of the current state of business to arrive at a human-centric problem-solving approach with a platformization strategy that connects product lines. This would help drive a keen understanding of the entire ecosystem, with Total Experience being the outcome of managing holistic user expectations, including that of direct users, employees, and even partners in the ecosystem."
+                "type": "paragraph",
+                "content": "Greenfield product engineering thrives on achieving product-market fitment with consumer-centric solutions. To do this, discovering and mapping user journeys must come together with a deep understanding of the current state of business to arrive at a human-centric problem-solving approach with a platformization strategy that connects product lines. This would help drive a keen understanding of the entire ecosystem, with Total Experience being the outcome of managing holistic user expectations, including that of direct users, employees, and even partners in the ecosystem."
             },
             {
-              "type": "heading",
-              "content": "2. Shift Left Practices"
+                "type": "heading",
+                "content": "2. Shift Left Practices"
             },
             {
-              "type": "paragraph",
-              "content": "Demand planning, static testing, unified testing strategies, and risk-based analysis aid in faster time-to-market and shorter feedback loops. These practices should be embraced to ensure that product development is agile, reliable, and failsafe. By detecting and addressing defects early in the development cycle, shift-left practices can contain the significant entropy inherent to greenfield projects."
+                "type": "paragraph",
+                "content": "Demand planning, static testing, unified testing strategies, and risk-based analysis aid in faster time-to-market and shorter feedback loops. These practices should be embraced to ensure that product development is agile, reliable, and failsafe. By detecting and addressing defects early in the development cycle, shift-left practices can contain the significant entropy inherent to greenfield projects."
             },
             {
-              "type": "heading",
-              "content": "3. Innovation with Rapid Prototyping"
+                "type": "heading",
+                "content": "3. Innovation with Rapid Prototyping"
             },
             {
-              "type": "paragraph",
-              "content": "Rapid prototyping is indispensable while creating new systems. By prototyping quickly and often, teams can validate their assumptions about user needs and preferences with minimal investment of time and resources. When teams embrace prototyping as a pathway to thoughtful design, they can:"
+                "type": "paragraph",
+                "content": "Rapid prototyping is indispensable while creating new systems. By prototyping quickly and often, teams can validate their assumptions about user needs and preferences with minimal investment of time and resources. When teams embrace prototyping as a pathway to thoughtful design, they can:"
             },
             {
-              "type": "list",
-              "items": [
-                "Develop cost-effective solutions with the latest technologies & techniques",
-                "Embrace the design thinking-led approach to build solutions that are aligned with business needs",
-                "Value speed over perfection while also unlocking scalability for future productization"
-              ]
+                "type": "list",
+                "items": [
+                    "Develop cost-effective solutions with the latest technologies & techniques",
+                    "Embrace the design thinking-led approach to build solutions that are aligned with business needs",
+                    "Value speed over perfection while also unlocking scalability for future productization"
+                ]
             },
             {
-              "type": "heading",
-              "content": "4. Scalability and Sustainability"
+                "type": "heading",
+                "content": "4. Scalability and Sustainability"
             },
             {
-              "type": "paragraph",
-              "content": "Moving to outcome-based products and business models requires applications that scale across different verticals, user profiles, and geographical locations. To do this for greenfield product development, cloud-native architectures and microservices must be embraced from the ground up. Maintaining sustainability requires flexibility in the product architecture to accommodate dynamic changes in customer usage patterns, expectations, and preferences."
+                "type": "paragraph",
+                "content": "Moving to outcome-based products and business models requires applications that scale across different verticals, user profiles, and geographical locations. To do this for greenfield product development, cloud-native architectures and microservices must be embraced from the ground up. Maintaining sustainability requires flexibility in the product architecture to accommodate dynamic changes in customer usage patterns, expectations, and preferences."
             },
             {
-              "type": "heading",
-              "content": "5. People DNA"
+                "type": "heading",
+                "content": "5. People DNA"
             },
             {
-              "type": "paragraph",
-              "content": "In greenfield engineering, assembling an adaptable and dynamic team with cross-functional capabilities that can move with the same velocity as customer demands is a big part of the success equation. The business context is radically different, and technology teams must be empowered with the right mindset and culture to foster innovation. This translates to focusing on:"
+                "type": "paragraph",
+                "content": "In greenfield engineering, assembling an adaptable and dynamic team with cross-functional capabilities that can move with the same velocity as customer demands is a big part of the success equation. The business context is radically different, and technology teams must be empowered with the right mindset and culture to foster innovation. This translates to focusing on:"
             },
             {
-              "type": "list",
-              "items": [
-                {
-                  "heading": "E-shaped skills",
-                  "content": "Emphasizing on E-shaped skills refers to individuals with experience in multiple areas, complemented with deep expertise in their domain, who work with an inclination of holistic execution, expertise, and are ready to explore new ideas."
-                },
-                {
-                  "heading": "Cross-functional skills",
-                  "content": "Ensuring that the people in your organization do not work on one particular technology, language or skill, but rather look at the bigger picture and address problems holistically with a product thinking mindset."
-                },
-                {
-                  "heading": "Design thinking",
-                  "content": "Achieving ‘totality’ or commonly understood as the total experience of the end user. Design thinking ensures that we stick to the objective of delivering totality by focusing on the enterprise users and associated stakeholders of the ecosystem — end user / customer, employees, and partners. This is enabled by the ‘pyramid of needs’ to deliver pleasurable and delightful experiences adding transformative value beyond the basic level of user convenience, achieved with a user-centric mindset, enabling the team to challenge assumptions and redefine problems and foster a culture of innovation."
-                },
-                {
-                  "heading": "Full stack resources",
-                  "content": "Bringing on professionals with expertise across the entire technology stack, reducing excessive handoffs between specialized roles."
-                },
-                {
-                  "heading": "Quick upskilling with training legos",
-                  "content": "Providing modular, bite-sized learning opportunities that enable team members to rapidly acquire new skills, keeping them agile and responsive to evolving customer demands."
-                }
-              ]
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "E-shaped skills",
+                        "content": "Emphasizing on E-shaped skills refers to individuals with experience in multiple areas, complemented with deep expertise in their domain, who work with an inclination of holistic execution, expertise, and are ready to explore new ideas."
+                    },
+                    {
+                        "heading": "Cross-functional skills",
+                        "content": "Ensuring that the people in your organization do not work on one particular technology, language or skill, but rather look at the bigger picture and address problems holistically with a product thinking mindset."
+                    },
+                    {
+                        "heading": "Design thinking",
+                        "content": "Achieving ‘totality’ or commonly understood as the total experience of the end user. Design thinking ensures that we stick to the objective of delivering totality by focusing on the enterprise users and associated stakeholders of the ecosystem — end user / customer, employees, and partners. This is enabled by the ‘pyramid of needs’ to deliver pleasurable and delightful experiences adding transformative value beyond the basic level of user convenience, achieved with a user-centric mindset, enabling the team to challenge assumptions and redefine problems and foster a culture of innovation."
+                    },
+                    {
+                        "heading": "Full stack resources",
+                        "content": "Bringing on professionals with expertise across the entire technology stack, reducing excessive handoffs between specialized roles."
+                    },
+                    {
+                        "heading": "Quick upskilling with training legos",
+                        "content": "Providing modular, bite-sized learning opportunities that enable team members to rapidly acquire new skills, keeping them agile and responsive to evolving customer demands."
+                    }
+                ]
             },
             {
-              "type": "heading",
-              "content": "6. Engineering Maturity Assessment and Technical Debt Review"
+                "type": "heading",
+                "content": "6. Engineering Maturity Assessment and Technical Debt Review"
             },
             {
-              "type": "paragraph",
-              "content": "Based on the Agile metrics and retrospection, identify ways to improve velocity, quality, and efficiency. This results in undergoing periodic engineering tasks to perform re-architecture if needed, improve automation etc., to drive continuous measurable improvements. Our unique Product Engineering maturity assessment framework called TENET, helps in assessing the gaps across all areas of Product Engineering consisting of 650+ parameters across Development, Testing, Infrastructure, Tech Stack, Product Management. This helps in keeping an eye on rising technical debt and process issues, and proactively address them using spare time in sprints, or on prioritized basis with Product Owners."
+                "type": "paragraph",
+                "content": "Based on the Agile metrics and retrospection, identify ways to improve velocity, quality, and efficiency. This results in undergoing periodic engineering tasks to perform re-architecture if needed, improve automation etc., to drive continuous measurable improvements. Our unique Product Engineering maturity assessment framework called TENET, helps in assessing the gaps across all areas of Product Engineering consisting of 650+ parameters across Development, Testing, Infrastructure, Tech Stack, Product Management. This helps in keeping an eye on rising technical debt and process issues, and proactively address them using spare time in sprints, or on prioritized basis with Product Owners."
             },
             {
-              "type": "heading",
-              "content": "7. Factory Model to Scale Pod-Based Delivery"
+                "type": "heading",
+                "content": "7. Factory Model to Scale Pod-Based Delivery"
             },
             {
-              "type": "paragraph",
-              "content": "Adopting a factory approach led by value stream mapping, identifying repeatable tasks, helps in scaling the delivery of product features / increments and meet emerging needs of the users continuously. Backlog identification, feature builds, and continuous improvement are mapped to respective pods to scale the delivery:"
+                "type": "paragraph",
+                "content": "Adopting a factory approach led by value stream mapping, identifying repeatable tasks, helps in scaling the delivery of product features / increments and meet emerging needs of the users continuously. Backlog identification, feature builds, and continuous improvement are mapped to respective pods to scale the delivery:"
             },
             {
-              "type": "list",
-              "items":[
-                {
-                  "heading": "Consulting Pod",
-                  "content": "Responsible for enhancing user experiences by focusing on user journey analysis, developing multi-experience strategies, and creating architectural blueprints and engineering plans to drive the overall vision of the project."
-                },
-                {
-                  "heading": "Engineering Pod",
-                  "content": "Plays a vital role in constantly prioritizing tasks and delivering product increments, ensuring a streamlined development process and timely implementation of features."
-                },
-                {
-                  "heading": "Innovation Pod",
-                  "content": "Utilizing lean start-up methodologies, the pod is dedicated to exploring new ideas / product features through hypothesis formulation, technology assessment, and feature research, fostering a culture of continuous improvement and growth."
-                }
-              ]
-              
+                "type": "list",
+                "items": [
+                    {
+                        "heading": "Consulting Pod",
+                        "content": "Responsible for enhancing user experiences by focusing on user journey analysis, developing multi-experience strategies, and creating architectural blueprints and engineering plans to drive the overall vision of the project."
+                    },
+                    {
+                        "heading": "Engineering Pod",
+                        "content": "Plays a vital role in constantly prioritizing tasks and delivering product increments, ensuring a streamlined development process and timely implementation of features."
+                    },
+                    {
+                        "heading": "Innovation Pod",
+                        "content": "Utilizing lean start-up methodologies, the pod is dedicated to exploring new ideas / product features through hypothesis formulation, technology assessment, and feature research, fostering a culture of continuous improvement and growth."
+                    }
+                ]
             },
             {
-              "type": "paragraph",
-              "content": "The model is further supported by our unique Dojo onboarding process, cross-functional training and our CAT framework. As a result, time-to-market is reduced significantly allowing products to be launched faster, with business continuity for zero disruption."
+                "type": "paragraph",
+                "content": "The model is further supported by our unique Dojo onboarding process, cross-functional training and our CAT framework. As a result, time-to-market is reduced significantly allowing products to be launched faster, with business continuity for zero disruption."
             },
             {
-              "type": "heading",
-              "content": "Conclusion",
-              "tableHeader": true,
-              "id": "conclusion"
+                "type": "heading",
+                "content": "Conclusion",
+                "tableHeader": true,
+                "id": "conclusion"
             },
             {
-              "type": "paragraph",
-              "content": "Greenfield product engineering presents a golden opportunity to reimagine how we look at new products. It is a paradigm shift from conventional practices, allowing organizations to think beyond traditional barriers and embrace emerging technologies and build futuristic products."
+                "type": "paragraph",
+                "content": "Greenfield product engineering presents a golden opportunity to reimagine how we look at new products. It is a paradigm shift from conventional practices, allowing organizations to think beyond traditional barriers and embrace emerging technologies and build futuristic products."
             }
-          ]
+        ]
     },
     {
         "id": 3,
@@ -737,7 +736,7 @@
     {
         "id": 4,
         "title": "Challenges within the Modern Data Stack",
-        "domain":"Data Engineering",
+        "domain": "Data Engineering",
         "children": [
             {
                 "type": "image",
@@ -1231,8 +1230,10 @@
     {
         "id": 6,
         "title": "How Does Multi-cloud Differ From A Hybrid Cloud",
-        "domain":"Data Engineering",
-        "tags":["Multi Cloud"],
+        "domain": "Data Engineering",
+        "tags": [
+            "Multi Cloud"
+        ],
         "children": [
             {
                 "type": "image",
@@ -1391,8 +1392,12 @@
     {
         "id": 7,
         "title": "Design Thinking Led Approach to Building Digital Product Ecosystem",
-        "domain":"Design",
-        "tags":["Design Thinking","Design Thinking Culture", "Design Thinking Mindset"],
+        "domain": "Design",
+        "tags": [
+            "Design Thinking",
+            "Design Thinking Culture",
+            "Design Thinking Mindset"
+        ],
         "children": [
             {
                 "type": "image",
@@ -1418,7 +1423,7 @@
             {
                 "type": "heading",
                 "tableHeader": true,
-                "id":"decoding",
+                "id": "decoding",
                 "content": "Decoding the nuances of design thinking"
             },
             {
@@ -1522,7 +1527,7 @@
             },
             {
                 "type": "heading",
-                "id":"expectedOutcomes",
+                "id": "expectedOutcomes",
                 "tableHeader": true,
                 "content": "Expected outcomes"
             },
@@ -1534,7 +1539,7 @@
     },
     {
         "id": 8,
-        "domain":"AI Engineering",
+        "domain": "AI Engineering",
         "title": "Ethical Bias In AI-Based Security Systems: The Big Data Disconnect",
         "children": [
             {
@@ -1747,7 +1752,7 @@
     {
         "id": 9,
         "title": "Data as a Product: Data Architecture Principles for Management Blueprint",
-        "domain":"Data Engineering",
+        "domain": "Data Engineering",
         "tags": [
             "Data As a Product",
             "Data Architecture",
@@ -1840,8 +1845,8 @@
                 "type": "paragraph",
                 "content": "Some examples of those components, or artifacts, are as follows:"
             },
-            { 
-                "type":"list",
+            {
+                "type": "list",
                 "items": [
                     "data models, data definitions and common vocabularies for data elements",
                     "data flow diagrams that illustrate how data flows through systems and applications",
@@ -1901,8 +1906,8 @@
     },
     {
         "id": 10,
-        "domain":"Data Architecture",
-        "tags":[
+        "domain": "Data Architecture",
+        "tags": [
             "Data As a Product",
             "Architecture",
             "Data Modelling"
@@ -1928,8 +1933,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"davsdm",
+                "tableHeader": true,
+                "id": "davsdm",
                 "content": "Data architecture vs. Data modeling"
             },
             {
@@ -2096,7 +2101,7 @@
     },
     {
         "id": 11,
-        "domain":"Data Architecture",
+        "domain": "Data Architecture",
         "title": "Deep Dive into Application Architecture: Understanding the Concepts Through a Real-World Example",
         "children": [
             {
@@ -2110,8 +2115,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"applicationArch",
+                "tableHeader": true,
+                "id": "applicationArch",
                 "content": "Unveiling the application architecture of a food delivery service."
             },
             {
@@ -2208,8 +2213,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"harnessing",
+                "tableHeader": true,
+                "id": "harnessing",
                 "content": "Harnessing the Power of Data Analytics in Application Architecture"
             },
             {
@@ -2231,8 +2236,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"dataStaginf",
+                "tableHeader": true,
+                "id": "dataStaginf",
                 "content": "Data Staging Area: A Crucial Hub for Efficient Data Management and Processing"
             },
             {
@@ -2258,7 +2263,7 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
+                "tableHeader": true,
                 "id": "warehouse",
                 "content": "Data Warehouse: Empowering Advanced Data Analytics and Insights"
             },
@@ -2281,7 +2286,7 @@
             },
             {
                 "type": "heading",
-                "id":"dataMarts",
+                "id": "dataMarts",
                 "tableHeader": true,
                 "content": "Data Marts: Focused Data Warehousing for Specific Analytical Needs"
             },
@@ -2308,8 +2313,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"dataLake",
+                "tableHeader": true,
+                "id": "dataLake",
                 "content": "Data Lake: Empowering Comprehensive Storage and Analysis of Raw and Unstructured Data"
             },
             {
@@ -2331,8 +2336,8 @@
             },
             {
                 "type": "heading",
-                "id":"dataCompute",
-                "tableHeader":true,
+                "id": "dataCompute",
+                "tableHeader": true,
                 "content": "Data Compute Service: Empowering Efficient Processing and Analysis of Data"
             },
             {
@@ -2354,8 +2359,8 @@
             },
             {
                 "type": "heading",
-                "tableHeader":true,
-                "id":"notification",
+                "tableHeader": true,
+                "id": "notification",
                 "content": "Notification Service: Enabling Timely and Targeted Communication"
             },
             {

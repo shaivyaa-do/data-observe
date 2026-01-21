@@ -1,4 +1,4 @@
-import React ,{ useState} from"react";
+import React, { useState } from "react";
 import "./Allinsights.css";
 import Navbar from "../products/Navbar";
 import allinsights from "../../src/videos/allinsights-banner.MOV";
@@ -16,7 +16,7 @@ import { useKeenSlider } from 'keen-slider/react';
 
 
 function Arrow(props) {
-  
+
   const { className, style, onClick } = props;
   return (
     <div
@@ -25,7 +25,7 @@ function Arrow(props) {
       onClick={onClick}
     />
   );
-  }
+}
 
 function Allinsights() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -76,7 +76,7 @@ function Allinsights() {
       },
     },
     slides: { perView: 1 },
-    
+
   })
 
 
@@ -106,13 +106,13 @@ function Allinsights() {
               </p>
               <p className="col-md-6 our-story-1">
                 Discover exclusive insights
-             with a sneak peek behind
+                with a sneak peek behind
                 the scenes.
               </p>
               <p className="col-md-6 our-story-1">
                 Uncover valuable knowledge
-               about DataObserve that sets
-              
+                about DataObserve that sets
+
                 us apart.
               </p>
             </p>
@@ -185,9 +185,7 @@ function Allinsights() {
                           <p className="hide-text">
                             Our client is a financial firm. We revolutionized
                             their data management with Snowflake's cloud
-                            platform integration. This offered them consolidated
-                            data sources, real-time analytics and
-                            scalability....
+                            platform integration...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -232,7 +230,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                           Coming Soon
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -264,7 +262,7 @@ function Allinsights() {
                       <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future-cloud">
-                          Empoering a fashion e-commerce brand with advanced HR analytics
+                            Empoering a fashion e-commerce brand with advanced HR analytics
 
                           </p>
                         </div>
@@ -277,7 +275,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                           Coming Soon
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -825,7 +823,7 @@ function Allinsights() {
                       </div>
                     </Link>
                   </div>
-              
+
                 </Slider>
               </div>
             </div>
@@ -836,6 +834,6 @@ function Allinsights() {
       {/* ebooks close */}
     </div>
   );
-              }
+}
 
 export default Allinsights;

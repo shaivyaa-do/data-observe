@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../Insights/Allinsights.css";
 import Navbar from "../../components/Layout/Navbar";
-import allinsights from "../../assets/videos/allinsights-banner.MOV";
+import allinsights from "../../assets/videos/allinsights-vid.mp4";
 import { Link } from "react-router-dom";
 import Footer from "../../components/Layout/Footer";
 import Slider from "react-slick";
@@ -184,10 +184,7 @@ function Allinsights() {
                         <div>
                           <p className="hide-text">
                             Our client is a financial firm. We revolutionized
-                            their data management with Snowflake's cloud
-                            platform integration. This offered them consolidated
-                            data sources, real-time analytics and
-                            scalability....
+                            their data management with Snowflake's cloud...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -232,7 +229,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Coming Soon
+                            Coming Soon...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -277,7 +274,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Coming Soon
+                            Coming Soon...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -310,341 +307,7 @@ function Allinsights() {
           </div>
         </div>
       </section>
-      {/* case studies end */}
 
-      {/* //top 10 insights */}
-      {/* <section className="All-insights-back-ground" id="top10insights">
-        <div className="container-fluid">
-          <div>
-            <h3 className="case-study-insights">Top 10 Insights</h3>
-          </div>
-
-          <div>
-            <div className="container-fluid">
-              <div>
-                <Slider {...settings}>
-                  <div className="d-flex">
-                    <div>
-                      <img
-                        src="./images/insights-one.png"
-                        alt="one"
-                        height={100}
-                      />
-                    </div>
-                    <div>
-                      <Link to="#" className="insights-main">
-                        <div className="card myDIV">
-                          <div>
-                            <p className="insights-paragraph-future-blog">
-                              Enhanced data management for a fintech firm using
-                              Snowflake
-                            </p>
-                          </div>
-                          <div>
-                            <img
-                              src="./images/top10-insights.png"
-                              alt="recent-1"
-                              className="w-100 case-study-image"
-                            />
-                          </div>
-                          <div>
-                            <p className="hide-text">
-                              The practice of data engineering in digital
-                              product engineering, involving data collection,
-                              transformation, and organization for analysis, is
-                              on the brink of a major revolution thanks to the
-                              emergence of Generative Artificial Intelligence
-                              (Gen AI)....
-                              <span className="read-more-insights">
-                                Read more
-                              </span>{" "}
-                            </p>
-                          </div>
-
-                          <div className="card-body">
-                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                            <div className="d-flex domain-share">
-                              <div className="domain-insigts">
-                                <p className="domain">Domain</p>
-                              </div>
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-
-                  <div className="d-flex">
-                    <div>
-                      <img
-                        className="insights-two-number"
-                        src="./images/insights-two.png"
-                        alt="one"
-                        height={100}
-                      />
-                    </div>
-                    <div>
-                      <Link to="#" className="insights-main">
-                        <div className="card myDIV">
-                          <div>
-                            <p className="insights-paragraph-future-blog">
-                              Enhanced data management for a fintech firm using
-                              Snowflake
-                            </p>
-                          </div>
-                          <div className="d-flex">
-                            <div>
-                              <img
-                                src="./images/snowflake-aws.png"
-                                alt="recent-1"
-                                className="w-100 case-study-image snow-flake-width-1"
-                              />
-                            </div>
-
-                            <div>
-                              <img
-                                src="./images/aws-casestudy.png"
-                                alt="recent-1"
-                                className="w-100 case-study-image-1"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <p className="hide-text">
-                           Coming Soon
-                              <span className="read-more-insights">
-                                Read more
-                              </span>{" "}
-                            </p>
-                          </div>
-
-                          <div className="card-body">
-                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                            <div className="d-flex domain-share">
-                              <div className="domain-insigts">
-                                <p className="domain">Domain</p>
-                              </div>
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="d-flex">
-                    <div>
-                      <img
-                        className="insights-two-number"
-                        src="./images/insights-three.png"
-                        alt="one"
-                        height={100}
-                      />
-                    </div>
-                    <div>
-                      <Link to="#" className="insights-main">
-                        <div className="card myDIV">
-                          <div>
-                            <p className="insights-paragraph-future">
-                              AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR
-                              LEGACY SYSTEMS FOR THE CLOUD
-                            </p>
-                          </div>
-                          <div>
-                            <img
-                              src="./images/top3-insights.png"
-                              alt="recent-1"
-                              className="w-100 case-study-image"
-                            />
-                          </div>
-                          <div>
-                            <p className="hide-text">
-                           Coming Soon
-                              <span className="read-more-insights">
-                                Read more
-                              </span>{" "}
-                            </p>
-                          </div>
-
-                          <div className="card-body">
-                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                            <div className="d-flex domain-share">
-                              <div className="domain-insigts">
-                                <p className="domain">Domain</p>
-                              </div>
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future-blog">
-                           Coming Soon
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/Coming-Soon.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                         Coming Soon
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex domain-share">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div>
-                              <img
-                                className="share"
-                                src="./images/share.png"
-                                alt="like"
-                                width={28}
-                                height={28}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future-blog">
-                            Coming-Soon
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/Coming-Soon.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Coming Soon
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex domain-share">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div>
-                              <img
-                                className="share"
-                                src="./images/share.png"
-                                alt="like"
-                                width={28}
-                                height={28}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future-blog">
-                            Coming-Soon
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/Coming-Soon.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Coming Soon
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex domain-share">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div>
-                              <img
-                                className="share"
-                                src="./images/share.png"
-                                alt="like"
-                                width={28}
-                                height={28}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                </Slider>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* //top 10 insights close */}
-
-      {/* blog and articles */}
       <section className="All-insights-back-ground keen-slider" id="blogs" ref={sliderRef}>
         <div className="container-fluid">
           <div>
@@ -708,7 +371,7 @@ function Allinsights() {
                         <div>
                           <p className="hide-text">
                             Are outdated legacy systems hindering your
-                            business’s growth? Don’t wait any longer to m...
+                            business’s growth? Don’t wait any...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -753,7 +416,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Coming Soon
+                            Coming Soon...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -798,7 +461,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Coming Soon
+                            Coming Soon...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}

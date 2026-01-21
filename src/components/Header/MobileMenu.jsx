@@ -89,7 +89,7 @@ const MobileMenu = () => {
                             <a className="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" aria-expanded="false">Insights</a>
                             <div className="dropdown-menu navlinksdropdown" style={{ width: "auto", left: "-100%" }}>
                                 <div className="navcard2 pl-2">
-                                    <a className="dropdown-item linksclass" href="allinsights">All Insights</a>
+                                    <a className="dropdown-item linksclass" href="/allinsights">All Insights</a>
                                     <HashLink to="/allinsights#casestudies" className="dropdown-item linksclass">Case Studies</HashLink>
                                     <HashLink to="/allinsights#blogs" className="dropdown-item linksclass">Blogs</HashLink>
                                     <HashLink to="/allinsights#ebooks" className="dropdown-item linksclass">Ebooks</HashLink>

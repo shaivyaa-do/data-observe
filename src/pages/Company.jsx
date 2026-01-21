@@ -1,7 +1,7 @@
 import React from "react";
 import "./Company.css";
 import Navbar from "../components/Layout/Navbar";
-// import companyvideo from "../assets/videos/company.mp4";
+import companyvideo from "../assets/videos/aboutus-vid.mp4";
 import Footer from "../components/Layout/Footer";
 
 function company() {
@@ -11,7 +11,7 @@ function company() {
 
       <div className="company-play-bg-video">
         <video className="COMPANY-VIdeo" autoPlay loop muted>
-          <source src="https://storage.googleapis.com/do-website-resources/company.mp4" type="video/mp4" />
+          <source src={companyvideo} type="video/mp4" />
         </video>
 
         <div className="body-science">
