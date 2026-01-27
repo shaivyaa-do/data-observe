@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/Layout/Navbar";
 import Footer from "../../components/Layout/Footer";
 import "./Datasense.css";
@@ -9,6 +10,7 @@ import bussiness from "../../assets/videos/bussiness.MOV";
 import productVideo from "../../assets/videos/productvideo.mp4";
 
 function Datasense() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -58,7 +60,7 @@ function Datasense() {
                     }}
                   />
                   <div className="container">
-                    <button className="demoClass DEMO-Monitor">Get a demo</button>
+                    <button className="demoClass DEMO-Monitor" onClick={() => navigate("/contact")}>Get a demo</button>
                   </div>
                 </div>
                 <div className="col-md-6"></div>
@@ -519,7 +521,7 @@ function Datasense() {
                 </p>
               </div>
               <div className="col-md-4">
-                <button className="guidedemobutton">
+                <button className="guidedemobutton" onClick={() => navigate("/contact")}>
                   <p className="guidebuttontext">Get a demo</p>
                   <img
                     src="images/guidearrow.png"

@@ -30,16 +30,14 @@ const Image = ({ img, centerImg, title }) => {
     }, [centerImg]);
 
     return (
-        <Box sx={{ position: "relative", display: "inline-block", width: "100%", height: "100%" }}>
+        <Box sx={{ position: "relative", display: "block", width: "100%", height: { xs: "400px", md: "100%" } }}>
             {imageSrc && (
                 <Box
                     component="img"
                     src={imageSrc}
                     alt={title + "-image"}
                     loading="lazy"
-                    height={{ xs: 400, md: "100%" }}
-                    width="100%"
-                    sx={{ borderRadius: 0, display: "block", objectFit: 'cover' }}
+                    sx={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", borderRadius: 0, display: "block", objectFit: 'cover' }}
                 />
             )}
             {centerImageSrc && (
@@ -48,8 +46,8 @@ const Image = ({ img, centerImg, title }) => {
                     src={centerImageSrc}
                     alt={title + "-center-image"}
                     loading="lazy"
-                    height="70%"
-                    width="70%"
+                    height="85%"
+                    width="85%"
                     sx={{
                         position: "absolute",
                         top: "50%",

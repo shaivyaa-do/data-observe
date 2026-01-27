@@ -19,38 +19,38 @@ import { PATHS } from "../../../routes/paths";
 // data
 const data = [
     {
-        title: "Debug with tracing",
+        title: "Multi-Agent Orchestration",
         content:
-            "Debug and iterate on GenAI applications using MLflow's tracing, which captures your app's entire execution, including prompts, retrievals, tool calls. MLflow's open-source, OpenTelemetry-compatible tracing SDK helps avoid vendor lock-in.",
-        img: "xcalibre",
-        centerImg: "debug"
+            "Deploy and manage a coordinated workforce of specialized agents that collaborate to execute complex, multi-step business logic from a single intent.",
+        img: "carousel-bg",
+        centerImg: "MultiAgent-1"
     },
     {
-        title: "Accurately measure free-form language with LLM judges",
+        title: "Visual Guardrail Enforcement",
         content:
-            "Utilize LLM-as-a-judge metrics, mimicking human expertise, to assess and enhance GenAI quality. Access pre-built judges for common metrics like hallucination or relevance, or develop custom judges tailored to your business needs and expert insights.",
-        img: "xcalibre",
-        centerImg: "metrics"
+            "Protect your enterprise with real-time interceptors that redact PII, enforce compliance, and maintain safety across all autonomous interactions.",
+        img: "carousel-bg",
+        centerImg: "Guardrail-2"
     },
     {
-        title: "Prompt Registry",
+        title: "Agentic RAG Architecture",
         content:
-            "AI embeds directly into interfaces and processes, allowing defined AI employees for tasks like analysis or research while keeping usage controlled, transparent, and customizable.",
-        img: "xcalibre",
-        centerImg: "prompt"
+            "Connect your agents to dynamic knowledge bases through high-performance Retrieval-Augmented Generation, ensuring every action is grounded in your specific data.",
+        img: "carousel-bg",
+        centerImg: "AgenticRAG-3"
     },
     {
-        title: "Agent and application versioning",
+        title: "Recursive Memory & Context",
         content:
-            "Version your agents, capturing their associated code, parameters, and evalation metrics for each iteration. MLflow's centralized management of agents complements Git, providing full lifecycle capabilities for all your generative AI assets.",
-        img: "xcalibre",
-        centerImg: "version"
+            "Enable agents to maintain persistent context and learn from previous executions, optimizing their performance for long-term operational tasks.",
+        img: "carousel-bg",
+        centerImg: "context-4"
     },
     {
-        title: "AI Gateway",
+        title: "Cross-System Action Triggers",
         content:
-            "Standardize access to multiple LLM providers with unified endpoints, centralized key management, and rate limiting.",
-        img: "xcalibre",
+            "Empower agents to move beyond replies by triggering API calls, generating tickets, and building application components directly within your business infrastructure.",
+        img: "carousel-bg",
         centerImg: "code"
     }
 ];

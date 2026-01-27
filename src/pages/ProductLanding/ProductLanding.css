@@ -63,7 +63,7 @@
 .lANDING-VIdeo-Product {
     width: 100%;
     object-fit: cover;
-height: 367px;
+    height: 367px;
     margin-bottom: -1%;
 
 
@@ -99,7 +99,7 @@ height: 367px;
     bottom: -6px;
     background: linear-gradient(180deg, rgba(43, 43, 43, 0.00) 0%, #2B2B2B 100%);
     z-index: 1;
-  mix-blend-mode: multiply; 
+    mix-blend-mode: multiply;
 
 }
 
@@ -154,10 +154,10 @@ height: 367px;
     align-items: center;
     flex-shrink: 0;
     background: rgba(236, 236, 236, 0.93);
-     margin-right: 22px;
-    max-width: 30.67% !important; 
+    margin-right: 22px;
+    max-width: 30.67% !important;
     cursor: pointer;
-  
+
 
 }
 
@@ -200,10 +200,11 @@ height: 367px;
     padding: 24px 33px 129px 24px;
     z-index: 2;
 
- 
+
 
 }
-.overlay-product-small{
+
+.overlay-product-small {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -218,7 +219,7 @@ height: 367px;
     padding: 24px 33px 129px 24px;
     z-index: 2;
 
- 
+
 
 }
 
@@ -227,6 +228,7 @@ height: 367px;
     /* height: 100%; */
     opacity: 1;
 }
+
 .landing-Product-over-pad-02:hover .overlay-product-small {
     /* height: 100%; */
     opacity: 1;
@@ -243,26 +245,14 @@ height: 367px;
 
 
 
-.Product-land-360degree{
+.Product-land-360degree {
     color: #ECECEC;
     font-family: Roboto Condensed;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 36px */
-    letter-spacing: -0.32px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.Product-land-360degree-small{
-    color: #ECECEC;
-    font-family: Roboto Condensed;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
+    /* 36px */
     letter-spacing: -0.32px;
     text-transform: uppercase;
     display: flex;
@@ -270,165 +260,197 @@ height: 367px;
     justify-content: space-between;
 }
 
-.arrow-upside{
+.Product-land-360degree-small {
+    color: #ECECEC;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 36px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-upside {
     width: 24px;
-height: 24px;
+    height: 24px;
 
 }
 
-.main-do-360-product{
-color: #ECECEC;
-font-family: Roboto Condensed;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 36px */
-letter-spacing: -0.32px;
-text-transform: uppercase;
-}
-.main-do-360-product-small{
+.main-do-360-product {
     color: #ECECEC;
     font-family: Roboto Condensed;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
+    /* 36px */
     letter-spacing: -0.32px;
     text-transform: uppercase;
-    }
-
-.landing-Product-over-pad:hover .Product-land-360{
-    opacity: 0;
-}
-.landing-Product-over-pad:hover .product-elevate-solution{
-    opacity: 0;
 }
 
-.landing-Product-over-pad-02:hover .product-land-doinsights{
+.main-do-360-product-small {
+    color: #ECECEC;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 36px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+.landing-Product-over-pad:hover .Product-land-360 {
     opacity: 0;
 }
-.landing-Product-over-pad-02:hover .PRODUCT-everyone{
+
+.landing-Product-over-pad:hover .product-elevate-solution {
+    opacity: 0;
+}
+
+.landing-Product-over-pad-02:hover .product-land-doinsights {
+    opacity: 0;
+}
+
+.landing-Product-over-pad-02:hover .PRODUCT-everyone {
     opacity: 0;
 }
 
 
 
-.Detect-resolve h4{
+.Detect-resolve h4 {
     color: #2B2B2B;
-font-family: Roboto Condensed;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 54px */
-letter-spacing: -0.32px;
-text-transform: uppercase;
-}
-.Detect-resolve-small h4{
-color: #2B2B2B;
-font-family: Roboto Condensed;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 54px */
-letter-spacing: -0.32px;
-text-transform: uppercase;
-}
-.depend-proDuct{
-color: rgba(43, 43, 43, 0.80);
-font-family: Merriweather;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 200%; /* 36px */
-letter-spacing: -0.32px;
-}
-.depend-proDuct-small{
-color: rgba(43, 43, 43, 0.80);
-font-family: Merriweather;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: 192%; /* 36px */
-letter-spacing: -0.32px;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
 }
 
-.box-product-landings{
+.Detect-resolve-small h4 {
+    color: #2B2B2B;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+.depend-proDuct {
+    color: rgba(43, 43, 43, 0.80);
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    /* 36px */
+    letter-spacing: -0.32px;
+}
+
+.depend-proDuct-small {
+    color: rgba(43, 43, 43, 0.80);
+    font-family: Merriweather;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 192%;
+    /* 36px */
+    letter-spacing: -0.32px;
+}
+
+.box-product-landings {
     margin-bottom: 22px;
     margin-left: 0px !important;
 }
 
 
 
-.back-section-Last{
-background: #ECECEC;
-height: 293px;
-padding: 8px 10px 8px 16px;
-justify-content: center;
-align-items: center;
-/* gap: 4px; */
-padding-top: 11%;
-}
-.back-to-industries{
-   
-
-height: 293px;
-padding: 8px 10px 8px 16px;
-justify-content: center;
-align-items: center;
-/* gap: 4px; */
-background: #158AFF;
-padding-top: 11%;
-
+.back-section-Last {
+    background: #ECECEC;
+    height: 293px;
+    padding: 8px 10px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4px; */
+    padding-top: 11%;
 }
 
-.BACK-product{
-color: #2B2B2B;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18.2px; /* 130% */
+.back-to-industries {
+
+
+    height: 293px;
+    padding: 8px 10px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4px; */
+    background: #158AFF;
+    padding-top: 11%;
+
+}
+
+.BACK-product {
+    color: #2B2B2B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    /* 130% */
 }
 
 .home-angle-Product {
     margin-right: 10px;
-  }
+}
 
-  .home-angle-Product-color{
+.home-angle-Product-color {
     color: white;
-  }
+}
 
-.BACK-product-industires{
-color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18.2px; /* 130% */
-margin-right: 10px;
-  }
+.BACK-product-industires {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    /* 130% */
+    margin-right: 10px;
+}
 
 
-  .back-industrie-last{
+.back-industrie-last {
     justify-content: center;
-    
-  }
+
+}
 
 
 
-  
 
-  @media only screen and (min-width: 991px) and (max-width: 1024px)  {
-    .LANDING-1-science-Product{
-      left: 7.5% !important;
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+    .LANDING-1-science-Product {
+        left: 7.5% !important;
     }
-  }
-  @media only screen and (min-width: 1024px) and (max-width: 1200px)  {
-    .LANDING-1-science-Product{
-      left: 8% !important;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .LANDING-1-science-Product {
+        left: 8% !important;
     }
-  }
-  /* @media only screen and (min-width: 1200px) and (max-width: 1300px)  {
+}
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1300px)  {
     .LANDING-1-science-Product{
       left: 8% !important;
     }

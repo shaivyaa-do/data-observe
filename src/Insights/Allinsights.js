@@ -116,32 +116,34 @@ function Allinsights() {
                 us apart.
               </p>
             </p>
-            <button className="ALL-insigts-button"
-              style={{
-                display: "flex",
-                height: "61px",
-                maxWidth: "255px",
-                padding: "20px 46px 21px 48px",
-                justifyContent: "center",
-                alignItems: "center",
-                border: "none",
-                marginTop: "50px",
-                borderRadius: "5px",
-                marginLeft: "10%",
-              }}
-            >
-              <span className="ALL-insight-button-text"
+            <Link to="/contact">
+              <button className="ALL-insigts-button"
                 style={{
-                  color: "#0046E8",
-                  fontSize: "16px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight: "19px",
+                  display: "flex",
+                  height: "61px",
+                  maxWidth: "255px",
+                  padding: "20px 46px 21px 48px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  border: "none",
+                  marginTop: "50px",
+                  borderRadius: "5px",
+                  marginLeft: "10%",
                 }}
               >
-                Get a demo
-              </span>{" "}
-            </button>
+                <span className="ALL-insight-button-text"
+                  style={{
+                    color: "#0046E8",
+                    fontSize: "16px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "19px",
+                  }}
+                >
+                  Get a demo
+                </span>{" "}
+              </button>
+            </Link>
           </div>
         </div>
       </section>

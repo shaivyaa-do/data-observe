@@ -17,7 +17,7 @@ const QuickAccess = () => {
             </button>
             <button
                 className="btn-contact"
-                onClick={() => window.location.href = "https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"}
+                onClick={() => navigate("/contact")}
             >
                 Contact Us <KeyboardArrowRight sx={{ fontSize: 16, ml: 0.5 }} />
             </button>

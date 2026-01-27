@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/Layout/Navbar";
 import Footer from "../../components/Layout/Footer";
 import Talktous from "../../components/Common/Talktous";
@@ -10,6 +11,7 @@ import "./Datacharts.css";
 // import productVideo from "../../assets/videos/productvideo.mp4";
 
 function Datacharts() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -59,7 +61,7 @@ function Datacharts() {
               />
               <br />
               <div className="container">
-                <button className="demoClass">Get a demo</button>
+                <button className="demoClass" onClick={() => navigate("/contact")}>Get a demo</button>
               </div>
               <div className="productvideoClass-1 col-md-8">
                 {/* <video className="productplayClass" autoPlay loop muted>
@@ -607,7 +609,7 @@ function Datacharts() {
                 </p>
               </div>
               <div className="col-md-3">
-                <button className="guidedemobutton">
+                <button className="guidedemobutton" onClick={() => navigate("/contact")}>
                   <p className="guidebuttontext">Get a demo</p>
                   <img
                     src="images/guidearrow.png"
@@ -1380,7 +1382,7 @@ function Datacharts() {
           </div>
         </div>
       </section> */}
-{/* <Talktous /> */}
+      {/* <Talktous /> */}
 
       <Footer />
     </>

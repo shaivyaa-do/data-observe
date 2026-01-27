@@ -1,9 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Box, Typography, Button, Container } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import bgImage from "../../../assets/images/cpg-img.png";
 
 const EnhancingStandards = () => {
+    const navigate = useNavigate();
     return (
         <Box
             sx={{
@@ -54,6 +56,7 @@ const EnhancingStandards = () => {
                     </Typography>
                     <Button
                         variant="contained"
+                        onClick={() => navigate("/contact")}
                         endIcon={<KeyboardArrowRightIcon />}
                         sx={{
                             bgcolor: "#158aff", // Bright blue

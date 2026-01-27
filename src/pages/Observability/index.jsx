@@ -60,7 +60,7 @@ function Observability() {
               />
               <br />
               <div className="container">
-                <button className="demoClass class-demo">Get a demo</button>
+                <button className="demoClass class-demo" onClick={() => navigate("/contact")}>Get a demo</button>
               </div>
               <div className="videoClass col-md-8">
                 <video className="playClass" controls>
@@ -514,7 +514,7 @@ function Observability() {
                 </p>
               </div>
               <div className="col-md-3">
-                <button className="guidedemobutton observe-button">
+                <button className="guidedemobutton observe-button" onClick={() => navigate("/contact")}>
                   <p className="guidebuttontext">Get a demo</p>
                   <img
                     src="images/guidearrow.png"

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Box, Container, Typography, Button } from '@mui/material';
 import { motion } from "framer-motion";
 
 const Platform = () => {
+    const navigate = useNavigate();
     return (
         <Box sx={{ py: 12, my: 0, bgcolor: 'white' }}>
             <Container maxWidth="lg">
@@ -53,7 +55,7 @@ const Platform = () => {
                         </motion.div>
                         <Button
                             variant="contained"
-                            href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
+                            onClick={() => navigate('/contact')}
                             sx={{
                                 bgcolor: '#158aff',
                                 color: 'white',

@@ -8,10 +8,7 @@ function ProductLanding() {
   const Navigate = useNavigate();
 
   const handleContactButtonClick = () => {
-    const cmsLink =
-      "https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html";
-
-    window.location.href = cmsLink;
+    Navigate("/contact");
   };
 
   const handleClick = () => {
@@ -89,6 +86,7 @@ function ProductLanding() {
           </div>
         </div>
       </section>
+
 
       <section>
         <div>
@@ -345,7 +343,7 @@ function ProductLanding() {
                   personalized demo of DataObserve Data Intelligence Platform.
                 </p>
 
-                <button className="custom-button">
+                <button className="custom-button" onClick={() => Navigate("/contact")}>
                   {/* <i class="fa fa-play-circle play-video-home"></i> */}
                   <span>Request a free demo a Demo</span>
                   <i

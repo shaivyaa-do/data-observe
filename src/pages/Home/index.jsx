@@ -6,18 +6,16 @@ import Footer from "../../components/Layout/Footer";
 import Navbar from "../../components/Layout/Navbar";
 import banner from "../../assets/videos/bannerhome.mp4";
 import footerland from "../../assets/videos/footerland.mp4";
+import landingWhatWeDo from "../../assets/videos/landing-whatwedo.mp4";
 
 function Home() {
+
   const Navigate = useNavigate();
   const [isProcessVisible, setIsProcessVisible] = useState(false);
   const sectionRef = useRef(null);
 
   const handleContactButtonClick = () => {
-    // Replace 'your-cms-link' with the actual CMS integration link
-    const cmsLink =
-      "https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html";
-
-    window.location.href = cmsLink;
+    Navigate("/contact");
   };
 
   const toolsandaccelerator = () => {
@@ -67,7 +65,7 @@ function Home() {
                 <div className="watch-video-do">
                   <i class="fa fa-play-circle play-video-home"></i>
                   <p className="We-do-home">
-                    <a className="Watch-Videos-home" href="#video">
+                    <a className="Watch-Videos-home" href="#landing-whatwedo">
                       Watch Video : What we Do?
                     </a>
                   </p>
@@ -87,7 +85,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="video" className="landing-page-what-we-do-02">
+      <section id="landing-whatwedo" className="landing-page-what-we-do-02">
         <div className="container Landing-Page-what-wedo-2">
           <div className="row WHAT-we-dataobserve">
             <div className="col-md-7">
@@ -95,10 +93,11 @@ function Home() {
                 className="Landing-Page-video-we-do"
                 autoPlay
                 loop
+                muted
                 controls
               >
                 <source
-                  src="https://storage.googleapis.com/do-website-resources/landing-whatwedo.mp4"
+                  src={landingWhatWeDo}
                   type="video/mp4"
                 />
               </video>
@@ -460,7 +459,7 @@ function Home() {
                   personalized demo of DataObserve Data Intelligence Platform.
                 </p>
 
-                <button className="custom-button">
+                <button className="custom-button" onClick={() => Navigate("/contact")}>
                   {/* <i class="fa fa-play-circle play-video-home"></i> */}
                   <span>Request a free demo a Demo</span>
                   <i

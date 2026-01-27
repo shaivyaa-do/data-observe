@@ -1,7 +1,10 @@
 import React from "react";
-import { Box, Container, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import { Box, Container, Typography, Button } from "@mui/material";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 const EnhancingStandards = () => {
+    const navigate = useNavigate();
     return (
         <Box sx={{ py: 12, bgcolor: "#fff" }}>
             <Container maxWidth="lg">
@@ -42,6 +45,32 @@ const EnhancingStandards = () => {
                         >
                             Utilizing customer care feedback data to aid a prominent travel and hospitality company in gaining a deeper understanding of their customers.
                         </Typography>
+                        <Box sx={{ mt: 4 }}>
+                            <Button
+                                variant="contained"
+                                onClick={() => navigate("/contact")}
+                                endIcon={<KeyboardArrowRightIcon />}
+                                sx={{
+                                    bgcolor: "#158aff",
+                                    color: "#fff",
+                                    px: 4,
+                                    py: 1.5,
+                                    fontSize: "1rem",
+                                    textTransform: "none",
+                                    borderRadius: "4px",
+                                    fontWeight: 600,
+                                    boxShadow: "0 4px 15px rgba(14,165,233,0.4)",
+                                    transition: "all 0.3s ease",
+                                    "&:hover": {
+                                        bgcolor: "#158aff",
+                                        transform: "translateY(-2px)",
+                                        boxShadow: "0 6px 20px rgba(14,165,233,0.6)",
+                                    },
+                                }}
+                            >
+                                Contact us
+                            </Button>
+                        </Box>
                     </Box>
                 </Box>
             </Container>

@@ -13,7 +13,7 @@ const Tab5 = lazy(() => import("./Tab5"));
 
 // component
 const Platform = () => {
-    const [value, setValue] = useState("rapid-builds");
+    const [value, setValue] = useState("do-intelligence");
     // Using optional chaining or default in case reducer isn't fully set up yet, but we expect it to be.
     const themeMode = useSelector((state) => state.themeReducer?.mode) || 'light';
 

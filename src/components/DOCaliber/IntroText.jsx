@@ -5,9 +5,9 @@ const IntroText = () => {
         <section className="ai-power-section">
             <div className="container">
                 <div className="ai-power-content">
-                    <p className="docaliber-intro-title">
+                    <h2 className="docaliber-intro-title">
                         Tap into the power of AI right away
-                    </p>
+                    </h2>
                     <p className="docaliber-intro-subtitle">
                         without compounding the problems created by legacy<br /> technology and AI code generators.
                     </p>

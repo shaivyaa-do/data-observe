@@ -22,36 +22,36 @@ const data = [
         title: "Build production quality models",
         content:
             "MLflow makes it easy to iterate toward production-ready models by organizing and comparing runs, helping teams refine training pipelines based on real performance insights.",
-        img: "xcalibre",
-        centerImg: "debug"
+        img: "carousel-bg",
+        centerImg: "metrics-1"
     },
     {
         title: "Framework neutral",
         content:
             "Works seamlessly with popular tools like scikit-learn, PyTorch, TensorFlow, and XGBoost without vendor lock-in, providing flexibility with a common interface.",
-        img: "xcalibre",
-        centerImg: "metrics"
+        img: "carousel-bg",
+        centerImg: "metrics-2"
     },
     {
         title: "Reliable reproducibility",
         content:
             "Automatically logs parameters, weights, artifacts, code, metrics, and dependencies to ensure experiments can be restored accurately, enabling confident governance for enterprise deployments.",
-        img: "xcalibre",
-        centerImg: "prompt"
+        img: "carousel-bg",
+        centerImg: "metrics-3"
     },
     {
         title: "Deployment ready",
         content:
             "Simplifies the path from experimentation to production with a built-in registry that gives you complete control over model states, whether sharing new approaches or deploying solutions.",
-        img: "xcalibre",
-        centerImg: "version"
+        img: "carousel-bg",
+        centerImg: "metrics-4"
     },
     {
         title: "Unified workflow",
         content:
             "MLflow streamlines your entire ML process with tracking, packaging, and deployment capabilities, eliminating tool fragmentation so you can focus on model development rather than infrastructure",
-        img: "xcalibre",
-        centerImg: "code"
+        img: "carousel-bg",
+        centerImg: "metrics-5"
     }
 ];
 

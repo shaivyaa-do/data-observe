@@ -1,8 +1,10 @@
 import React from 'react';
 import { Box, Typography, Container, Breadcrumbs, Link, Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import mediaVid from '../../../../assets/videos/gaming-vid.mp4';
 
 const HeroTop = () => {
+    const navigate = useNavigate();
     return (
         <React.Fragment>
             {/* Custom Header Section */}
@@ -33,6 +35,7 @@ const HeroTop = () => {
 
                     <Button
                         variant="contained"
+                        onClick={() => navigate('/contact')}
                         sx={{
                             bgcolor: '#158aff',
                             textTransform: 'none',
@@ -43,7 +46,6 @@ const HeroTop = () => {
                                 bgcolor: '#158aff'
                             }
                         }}
-                        href="https://dataobserve.myfreshworks.com/crm/sales/web_forms/3bb315e5ced066d76d0a5422db2d9724ded4938333d17e75ec4c1192ae934cf4/form.html"
                     >
                         Contact Us &gt;
                     </Button>

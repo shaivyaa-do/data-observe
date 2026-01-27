@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Domonitor.css";
 import Navbar from "../../components/Layout/Navbar";
 import Faq from "../../components/Common/Faq";
@@ -6,6 +7,7 @@ import Talktous from "../../components/Common/Talktous";
 
 import Footer from "../../components/Layout/Footer";
 function Domonitor() {
+  const navigate = useNavigate();
   const [activeLink, setActiveLink] = useState("");
 
   useEffect(() => {
@@ -251,7 +253,7 @@ function Domonitor() {
                   />
                   <br />
                   <div className="container">
-                    <button className="demoClass new-domi">Get a demo</button>
+                    <button className="demoClass new-domi" onClick={() => navigate("/contact")}>Get a demo</button>
                   </div>
                   {/* <div className="productvideoClass-1 col-md-8">
             <video className="productplayClass" autoPlay loop muted>
