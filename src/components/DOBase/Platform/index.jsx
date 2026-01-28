@@ -54,7 +54,7 @@ const Platform = () => {
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold' }}>
                         DO Base Platform Essentials
                     </Typography>
-                    <Typography textAlign="center" pb={3} variant="h6" color="text.secondary" sx={{ maxWidth: "1000px", mx: "auto" }}>
+                    <Typography textAlign="center" pb={3} variant="h6" color="text.secondary" sx={{ maxWidth: "800px", mx: "auto" }}>
                         Adaptive strategies, AI-boosted validation, and analytics-fueled rollout across enterprises—we innovate uniquely, spanning ideation to implementation.
                     </Typography>
                     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0, justifyContent: 'center' }}>

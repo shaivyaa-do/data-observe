@@ -1,15 +1,13 @@
 import React from 'react';
-import dobaseVid from '../../../assets/videos/dobase-vid.mp4';
+import dobaseBanner from '../../../assets/images/others/do-base-banner.png';
 
 const HeroTop = () => {
     return (
         <div className="dobase-hero-main">
-            {/* Video Background */}
-            <video
-                autoPlay
-                loop
-                muted
-                playsInline
+            {/* Image Background */}
+            <img
+                src={dobaseBanner}
+                alt="DO Base Banner"
                 style={{
                     position: 'absolute',
                     top: 0,
@@ -19,9 +17,7 @@ const HeroTop = () => {
                     objectFit: 'cover',
                     zIndex: 0
                 }}
-            >
-                <source src={dobaseVid} type="video/mp4" />
-            </video>
+            />
 
             {/* Overlay */}
             <div style={{
@@ -30,7 +26,7 @@ const HeroTop = () => {
                 left: 0,
                 width: '100%',
                 height: '100%',
-                background: 'rgba(0, 0, 0, 0.5)', // Adjust opacity as needed
+                background: 'rgba(0, 0, 0, 0.2)', // Adjust opacity as needed
                 zIndex: 1
             }}></div>
 

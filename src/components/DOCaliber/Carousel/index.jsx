@@ -22,7 +22,7 @@ import MultiAgent1 from "../../../assets/images/others/MultiAgent-1.png";
 import Guardrail2 from "../../../assets/images/others/Guardrail-2.png";
 import AgenticRAG3 from "../../../assets/images/others/AgenticRAG-3.png";
 import Context4 from "../../../assets/images/others/context-4.png";
-import Code from "../../../assets/images/others/code.svg";
+import Code from "../../../assets/images/others/cross.png";
 
 // data
 const data = [
@@ -211,7 +211,7 @@ const Carousel = () => {
                             </Box>
 
                             <Typography variant="body2" my={3} sx={{ fontFamily: "'Merriweather', serif", color: '#999' }}>
-                                Create valuable AI agents and agentic workflows with confidence and ongoing control.
+
                             </Typography>
 
                             <AnimatedButton

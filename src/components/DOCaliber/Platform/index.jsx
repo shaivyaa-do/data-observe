@@ -32,7 +32,7 @@ const Platform = () => {
                         <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
                             DO Caliber Platform Components
                         </Typography>
-                        <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ fontFamily: "'Merriweather', serif", maxWidth: "1000px", mx: "auto" }}>
+                        <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ fontFamily: "'Merriweather', serif", maxWidth: "800px", mx: "auto" }}>
                             We embrace an innovative development strategy from inception to rollout, harnessing adaptive practices, machine learning-enhanced validation, and expansive information-guided execution.
                         </Typography>
                         <TabContext value={value}>

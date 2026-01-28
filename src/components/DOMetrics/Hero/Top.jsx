@@ -1,14 +1,12 @@
-import dometricsVid from '../../../assets/videos/dometrics-vid.mp4';
+import dometricsBanner from '../../../assets/images/others/do-matrix-banner.png';
 
 const HeroTop = () => {
     return (
         <div className="heroContainer" style={{ position: 'relative', overflow: 'hidden' }}>
-            {/* Video Background */}
-            <video
-                autoPlay
-                loop
-                muted
-                playsInline
+            {/* Image Background */}
+            <img
+                src={dometricsBanner}
+                alt="DO Metrics Banner"
                 style={{
                     position: 'absolute',
                     top: 0,
@@ -18,9 +16,7 @@ const HeroTop = () => {
                     objectFit: 'cover',
                     zIndex: 0
                 }}
-            >
-                <source src={dometricsVid} type="video/mp4" />
-            </video>
+            />
 
             {/* Overlay */}
             <div style={{
@@ -29,7 +25,7 @@ const HeroTop = () => {
                 left: 0,
                 width: '100%',
                 height: '100%',
-                background: 'rgba(0, 0, 0, 0.6)',
+                background: 'rgba(0, 0, 0, 0.2)',
                 zIndex: 1
             }}></div>
 

@@ -1,15 +1,12 @@
-import React from 'react';
-import docaliberVid from '../../../assets/videos/do-caliber-vid.mp4';
+import docaliberBanner from '../../../assets/images/others/do-caliber-banner.png';
 
 const HeroTop = () => {
     return (
         <div className="heroContainer" style={{ position: 'relative', overflow: 'hidden' }}>
-            {/* Video Background */}
-            <video
-                autoPlay
-                loop
-                muted
-                playsInline
+            {/* Image Background */}
+            <img
+                src={docaliberBanner}
+                alt="DO Caliber Banner"
                 style={{
                     position: 'absolute',
                     top: 0,
@@ -19,9 +16,7 @@ const HeroTop = () => {
                     objectFit: 'cover',
                     zIndex: 0
                 }}
-            >
-                <source src={docaliberVid} type="video/mp4" />
-            </video>
+            />
 
             {/* Overlay */}
             <div style={{
@@ -30,7 +25,7 @@ const HeroTop = () => {
                 left: 0,
                 width: '100%',
                 height: '100%',
-                background: 'rgba(0, 0, 0, 0.6)',
+                background: 'rgba(0, 0, 0, 0.2)',
                 zIndex: 1
             }}></div>
 

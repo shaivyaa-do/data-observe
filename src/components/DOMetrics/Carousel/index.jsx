@@ -212,7 +212,7 @@ const Carousel = () => {
                             </Box>
 
                             <Typography variant="body2" my={3} sx={{ fontFamily: "'Merriweather', serif", color: '#999' }}>
-                                Create valuable AI agents and agentic workflows with confidence and ongoing control.
+
                             </Typography>
 
                             <AnimatedButton
