@@ -136,7 +136,7 @@ const Carousel = () => {
                                                 borderBottom: "1px solid #e0e0e0",
                                                 position: "relative",
                                                 "&.Mui-expanded": { margin: 0 },
-                                                "&:before": { display: "none" },
+
                                                 outline: "none !important"
                                             }}
                                         >

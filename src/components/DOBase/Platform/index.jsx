@@ -77,7 +77,6 @@ const Platform = () => {
                                         display: "flex",
                                         flexDirection: "column",
                                         borderRadius: "0px", // Keeping rounded corners as per previous user verification
-                                        borderRadius: "0px", // Keeping rounded corners as per previous user verification
                                         border: "1px solid #f2f2f2"
                                     }}
                                 >

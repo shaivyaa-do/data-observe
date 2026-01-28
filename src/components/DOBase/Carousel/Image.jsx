@@ -47,7 +47,7 @@ const Image = ({ img, centerImg, title }) => {
                         objectFit: 'contain'
                     }}
                 />
-                />
+
             )}
         </Box >
     );

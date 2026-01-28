@@ -1,1 +1,0 @@
-import{j as e}from"./index-CDsgZXGd.js";const t=()=>e.jsx("div",{style:{padding:"50px",textAlign:"center",background:"#f5f5f5"},children:e.jsx("h1",{children:"Hero Top Section"})});export{t as default};
