@@ -63,7 +63,7 @@ const NavMenu = ({ items, image, content, onClose }) => {
                 </Grid>
 
                 {/* Right Col: Links */}
-                <Grid item xs={12} md={11} sx={{ overflowY: 'auto', width: { md: '60%' }, height: '100%' }}>
+                <Grid item xs={12} md={11} sx={{ height: '100%', overflowY: 'auto', width: { md: '60%' }, height: '100%' }}>
                     <Box className="nav-menu-paper">
                         <Grid container spacing={0} direction="column" justifyContent="flex-start" wrap="nowrap">
                             {items.map((item) => (

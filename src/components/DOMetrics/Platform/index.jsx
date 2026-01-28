@@ -29,7 +29,7 @@ const Platform = () => {
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
                         MLflow Platform Features
                     </Typography>
-                    <Typography textAlign="center" pb={8} variant="h6" sx={{ fontFamily: "'Merriweather', serif", color: "#2B2B2B" }}>
+                    <Typography textAlign="center" pb={8} variant="h6" sx={{ fontFamily: "'Merriweather', serif", color: "#2B2B2B", maxWidth: "1000px", mx: "auto" }}>
                         Open-source integration, AI-powered evaluations, and scalable model management - we innovate ML workflows uniquely, from experimentation to production.
                     </Typography>
                     <TabContext value={value}>

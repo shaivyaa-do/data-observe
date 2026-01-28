@@ -26,9 +26,9 @@ const Platform = () => {
             {/* Changed background color to grey as requested */}
             <Paper sx={{ bgcolor: themeMode === "light" ? "#f5f5f5" : "background.paper", p: 8, borderRadius: 0 }} elevation={0}>
                 <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold' }}>
-                    DMLflow Platform Features
+                    DO MLflow Platform Features
                 </Typography>
-                <Typography textAlign="center" pb={8} variant="h6" color="text.secondary">
+                <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ maxWidth: "1000px", mx: "auto" }}>
                     Open-source integration, AI-powered evaluations, and scalable model management - we innovate ML workflows uniquely, from experimentation to production.
                 </Typography>
                 <TabContext value={value}>

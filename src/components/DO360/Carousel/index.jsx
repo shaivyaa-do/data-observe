@@ -115,7 +115,7 @@ const Carousel = () => {
                             <Typography
                                 variant="h4"
                                 gutterBottom
-                                sx={{ fontFamily: "'Roboto Condensed', sans-serif", fontWeight: "300", mb: 3, fontSize: { xs: '2rem', md: '2.5rem' } }}
+                                sx={{ fontFamily: "'Roboto Condensed', sans-serif", fontWeight: "500", mb: 3, fontSize: { xs: '2rem', md: '2.5rem' } }}
                             >
                                 Pillars of DataObserve 360
                             </Typography>
@@ -143,7 +143,7 @@ const Carousel = () => {
                                                 borderBottom: "1px solid #e0e0e0",
                                                 position: "relative",
                                                 "&.Mui-expanded": { margin: 0 },
-
+                                                "&:before": { display: "none" },
                                                 outline: "none !important"
                                             }}
                                         >

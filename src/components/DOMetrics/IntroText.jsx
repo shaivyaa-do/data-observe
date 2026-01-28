@@ -7,7 +7,7 @@ const IntroText = () => {
                 <div className="ai-power-content">
                     <h2 className="dometrics-intro-title">Streamline Your ML Journey Effortlessly</h2>
                     <p className="dometrics-intro-subtitle">
-                        From experiment to production, MLflow streamlines your complete machine learning journey with end-to-end tracking, model management, and deployment.
+                        DO Matrix transforms the full spectrum of machine learning processes, from prototyping to deployment, offering comprehensive oversight, model handling, and seamless integration tools.
                     </p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const IntroText = () => {
     return (
         <Box sx={{ py: 5, bgcolor: '#EDEDED' }}>
             <Container maxWidth="lg">
-                <div className="ai-power-content">
+                <div className="ai-power-content" style={{ maxWidth: "1000px", margin: "0 auto" }}>
                     <h2 className="do360-intro-title">What is observability?</h2>
                     <p className="do360-intro-subtitle">
                         Data observability is about ensuring the quality, reliability,
