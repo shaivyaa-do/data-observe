@@ -4,7 +4,7 @@ const InfoTop = () => {
     return (
         <section className="caliber-easy-apply-section">
             <div className="container">
-                <h2 className="caliber-easy-title" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>Get started with DO Metrics</h2>
+                <h2 className="caliber-easy-title" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>Get started with DO Matrix</h2>
                 <p className="caliber-easy-subtitle" style={{ fontFamily: "'Merriweather', serif" }}>
                     With Four-Step Intelligent Application Lifecycle
                 </p>

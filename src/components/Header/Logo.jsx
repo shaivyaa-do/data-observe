@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LogoBlack from "../../assets/images/others/DO Black.svg";
 import "./Header.css";
 
 const Logo = () => {
@@ -8,7 +9,7 @@ const Logo = () => {
             <Link className="d-flex homenavigateclass" to="/">
                 <img
                     className="logo-main"
-                    src="/images/landing-logo.png"
+                    src={LogoBlack}
                     alt="logo"
                     style={{ width: "160px", height: "auto" }}
                 />

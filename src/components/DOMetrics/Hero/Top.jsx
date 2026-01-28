@@ -35,7 +35,7 @@ const HeroTop = () => {
 
             <div className="heroText" style={{ position: 'relative', zIndex: 2, textAlign: 'left', maxWidth: '800px', margin: '0 40px' }}>
                 <h1 className="heroHeader" style={{ color: 'white' }}>
-                    Extend to DO Metrics & <br />Mastering the ML lifecycle.
+                    Extend to DO Matrix & <br />Mastering the ML lifecycle.
                 </h1>
                 <p className="heroSubtitle" style={{ color: 'white' }}>
                     Supercharge your MLOps with a fully-managed control plane

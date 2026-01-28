@@ -9,7 +9,7 @@ const IntroText = () => {
                         Tap into the power of AI right away
                     </h2>
                     <p className="docaliber-intro-subtitle">
-                        without compounding the problems created by legacy<br /> technology and AI code generators.
+                        Just by providing easy prompts in natural language and watching a comprehensive agent get built. This empowers business users to ask complex questions in natural language to their enterprise data agents, transforming raw data into trusted, verifiable insights. The approach enables faster, more confident decisions without compounding issues from legacy technology and unreliable AI code generators.
                     </p>
                 </div>
             </div>

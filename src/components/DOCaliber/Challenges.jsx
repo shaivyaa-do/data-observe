@@ -8,7 +8,7 @@ const challengesData = [
     {
         icon: <AutoAwesome sx={{ fontSize: 40, color: '#1E90FF' }} />,
         title: "Easy",
-        description: "Build GenAI applications using SQL or APIs. Work with multimodal data, coordinate data agents, and uncover insights effortlessly."
+        description: "Build GenAI applications using Natual Language, SQL or APIs. Work with multimodal data, coordinate data agents, and uncover insights effortlessly."
     },
     {
         icon: <Hub sx={{ fontSize: 40, color: '#1E90FF' }} />,

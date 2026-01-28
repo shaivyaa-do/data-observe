@@ -16,35 +16,42 @@ import {
 // import routes paths
 import { PATHS } from "../../../routes/paths";
 
+// import images
+import CarouselBg from "../../../assets/images/others/carousel-bg.png";
+import Base1 from "../../../assets/images/others/base-1.png";
+import Base2 from "../../../assets/images/others/base-2.png";
+import Base3 from "../../../assets/images/others/base-3.png";
+import Base4 from "../../../assets/images/others/base-4.png";
+
 // data
 const data = [
     {
         title: "Data model-driven, not form/table–driven",
         content:
             "DO Base separates data models from the UI, enabling flexible structures, unlimited blocks or actions, and support for internal, external, or API-based data sources.",
-        img: "carousel-bg",
-        centerImg: "base-1"
+        img: CarouselBg,
+        centerImg: Base1
     },
     {
         title: "Effortless Frontend Control",
         content:
             "It handles complex systems with a simple workflow: one-click mode switching and page canvases that let anyone arrange blocks and actions without technical overhead.",
-        img: "carousel-bg",
-        centerImg: "base-2"
+        img: CarouselBg,
+        centerImg: Base2
     },
     {
         title: "Integrated AI Workforce",
         content:
             "AI embeds directly into interfaces and processes, allowing defined AI employees for tasks like analysis or research while keeping usage controlled, transparent, and customizable.",
-        img: "carousel-bg",
-        centerImg: "base-3"
+        img: CarouselBg,
+        centerImg: Base3
     },
     {
         title: "Fully Extensible Plugin Architecture.",
         content:
             "A plugin-based microkernel provides full extensibility, where every feature—pages, blocks, actions, APIs, data sources—expands through installable custom plugins.",
-        img: "carousel-bg",
-        centerImg: "base-4"
+        img: CarouselBg,
+        centerImg: Base4
     }
 ];
 

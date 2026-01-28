@@ -37,7 +37,7 @@ const HeroBottom = () => {
                     <div className="col-md-6 mb-4">
                         <Link to="/platform/do-metrics" style={{ textDecoration: 'none' }}>
                             <div className="caliber-product-card">
-                                <h3 className="caliber-product-card-title" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>DO METRICS</h3>
+                                <h3 className="caliber-product-card-title" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>DO Matrix</h3>
                                 <p className="caliber-product-card-text" style={{ fontFamily: "'Merriweather', serif" }}>Supercharge your MLOps with a fully-managed control plane.</p>
                             </div>
                         </Link>

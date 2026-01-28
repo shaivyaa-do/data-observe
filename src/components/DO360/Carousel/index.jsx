@@ -16,49 +16,58 @@ import {
 // import routes paths
 import { PATHS } from "../../../routes/paths";
 
+// import images
+import CarouselBg from "../../../assets/images/others/carousel-bg.png"; // Using common bg
+import Do360Catalog from "../../../assets/images/others/do360_catalog.png";
+import Do360Freshness from "../../../assets/images/others/do360_freshness.png";
+import Do360Schema from "../../../assets/images/others/do360_schema.png";
+import Do360Volume from "../../../assets/images/others/do360_volume.png";
+import Do360Lineage from "../../../assets/images/others/do360_lineage.png";
+import Xbase from "../../../assets/images/others/xbase.svg";
+
 // data
 const data = [
     {
         title: "Catalog",
         content:
             "Introducing the Data Catalog at DataObserve, where we organize and catalog your valuable data assets for seamless accessibility and enhanced data management. Our Data Catalog is a powerful tool designed to streamline data discovery, improve data governance, and enhance collaboration across your organization. With this feature, you can easily search, locate, and understand your data, enabling better decision-making, data-driven insights, and efficient utilization of your data resources.",
-        img: "xbase_bg",
-        centerImg: "do360_catalog"
+        img: CarouselBg,
+        centerImg: Do360Catalog
     },
     {
         title: "Freshness",
         content:
             "In DataObserve, we take data freshness seriously with our robust data monitoring solutions. Our Freshness Monitoring feature is designed to ensure that your data is up-to-date and reliable for making critical business decisions. By continuously tracking data sources, we provide real-time insights into the timeliness of your information, allowing you to identify and rectify any delays or discrepancies promptly.",
-        img: "xbase_bg",
-        centerImg: "do360_freshness"
+        img: CarouselBg,
+        centerImg: Do360Freshness
     },
     {
         title: "Schema",
         content:
             "Schema monitoring is a critical component of DataObserve's data observability solutions. We understand that data schema consistency is essential for accurate analysis and reporting. Our schema monitoring tools continuously track and validate data schemas, ensuring that any changes or anomalies are immediately detected.",
-        img: "xbase_bg",
-        centerImg: "do360_schema"
+        img: CarouselBg,
+        centerImg: Do360Schema
     },
     {
         title: "Volume",
         content:
             "In DataObserve, our Volume Monitoring feature is a crucial component of our data observability solutions. We understand that data volume can fluctuate significantly, affecting the performance and efficiency of your data processes. Our Volume Monitoring ensures that you are always aware of changes in data volume, helping you manage and allocate resources effectively.",
-        img: "xbase_bg",
-        centerImg: "do360_volume"
+        img: CarouselBg,
+        centerImg: Do360Volume
     },
     {
         title: "Lineage",
         content:
             "We recognize that understanding the lineage of your data is essential for data governance, compliance, and troubleshooting. Our Lineage Monitoring feature enables you to trace the origin and transformation of data throughout its lifecycle. You can easily visualize how data flows through your systems, ensuring transparency and accountability in data processes.",
-        img: "xbase_bg",
-        centerImg: "do360_lineage"
+        img: CarouselBg,
+        centerImg: Do360Lineage
     },
     {
         title: "Events",
         content:
             "Incident Management is a core component of DataObserve's data observability solutions. We understand that data incidents can disrupt operations and affect decision-making. Our Incident Management feature allows you to swiftly detect, report, and resolve data-related issues.",
-        img: "xbase_bg",
-        centerImg: "xbase" // Placeholder until user provides image
+        img: CarouselBg,
+        centerImg: Xbase // Placeholder until user provides image
     }
 ];
 

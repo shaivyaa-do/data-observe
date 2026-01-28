@@ -28,7 +28,7 @@ const animationProps = {
 const DOMetrics = () => {
 
     useEffect(() => {
-        document.title = "DO Metrics | Platform";
+        document.title = "DO Matrix | Platform";
     }, []);
 
     return (

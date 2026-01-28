@@ -27,11 +27,10 @@ const Platform = () => {
                 {/* Changed background color to transparent as parent has it now */}
                 <Paper sx={{ bgcolor: "transparent", p: 8, borderRadius: 0 }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
-                        Generative AI Platform Components
+                        DO Caliber Platform Components
                     </Typography>
                     <Typography textAlign="center" pb={8} variant="h6" color="text.secondary" sx={{ fontFamily: "'Merriweather', serif" }}>
-                        Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
-                        delivery.
+                        We embrace an innovative development strategy from inception to rollout, harnessing adaptive practices, machine learning-enhanced validation, and expansive information-guided execution.
                     </Typography>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: "divider", mb: 3 }}>
@@ -62,7 +61,7 @@ const Platform = () => {
                                 }}
                             >
                                 <Tab label="DO Intelligence" value="do-intelligence" />
-                                <Tab label="DO Calibre Agents" value="do-calibre-agents" />
+                                <Tab label="DO Caliber Agents" value="do-Caliber-agents" />
                                 <Tab label="AI Functions" value="ai-functions" />
                                 <Tab label="DO Analyst & Search" value="do-analyst-search" />
                                 <Tab label="Large Language Models (LLM)" value="large-language-models" />
@@ -73,7 +72,7 @@ const Platform = () => {
                                 <Tab1 />
                             </Suspense>
                         </TabPanel>
-                        <TabPanel value="do-calibre-agents">
+                        <TabPanel value="do-Caliber-agents">
                             <Suspense fallback={<Skeleton variant="rectangular" width="100%" height={300} />}>
                                 <Tab2 />
                             </Suspense>

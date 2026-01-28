@@ -16,42 +16,50 @@ import {
 // import routes paths
 import { PATHS } from "../../../routes/paths";
 
+// import images
+import CarouselBg from "../../../assets/images/others/carousel-bg.png";
+import Metrics1 from "../../../assets/images/others/metrics-1.png";
+import Metrics2 from "../../../assets/images/others/metrics-2.png";
+import Metrics3 from "../../../assets/images/others/metrics-3.png";
+import Metrics4 from "../../../assets/images/others/metrics-4.png";
+import Metrics5 from "../../../assets/images/others/metrics-5.png";
+
 // data
 const data = [
     {
         title: "Build production quality models",
         content:
             "MLflow makes it easy to iterate toward production-ready models by organizing and comparing runs, helping teams refine training pipelines based on real performance insights.",
-        img: "carousel-bg",
-        centerImg: "metrics-1"
+        img: CarouselBg,
+        centerImg: Metrics1
     },
     {
         title: "Framework neutral",
         content:
             "Works seamlessly with popular tools like scikit-learn, PyTorch, TensorFlow, and XGBoost without vendor lock-in, providing flexibility with a common interface.",
-        img: "carousel-bg",
-        centerImg: "metrics-2"
+        img: CarouselBg,
+        centerImg: Metrics2
     },
     {
         title: "Reliable reproducibility",
         content:
             "Automatically logs parameters, weights, artifacts, code, metrics, and dependencies to ensure experiments can be restored accurately, enabling confident governance for enterprise deployments.",
-        img: "carousel-bg",
-        centerImg: "metrics-3"
+        img: CarouselBg,
+        centerImg: Metrics3
     },
     {
         title: "Deployment ready",
         content:
             "Simplifies the path from experimentation to production with a built-in registry that gives you complete control over model states, whether sharing new approaches or deploying solutions.",
-        img: "carousel-bg",
-        centerImg: "metrics-4"
+        img: CarouselBg,
+        centerImg: Metrics4
     },
     {
         title: "Unified workflow",
         content:
             "MLflow streamlines your entire ML process with tracking, packaging, and deployment capabilities, eliminating tool fragmentation so you can focus on model development rather than infrastructure",
-        img: "carousel-bg",
-        centerImg: "metrics-5"
+        img: CarouselBg,
+        centerImg: Metrics5
     }
 ];
 

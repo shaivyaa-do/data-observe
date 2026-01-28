@@ -16,8 +16,8 @@ import './PlatformFeatures.css';
 
 const platformData = [
     {
-        title: "Regenerative Engine",
-        description: "A single, standardized platform, instead of hundreds of coding languages across a multitude of run-time engines.",
+        title: "Analyst Engine",
+        description: "A unified, standardized platform replacing numerous coding languages dispersed across various runtime engines.",
         icon: <Autorenew sx={{ fontSize: '28px' }} />
     },
     {
@@ -82,7 +82,7 @@ const PlatformFeatures = () => {
                             fontFamily: "'Roboto', sans-serif"
                         }}
                     >
-                        Regenerative Platform Architecture
+                        DO Caliber Platform Architecture
                     </Typography>
                     <Typography
                         variant="body1"
@@ -94,7 +94,7 @@ const PlatformFeatures = () => {
                             fontFamily: "'Roboto', sans-serif"
                         }}
                     >
-                        Comprehensive platform capabilities engineered for modern enterprise needs
+                        All-encompassing platform features designed for contemporary business requirements.
                     </Typography>
                 </Box>
 

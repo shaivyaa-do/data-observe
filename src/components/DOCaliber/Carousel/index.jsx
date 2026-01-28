@@ -16,42 +16,50 @@ import {
 // import routes paths
 import { PATHS } from "../../../routes/paths";
 
+// import images
+import CarouselBg from "../../../assets/images/others/carousel-bg.png";
+import MultiAgent1 from "../../../assets/images/others/MultiAgent-1.png";
+import Guardrail2 from "../../../assets/images/others/Guardrail-2.png";
+import AgenticRAG3 from "../../../assets/images/others/AgenticRAG-3.png";
+import Context4 from "../../../assets/images/others/context-4.png";
+import Code from "../../../assets/images/others/code.svg";
+
 // data
 const data = [
     {
         title: "Multi-Agent Orchestration",
         content:
             "Deploy and manage a coordinated workforce of specialized agents that collaborate to execute complex, multi-step business logic from a single intent.",
-        img: "carousel-bg",
-        centerImg: "MultiAgent-1"
+        img: CarouselBg,
+        centerImg: MultiAgent1
     },
     {
         title: "Visual Guardrail Enforcement",
         content:
             "Protect your enterprise with real-time interceptors that redact PII, enforce compliance, and maintain safety across all autonomous interactions.",
-        img: "carousel-bg",
-        centerImg: "Guardrail-2"
+        img: CarouselBg,
+        centerImg: Guardrail2
     },
     {
         title: "Agentic RAG Architecture",
         content:
             "Connect your agents to dynamic knowledge bases through high-performance Retrieval-Augmented Generation, ensuring every action is grounded in your specific data.",
-        img: "carousel-bg",
-        centerImg: "AgenticRAG-3"
+        img: CarouselBg,
+        centerImg: AgenticRAG3
     },
     {
         title: "Recursive Memory & Context",
         content:
             "Enable agents to maintain persistent context and learn from previous executions, optimizing their performance for long-term operational tasks.",
-        img: "carousel-bg",
-        centerImg: "context-4"
+        img: CarouselBg,
+        centerImg: Context4
     },
     {
         title: "Cross-System Action Triggers",
         content:
             "Empower agents to move beyond replies by triggering API calls, generating tickets, and building application components directly within your business infrastructure.",
-        img: "carousel-bg",
-        centerImg: "code"
+        img: CarouselBg,
+        centerImg: Code
     }
 ];
 

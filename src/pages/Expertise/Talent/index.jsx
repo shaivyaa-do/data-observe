@@ -326,8 +326,8 @@ const Talent = () => {
             <div className="carousel-item active">
               <div>
                 <div className="container">
-                  <div className="row">
-                    <div className="col-md-5">
+                  <div className="row justify-content-center">
+                    <div className="col-md-6">
                       <div className="TALENT-NAMES">
                         <div className="container Talent-stu-develop">
                           <h3 className="Talent-Steve">Steve Stutts</h3>
@@ -375,7 +375,7 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-5 offset-md-1">
                       <div>
                         <img
                           src="./images/steves.png"
@@ -390,8 +390,8 @@ const Talent = () => {
             <div className="carousel-item">
               <div>
                 <div className="container">
-                  <div className="row">
-                    <div className="col-md-5">
+                  <div className="row justify-content-center">
+                    <div className="col-md-5 offset-md-1">
                       <div className="TALENT-NAMES">
                         <div className="container Talent-stu-develop">
                           <h3 className="Talent-Steve">Harish Angal</h3>
@@ -441,7 +441,7 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-5">
                       <div>
                         <img
                           src="./images/harish.png"
@@ -456,8 +456,8 @@ const Talent = () => {
             <div className="carousel-item">
               <div>
                 <div className="container">
-                  <div className="row">
-                    <div className="col-md-5">
+                  <div className="row justify-content-center">
+                    <div className="col-md-6">
                       <div className="TALENT-NAMES">
                         <div className="container Talent-stu-develop">
                           <h3 className="Talent-Steve">Gayatri Suniti</h3>
@@ -509,7 +509,7 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-5 offset-md-1">
                       <div>
                         <img
                           src="./images/gayatri.png"
@@ -885,7 +885,7 @@ const Talent = () => {
             <h4 className="cloudcardheadings">Client Testimonials</h4>
           </div>
           <section className="Talent-advanced-1">
-            <div className="container">
+            <div className="container-fluid">
               <div className="">
                 <img
                   src="./images/energydo-2.png"
@@ -920,7 +920,7 @@ const Talent = () => {
         </div>
       </div>
       <div
-        className="container"
+        className=""
         style={{
           display: "flex",
           justifyContent: "center",
@@ -1003,14 +1003,24 @@ const Talent = () => {
                 />
               </div>
               <div className="row Talent-MEET-Creatores">
-                <div className="col-md-6"></div>
-                <div className="col-md-6">
+                <div className="col-md-5"></div>
+                <div
+                  className="col-md-6"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start", // Ensures left alignment
+                    justifyContent: "center",
+                  }}
+                >
                   <p className="Talent-HIRING">
                     We're introducing a new approach to hiring cloud Engineers.
                     This service will help your cloud engineering team to build
                     innovative digital transformation solutions.
                   </p>
-                  <h4 className="Talent-meet-creator-heading">Meet DOcreators !</h4>
+                  <h4 className="Talent-meet-creator-heading">
+                    Meet DOcreators !
+                  </h4>
                   <button className="Talent-explore-DO-1">
                     Explore DOcreators{" "}
                     <i
@@ -1603,7 +1613,7 @@ const Talent = () => {
       {/* <Talktous /> */}
 
       <Footer />
-    </div>
+    </div >
   );
 };
 

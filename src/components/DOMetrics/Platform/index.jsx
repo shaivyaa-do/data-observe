@@ -27,11 +27,10 @@ const Platform = () => {
                 {/* Changed background color to transparent */}
                 <Paper sx={{ bgcolor: "transparent", p: 8, borderRadius: 0 }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold', fontFamily: "'Roboto Condensed', sans-serif" }}>
-                        Regenerative Platform Components
+                        MLflow Platform Features
                     </Typography>
                     <Typography textAlign="center" pb={8} variant="h6" sx={{ fontFamily: "'Merriweather', serif", color: "#2B2B2B" }}>
-                        Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
-                        delivery.
+                        Open-source integration, AI-powered evaluations, and scalable model management - we innovate ML workflows uniquely, from experimentation to production.
                     </Typography>
                     <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: "divider", mb: 3 }}>

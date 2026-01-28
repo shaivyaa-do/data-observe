@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import LogoBlack from "../../assets/images/others/DO Black.svg";
 
 const MobileMenu = () => {
     return (
@@ -63,7 +64,7 @@ const MobileMenu = () => {
                                     <a className="dropdown-item linksclass" href="/caliber">DO Caliber</a>
                                     <a className="dropdown-item linksclass" href="/base">DO Base</a>
                                     <a className="dropdown-item linksclass" href="/observability">DO 360</a>
-                                    <a className="dropdown-item linksclass" href="/metrics">DO Metrics</a>
+                                    <a className="dropdown-item linksclass" href="/metrics">DO Matrix</a>
                                 </div>
                             </div>
                         </li>
@@ -118,7 +119,7 @@ const MobileMenu = () => {
             </nav>
             <div className="logo d-flex">
                 <Link className="d-flex homenavigateclass" to="/">
-                    <img className="logo-main" src="/images/landing-logo.png" alt="logo" width={100} />
+                    <img className="logo-main" src={LogoBlack} alt="logo" width={100} />
                 </Link>
             </div>
         </div>

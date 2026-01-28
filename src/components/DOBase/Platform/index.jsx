@@ -52,11 +52,10 @@ const Platform = () => {
             <Container maxWidth="lg"> {/* Aligned to 1200px */}
                 <Paper sx={{ bgcolor: "transparent", p: 5, borderRadius: "0px" }} elevation={0}>
                     <Typography variant="h4" textAlign="center" pb={3} sx={{ fontWeight: 'bold' }}>
-                        DO Base Platform components
+                        DO Base Platform Essentials
                     </Typography>
                     <Typography textAlign="center" pb={3} variant="h6" color="text.secondary">
-                        Agile methods, AI-driven assurance, and data-led delivery at scale - we engineer differently, from discovery to
-                        delivery.
+                        Adaptive strategies, AI-boosted validation, and analytics-fueled rollout across enterprises—we innovate uniquely, spanning ideation to implementation.
                     </Typography>
                     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0, justifyContent: 'center' }}>
                         {cardData.map(({ img, title, desc }) => (
